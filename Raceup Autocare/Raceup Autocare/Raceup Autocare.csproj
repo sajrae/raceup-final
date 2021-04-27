@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EA41AD90-929F-47CE-93D5-C5F26248BE2C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Raceup_Autocare</RootNamespace>
+    <AssemblyName>Raceup Autocare</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>C:\RaceUp Autocare\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <InstallUrl>\\192.168.254.201\c%24\RaceUp Autocare\</InstallUrl>
+    <UpdateUrl>http://localhost/Raceup Autocare/</UpdateUrl>
+    <ProductName>Raceup Autocare</ProductName>
+    <PublisherName>404 Solutions</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Raceup_Autocare.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\raceup_logo_png_bNr_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>B887F66DFCD9571D66A170D8727C35CC41BE3DB5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Raceup Autocare_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Export, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v20.1.UI, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v20.1.Core, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v20.1.Extensions, Version=20.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\..\..\Downloads\Guna.UI-Framework-Lib-master\Guna.UI2.WinForms_v2.0.0.6\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PrintCopiesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintCopiesForm.Designer.cs">
+      <DependentUpon>PrintCopiesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsFormChecked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsFormChecked.Designer.cs">
+      <DependentUpon>PartsFormChecked.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsOrder.cs" />
+    <Compile Include="PartsOrderNotifcation.cs" />
+    <Compile Include="PrintJobOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintJobOrderForm.Designer.cs">
+      <DependentUpon>PrintJobOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintPartswithoutPriceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintPartswithoutPriceForm.Designer.cs">
+      <DependentUpon>PrintPartswithoutPriceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintQTNROForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintQTNROForm.Designer.cs">
+      <DependentUpon>PrintQTNROForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintROServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintROServiceForm.Designer.cs">
+      <DependentUpon>PrintROServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="raceup_db_new3DataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>raceup_db_new3DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="raceup_db_new3DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>raceup_db_new3DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RepairOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepairOrderForm.Designer.cs">
+      <DependentUpon>RepairOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RODataSet.cs">
+      <DependentUpon>RODataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceOrderNotifcation.cs" />
+    <Compile Include="CreateCustProfForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateCustProfForm.Designer.cs">
+      <DependentUpon>CreateCustProfForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateROform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateROform.Designer.cs">
+      <DependentUpon>CreateROform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateROProperties.cs" />
+    <Compile Include="DataSetROParts.cs">
+      <DependentUpon>DataSetROParts.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetROParts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetROParts.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Inquiry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inquiry.Designer.cs">
+      <DependentUpon>Inquiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Message Reset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Message Reset.Designer.cs">
+      <DependentUpon>Message Reset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsForm.Designer.cs">
+      <DependentUpon>PartsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PleaseCreateNewCustProf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PleaseCreateNewCustProf.Designer.cs">
+      <DependentUpon>PleaseCreateNewCustProf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintPartsForm.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="PrintPartsForm.Designer.cs">
+      <DependentUpon>PrintPartsForm.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="PrintROForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintROForm.Designer.cs">
+      <DependentUpon>PrintROForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QTNRODataSet.cs">
+      <DependentUpon>QTNRODataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="QTNRODataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QTNRODataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="QuotationProperties.cs" />
+    <Compile Include="raceup_db_new3DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>raceup_db_new3DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="reset Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reset Form.Designer.cs">
+      <DependentUpon>reset Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1Login.Designer.cs">
+      <DependentUpon>Form1Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2menu.Designer.cs">
+      <DependentUpon>Form2menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RODataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RODataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SearchItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchItemForm.Designer.cs">
+      <DependentUpon>SearchItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowListofOrderPartsForm.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ShowListofOrderPartsForm.Designer.cs">
+      <DependentUpon>ShowListofOrderPartsForm.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ShowListofOrderServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowListofOrderServiceForm.Designer.cs">
+      <DependentUpon>ShowListofOrderServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowOrderServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowOrderServiceForm.Designer.cs">
+      <DependentUpon>ShowOrderServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Content Include="raceup_db_new3.accdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\raceup_logo_png_bNr_icon.ico" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="PartsFormChecked.resx">
+      <DependentUpon>PartsFormChecked.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintCopiesForm.resx">
+      <DependentUpon>PrintCopiesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintJobOrderForm.resx">
+      <DependentUpon>PrintJobOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepairOrderForm.resx">
+      <DependentUpon>RepairOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportJobOrderRO.rdlc" />
+    <EmbeddedResource Include="PrintPartsForm.resx">
+      <DependentUpon>PrintPartsForm.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintPartswithoutPriceForm.resx">
+      <DependentUpon>PrintPartswithoutPriceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintQTNROForm.resx">
+      <DependentUpon>PrintQTNROForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintROForm.resx">
+      <DependentUpon>PrintROForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintROServiceForm.resx">
+      <DependentUpon>PrintROServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportOrderParts.rdlc" />
+    <EmbeddedResource Include="ReportOrderPartsWithoutPrice.rdlc" />
+    <EmbeddedResource Include="ReportQTNRO.rdlc" />
+    <EmbeddedResource Include="ReportRO.rdlc" />
+    <EmbeddedResource Include="ReportROService.rdlc" />
+    <EmbeddedResource Include="ShowListofOrderPartsForm.resx">
+      <DependentUpon>ShowListofOrderPartsForm.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowListofOrderServiceForm.resx">
+      <DependentUpon>ShowListofOrderServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowOrderServiceForm.resx">
+      <DependentUpon>ShowOrderServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubreportFooter.rdlc" />
+    <None Include="DataSetROParts.xsc">
+      <DependentUpon>DataSetROParts.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetROParts.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetROParts.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetROParts.xss">
+      <DependentUpon>DataSetROParts.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\DataSources\PartsOrder.datasource" />
+    <None Include="Properties\DataSources\PartsOrderNotifcation.datasource" />
+    <None Include="Properties\DataSources\ServiceOrderNotifcation.datasource" />
+    <None Include="QTNRODataSet.xsc">
+      <DependentUpon>QTNRODataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="QTNRODataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QTNRODataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="QTNRODataSet.xss">
+      <DependentUpon>QTNRODataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Raceup Autocare_TemporaryKey.pfx" />
+    <None Include="raceup_db_new3DataSet1.xsc">
+      <DependentUpon>raceup_db_new3DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="raceup_db_new3DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>raceup_db_new3DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="raceup_db_new3DataSet1.xss">
+      <DependentUpon>raceup_db_new3DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="raceup_db_new3DataSet11.xsc">
+      <DependentUpon>raceup_db_new3DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="raceup_db_new3DataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>raceup_db_new3DataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="raceup_db_new3DataSet11.xss">
+      <DependentUpon>raceup_db_new3DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="raceup_db_new3DataSet2.xsc">
+      <DependentUpon>raceup_db_new3DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="raceup_db_new3DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>raceup_db_new3DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="raceup_db_new3DataSet2.xss">
+      <DependentUpon>raceup_db_new3DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\data_pending_64px.png" />
+    <None Include="Resources\pending.bmp" />
+    <EmbeddedResource Include="SearchItemForm.resx">
+      <DependentUpon>SearchItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Resources\logo255.png" />
+    <None Include="Resources\paaaaaawe.png" />
+    <None Include="Resources\pawer1.png" />
+    <None Include="Resources\rsz_1rsz_pawer.png" />
+    <None Include="Resources\rsz_pawer.png" />
+    <None Include="Resources\pawer.png" />
+    <None Include="Resources\rsz_1logo2.png" />
+    <None Include="Resources\logo21.png" />
+    <None Include="Resources\logo2.png" />
+    <None Include="Resources\logo1 - Copy1.png" />
+    <None Include="Resources\logo1 - Copy.png" />
+    <EmbeddedResource Include="CreateCustProfForm.resx">
+      <DependentUpon>CreateCustProfForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateROform.resx">
+      <DependentUpon>CreateROform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2menu.aa-DJ.resx">
+      <DependentUpon>Form2menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2menu.aa.resx">
+      <DependentUpon>Form2menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inquiry.resx">
+      <DependentUpon>Inquiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Message Reset.resx">
+      <DependentUpon>Message Reset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsForm.resx">
+      <DependentUpon>PartsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PleaseCreateNewCustProf.resx">
+      <DependentUpon>PleaseCreateNewCustProf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reset Form.resx">
+      <DependentUpon>reset Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1Login.resx">
+      <DependentUpon>Form1Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2menu.resx">
+      <DependentUpon>Form2menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RODataSet.xsc">
+      <DependentUpon>RODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RODataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RODataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="RODataSet.xss">
+      <DependentUpon>RODataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="raceup_db_new2.accdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>DataFile</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

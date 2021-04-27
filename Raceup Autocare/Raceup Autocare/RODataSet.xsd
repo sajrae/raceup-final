@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RODataSet" targetNamespace="http://tempuri.org/RODataSet.xsd" xmlns:mstns="http://tempuri.org/RODataSet.xsd" xmlns="http://tempuri.org/RODataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="raceup_db_new3ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="raceup_db_new3ConnectionString1 (Settings)" PropertyReference="ApplicationSettings.Raceup_Autocare.Properties.Settings.GlobalReference.Default.raceup_db_new3ConnectionString1" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PrintROTableAdapter" GeneratorDataComponentClassName="PrintROTableAdapter" Name="PrintRO" UserDataComponentName="PrintROTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="raceup_db_new3ConnectionString1 (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT    CustomerProfile.customer_id, RepairOrder.Plate_Number, RepairOrder.Date_Created, RepairOrder.Payment_Method, RepairOrder.Customer_Request, RepairOrderParts.Item_Code, RepairOrderParts.Item_Name, 
+                         RepairOrderParts.Parts_Quantity, RepairOrderParts.Unit_Price, RepairOrderParts.Total_Price_Parts, RepairOrderService.Service_Description, RepairOrderService.Service_Quantity, RepairOrderService.Service_Price, 
+                         RepairOrderService.Total_Price, CustomerProfile.first_name, CustomerProfile.last_name, CustomerProfile.Address, CustomerProfile.contact_number, CustomerProfile.Plate_Number AS Expr1, CustomerProfile.car_brand, 
+                         CustomerProfile.car_model, CustomerProfile.chasis_number, CustomerProfile.engine_number, CustomerProfile.Mileage
+FROM            (((CustomerProfile INNER JOIN
+                         RepairOrder ON CustomerProfile.Plate_Number = RepairOrder.Plate_Number) INNER JOIN
+                         RepairOrderParts ON RepairOrder.RO_Number = RepairOrderParts.RO_Number) INNER JOIN
+                         RepairOrderService ON RepairOrder.RO_Number = RepairOrderService.RO_Number)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="customer_id" DataSetColumn="customer_id" />
+              <Mapping SourceColumn="Plate_Number" DataSetColumn="Plate_Number" />
+              <Mapping SourceColumn="Date_Created" DataSetColumn="Date_Created" />
+              <Mapping SourceColumn="Payment_Method" DataSetColumn="Payment_Method" />
+              <Mapping SourceColumn="Customer_Request" DataSetColumn="Customer_Request" />
+              <Mapping SourceColumn="Item_Code" DataSetColumn="Item_Code" />
+              <Mapping SourceColumn="Item_Name" DataSetColumn="Item_Name" />
+              <Mapping SourceColumn="Parts_Quantity" DataSetColumn="Parts_Quantity" />
+              <Mapping SourceColumn="Unit_Price" DataSetColumn="Unit_Price" />
+              <Mapping SourceColumn="Total_Price_Parts" DataSetColumn="Total_Price_Parts" />
+              <Mapping SourceColumn="Service_Description" DataSetColumn="Service_Description" />
+              <Mapping SourceColumn="Service_Quantity" DataSetColumn="Service_Quantity" />
+              <Mapping SourceColumn="Service_Price" DataSetColumn="Service_Price" />
+              <Mapping SourceColumn="Total_Price" DataSetColumn="Total_Price" />
+              <Mapping SourceColumn="first_name" DataSetColumn="first_name" />
+              <Mapping SourceColumn="last_name" DataSetColumn="last_name" />
+              <Mapping SourceColumn="Address" DataSetColumn="Address" />
+              <Mapping SourceColumn="contact_number" DataSetColumn="contact_number" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+              <Mapping SourceColumn="car_brand" DataSetColumn="car_brand" />
+              <Mapping SourceColumn="car_model" DataSetColumn="car_model" />
+              <Mapping SourceColumn="chasis_number" DataSetColumn="chasis_number" />
+              <Mapping SourceColumn="engine_number" DataSetColumn="engine_number" />
+              <Mapping SourceColumn="Mileage" DataSetColumn="Mileage" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ROTablePartsTableAdapter" GeneratorDataComponentClassName="ROTablePartsTableAdapter" Name="ROTableParts" UserDataComponentName="ROTablePartsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="raceup_db_new3ConnectionString1 (Settings)" DbObjectName="RepairOrderParts" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO `RepairOrderParts` (`RO_Number`, `Item_Code`, `Parts_Quantity`, `Item_Name`, `Unit_Price`, `Total_Price_Parts`) VALUES (?, ?, ?, ?, ?, ?)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="RO_Number" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="RO_Number" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Item_Code" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Item_Code" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="Parts_Quantity" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="Parts_Quantity" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Item_Name" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Item_Name" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="Unit_Price" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="Unit_Price" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="Total_Price_Parts" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="Total_Price_Parts" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        RO_Number, Item_Code, Parts_Quantity, Item_Name, Unit_Price, Total_Price_Parts
+FROM            RepairOrderParts</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="RO_Number" DataSetColumn="RO_Number" />
+              <Mapping SourceColumn="Item_Code" DataSetColumn="Item_Code" />
+              <Mapping SourceColumn="Parts_Quantity" DataSetColumn="Parts_Quantity" />
+              <Mapping SourceColumn="Item_Name" DataSetColumn="Item_Name" />
+              <Mapping SourceColumn="Unit_Price" DataSetColumn="Unit_Price" />
+              <Mapping SourceColumn="Total_Price_Parts" DataSetColumn="Total_Price_Parts" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ROTableServiceTableAdapter" GeneratorDataComponentClassName="ROTableServiceTableAdapter" Name="ROTableService" UserDataComponentName="ROTableServiceTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="raceup_db_new3ConnectionString1 (Settings)" DbObjectName="RepairOrderService" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO `RepairOrderService` (`RO_Number`, `Service_Description`, `Service_Quantity`, `Service_Price`, `Total_Price`) VALUES (?, ?, ?, ?, ?)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="RO_Number" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="RO_Number" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Service_Description" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Service_Description" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Service_Quantity" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Service_Quantity" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="Service_Price" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="Service_Price" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="Total_Price" Precision="0" ProviderType="Double" Scale="0" Size="0" SourceColumn="Total_Price" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        RO_Number, Service_Description, Service_Quantity, Service_Price, Total_Price
+FROM            RepairOrderService</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="RO_Number" DataSetColumn="RO_Number" />
+              <Mapping SourceColumn="Service_Description" DataSetColumn="Service_Description" />
+              <Mapping SourceColumn="Service_Quantity" DataSetColumn="Service_Quantity" />
+              <Mapping SourceColumn="Service_Price" DataSetColumn="Service_Price" />
+              <Mapping SourceColumn="Total_Price" DataSetColumn="Total_Price" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="GetServiceTablewithpackageTableAdapter" GeneratorDataComponentClassName="GetServiceTablewithpackageTableAdapter" Name="GetServiceTablewithpackage" UserDataComponentName="GetServiceTablewithpackageTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="raceup_db_new3ConnectionString1 (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Service.Service_Description, Service.Package_Name, Packages.Package_Hours_Work, Packages.Package_Name AS Expr1, Packages.Package_Price, RepairOrderService.Service_Description AS Expr2, 
+                         RepairOrderService.Service_Quantity, RepairOrderService.Service_Price, RepairOrderService.Total_Price
+FROM            ((Packages INNER JOIN
+                         Service ON Packages.Package_Name = Service.Package_Name) INNER JOIN
+                         RepairOrderService ON Service.Service_Description = RepairOrderService.Service_Description)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Service_Description" DataSetColumn="Service_Description" />
+              <Mapping SourceColumn="Package_Name" DataSetColumn="Package_Name" />
+              <Mapping SourceColumn="Package_Hours_Work" DataSetColumn="Package_Hours_Work" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+              <Mapping SourceColumn="Package_Price" DataSetColumn="Package_Price" />
+              <Mapping SourceColumn="Expr2" DataSetColumn="Expr2" />
+              <Mapping SourceColumn="Service_Quantity" DataSetColumn="Service_Quantity" />
+              <Mapping SourceColumn="Service_Price" DataSetColumn="Service_Price" />
+              <Mapping SourceColumn="Total_Price" DataSetColumn="Total_Price" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources>
+          <DbSource ConnectionRef="raceup_db_new3ConnectionString1 (Settings)" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="ScalarQuery" MethodsParameterType="CLR" Modifier="Public" Name="ScalarQuery" QueryType="Scalar" ScalarCallRetval="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="ScalarQuery">
+            <SelectCommand>
+              <DbCommand CommandType="Text" ModifiedByUser="true">
+                <CommandText>SELECT        Service.Service_Description, Service.Service_Price, Service.Package_Name, Packages.Package_Name AS Expr1, Packages.Package_Price, Packages.Package_Hours_Work
+FROM            ((Service INNER JOIN
+                         Packages ON Service.Package_Name = Packages.Package_Name) INNER JOIN
+                         RepairOrderService ON Service.Service_Description = RepairOrderService.Service_Description)</CommandText>
+                <Parameters />
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RODataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="RODataSet" msprop:Generator_UserDSName="RODataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PrintRO" msprop:Generator_TableClassName="PrintRODataTable" msprop:Generator_TableVarName="tablePrintRO" msprop:Generator_RowChangedName="PrintRORowChanged" msprop:Generator_TablePropName="PrintRO" msprop:Generator_RowDeletingName="PrintRORowDeleting" msprop:Generator_RowChangingName="PrintRORowChanging" msprop:Generator_RowEvHandlerName="PrintRORowChangeEventHandler" msprop:Generator_RowDeletedName="PrintRORowDeleted" msprop:Generator_RowClassName="PrintRORow" msprop:Generator_UserTableName="PrintRO" msprop:Generator_RowEvArgName="PrintRORowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customer_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columncustomer_id" msprop:Generator_ColumnPropNameInRow="customer_id" msprop:Generator_ColumnPropNameInTable="customer_idColumn" msprop:Generator_UserColumnName="customer_id" type="xs:int" minOccurs="0" />
+              <xs:element name="Plate_Number" msprop:Generator_ColumnVarNameInTable="columnPlate_Number" msprop:Generator_ColumnPropNameInRow="Plate_Number" msprop:Generator_ColumnPropNameInTable="Plate_NumberColumn" msprop:Generator_UserColumnName="Plate_Number" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Date_Created" msprop:Generator_ColumnVarNameInTable="columnDate_Created" msprop:Generator_ColumnPropNameInRow="Date_Created" msprop:Generator_ColumnPropNameInTable="Date_CreatedColumn" msprop:Generator_UserColumnName="Date_Created" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Payment_Method" msprop:Generator_ColumnVarNameInTable="columnPayment_Method" msprop:Generator_ColumnPropNameInRow="Payment_Method" msprop:Generator_ColumnPropNameInTable="Payment_MethodColumn" msprop:Generator_UserColumnName="Payment_Method" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Customer_Request" msprop:Generator_ColumnVarNameInTable="columnCustomer_Request" msprop:Generator_ColumnPropNameInRow="Customer_Request" msprop:Generator_ColumnPropNameInTable="Customer_RequestColumn" msprop:Generator_UserColumnName="Customer_Request" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Item_Code" msprop:Generator_ColumnVarNameInTable="columnItem_Code" msprop:Generator_ColumnPropNameInRow="Item_Code" msprop:Generator_ColumnPropNameInTable="Item_CodeColumn" msprop:Generator_UserColumnName="Item_Code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Item_Name" msprop:Generator_ColumnVarNameInTable="columnItem_Name" msprop:Generator_ColumnPropNameInRow="Item_Name" msprop:Generator_ColumnPropNameInTable="Item_NameColumn" msprop:Generator_UserColumnName="Item_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Parts_Quantity" msprop:Generator_ColumnVarNameInTable="columnParts_Quantity" msprop:Generator_ColumnPropNameInRow="Parts_Quantity" msprop:Generator_ColumnPropNameInTable="Parts_QuantityColumn" msprop:Generator_UserColumnName="Parts_Quantity" type="xs:double" minOccurs="0" />
+              <xs:element name="Unit_Price" msprop:Generator_ColumnVarNameInTable="columnUnit_Price" msprop:Generator_ColumnPropNameInRow="Unit_Price" msprop:Generator_ColumnPropNameInTable="Unit_PriceColumn" msprop:Generator_UserColumnName="Unit_Price" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_Price_Parts" msprop:Generator_ColumnVarNameInTable="columnTotal_Price_Parts" msprop:Generator_ColumnPropNameInRow="Total_Price_Parts" msprop:Generator_ColumnPropNameInTable="Total_Price_PartsColumn" msprop:Generator_UserColumnName="Total_Price_Parts" type="xs:double" minOccurs="0" />
+              <xs:element name="Service_Description" msprop:Generator_ColumnVarNameInTable="columnService_Description" msprop:Generator_ColumnPropNameInRow="Service_Description" msprop:Generator_ColumnPropNameInTable="Service_DescriptionColumn" msprop:Generator_UserColumnName="Service_Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Service_Quantity" msprop:Generator_ColumnVarNameInTable="columnService_Quantity" msprop:Generator_ColumnPropNameInRow="Service_Quantity" msprop:Generator_ColumnPropNameInTable="Service_QuantityColumn" msprop:Generator_UserColumnName="Service_Quantity" type="xs:int" minOccurs="0" />
+              <xs:element name="Service_Price" msprop:Generator_ColumnVarNameInTable="columnService_Price" msprop:Generator_ColumnPropNameInRow="Service_Price" msprop:Generator_ColumnPropNameInTable="Service_PriceColumn" msprop:Generator_UserColumnName="Service_Price" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_Price" msprop:Generator_ColumnVarNameInTable="columnTotal_Price" msprop:Generator_ColumnPropNameInRow="Total_Price" msprop:Generator_ColumnPropNameInTable="Total_PriceColumn" msprop:Generator_UserColumnName="Total_Price" type="xs:double" minOccurs="0" />
+              <xs:element name="first_name" msprop:Generator_ColumnVarNameInTable="columnfirst_name" msprop:Generator_ColumnPropNameInRow="first_name" msprop:Generator_ColumnPropNameInTable="first_nameColumn" msprop:Generator_UserColumnName="first_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="last_name" msprop:Generator_ColumnVarNameInTable="columnlast_name" msprop:Generator_ColumnPropNameInRow="last_name" msprop:Generator_ColumnPropNameInTable="last_nameColumn" msprop:Generator_UserColumnName="last_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_UserColumnName="Address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="contact_number" msprop:Generator_ColumnVarNameInTable="columncontact_number" msprop:Generator_ColumnPropNameInRow="contact_number" msprop:Generator_ColumnPropNameInTable="contact_numberColumn" msprop:Generator_UserColumnName="contact_number" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="car_brand" msprop:Generator_ColumnVarNameInTable="columncar_brand" msprop:Generator_ColumnPropNameInRow="car_brand" msprop:Generator_ColumnPropNameInTable="car_brandColumn" msprop:Generator_UserColumnName="car_brand" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="car_model" msprop:Generator_ColumnVarNameInTable="columncar_model" msprop:Generator_ColumnPropNameInRow="car_model" msprop:Generator_ColumnPropNameInTable="car_modelColumn" msprop:Generator_UserColumnName="car_model" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="chasis_number" msprop:Generator_ColumnVarNameInTable="columnchasis_number" msprop:Generator_ColumnPropNameInRow="chasis_number" msprop:Generator_ColumnPropNameInTable="chasis_numberColumn" msprop:Generator_UserColumnName="chasis_number" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="engine_number" msprop:Generator_ColumnVarNameInTable="columnengine_number" msprop:Generator_ColumnPropNameInRow="engine_number" msprop:Generator_ColumnPropNameInTable="engine_numberColumn" msprop:Generator_UserColumnName="engine_number" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mileage" msprop:Generator_ColumnVarNameInTable="columnMileage" msprop:Generator_ColumnPropNameInRow="Mileage" msprop:Generator_ColumnPropNameInTable="MileageColumn" msprop:Generator_UserColumnName="Mileage" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ROTableParts" msprop:Generator_TableClassName="ROTablePartsDataTable" msprop:Generator_TableVarName="tableROTableParts" msprop:Generator_RowChangedName="ROTablePartsRowChanged" msprop:Generator_TablePropName="ROTableParts" msprop:Generator_RowDeletingName="ROTablePartsRowDeleting" msprop:Generator_RowChangingName="ROTablePartsRowChanging" msprop:Generator_RowEvHandlerName="ROTablePartsRowChangeEventHandler" msprop:Generator_RowDeletedName="ROTablePartsRowDeleted" msprop:Generator_RowClassName="ROTablePartsRow" msprop:Generator_UserTableName="ROTableParts" msprop:Generator_RowEvArgName="ROTablePartsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RO_Number" msprop:Generator_ColumnVarNameInTable="columnRO_Number" msprop:Generator_ColumnPropNameInRow="RO_Number" msprop:Generator_ColumnPropNameInTable="RO_NumberColumn" msprop:Generator_UserColumnName="RO_Number" type="xs:int" minOccurs="0" />
+              <xs:element name="Item_Code" msprop:Generator_ColumnVarNameInTable="columnItem_Code" msprop:Generator_ColumnPropNameInRow="Item_Code" msprop:Generator_ColumnPropNameInTable="Item_CodeColumn" msprop:Generator_UserColumnName="Item_Code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Parts_Quantity" msprop:Generator_ColumnVarNameInTable="columnParts_Quantity" msprop:Generator_ColumnPropNameInRow="Parts_Quantity" msprop:Generator_ColumnPropNameInTable="Parts_QuantityColumn" msprop:Generator_UserColumnName="Parts_Quantity" type="xs:double" minOccurs="0" />
+              <xs:element name="Item_Name" msprop:Generator_ColumnVarNameInTable="columnItem_Name" msprop:Generator_ColumnPropNameInRow="Item_Name" msprop:Generator_ColumnPropNameInTable="Item_NameColumn" msprop:Generator_UserColumnName="Item_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Unit_Price" msprop:Generator_ColumnVarNameInTable="columnUnit_Price" msprop:Generator_ColumnPropNameInRow="Unit_Price" msprop:Generator_ColumnPropNameInTable="Unit_PriceColumn" msprop:Generator_UserColumnName="Unit_Price" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_Price_Parts" msprop:Generator_ColumnVarNameInTable="columnTotal_Price_Parts" msprop:Generator_ColumnPropNameInRow="Total_Price_Parts" msprop:Generator_ColumnPropNameInTable="Total_Price_PartsColumn" msprop:Generator_UserColumnName="Total_Price_Parts" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ROTableService" msprop:Generator_TableClassName="ROTableServiceDataTable" msprop:Generator_TableVarName="tableROTableService" msprop:Generator_TablePropName="ROTableService" msprop:Generator_RowDeletingName="ROTableServiceRowDeleting" msprop:Generator_RowChangingName="ROTableServiceRowChanging" msprop:Generator_RowEvHandlerName="ROTableServiceRowChangeEventHandler" msprop:Generator_RowDeletedName="ROTableServiceRowDeleted" msprop:Generator_UserTableName="ROTableService" msprop:Generator_RowChangedName="ROTableServiceRowChanged" msprop:Generator_RowEvArgName="ROTableServiceRowChangeEvent" msprop:Generator_RowClassName="ROTableServiceRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RO_Number" msprop:Generator_ColumnVarNameInTable="columnRO_Number" msprop:Generator_ColumnPropNameInRow="RO_Number" msprop:Generator_ColumnPropNameInTable="RO_NumberColumn" msprop:Generator_UserColumnName="RO_Number" type="xs:int" minOccurs="0" />
+              <xs:element name="Service_Description" msprop:Generator_ColumnVarNameInTable="columnService_Description" msprop:Generator_ColumnPropNameInRow="Service_Description" msprop:Generator_ColumnPropNameInTable="Service_DescriptionColumn" msprop:Generator_UserColumnName="Service_Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Service_Quantity" msprop:Generator_ColumnVarNameInTable="columnService_Quantity" msprop:Generator_ColumnPropNameInRow="Service_Quantity" msprop:Generator_ColumnPropNameInTable="Service_QuantityColumn" msprop:Generator_UserColumnName="Service_Quantity" type="xs:int" minOccurs="0" />
+              <xs:element name="Service_Price" msprop:Generator_ColumnVarNameInTable="columnService_Price" msprop:Generator_ColumnPropNameInRow="Service_Price" msprop:Generator_ColumnPropNameInTable="Service_PriceColumn" msprop:Generator_UserColumnName="Service_Price" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_Price" msprop:Generator_ColumnVarNameInTable="columnTotal_Price" msprop:Generator_ColumnPropNameInRow="Total_Price" msprop:Generator_ColumnPropNameInTable="Total_PriceColumn" msprop:Generator_UserColumnName="Total_Price" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GetServiceTablewithpackage" msprop:Generator_TableClassName="GetServiceTablewithpackageDataTable" msprop:Generator_TableVarName="tableGetServiceTablewithpackage" msprop:Generator_TablePropName="GetServiceTablewithpackage" msprop:Generator_RowDeletingName="GetServiceTablewithpackageRowDeleting" msprop:Generator_RowChangingName="GetServiceTablewithpackageRowChanging" msprop:Generator_RowEvHandlerName="GetServiceTablewithpackageRowChangeEventHandler" msprop:Generator_RowDeletedName="GetServiceTablewithpackageRowDeleted" msprop:Generator_UserTableName="GetServiceTablewithpackage" msprop:Generator_RowChangedName="GetServiceTablewithpackageRowChanged" msprop:Generator_RowEvArgName="GetServiceTablewithpackageRowChangeEvent" msprop:Generator_RowClassName="GetServiceTablewithpackageRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Service_Description" msprop:Generator_ColumnVarNameInTable="columnService_Description" msprop:Generator_ColumnPropNameInRow="Service_Description" msprop:Generator_ColumnPropNameInTable="Service_DescriptionColumn" msprop:Generator_UserColumnName="Service_Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Package_Name" msprop:Generator_ColumnVarNameInTable="columnPackage_Name" msprop:Generator_ColumnPropNameInRow="Package_Name" msprop:Generator_ColumnPropNameInTable="Package_NameColumn" msprop:Generator_UserColumnName="Package_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Package_Hours_Work" msprop:Generator_ColumnVarNameInTable="columnPackage_Hours_Work" msprop:Generator_ColumnPropNameInRow="Package_Hours_Work" msprop:Generator_ColumnPropNameInTable="Package_Hours_WorkColumn" msprop:Generator_UserColumnName="Package_Hours_Work" type="xs:int" minOccurs="0" />
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Package_Price" msprop:Generator_ColumnVarNameInTable="columnPackage_Price" msprop:Generator_ColumnPropNameInRow="Package_Price" msprop:Generator_ColumnPropNameInTable="Package_PriceColumn" msprop:Generator_UserColumnName="Package_Price" type="xs:double" minOccurs="0" />
+              <xs:element name="Expr2" msprop:Generator_ColumnVarNameInTable="columnExpr2" msprop:Generator_ColumnPropNameInRow="Expr2" msprop:Generator_ColumnPropNameInTable="Expr2Column" msprop:Generator_UserColumnName="Expr2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Service_Quantity" msprop:Generator_ColumnVarNameInTable="columnService_Quantity" msprop:Generator_ColumnPropNameInRow="Service_Quantity" msprop:Generator_ColumnPropNameInTable="Service_QuantityColumn" msprop:Generator_UserColumnName="Service_Quantity" type="xs:int" minOccurs="0" />
+              <xs:element name="Service_Price" msprop:Generator_ColumnVarNameInTable="columnService_Price" msprop:Generator_ColumnPropNameInRow="Service_Price" msprop:Generator_ColumnPropNameInTable="Service_PriceColumn" msprop:Generator_UserColumnName="Service_Price" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_Price" msprop:Generator_ColumnVarNameInTable="columnTotal_Price" msprop:Generator_ColumnPropNameInRow="Total_Price" msprop:Generator_ColumnPropNameInTable="Total_PriceColumn" msprop:Generator_UserColumnName="Total_Price" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

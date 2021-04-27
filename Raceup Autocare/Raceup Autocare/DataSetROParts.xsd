@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetROParts" targetNamespace="http://tempuri.org/DataSetROParts.xsd" xmlns:mstns="http://tempuri.org/DataSetROParts.xsd" xmlns="http://tempuri.org/DataSetROParts.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="raceup_db_new3ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="raceup_db_new3ConnectionString1 (Settings)" PropertyReference="ApplicationSettings.Raceup_Autocare.Properties.Settings.GlobalReference.Default.raceup_db_new3ConnectionString1" Provider="System.Data.OleDb" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="raceup_db_new3ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="raceup_db_new3ConnectionString (Settings)" PropertyReference="ApplicationSettings.Raceup_Autocare.Properties.Settings.GlobalReference.Default.raceup_db_new3ConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="All InfoTableAdapter" GeneratorDataComponentClassName="All_InfoTableAdapter" Name="All Info" UserDataComponentName="All InfoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="raceup_db_new3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        CustomerProfile.customer_id, CustomerProfile.first_name, CustomerProfile.last_name, CustomerProfile.Address, CustomerProfile.contact_number, CustomerProfile.Plate_Number, CustomerProfile.engine_number, 
+                         CustomerProfile.chasis_number, CustomerProfile.car_model, CustomerProfile.car_brand, RepairOrder.Plate_Number AS Expr1, RepairOrder.Date_Created, RepairOrder.Payment_Method, RepairOrder.Customer_Request, 
+                         RepairOrderParts.Item_Code, RepairOrderParts.Item_Name, RepairOrderParts.Parts_Quantity, RepairOrderParts.Unit_Price, RepairOrderParts.Total_Price_Parts, RepairOrder.RO_Number
+FROM            ((CustomerProfile INNER JOIN
+                         RepairOrder ON CustomerProfile.Plate_Number = RepairOrder.Plate_Number) INNER JOIN
+                         RepairOrderParts ON RepairOrder.RO_Number = RepairOrderParts.RO_Number)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="customer_id" DataSetColumn="customer_id" />
+              <Mapping SourceColumn="first_name" DataSetColumn="first_name" />
+              <Mapping SourceColumn="last_name" DataSetColumn="last_name" />
+              <Mapping SourceColumn="Address" DataSetColumn="Address" />
+              <Mapping SourceColumn="contact_number" DataSetColumn="contact_number" />
+              <Mapping SourceColumn="Plate_Number" DataSetColumn="Plate_Number" />
+              <Mapping SourceColumn="engine_number" DataSetColumn="engine_number" />
+              <Mapping SourceColumn="chasis_number" DataSetColumn="chasis_number" />
+              <Mapping SourceColumn="car_model" DataSetColumn="car_model" />
+              <Mapping SourceColumn="car_brand" DataSetColumn="car_brand" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+              <Mapping SourceColumn="Date_Created" DataSetColumn="Date_Created" />
+              <Mapping SourceColumn="Payment_Method" DataSetColumn="Payment_Method" />
+              <Mapping SourceColumn="Customer_Request" DataSetColumn="Customer_Request" />
+              <Mapping SourceColumn="Item_Code" DataSetColumn="Item_Code" />
+              <Mapping SourceColumn="Item_Name" DataSetColumn="Item_Name" />
+              <Mapping SourceColumn="Parts_Quantity" DataSetColumn="Parts_Quantity" />
+              <Mapping SourceColumn="Unit_Price" DataSetColumn="Unit_Price" />
+              <Mapping SourceColumn="Total_Price_Parts" DataSetColumn="Total_Price_Parts" />
+              <Mapping SourceColumn="RO_Number" DataSetColumn="RO_Number" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Prepared ByTableAdapter" GeneratorDataComponentClassName="Prepared_ByTableAdapter" Name="Prepared By" UserDataComponentName="Prepared ByTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="raceup_db_new3ConnectionString1 (Settings)" DbObjectName="RepairOrder" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        RepairOrder.Created_By
+FROM            (RepairOrder INNER JOIN
+                         RepairOrderParts ON RepairOrder.RO_Number = RepairOrderParts.RO_Number)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Created_By" DataSetColumn="Created_By" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetROParts" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSetROParts" msprop:Generator_UserDSName="DataSetROParts">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="All_x0020_Info" msprop:Generator_TableClassName="All_InfoDataTable" msprop:Generator_TableVarName="tableAll_Info" msprop:Generator_TablePropName="All_Info" msprop:Generator_RowDeletingName="All_InfoRowDeleting" msprop:Generator_RowChangingName="All_InfoRowChanging" msprop:Generator_RowEvHandlerName="All_InfoRowChangeEventHandler" msprop:Generator_RowDeletedName="All_InfoRowDeleted" msprop:Generator_UserTableName="All Info" msprop:Generator_RowChangedName="All_InfoRowChanged" msprop:Generator_RowEvArgName="All_InfoRowChangeEvent" msprop:Generator_RowClassName="All_InfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customer_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columncustomer_id" msprop:Generator_ColumnPropNameInRow="customer_id" msprop:Generator_ColumnPropNameInTable="customer_idColumn" msprop:Generator_UserColumnName="customer_id" type="xs:int" minOccurs="0" />
+              <xs:element name="first_name" msprop:Generator_ColumnVarNameInTable="columnfirst_name" msprop:Generator_ColumnPropNameInRow="first_name" msprop:Generator_ColumnPropNameInTable="first_nameColumn" msprop:Generator_UserColumnName="first_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="last_name" msprop:Generator_ColumnVarNameInTable="columnlast_name" msprop:Generator_ColumnPropNameInRow="last_name" msprop:Generator_ColumnPropNameInTable="last_nameColumn" msprop:Generator_UserColumnName="last_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_UserColumnName="Address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="contact_number" msprop:Generator_ColumnVarNameInTable="columncontact_number" msprop:Generator_ColumnPropNameInRow="contact_number" msprop:Generator_ColumnPropNameInTable="contact_numberColumn" msprop:Generator_UserColumnName="contact_number" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Plate_Number" msprop:Generator_ColumnVarNameInTable="columnPlate_Number" msprop:Generator_ColumnPropNameInRow="Plate_Number" msprop:Generator_ColumnPropNameInTable="Plate_NumberColumn" msprop:Generator_UserColumnName="Plate_Number" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="engine_number" msprop:Generator_ColumnVarNameInTable="columnengine_number" msprop:Generator_ColumnPropNameInRow="engine_number" msprop:Generator_ColumnPropNameInTable="engine_numberColumn" msprop:Generator_UserColumnName="engine_number" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="chasis_number" msprop:Generator_ColumnVarNameInTable="columnchasis_number" msprop:Generator_ColumnPropNameInRow="chasis_number" msprop:Generator_ColumnPropNameInTable="chasis_numberColumn" msprop:Generator_UserColumnName="chasis_number" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="car_model" msprop:Generator_ColumnVarNameInTable="columncar_model" msprop:Generator_ColumnPropNameInRow="car_model" msprop:Generator_ColumnPropNameInTable="car_modelColumn" msprop:Generator_UserColumnName="car_model" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="car_brand" msprop:Generator_ColumnVarNameInTable="columncar_brand" msprop:Generator_ColumnPropNameInRow="car_brand" msprop:Generator_ColumnPropNameInTable="car_brandColumn" msprop:Generator_UserColumnName="car_brand" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Date_Created" msprop:Generator_ColumnVarNameInTable="columnDate_Created" msprop:Generator_ColumnPropNameInRow="Date_Created" msprop:Generator_ColumnPropNameInTable="Date_CreatedColumn" msprop:Generator_UserColumnName="Date_Created" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Payment_Method" msprop:Generator_ColumnVarNameInTable="columnPayment_Method" msprop:Generator_ColumnPropNameInRow="Payment_Method" msprop:Generator_ColumnPropNameInTable="Payment_MethodColumn" msprop:Generator_UserColumnName="Payment_Method" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Customer_Request" msprop:Generator_ColumnVarNameInTable="columnCustomer_Request" msprop:Generator_ColumnPropNameInRow="Customer_Request" msprop:Generator_ColumnPropNameInTable="Customer_RequestColumn" msprop:Generator_UserColumnName="Customer_Request" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Item_Code" msprop:Generator_ColumnVarNameInTable="columnItem_Code" msprop:Generator_ColumnPropNameInRow="Item_Code" msprop:Generator_ColumnPropNameInTable="Item_CodeColumn" msprop:Generator_UserColumnName="Item_Code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Item_Name" msprop:Generator_ColumnVarNameInTable="columnItem_Name" msprop:Generator_ColumnPropNameInRow="Item_Name" msprop:Generator_ColumnPropNameInTable="Item_NameColumn" msprop:Generator_UserColumnName="Item_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Parts_Quantity" msprop:Generator_ColumnVarNameInTable="columnParts_Quantity" msprop:Generator_ColumnPropNameInRow="Parts_Quantity" msprop:Generator_ColumnPropNameInTable="Parts_QuantityColumn" msprop:Generator_UserColumnName="Parts_Quantity" type="xs:double" minOccurs="0" />
+              <xs:element name="Unit_Price" msprop:Generator_ColumnVarNameInTable="columnUnit_Price" msprop:Generator_ColumnPropNameInRow="Unit_Price" msprop:Generator_ColumnPropNameInTable="Unit_PriceColumn" msprop:Generator_UserColumnName="Unit_Price" type="xs:double" minOccurs="0" />
+              <xs:element name="Total_Price_Parts" msprop:Generator_ColumnVarNameInTable="columnTotal_Price_Parts" msprop:Generator_ColumnPropNameInRow="Total_Price_Parts" msprop:Generator_ColumnPropNameInTable="Total_Price_PartsColumn" msprop:Generator_UserColumnName="Total_Price_Parts" type="xs:double" minOccurs="0" />
+              <xs:element name="RO_Number" msprop:Generator_ColumnVarNameInTable="columnRO_Number" msprop:Generator_ColumnPropNameInRow="RO_Number" msprop:Generator_ColumnPropNameInTable="RO_NumberColumn" msprop:Generator_UserColumnName="RO_Number" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Prepared_x0020_By" msprop:Generator_TableClassName="Prepared_ByDataTable" msprop:Generator_TableVarName="tablePrepared_By" msprop:Generator_TablePropName="Prepared_By" msprop:Generator_RowDeletingName="Prepared_ByRowDeleting" msprop:Generator_RowChangingName="Prepared_ByRowChanging" msprop:Generator_RowEvHandlerName="Prepared_ByRowChangeEventHandler" msprop:Generator_RowDeletedName="Prepared_ByRowDeleted" msprop:Generator_UserTableName="Prepared By" msprop:Generator_RowChangedName="Prepared_ByRowChanged" msprop:Generator_RowEvArgName="Prepared_ByRowChangeEvent" msprop:Generator_RowClassName="Prepared_ByRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Created_By" msprop:Generator_ColumnVarNameInTable="columnCreated_By" msprop:Generator_ColumnPropNameInRow="Created_By" msprop:Generator_ColumnPropNameInTable="Created_ByColumn" msprop:Generator_UserColumnName="Created_By" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

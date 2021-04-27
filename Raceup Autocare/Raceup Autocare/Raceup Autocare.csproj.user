@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\RaceUp Autocare\|C:\Users\D A N\Desktop\Setup file for Raceup Autocare\newfolder\|C:\Users\D A N\Desktop\Setup file for Raceup Autocare\|C:\Users\D A N\Documents\raceup autocare\</PublishUrlHistory>
+    <InstallUrlHistory>\\192.168.254.201\c%24\RaceUp Autocare\|\\SERVER\c%24\RaceUp Autocare\</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>http://localhost/Raceup Autocare/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>
