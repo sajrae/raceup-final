@@ -1,0 +1,370 @@
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare\Raceup Autocare\Raceup Autocare\bin\Debug\Raceup Autocare.exe.config
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare\Raceup Autocare\Raceup Autocare\bin\Debug\Raceup Autocare.exe
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare\Raceup Autocare\Raceup Autocare\bin\Debug\Raceup Autocare.pdb
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.csprojResolveAssemblyReference.cache
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.Properties.Resources.resources
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.csproj.GenerateResource.Cache
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.exe
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.pdb
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.Form4CreateRO.resources
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.MenuForm.resources
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.LoginForm.resources
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.OrderForm.resources
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare02092020\raceup autocare\Raceup Autocare\Raceup Autocare\bin\Debug\Raceup Autocare.exe.config
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare02092020\raceup autocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.exe
+C:\Users\D A N\Dropbox\Dropbox\raceup autocare02092020\raceup autocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.pdb
+D:\Documents\Work Related\SIDE HUSTLE\Repository\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Raceup Autocare.exe.config
+D:\Documents\Work Related\SIDE HUSTLE\Repository\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Raceup Autocare.exe
+D:\Documents\Work Related\SIDE HUSTLE\Repository\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Raceup Autocare.pdb
+D:\Documents\Work Related\SIDE HUSTLE\Repository\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.csprojAssemblyReference.cache
+D:\Documents\Work Related\SIDE HUSTLE\Repository\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.Form4CreateRO.resources
+D:\Documents\Work Related\SIDE HUSTLE\Repository\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.LoginForm.resources
+D:\Documents\Work Related\SIDE HUSTLE\Repository\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.MenuForm.resources
+D:\Documents\Work Related\SIDE HUSTLE\Repository\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.OrderForm.resources
+D:\Documents\Work Related\SIDE HUSTLE\Repository\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.Properties.Resources.resources
+D:\Documents\Work Related\SIDE HUSTLE\Repository\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.csproj.GenerateResource.cache
+D:\Documents\Work Related\SIDE HUSTLE\Repository\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.csproj.CoreCompileInputs.cache
+D:\Documents\Work Related\SIDE HUSTLE\Repository\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.exe
+D:\Documents\Work Related\SIDE HUSTLE\Repository\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.pdb
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Raceup Autocare.exe.config
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Raceup Autocare.exe
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Raceup Autocare.pdb
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.Form4CreateRO.resources
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.LoginForm.resources
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.MenuForm.resources
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.OrderForm.resources
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.Properties.Resources.resources
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.csproj.GenerateResource.cache
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.csproj.CoreCompileInputs.cache
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.exe
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.pdb
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.resetForm.resources
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Guna.UI2.dll
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.csproj.CopyComplete
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.Message_Reset.resources
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\aa-DJ\Raceup Autocare.resources.dll
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\aa\Raceup Autocare.resources.dll
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.MenuForm.aa-DJ.resources
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.MenuForm.aa.resources
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\aa-DJ\Raceup Autocare.resources.dll
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\aa\Raceup Autocare.resources.dll
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.csprojAssemblyReference.cache
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.CreateROform.resources
+C:\Users\D A N\Desktop\My Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.CreateCustProfForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Raceup Autocare.exe.config
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Raceup Autocare.exe
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Raceup Autocare.pdb
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\aa-DJ\Raceup Autocare.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\aa\Raceup Autocare.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.CodeParser.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Data.Desktop.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Data.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.DataAccess.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Office.v20.1.Core.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Pdf.v20.1.Core.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Printing.v20.1.Core.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.RichEdit.v20.1.Core.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.RichEdit.v20.1.Export.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Sparkline.v20.1.Core.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Utils.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Utils.v20.1.UI.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Xpo.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraEditors.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraPrinting.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraReports.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Guna.UI2.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.Barcode.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.Common.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.DataExport.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.DataExport.ResourceMgr.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.Doc.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.DocViewer.Forms.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.License.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.Pdf.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.PdfViewer.Forms.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.Presentation.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.XLS.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Pdf.v20.1.Drawing.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraTreeList.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraBars.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraRichEdit.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.DataAccess.v20.1.UI.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraGrid.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraNavBar.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraPivotGrid.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraCharts.v20.1.Extensions.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Microsoft.mshtml.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Images.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraDiagram.v20.1.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Diagram.v20.1.Core.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Data.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.DataAccess.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Office.v20.1.Core.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Utils.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Utils.v20.1.UI.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Xpo.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraReports.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraReports.v20.1.Extensions.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.Barcode.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.Common.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.DataExport.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.DataExport.ResourceMgr.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.Doc.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.DocViewer.Forms.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.License.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.Pdf.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.PdfViewer.Forms.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.Presentation.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Spire.XLS.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraBars.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraRichEdit.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraVerticalGrid.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.DataAccess.v20.1.UI.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraNavBar.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraCharts.v20.1.Wizard.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraPivotGrid.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.XtraDiagram.v20.1.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\DevExpress.Diagram.v20.1.Core.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.Utils.v20.1.UI.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.Utils.v20.1.UI.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.Utils.v20.1.UI.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.Utils.v20.1.UI.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraReports.v20.1.Extensions.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraRichEdit.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraRichEdit.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraRichEdit.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraRichEdit.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraVerticalGrid.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.DataAccess.v20.1.UI.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.DataAccess.v20.1.UI.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.DataAccess.v20.1.UI.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.DataAccess.v20.1.UI.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraNavBar.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraNavBar.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraNavBar.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraNavBar.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraCharts.v20.1.Wizard.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.XtraPivotGrid.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.XtraPivotGrid.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.XtraPivotGrid.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.XtraPivotGrid.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.Diagram.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.Diagram.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.Diagram.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.Diagram.v20.1.Core.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.ShowListofOrderPartsForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.SearchItemForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.CreateCustProfForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.CreateROform.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.Inquiry.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.Message_Reset.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.PartsForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.PleaseCreateNewCustProf.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.resetForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.Form4CreateRO.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.LoginForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.MenuForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.OrderForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.Properties.Resources.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.MenuForm.aa-DJ.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.MenuForm.aa.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.csproj.GenerateResource.cache
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.exe.licenses
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.csproj.CoreCompileInputs.cache
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\aa-DJ\Raceup Autocare.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\aa\Raceup Autocare.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.csproj.CopyComplete
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.exe
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.pdb
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.ShowOrderServiceForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\MaterialDesignColors.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\MaterialDesignColors.pdb
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\RdlCompile.cache
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\RdlCompile.compiled
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\raceup_db_new3.accdb
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\EnvDTE.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\stdole.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\Microsoft.MSXML.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ShowListofOrderPartsForm.resx
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ShowListofOrderPartsForm.cs
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\ShowListofOrderPartsForm.Designer.cs
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.PrintPartsForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\PrintPartsForm.resx
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\PrintPartsForm.cs
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\PrintPartsForm.Designer.cs
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.PrintROForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.ShowListofOrderServiceForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.PrintQTNROForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\QTNRODataSet.cs
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\QTNRODataSet.Designer.cs
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\QTNRODataSet.xsc
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\QTNRODataSet.xsd
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\bin\Debug\QTNRODataSet.xss
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.PrintROServiceForm.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup_Autocare.PartsFormChecked.resources
+C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Debug\Raceup Autocare.csprojAssemblyReference.cache

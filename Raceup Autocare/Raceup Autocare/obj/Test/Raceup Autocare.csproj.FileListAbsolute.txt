@@ -1,0 +1,24 @@
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup Autocare.csprojAssemblyReference.cache
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.PartsFormChecked.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.PrintPartsForm.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.PrintQTNROForm.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.PrintROForm.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.PrintROServiceForm.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.ShowListofOrderPartsForm.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.ShowListofOrderServiceForm.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.ShowOrderServiceForm.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.SearchItemForm.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.CreateCustProfForm.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.CreateROform.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.Inquiry.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.Message_Reset.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.PartsForm.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.PleaseCreateNewCustProf.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.resetForm.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.LoginForm.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.MenuForm.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.Properties.Resources.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.MenuForm.aa-DJ.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup_Autocare.MenuForm.aa.resources
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup Autocare.csproj.GenerateResource.cache
+C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\Raceup Autocare\Raceup Autocare\obj\Test\Raceup Autocare.exe.licenses
