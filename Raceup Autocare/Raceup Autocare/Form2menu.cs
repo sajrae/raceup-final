@@ -394,5 +394,13 @@ namespace Raceup_Autocare
         {
             setUserLoginStatus(false);
         }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = guna2Button4.Height;
+            SidePanel.Top = guna2Button4.Top;
+            SidePanel.Visible = true;
+            OpenChildForm(new RepairOrderForm());
+        }
     }
 }

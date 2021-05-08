@@ -44,6 +44,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.printButton = new Guna.UI2.WinForms.Guna2Button();
             this.DataGridViewService = new Guna.UI2.WinForms.Guna2DataGridView();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -79,7 +80,6 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.printButton = new Guna.UI2.WinForms.Guna2Button();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -87,7 +87,6 @@
             this.guna2GroupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridViewParts)).BeginInit();
-            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -224,6 +223,24 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(604, 203);
             this.panel3.TabIndex = 201;
+            // 
+            // printButton
+            // 
+            this.printButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.printButton.BorderRadius = 13;
+            this.printButton.CheckedState.Parent = this.printButton;
+            this.printButton.CustomImages.Parent = this.printButton;
+            this.printButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(45)))), ((int)(((byte)(71)))));
+            this.printButton.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.printButton.ForeColor = System.Drawing.Color.White;
+            this.printButton.HoverState.Parent = this.printButton;
+            this.printButton.Location = new System.Drawing.Point(460, 0);
+            this.printButton.Name = "printButton";
+            this.printButton.ShadowDecoration.Parent = this.printButton;
+            this.printButton.Size = new System.Drawing.Size(222, 58);
+            this.printButton.TabIndex = 130;
+            this.printButton.Text = "Print";
+            this.printButton.Click += new System.EventHandler(this.printButton_Click);
             // 
             // DataGridViewService
             // 
@@ -698,30 +715,11 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.printButton);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel5.Location = new System.Drawing.Point(0, 678);
+            this.panel5.Location = new System.Drawing.Point(0, 684);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1094, 65);
             this.panel5.TabIndex = 197;
-            // 
-            // printButton
-            // 
-            this.printButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.printButton.BorderRadius = 13;
-            this.printButton.CheckedState.Parent = this.printButton;
-            this.printButton.CustomImages.Parent = this.printButton;
-            this.printButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(45)))), ((int)(((byte)(71)))));
-            this.printButton.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.printButton.ForeColor = System.Drawing.Color.White;
-            this.printButton.HoverState.Parent = this.printButton;
-            this.printButton.Location = new System.Drawing.Point(429, 6);
-            this.printButton.Name = "printButton";
-            this.printButton.ShadowDecoration.Parent = this.printButton;
-            this.printButton.Size = new System.Drawing.Size(237, 52);
-            this.printButton.TabIndex = 130;
-            this.printButton.Text = "Print";
-            this.printButton.Click += new System.EventHandler(this.printButton_Click);
             // 
             // ShowListofOrderServiceForm
             // 
@@ -729,7 +727,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.ClientSize = new System.Drawing.Size(1094, 743);
+            this.ClientSize = new System.Drawing.Size(1094, 749);
+            this.Controls.Add(this.printButton);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
@@ -748,7 +747,6 @@
             this.guna2GroupBox1.PerformLayout();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DataGridViewParts)).EndInit();
-            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -756,7 +754,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private System.Windows.Forms.Panel panel3;
@@ -792,7 +789,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.Panel panel5;
         private Guna.UI2.WinForms.Guna2Button printButton;
         public System.Windows.Forms.TextBox croMileage;
         private System.Windows.Forms.Label label1;
@@ -800,5 +796,7 @@
         public Guna.UI2.WinForms.Guna2TextBox GRNTotalTextBox;
         public Guna.UI2.WinForms.Guna2TextBox DiscountTextBox;
         private System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel5;
     }
 }

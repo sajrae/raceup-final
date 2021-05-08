@@ -37,8 +37,13 @@
             this.label7 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.rONumberDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.plateNumberDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateCreatedDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Close = new System.Windows.Forms.DataGridViewButtonColumn();
             this.View = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.serviceOrderNotifcationBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dateCreatedDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.plateNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.rONumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -46,17 +51,12 @@
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.SearchPrtsTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.rONumberDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.plateNumberDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateCreatedDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.serviceOrderNotifcationBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.serviceOrderNotifcationBindingSource)).BeginInit();
             this.guna2GroupBox2.SuspendLayout();
             this.guna2ShadowPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.serviceOrderNotifcationBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -163,6 +163,36 @@
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
             this.guna2DataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
             // 
+            // rONumberDataGridViewTextBoxColumn1
+            // 
+            this.rONumberDataGridViewTextBoxColumn1.DataPropertyName = "RO_Number";
+            this.rONumberDataGridViewTextBoxColumn1.FillWeight = 150F;
+            this.rONumberDataGridViewTextBoxColumn1.HeaderText = "Repair Order Number";
+            this.rONumberDataGridViewTextBoxColumn1.Name = "rONumberDataGridViewTextBoxColumn1";
+            this.rONumberDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // plateNumberDataGridViewTextBoxColumn1
+            // 
+            this.plateNumberDataGridViewTextBoxColumn1.DataPropertyName = "Plate_Number";
+            this.plateNumberDataGridViewTextBoxColumn1.FillWeight = 115F;
+            this.plateNumberDataGridViewTextBoxColumn1.HeaderText = "Plate Number";
+            this.plateNumberDataGridViewTextBoxColumn1.Name = "plateNumberDataGridViewTextBoxColumn1";
+            this.plateNumberDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // dateCreatedDataGridViewTextBoxColumn1
+            // 
+            this.dateCreatedDataGridViewTextBoxColumn1.DataPropertyName = "Date_Created";
+            this.dateCreatedDataGridViewTextBoxColumn1.HeaderText = "Issued Date";
+            this.dateCreatedDataGridViewTextBoxColumn1.Name = "dateCreatedDataGridViewTextBoxColumn1";
+            this.dateCreatedDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "Created_By";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Created By";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
             // Close
             // 
             this.Close.FillWeight = 50F;
@@ -180,6 +210,10 @@
             this.View.ReadOnly = true;
             this.View.Text = "View";
             this.View.UseColumnTextForButtonValue = true;
+            // 
+            // serviceOrderNotifcationBindingSource
+            // 
+            this.serviceOrderNotifcationBindingSource.DataSource = typeof(Raceup_Autocare.ServiceOrderNotifcation);
             // 
             // dateCreatedDataGridViewTextBoxColumn
             // 
@@ -224,7 +258,8 @@
             // 
             // guna2ShadowPanel1
             // 
-            this.guna2ShadowPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.guna2ShadowPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2ShadowPanel1.Controls.Add(this.SearchPrtsTextBox);
             this.guna2ShadowPanel1.Controls.Add(this.guna2CircleButton1);
@@ -294,40 +329,6 @@
             this.guna2CircleButton1.TabIndex = 115;
             this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
-            // rONumberDataGridViewTextBoxColumn1
-            // 
-            this.rONumberDataGridViewTextBoxColumn1.DataPropertyName = "RO_Number";
-            this.rONumberDataGridViewTextBoxColumn1.FillWeight = 150F;
-            this.rONumberDataGridViewTextBoxColumn1.HeaderText = "Repair Order Number";
-            this.rONumberDataGridViewTextBoxColumn1.Name = "rONumberDataGridViewTextBoxColumn1";
-            this.rONumberDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // plateNumberDataGridViewTextBoxColumn1
-            // 
-            this.plateNumberDataGridViewTextBoxColumn1.DataPropertyName = "Plate_Number";
-            this.plateNumberDataGridViewTextBoxColumn1.FillWeight = 115F;
-            this.plateNumberDataGridViewTextBoxColumn1.HeaderText = "Plate Number";
-            this.plateNumberDataGridViewTextBoxColumn1.Name = "plateNumberDataGridViewTextBoxColumn1";
-            this.plateNumberDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // dateCreatedDataGridViewTextBoxColumn1
-            // 
-            this.dateCreatedDataGridViewTextBoxColumn1.DataPropertyName = "Date_Created";
-            this.dateCreatedDataGridViewTextBoxColumn1.HeaderText = "Issued Date";
-            this.dateCreatedDataGridViewTextBoxColumn1.Name = "dateCreatedDataGridViewTextBoxColumn1";
-            this.dateCreatedDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "Created_By";
-            this.dataGridViewTextBoxColumn1.HeaderText = "Created By";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // serviceOrderNotifcationBindingSource
-            // 
-            this.serviceOrderNotifcationBindingSource.DataSource = typeof(Raceup_Autocare.ServiceOrderNotifcation);
-            // 
             // ShowOrderServiceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -344,9 +345,9 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.serviceOrderNotifcationBindingSource)).EndInit();
             this.guna2GroupBox2.ResumeLayout(false);
             this.guna2ShadowPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.serviceOrderNotifcationBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

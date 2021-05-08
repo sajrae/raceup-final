@@ -208,6 +208,7 @@
     <Compile Include="RODataSet.cs">
       <DependentUpon>RODataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="RONotification.cs" />
     <Compile Include="ServiceOrderNotifcation.cs" />
     <Compile Include="CreateCustProfForm.cs">
       <SubType>Form</SubType>
@@ -414,6 +415,7 @@
     <None Include="Properties\app.manifest" />
     <None Include="Properties\DataSources\PartsOrder.datasource" />
     <None Include="Properties\DataSources\PartsOrderNotifcation.datasource" />
+    <None Include="Properties\DataSources\RONotification.datasource" />
     <None Include="Properties\DataSources\ServiceOrderNotifcation.datasource" />
     <None Include="QTNRODataSet.xsc">
       <DependentUpon>QTNRODataSet.xsd</DependentUpon>

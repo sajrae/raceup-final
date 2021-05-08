@@ -34,6 +34,7 @@
             this.btnMinimize = new Guna.UI2.WinForms.Guna2ImageButton();
             this.btnExit = new Guna.UI2.WinForms.Guna2ImageButton();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.SubMenuORPanel2 = new System.Windows.Forms.Panel();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
@@ -124,6 +125,7 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.panelMenu.Controls.Add(this.guna2Button4);
             this.panelMenu.Controls.Add(this.SubMenuORPanel2);
             this.panelMenu.Controls.Add(this.panel2);
             this.panelMenu.Controls.Add(this.SidePanel);
@@ -137,14 +139,37 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // guna2Button4
+            // 
+            resources.ApplyResources(this.guna2Button4, "guna2Button4");
+            this.guna2Button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.guna2Button4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(45)))), ((int)(((byte)(57)))));
+            this.guna2Button4.CheckedState.Parent = this.guna2Button4;
+            this.guna2Button4.CustomImages.Parent = this.guna2Button4;
+            this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.guna2Button4.ForeColor = System.Drawing.Color.Gray;
+            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.HoverState.ForeColor = System.Drawing.Color.LightGray;
+            this.guna2Button4.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.HoverState.Image")));
+            this.guna2Button4.HoverState.Parent = this.guna2Button4;
+            this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
+            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button4.ImageOffset = new System.Drawing.Point(3, 0);
+            this.guna2Button4.ImageSize = new System.Drawing.Size(23, 23);
+            this.guna2Button4.Name = "guna2Button4";
+            this.guna2Button4.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
+            this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
+            // 
             // SubMenuORPanel2
             // 
+            resources.ApplyResources(this.SubMenuORPanel2, "SubMenuORPanel2");
             this.SubMenuORPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.SubMenuORPanel2.Controls.Add(this.guna2Button3);
             this.SubMenuORPanel2.Controls.Add(this.guna2Button2);
             this.SubMenuORPanel2.Controls.Add(this.guna2Button1);
             this.SubMenuORPanel2.Controls.Add(this.SearchItemBTN);
-            resources.ApplyResources(this.SubMenuORPanel2, "SubMenuORPanel2");
             this.SubMenuORPanel2.Name = "SubMenuORPanel2";
             // 
             // guna2Button3
@@ -531,5 +556,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button4;
     }
 }
