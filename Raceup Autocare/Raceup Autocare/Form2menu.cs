@@ -402,5 +402,14 @@ namespace Raceup_Autocare
             SidePanel.Visible = true;
             OpenChildForm(new RepairOrderForm());
         }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            SidePanel2.Height = guna2Button5.Height;
+            SidePanel2.Top = guna2Button5.Top;
+            SidePanel2.Visible = true;
+            SidePanel2.BringToFront();
+            OpenChildForm(new EditRepairOrderForm());
+        }
     }
 }

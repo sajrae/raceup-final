@@ -151,6 +151,12 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EditRepairOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditRepairOrderForm.Designer.cs">
+      <DependentUpon>EditRepairOrderForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PrintCopiesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -356,6 +362,9 @@
     <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <EmbeddedResource Include="EditRepairOrderForm.resx">
+      <DependentUpon>EditRepairOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PartsFormChecked.resx">
       <DependentUpon>PartsFormChecked.cs</DependentUpon>
     </EmbeddedResource>
