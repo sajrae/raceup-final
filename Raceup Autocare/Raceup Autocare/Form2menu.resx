@@ -117,6 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnMaximize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnMaximize.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAI5JREFUSEvt
+        lbENgDAQA7MH6RDMAuw/AQwCieTKn+J4iY6TXOXsMl9+XlHrekzTcrXcyVxtY9dcpAtWyOTUXGQgp6K5
+        yEjORHMRLBq4h0UD91zMRnORkZyJ5iJYNHAPiwbuYdHAPSwauIdFA/ewaOCei9loLjKSM9FcpD1++133
+        Y9EFK7zJWeu8ae6HUMoDVwVGJYpz5r8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnMaximize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1024, 3</value>
+  </data>
+  <data name="btnMaximize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 32</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnMaximize.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
   <data name="&gt;&gt;btnMaximize.Name" xml:space="preserve">
     <value>btnMaximize</value>
   </data>
@@ -128,6 +151,26 @@
   </data>
   <data name="&gt;&gt;btnMaximize.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="btnMinimize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="btnMinimize.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAJJJREFUSEvt
+        lbENg0AQBL8PPkOmFiz6bwC7D3ikibwb+NZyxkgTMbdk0G5KTNNjG76HR+ir9+XJnHIFHweJO3OKiSOZ
+        U1ycyJzi4kTmFBcnMqe4OJE5xcWJzCkuTmROcXEic4qLE5lTXJzInFKKoXRTiqF04+JE5hQXJzKnjIf/
+        /VxfP4sR/PKSvfd5Ze7mG1o7AanxnKWtAk+uAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnMinimize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>982, 3</value>
+  </data>
+  <data name="btnMinimize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 32</value>
+  </data>
+  <data name="btnMinimize.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
   </data>
   <data name="&gt;&gt;btnMinimize.Name" xml:space="preserve">
     <value>btnMinimize</value>
@@ -141,6 +184,27 @@
   <data name="&gt;&gt;btnMinimize.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="btnExit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="btnExit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAOJJREFUSEvt
+        lcEOgjAQRPkOupxA5KD/YDxp/Hs9eEcTk/6E7uLYQHdNpKY3XjIROtNpi0SLhVk4tzqx7qxnom5E7RF1
+        GglEE1LUo05jhJOEOo0VThHqNEb4StTsyrJ9GJ53br13rjnHHuo0cVAKZLyq6g3fc2HwvIy958gi4znz
+        TuCJuq14fIoOJ7HGJvPEM4mDUNitfI6vxYuyg8Q3scJQ2LXwbecfIaaxwlDWBbI+otxfcv7X9IIC61Hw
+        2OBxZuqhThMHU4U6jRVOEeo0bOb9uZY/Cw78s0hPVB9Qt/ALRfECa52AXj/IXkcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1066, 3</value>
+  </data>
+  <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 32</value>
+  </data>
+  <data name="btnExit.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
   <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
     <value>btnExit</value>
   </data>
@@ -153,18 +217,15 @@
   <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="PanelTitleBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="PanelTitleBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>242, 0</value>
   </data>
   <data name="PanelTitleBar.Size" type="System.Drawing.Size, System.Drawing">
     <value>1102, 85</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="PanelTitleBar.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
   </data>
@@ -805,438 +866,70 @@
   <data name="SubMenuORPanel.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;guna2Button5.Name" xml:space="preserve">
-    <value>guna2Button5</value>
-  </data>
-  <data name="&gt;&gt;guna2Button5.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;guna2Button5.Parent" xml:space="preserve">
-    <value>SubMenuORPanel</value>
-  </data>
-  <data name="&gt;&gt;guna2Button5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ServiceROBTN.Name" xml:space="preserve">
-    <value>ServiceROBTN</value>
-  </data>
-  <data name="&gt;&gt;ServiceROBTN.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ServiceROBTN.Parent" xml:space="preserve">
-    <value>SubMenuORPanel</value>
-  </data>
-  <data name="&gt;&gt;ServiceROBTN.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;CreateCustProfileBtn.Name" xml:space="preserve">
-    <value>CreateCustProfileBtn</value>
-  </data>
-  <data name="&gt;&gt;CreateCustProfileBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;CreateCustProfileBtn.Parent" xml:space="preserve">
-    <value>SubMenuORPanel</value>
-  </data>
-  <data name="&gt;&gt;CreateCustProfileBtn.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;SidePanel2.Name" xml:space="preserve">
-    <value>SidePanel2</value>
-  </data>
-  <data name="&gt;&gt;SidePanel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SidePanel2.Parent" xml:space="preserve">
-    <value>SubMenuORPanel</value>
-  </data>
-  <data name="&gt;&gt;SidePanel2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;CreateROBtn.Name" xml:space="preserve">
-    <value>CreateROBtn</value>
-  </data>
-  <data name="&gt;&gt;CreateROBtn.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;CreateROBtn.Parent" xml:space="preserve">
-    <value>SubMenuORPanel</value>
-  </data>
-  <data name="&gt;&gt;CreateROBtn.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="SubMenuORPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="editRepairOrderButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="SubMenuORPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 238</value>
+  <data name="editRepairOrderButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 9.75pt</value>
   </data>
-  <data name="SubMenuORPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 174</value>
-  </data>
-  <data name="SubMenuORPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>57</value>
-  </data>
-  <data name="&gt;&gt;SubMenuORPanel.Name" xml:space="preserve">
-    <value>SubMenuORPanel</value>
-  </data>
-  <data name="&gt;&gt;SubMenuORPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SubMenuORPanel.Parent" xml:space="preserve">
-    <value>panelMenu</value>
-  </data>
-  <data name="&gt;&gt;SubMenuORPanel.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="OrderBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="OrderBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 12.75pt</value>
-  </data>
-  <data name="OrderBtn.HoverState.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="guna2Button5.HoverState.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAASNJREFUSEvt
-        lr9qwzAQxj2nQ8l7RFose8oQKB37Lt3aMVOeKhCaN0iWxCldu5cOpYX8uYhPxj1OspQEQsA/+DD3ne47
-        BB6UdVydqlBz0v5CekNsO8LwWUJsO8kDHrrFrUgD3HM1F9oWyQsSE+JqLrQtkhckecDDbS/mnqu50LZI
-        XpCYEFdzoW2RvCDJAx5uezH3XM2FtkXygsSEuJoLbYvkBUke8NAtFqEDp746vC8MdwalTFWq70ZYkj7y
-        /B4xNcuh6qP/BUtmU6hZMyxFa6OfEVND/iv6U1gy74V+sgfN/9Aolep3XaqXzzzvLbS+I++49I+0XZnB
-        CCv8VIWe0M13deB52lWlHiO6nY0ZPNLQ8Uf7aYTEy6gtfWlePyCy41pk2QGcYk1oFAj5tgAAAABJRU5E
-        rkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAolJREFUaEPt
+        mEtrFEEQxyeKIuTiRxAMokx3J3G7JwEvQjRXc0k+gpK74BdQP0DwJsaTj4sHXxfxECFHD3qQ9Mwm5iJC
+        JBgQfCWHtaq3No/dJZndme0uYf7wZ3ura3rrtzW9w3ZUyaPSmjyfJfJBauSaNfIneCnT8kYjio5RCn+t
+        GHkdiweIRqfVs8bs7HFK5av6hJhOtfjjik7k62xSXFi/fOYUjGcgtoVxa9Q8pfOU1fIaFPq3+c07b9TN
+        aEzTkTVirgkilyjET64TRv4mgHvgNzT+snoxHsGc9bGx0xTbchdx0/5OWC1uY+xTHJ+EDrygwl1n8Daj
+        96m7kJO6QbSEMLC5X1LxG6kRT5pjcZ9SeOgwiJYcjJavXI6Rm/Bq6zVxlqbDK9PiKhT1CwuEQhfg+TBE
+        UweEcejKW5cH+dnk+BWa2hMkLFNCOCfiDpXTIXz4Qc5Dyt1Jx9UUTe3pfa12YnexUM4P8cPq+BJNHVRw
+        kDIgUEFByoJABQMpEwIVBOQICPh5XaTcfBAo7yD5IeCZkhMC5RWkBwjwDk3lkz8QdZc+skNdINDbNJ1P
+        fkB6hkBzA+kLAs0JpG8INBeQQhBoDiCFIdChQUqBQIcEKQ0CHQqkVAi0PxAorjnW8jEUe8g/O3ca0nH9
+        EfbeEfyb+hWPNmnJXRWAQHsF+ZwZ+ZzG3+yEULRsUQi0TxD1tO2oxsHgnqCD57b8nuxxjyTyFq6x/6gG
+        OvQd9k6rS0XsDwSPcmiZ6KNSwxB7Z43abs/r0/5AVpLRc3BbTWVG3IQuPLJGZN3y+rTXzT5IDxhEd4kN
+        xh464gemurW4uQLh5gqEmysQbq5AuLk3EBRc9KFtEQZWy1Repf9MUfQPld1gqjiZteUAAAAASUVORK5C
+        YII=
 </value>
   </data>
-  <data name="OrderBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="editRepairOrderButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAQZJREFUSEvt
-        lr0KwkAQhFNrIb6RIJaWKfLXprbT0sqnEkTfSCxEIdHNMRtk2bvkohCE+2CKnd2dJZDiosDoZFl2Ib1+
-        pDNiu1GWvxJiu/FesBAOd6ItSI9rKbQNmuekTwjXUmgbNM+J94KF/z4sPa6l0DZonpM+IVxLoW3QPCfe
-        Cxb++7D0uJZC26B5TvqEcC2FtkHznHgvWAiHVWhg6KvD+sLgGZQ6NHDjQV/FcTxDTEuapnP0r7B0aODE
-        QQO0QUwLeTv0jrB0kiRZY3CIHvSF27IsJ0VRTKlujj5JVZ7nC5ywQ4MHUk3Swn1V09E9oruh4RUtNT/a
-        /SPERxWp2V8iMjAWUfQGTIUhIOb41OQAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAkJJREFUaEPt
+        mLtKA0EUhldFEWx8B0UUwRew9NJqE0Muu6SK2Au2KdQHEDtRKy+NhbdGLBR8AEsVtBIhIgqC90L/P55g
+        TIJusuvMEfaHn9k95+zkfMwOYceJZFCJRKI7lUotwufwQzqdPoDHc7lco5ToVzKZzKLpBwC8V/FGLBZr
+        klK9QqPDAHlm0xh3XdftyWQyrQAbRexO4hNSrlNocASNvrBZcR6vWK+kHcCMMc7XTEL6hAaH4ScBmAfU
+        nlxfovFO1mBl2iV2V3hIm8pWYpox7IMWAGxJrLAyfM14j/rTwoOaVA2iKMIgti25PGrXeI1xQUp06CeI
+        ogRmR2pu4JN4PN4hafvCazOEph6lwTmEGj4zFWpAfl/qHj3PG5T4l5A4kgJrxqrMSDsV4p8fapal7g3j
+        gKS+lM1mm4uT2bJfCPge7pfUd9kGCQWCsgkSGgRlCyRUCMoGyG8QyC9JrT8IyjRIDRC0PwjKJEiNEG+S
+        8ieDILPykxWqAkG/StqfDIHUCkGrA6kHglYFUi8ErQYkCAStAiQoBG0dJAwI2ipIWBC0NZAwIWgrIKuY
+        6qcvu/myej82DsLP1CsebcqUpaoXgjYKcgFv8hrf3teA6ZNpqSAQtFGQ9dKjmiIM9wTuefBc7Rm/NgeC
+        DTzFOcqOam7hwioFtDkQHuXINI7rum2IHcKvpTUBbA7E87wujANYmUmMKxjPSvMBbXSP/KUjEG2OQLQ5
+        AtHmCESbIxBtjkC0uTYQCg8dl02iwUfSXqR/Jsf5AK9JeqddgwnLAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="OrderBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 188</value>
+  <data name="editRepairOrderButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 150</value>
   </data>
-  <data name="OrderBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 50</value>
+  <data name="editRepairOrderButton.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 0, 0, 0</value>
   </data>
-  <data name="OrderBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>47</value>
+  <data name="editRepairOrderButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 50</value>
   </data>
-  <data name="OrderBtn.Text" xml:space="preserve">
-    <value>Order Processing</value>
+  <data name="editRepairOrderButton.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
   </data>
-  <data name="&gt;&gt;OrderBtn.Name" xml:space="preserve">
-    <value>OrderBtn</value>
+  <data name="editRepairOrderButton.Text" xml:space="preserve">
+    <value>Edit Repair Order</value>
   </data>
-  <data name="&gt;&gt;OrderBtn.Type" xml:space="preserve">
+  <data name="&gt;&gt;editRepairOrderButton.Name" xml:space="preserve">
+    <value>editRepairOrderButton</value>
+  </data>
+  <data name="&gt;&gt;editRepairOrderButton.Type" xml:space="preserve">
     <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;OrderBtn.Parent" xml:space="preserve">
-    <value>panelMenu</value>
-  </data>
-  <data name="&gt;&gt;OrderBtn.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
-    <value>pictureBox2</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 188</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>panelMenu</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="panelMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="panelMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panelMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 688</value>
-  </data>
-  <data name="panelMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="&gt;&gt;panelMenu.Name" xml:space="preserve">
-    <value>panelMenu</value>
-  </data>
-  <data name="&gt;&gt;panelMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelMenu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelMenu.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="SidePanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 0</value>
-  </data>
-  <data name="SidePanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>10, 50</value>
-  </data>
-  <data name="SidePanel2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;SidePanel2.Name" xml:space="preserve">
-    <value>SidePanel2</value>
-  </data>
-  <data name="&gt;&gt;SidePanel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SidePanel2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;editRepairOrderButton.Parent" xml:space="preserve">
     <value>SubMenuORPanel</value>
   </data>
-  <data name="&gt;&gt;SidePanel2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;editRepairOrderButton.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 85</value>
-  </data>
-  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1102, 11</value>
-  </data>
-  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
-  </data>
-  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="panel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1102, 11</value>
-  </data>
-  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
-    <value>46</value>
-  </data>
-  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
-    <value>panelDesktop</value>
-  </data>
-  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panelDesktop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="panelDesktop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 96</value>
-  </data>
-  <data name="panelDesktop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1102, 592</value>
-  </data>
-  <data name="panelDesktop.TabIndex" type="System.Int32, mscorlib">
-    <value>46</value>
-  </data>
-  <data name="&gt;&gt;panelDesktop.Name" xml:space="preserve">
-    <value>panelDesktop</value>
-  </data>
-  <data name="&gt;&gt;panelDesktop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelDesktop.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelDesktop.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 580</value>
-  </data>
-  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1102, 12</value>
-  </data>
-  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
-    <value>panelDesktop</value>
-  </data>
-  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnMaximize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="btnMaximize.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAI5JREFUSEvt
-        lbENgDAQA7MH6RDMAuw/AQwCieTKn+J4iY6TXOXsMl9+XlHrekzTcrXcyVxtY9dcpAtWyOTUXGQgp6K5
-        yEjORHMRLBq4h0UD91zMRnORkZyJ5iJYNHAPiwbuYdHAPSwauIdFA/ewaOCei9loLjKSM9FcpD1++133
-        Y9EFK7zJWeu8ae6HUMoDVwVGJYpz5r8AAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="btnMaximize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1024, 3</value>
-  </data>
-  <data name="btnMaximize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 32</value>
-  </data>
-  <data name="btnMaximize.TabIndex" type="System.Int32, mscorlib">
-    <value>59</value>
-  </data>
-  <data name="&gt;&gt;btnMaximize.Name" xml:space="preserve">
-    <value>btnMaximize</value>
-  </data>
-  <data name="&gt;&gt;btnMaximize.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ImageButton, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnMaximize.Parent" xml:space="preserve">
-    <value>PanelTitleBar</value>
-  </data>
-  <data name="&gt;&gt;btnMaximize.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnMinimize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="btnMinimize.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAJJJREFUSEvt
-        lbENg0AQBL8PPkOmFiz6bwC7D3ikibwb+NZyxkgTMbdk0G5KTNNjG76HR+ir9+XJnHIFHweJO3OKiSOZ
-        U1ycyJzi4kTmFBcnMqe4OJE5xcWJzCkuTmROcXEic4qLE5lTXJzInFKKoXRTiqF04+JE5hQXJzKnjIf/
-        /VxfP4sR/PKSvfd5Ze7mG1o7AanxnKWtAk+uAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="btnMinimize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>982, 3</value>
-  </data>
-  <data name="btnMinimize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 32</value>
-  </data>
-  <data name="btnMinimize.TabIndex" type="System.Int32, mscorlib">
-    <value>58</value>
-  </data>
-  <data name="&gt;&gt;btnMinimize.Name" xml:space="preserve">
-    <value>btnMinimize</value>
-  </data>
-  <data name="&gt;&gt;btnMinimize.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ImageButton, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnMinimize.Parent" xml:space="preserve">
-    <value>PanelTitleBar</value>
-  </data>
-  <data name="&gt;&gt;btnMinimize.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btnExit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="btnExit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAOJJREFUSEvt
-        lcEOgjAQRPkOupxA5KD/YDxp/Hs9eEcTk/6E7uLYQHdNpKY3XjIROtNpi0SLhVk4tzqx7qxnom5E7RF1
-        GglEE1LUo05jhJOEOo0VThHqNEb4StTsyrJ9GJ53br13rjnHHuo0cVAKZLyq6g3fc2HwvIy958gi4znz
-        TuCJuq14fIoOJ7HGJvPEM4mDUNitfI6vxYuyg8Q3scJQ2LXwbecfIaaxwlDWBbI+otxfcv7X9IIC61Hw
-        2OBxZuqhThMHU4U6jRVOEeo0bOb9uZY/Cw78s0hPVB9Qt/ALRfECa52AXj/IXkcAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1066, 3</value>
-  </data>
-  <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 32</value>
-  </data>
-  <data name="btnExit.TabIndex" type="System.Int32, mscorlib">
-    <value>57</value>
-  </data>
-  <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
-    <value>btnExit</value>
-  </data>
-  <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ImageButton, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
-    <value>PanelTitleBar</value>
-  </data>
-  <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="ServiceROBTN.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -1400,6 +1093,27 @@
   <data name="&gt;&gt;CreateCustProfileBtn.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="SidePanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 0</value>
+  </data>
+  <data name="SidePanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 50</value>
+  </data>
+  <data name="SidePanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SidePanel2.Name" xml:space="preserve">
+    <value>SidePanel2</value>
+  </data>
+  <data name="&gt;&gt;SidePanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SidePanel2.Parent" xml:space="preserve">
+    <value>SubMenuORPanel</value>
+  </data>
+  <data name="&gt;&gt;SidePanel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="CreateROBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -1464,6 +1178,81 @@
   </data>
   <data name="&gt;&gt;CreateROBtn.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="SubMenuORPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="SubMenuORPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 238</value>
+  </data>
+  <data name="SubMenuORPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 174</value>
+  </data>
+  <data name="SubMenuORPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;SubMenuORPanel.Name" xml:space="preserve">
+    <value>SubMenuORPanel</value>
+  </data>
+  <data name="&gt;&gt;SubMenuORPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SubMenuORPanel.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;SubMenuORPanel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="OrderBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="OrderBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12.75pt</value>
+  </data>
+  <data name="OrderBtn.HoverState.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAASNJREFUSEvt
+        lr9qwzAQxj2nQ8l7RFose8oQKB37Lt3aMVOeKhCaN0iWxCldu5cOpYX8uYhPxj1OspQEQsA/+DD3ne47
+        BB6UdVydqlBz0v5CekNsO8LwWUJsO8kDHrrFrUgD3HM1F9oWyQsSE+JqLrQtkhckecDDbS/mnqu50LZI
+        XpCYEFdzoW2RvCDJAx5uezH3XM2FtkXygsSEuJoLbYvkBUke8NAtFqEDp746vC8MdwalTFWq70ZYkj7y
+        /B4xNcuh6qP/BUtmU6hZMyxFa6OfEVND/iv6U1gy74V+sgfN/9Aolep3XaqXzzzvLbS+I++49I+0XZnB
+        CCv8VIWe0M13deB52lWlHiO6nY0ZPNLQ8Uf7aYTEy6gtfWlePyCy41pk2QGcYk1oFAj5tgAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="OrderBtn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAQZJREFUSEvt
+        lr0KwkAQhFNrIb6RIJaWKfLXprbT0sqnEkTfSCxEIdHNMRtk2bvkohCE+2CKnd2dJZDiosDoZFl2Ib1+
+        pDNiu1GWvxJiu/FesBAOd6ItSI9rKbQNmuekTwjXUmgbNM+J94KF/z4sPa6l0DZonpM+IVxLoW3QPCfe
+        Cxb++7D0uJZC26B5TvqEcC2FtkHznHgvWAiHVWhg6KvD+sLgGZQ6NHDjQV/FcTxDTEuapnP0r7B0aODE
+        QQO0QUwLeTv0jrB0kiRZY3CIHvSF27IsJ0VRTKlujj5JVZ7nC5ywQ4MHUk3Swn1V09E9oruh4RUtNT/a
+        /SPERxWp2V8iMjAWUfQGTIUhIOb41OQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="OrderBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 188</value>
+  </data>
+  <data name="OrderBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 50</value>
+  </data>
+  <data name="OrderBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="OrderBtn.Text" xml:space="preserve">
+    <value>Order Processing</value>
+  </data>
+  <data name="&gt;&gt;OrderBtn.Name" xml:space="preserve">
+    <value>OrderBtn</value>
+  </data>
+  <data name="&gt;&gt;OrderBtn.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;OrderBtn.Parent" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;OrderBtn.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3423,69 +3212,148 @@
   <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="guna2Button5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="guna2Button5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 9.75pt</value>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="guna2Button5.HoverState.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAolJREFUaEPt
-        mEtrFEEQxyeKIuTiRxAMokx3J3G7JwEvQjRXc0k+gpK74BdQP0DwJsaTj4sHXxfxECFHD3qQ9Mwm5iJC
-        JBgQfCWHtaq3No/dJZndme0uYf7wZ3ura3rrtzW9w3ZUyaPSmjyfJfJBauSaNfIneCnT8kYjio5RCn+t
-        GHkdiweIRqfVs8bs7HFK5av6hJhOtfjjik7k62xSXFi/fOYUjGcgtoVxa9Q8pfOU1fIaFPq3+c07b9TN
-        aEzTkTVirgkilyjET64TRv4mgHvgNzT+snoxHsGc9bGx0xTbchdx0/5OWC1uY+xTHJ+EDrygwl1n8Daj
-        96m7kJO6QbSEMLC5X1LxG6kRT5pjcZ9SeOgwiJYcjJavXI6Rm/Bq6zVxlqbDK9PiKhT1CwuEQhfg+TBE
-        UweEcejKW5cH+dnk+BWa2hMkLFNCOCfiDpXTIXz4Qc5Dyt1Jx9UUTe3pfa12YnexUM4P8cPq+BJNHVRw
-        kDIgUEFByoJABQMpEwIVBOQICPh5XaTcfBAo7yD5IeCZkhMC5RWkBwjwDk3lkz8QdZc+skNdINDbNJ1P
-        fkB6hkBzA+kLAs0JpG8INBeQQhBoDiCFIdChQUqBQIcEKQ0CHQqkVAi0PxAorjnW8jEUe8g/O3ca0nH9
-        EfbeEfyb+hWPNmnJXRWAQHsF+ZwZ+ZzG3+yEULRsUQi0TxD1tO2oxsHgnqCD57b8nuxxjyTyFq6x/6gG
-        OvQd9k6rS0XsDwSPcmiZ6KNSwxB7Z43abs/r0/5AVpLRc3BbTWVG3IQuPLJGZN3y+rTXzT5IDxhEd4kN
-        xh464gemurW4uQLh5gqEmysQbq5AuLk3EBRc9KFtEQZWy1Repf9MUfQPld1gqjiZteUAAAAASUVORK5C
-        YII=
-</value>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 188</value>
   </data>
-  <data name="guna2Button5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAkJJREFUaEPt
-        mLtKA0EUhldFEWx8B0UUwRew9NJqE0Muu6SK2Au2KdQHEDtRKy+NhbdGLBR8AEsVtBIhIgqC90L/P55g
-        TIJusuvMEfaHn9k95+zkfMwOYceJZFCJRKI7lUotwufwQzqdPoDHc7lco5ToVzKZzKLpBwC8V/FGLBZr
-        klK9QqPDAHlm0xh3XdftyWQyrQAbRexO4hNSrlNocASNvrBZcR6vWK+kHcCMMc7XTEL6hAaH4ScBmAfU
-        nlxfovFO1mBl2iV2V3hIm8pWYpox7IMWAGxJrLAyfM14j/rTwoOaVA2iKMIgti25PGrXeI1xQUp06CeI
-        ogRmR2pu4JN4PN4hafvCazOEph6lwTmEGj4zFWpAfl/qHj3PG5T4l5A4kgJrxqrMSDsV4p8fapal7g3j
-        gKS+lM1mm4uT2bJfCPge7pfUd9kGCQWCsgkSGgRlCyRUCMoGyG8QyC9JrT8IyjRIDRC0PwjKJEiNEG+S
-        8ieDILPykxWqAkG/StqfDIHUCkGrA6kHglYFUi8ErQYkCAStAiQoBG0dJAwI2ipIWBC0NZAwIWgrIKuY
-        6qcvu/myej82DsLP1CsebcqUpaoXgjYKcgFv8hrf3teA6ZNpqSAQtFGQ9dKjmiIM9wTuefBc7Rm/NgeC
-        DTzFOcqOam7hwioFtDkQHuXINI7rum2IHcKvpTUBbA7E87wujANYmUmMKxjPSvMBbXSP/KUjEG2OQLQ5
-        AtHmCESbIxBtjkC0uTYQCg8dl02iwUfSXqR/Jsf5AK9JeqddgwnLAAAAAElFTkSuQmCC
-</value>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="guna2Button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 150</value>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
   </data>
-  <data name="guna2Button5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 0, 0, 0</value>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="guna2Button5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 50</value>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>panelMenu</value>
   </data>
-  <data name="guna2Button5.TabIndex" type="System.Int32, mscorlib">
-    <value>69</value>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
-  <data name="guna2Button5.Text" xml:space="preserve">
-    <value>Edit Repair Order</value>
+  <data name="panelMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
   </data>
-  <data name="&gt;&gt;guna2Button5.Name" xml:space="preserve">
-    <value>guna2Button5</value>
+  <data name="panelMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;guna2Button5.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  <data name="panelMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 688</value>
   </data>
-  <data name="&gt;&gt;guna2Button5.Parent" xml:space="preserve">
-    <value>SubMenuORPanel</value>
+  <data name="panelMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
   </data>
-  <data name="&gt;&gt;guna2Button5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;panelMenu.Name" xml:space="preserve">
+    <value>panelMenu</value>
+  </data>
+  <data name="&gt;&gt;panelMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelMenu.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1102, 11</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 85</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1102, 11</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 580</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1102, 12</value>
+  </data>
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>panelDesktop</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelDesktop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelDesktop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 96</value>
+  </data>
+  <data name="panelDesktop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1102, 592</value>
+  </data>
+  <data name="panelDesktop.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;panelDesktop.Name" xml:space="preserve">
+    <value>panelDesktop</value>
+  </data>
+  <data name="&gt;&gt;panelDesktop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelDesktop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelDesktop.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -3665,9 +3533,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////wAA////////AAD///////8AAP///////wAA////////
         AAA=
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

@@ -80,6 +80,10 @@ namespace Raceup_Autocare
             }
             else if (emp.Role.ToString().Equals("ServiceAdvisor")) 
             {
+                OrderBtn.Visible = true;
+                CreateROBtn.Visible = false;
+                CreateCustProfileBtn.Visible = false;
+                editRepairOrderButton.Visible = true;
                 PartsBtn.Visible = false;
                 SearchItemBTN.Visible = false;
                 guna2Button1.Visible = false;
@@ -405,8 +409,8 @@ namespace Raceup_Autocare
 
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            SidePanel2.Height = guna2Button5.Height;
-            SidePanel2.Top = guna2Button5.Top;
+            SidePanel2.Height = editRepairOrderButton.Height;
+            SidePanel2.Top = editRepairOrderButton.Top;
             SidePanel2.Visible = true;
             SidePanel2.BringToFront();
             OpenChildForm(new EditRepairOrderForm());

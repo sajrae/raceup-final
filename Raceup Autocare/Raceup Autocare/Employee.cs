@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Raceup_Autocare
 {
     
-    class Employee
+    public class Employee
     {
         private string username;
         private string password;

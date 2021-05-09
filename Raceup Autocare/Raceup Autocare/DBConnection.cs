@@ -11,7 +11,7 @@ namespace Raceup_Autocare
     {
      
         //public static string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\database\raceup_db_new3.accdb;OLE DB Services=-1";
-        public static string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\\SERVER\Users\SERVER\RaceUp-Autocare\raceup_db_new3.accdb";
+        public static string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\database\raceup_db_new3.accdb";
         public static OleDbConnection thisConnection = null;
 
         public OleDbDataReader ConnectToOleDB(String sqlQuery) {

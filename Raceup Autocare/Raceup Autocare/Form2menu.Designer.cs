@@ -30,42 +30,42 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuForm));
             this.PanelTitleBar = new System.Windows.Forms.Panel();
+            this.btnMaximize = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.btnMinimize = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.btnExit = new Guna.UI2.WinForms.Guna2ImageButton();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.SubMenuORPanel2 = new System.Windows.Forms.Panel();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.SearchItemBTN = new Guna.UI2.WinForms.Guna2Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.SidePanel = new System.Windows.Forms.Panel();
+            this.logout = new Guna.UI2.WinForms.Guna2Button();
+            this.resetPassword = new Guna.UI2.WinForms.Guna2Button();
+            this.PartsBtn = new Guna.UI2.WinForms.Guna2Button();
             this.SubMenuORPanel = new System.Windows.Forms.Panel();
+            this.editRepairOrderButton = new Guna.UI2.WinForms.Guna2Button();
+            this.ServiceROBTN = new Guna.UI2.WinForms.Guna2Button();
+            this.CreateCustProfileBtn = new Guna.UI2.WinForms.Guna2Button();
             this.SidePanel2 = new System.Windows.Forms.Panel();
+            this.CreateROBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.OrderBtn = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.btnMaximize = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.btnMinimize = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.btnExit = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.logout = new Guna.UI2.WinForms.Guna2Button();
-            this.resetPassword = new Guna.UI2.WinForms.Guna2Button();
-            this.PartsBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.ServiceROBTN = new Guna.UI2.WinForms.Guna2Button();
-            this.CreateCustProfileBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.CreateROBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.OrderBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.PanelTitleBar.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.SubMenuORPanel2.SuspendLayout();
             this.SubMenuORPanel.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             this.panelDesktop.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // PanelTitleBar
@@ -77,121 +77,6 @@
             resources.ApplyResources(this.PanelTitleBar, "PanelTitleBar");
             this.PanelTitleBar.Name = "PanelTitleBar";
             this.PanelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PanelTitleBar_MouseDown);
-            // 
-            // panelMenu
-            // 
-            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.panelMenu.Controls.Add(this.guna2Button4);
-            this.panelMenu.Controls.Add(this.SubMenuORPanel2);
-            this.panelMenu.Controls.Add(this.panel2);
-            this.panelMenu.Controls.Add(this.SidePanel);
-            this.panelMenu.Controls.Add(this.logout);
-            this.panelMenu.Controls.Add(this.resetPassword);
-            this.panelMenu.Controls.Add(this.PartsBtn);
-            this.panelMenu.Controls.Add(this.SubMenuORPanel);
-            this.panelMenu.Controls.Add(this.OrderBtn);
-            this.panelMenu.Controls.Add(this.panel1);
-            resources.ApplyResources(this.panelMenu, "panelMenu");
-            this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // SubMenuORPanel2
-            // 
-            resources.ApplyResources(this.SubMenuORPanel2, "SubMenuORPanel2");
-            this.SubMenuORPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.SubMenuORPanel2.Controls.Add(this.guna2Button3);
-            this.SubMenuORPanel2.Controls.Add(this.guna2Button2);
-            this.SubMenuORPanel2.Controls.Add(this.guna2Button1);
-            this.SubMenuORPanel2.Controls.Add(this.SearchItemBTN);
-            this.SubMenuORPanel2.Name = "SubMenuORPanel2";
-            // 
-            // SearchItemBTN
-            // 
-            this.SearchItemBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.SearchItemBTN.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(45)))), ((int)(((byte)(57)))));
-            this.SearchItemBTN.CheckedState.Parent = this.SearchItemBTN;
-            this.SearchItemBTN.CustomImages.Parent = this.SearchItemBTN;
-            this.SearchItemBTN.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            resources.ApplyResources(this.SearchItemBTN, "SearchItemBTN");
-            this.SearchItemBTN.ForeColor = System.Drawing.Color.Gray;
-            this.SearchItemBTN.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.SearchItemBTN.HoverState.ForeColor = System.Drawing.Color.LightGray;
-            this.SearchItemBTN.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("SearchItemBTN.HoverState.Image")));
-            this.SearchItemBTN.HoverState.Parent = this.SearchItemBTN;
-            this.SearchItemBTN.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.SearchItemBTN.ImageOffset = new System.Drawing.Point(11, 0);
-            this.SearchItemBTN.ImageSize = new System.Drawing.Size(32, 32);
-            this.SearchItemBTN.Name = "SearchItemBTN";
-            this.SearchItemBTN.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.SearchItemBTN.ShadowDecoration.Parent = this.SearchItemBTN;
-            this.SearchItemBTN.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.SearchItemBTN.Click += new System.EventHandler(this.SearchItemBTN_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.Name = "panel2";
-            // 
-            // SidePanel
-            // 
-            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(53)))), ((int)(((byte)(45)))));
-            resources.ApplyResources(this.SidePanel, "SidePanel");
-            this.SidePanel.Name = "SidePanel";
-            // 
-            // SubMenuORPanel
-            // 
-            resources.ApplyResources(this.SubMenuORPanel, "SubMenuORPanel");
-            this.SubMenuORPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.SubMenuORPanel.Controls.Add(this.guna2Button5);
-            this.SubMenuORPanel.Controls.Add(this.ServiceROBTN);
-            this.SubMenuORPanel.Controls.Add(this.CreateCustProfileBtn);
-            this.SubMenuORPanel.Controls.Add(this.SidePanel2);
-            this.SubMenuORPanel.Controls.Add(this.CreateROBtn);
-            this.SubMenuORPanel.Name = "SubMenuORPanel";
-            this.SubMenuORPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
-            // 
-            // SidePanel2
-            // 
-            this.SidePanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            resources.ApplyResources(this.SidePanel2, "SidePanel2");
-            this.SidePanel2.Name = "SidePanel2";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.panel1.Controls.Add(this.pictureBox2);
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.panel3.Controls.Add(this.panel4);
-            resources.ApplyResources(this.panel3, "panel3");
-            this.panel3.Name = "panel3";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            resources.ApplyResources(this.panel4, "panel4");
-            this.panel4.Name = "panel4";
-            // 
-            // panelDesktop
-            // 
-            this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.panelDesktop.Controls.Add(this.panel5);
-            resources.ApplyResources(this.panelDesktop, "panelDesktop");
-            this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktop_Paint);
-            this.panelDesktop.MouseLeave += new System.EventHandler(this.panelDesktop_MouseLeave);
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            resources.ApplyResources(this.panel5, "panel5");
-            this.panel5.Name = "panel5";
             // 
             // btnMaximize
             // 
@@ -238,6 +123,23 @@
             this.btnExit.PressedState.Parent = this.btnExit;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // panelMenu
+            // 
+            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.panelMenu.Controls.Add(this.guna2Button4);
+            this.panelMenu.Controls.Add(this.SubMenuORPanel2);
+            this.panelMenu.Controls.Add(this.panel2);
+            this.panelMenu.Controls.Add(this.SidePanel);
+            this.panelMenu.Controls.Add(this.logout);
+            this.panelMenu.Controls.Add(this.resetPassword);
+            this.panelMenu.Controls.Add(this.PartsBtn);
+            this.panelMenu.Controls.Add(this.SubMenuORPanel);
+            this.panelMenu.Controls.Add(this.OrderBtn);
+            this.panelMenu.Controls.Add(this.panel1);
+            resources.ApplyResources(this.panelMenu, "panelMenu");
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
             // guna2Button4
             // 
             resources.ApplyResources(this.guna2Button4, "guna2Button4");
@@ -260,6 +162,16 @@
             this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
             this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
+            // 
+            // SubMenuORPanel2
+            // 
+            resources.ApplyResources(this.SubMenuORPanel2, "SubMenuORPanel2");
+            this.SubMenuORPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.SubMenuORPanel2.Controls.Add(this.guna2Button3);
+            this.SubMenuORPanel2.Controls.Add(this.guna2Button2);
+            this.SubMenuORPanel2.Controls.Add(this.guna2Button1);
+            this.SubMenuORPanel2.Controls.Add(this.SearchItemBTN);
+            this.SubMenuORPanel2.Name = "SubMenuORPanel2";
             // 
             // guna2Button3
             // 
@@ -329,6 +241,40 @@
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_2);
+            // 
+            // SearchItemBTN
+            // 
+            this.SearchItemBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.SearchItemBTN.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(45)))), ((int)(((byte)(57)))));
+            this.SearchItemBTN.CheckedState.Parent = this.SearchItemBTN;
+            this.SearchItemBTN.CustomImages.Parent = this.SearchItemBTN;
+            this.SearchItemBTN.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            resources.ApplyResources(this.SearchItemBTN, "SearchItemBTN");
+            this.SearchItemBTN.ForeColor = System.Drawing.Color.Gray;
+            this.SearchItemBTN.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.SearchItemBTN.HoverState.ForeColor = System.Drawing.Color.LightGray;
+            this.SearchItemBTN.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("SearchItemBTN.HoverState.Image")));
+            this.SearchItemBTN.HoverState.Parent = this.SearchItemBTN;
+            this.SearchItemBTN.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.SearchItemBTN.ImageOffset = new System.Drawing.Point(11, 0);
+            this.SearchItemBTN.ImageSize = new System.Drawing.Size(32, 32);
+            this.SearchItemBTN.Name = "SearchItemBTN";
+            this.SearchItemBTN.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.SearchItemBTN.ShadowDecoration.Parent = this.SearchItemBTN;
+            this.SearchItemBTN.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.SearchItemBTN.Click += new System.EventHandler(this.SearchItemBTN_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Name = "panel2";
+            // 
+            // SidePanel
+            // 
+            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(53)))), ((int)(((byte)(45)))));
+            resources.ApplyResources(this.SidePanel, "SidePanel");
+            this.SidePanel.Name = "SidePanel";
             // 
             // logout
             // 
@@ -403,6 +349,41 @@
             this.PartsBtn.MouseLeave += new System.EventHandler(this.guna2Button2_MouseLeave);
             this.PartsBtn.MouseHover += new System.EventHandler(this.guna2Button2_MouseHover);
             // 
+            // SubMenuORPanel
+            // 
+            resources.ApplyResources(this.SubMenuORPanel, "SubMenuORPanel");
+            this.SubMenuORPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.SubMenuORPanel.Controls.Add(this.editRepairOrderButton);
+            this.SubMenuORPanel.Controls.Add(this.ServiceROBTN);
+            this.SubMenuORPanel.Controls.Add(this.CreateCustProfileBtn);
+            this.SubMenuORPanel.Controls.Add(this.SidePanel2);
+            this.SubMenuORPanel.Controls.Add(this.CreateROBtn);
+            this.SubMenuORPanel.Name = "SubMenuORPanel";
+            this.SubMenuORPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // editRepairOrderButton
+            // 
+            this.editRepairOrderButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.editRepairOrderButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(45)))), ((int)(((byte)(57)))));
+            this.editRepairOrderButton.CheckedState.Parent = this.editRepairOrderButton;
+            this.editRepairOrderButton.CustomImages.Parent = this.editRepairOrderButton;
+            resources.ApplyResources(this.editRepairOrderButton, "editRepairOrderButton");
+            this.editRepairOrderButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.editRepairOrderButton.ForeColor = System.Drawing.Color.Gray;
+            this.editRepairOrderButton.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.editRepairOrderButton.HoverState.ForeColor = System.Drawing.Color.LightGray;
+            this.editRepairOrderButton.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.HoverState.Image")));
+            this.editRepairOrderButton.HoverState.Parent = this.editRepairOrderButton;
+            this.editRepairOrderButton.Image = ((System.Drawing.Image)(resources.GetObject("editRepairOrderButton.Image")));
+            this.editRepairOrderButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.editRepairOrderButton.ImageOffset = new System.Drawing.Point(11, 0);
+            this.editRepairOrderButton.ImageSize = new System.Drawing.Size(32, 32);
+            this.editRepairOrderButton.Name = "editRepairOrderButton";
+            this.editRepairOrderButton.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.editRepairOrderButton.ShadowDecoration.Parent = this.editRepairOrderButton;
+            this.editRepairOrderButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.editRepairOrderButton.Click += new System.EventHandler(this.guna2Button5_Click);
+            // 
             // ServiceROBTN
             // 
             this.ServiceROBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
@@ -447,6 +428,12 @@
             this.CreateCustProfileBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.CreateCustProfileBtn.Click += new System.EventHandler(this.CreateCustProfileBtn_Click);
             this.CreateCustProfileBtn.MouseLeave += new System.EventHandler(this.CreateCustProfileBtn_MouseLeave_1);
+            // 
+            // SidePanel2
+            // 
+            this.SidePanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            resources.ApplyResources(this.SidePanel2, "SidePanel2");
+            this.SidePanel2.Name = "SidePanel2";
             // 
             // CreateROBtn
             // 
@@ -495,6 +482,14 @@
             this.OrderBtn.MouseLeave += new System.EventHandler(this.OrderBtn_MouseLeave);
             this.OrderBtn.MouseHover += new System.EventHandler(this.OrderBtn_MouseHover);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.panel1.Controls.Add(this.pictureBox2);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
@@ -503,28 +498,33 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // guna2Button5
+            // panel3
             // 
-            this.guna2Button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.guna2Button5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(45)))), ((int)(((byte)(57)))));
-            this.guna2Button5.CheckedState.Parent = this.guna2Button5;
-            this.guna2Button5.CustomImages.Parent = this.guna2Button5;
-            resources.ApplyResources(this.guna2Button5, "guna2Button5");
-            this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.guna2Button5.ForeColor = System.Drawing.Color.Gray;
-            this.guna2Button5.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button5.HoverState.ForeColor = System.Drawing.Color.LightGray;
-            this.guna2Button5.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.HoverState.Image")));
-            this.guna2Button5.HoverState.Parent = this.guna2Button5;
-            this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
-            this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button5.ImageOffset = new System.Drawing.Point(11, 0);
-            this.guna2Button5.ImageSize = new System.Drawing.Size(32, 32);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.guna2Button5.ShadowDecoration.Parent = this.guna2Button5;
-            this.guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.panel3.Controls.Add(this.panel4);
+            resources.ApplyResources(this.panel3, "panel3");
+            this.panel3.Name = "panel3";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            resources.ApplyResources(this.panel4, "panel4");
+            this.panel4.Name = "panel4";
+            // 
+            // panelDesktop
+            // 
+            this.panelDesktop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.panelDesktop.Controls.Add(this.panel5);
+            resources.ApplyResources(this.panelDesktop, "panelDesktop");
+            this.panelDesktop.Name = "panelDesktop";
+            this.panelDesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktop_Paint);
+            this.panelDesktop.MouseLeave += new System.EventHandler(this.panelDesktop_MouseLeave);
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            resources.ApplyResources(this.panel5, "panel5");
+            this.panel5.Name = "panel5";
             // 
             // MenuForm
             // 
@@ -546,9 +546,9 @@
             this.SubMenuORPanel2.ResumeLayout(false);
             this.SubMenuORPanel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panelDesktop.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -582,6 +582,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private Guna.UI2.WinForms.Guna2Button editRepairOrderButton;
     }
 }
