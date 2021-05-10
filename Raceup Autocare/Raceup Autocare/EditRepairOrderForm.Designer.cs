@@ -87,11 +87,10 @@
             this.label18 = new System.Windows.Forms.Label();
             this.ClearBtn = new Guna.UI2.WinForms.Guna2Button();
             this.croEngineNo = new System.Windows.Forms.TextBox();
-            this.croSearchPlateNoTextbox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.uroSearchPlateNoTextbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.CroSearchButton = new Guna.UI2.WinForms.Guna2Button();
             this.croChasisNo = new System.Windows.Forms.TextBox();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.label15 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.croPlateNoTextbox = new System.Windows.Forms.TextBox();
@@ -825,11 +824,10 @@
             this.guna2GroupBox1.Controls.Add(this.label18);
             this.guna2GroupBox1.Controls.Add(this.ClearBtn);
             this.guna2GroupBox1.Controls.Add(this.croEngineNo);
-            this.guna2GroupBox1.Controls.Add(this.croSearchPlateNoTextbox);
+            this.guna2GroupBox1.Controls.Add(this.uroSearchPlateNoTextbox);
             this.guna2GroupBox1.Controls.Add(this.label16);
             this.guna2GroupBox1.Controls.Add(this.CroSearchButton);
             this.guna2GroupBox1.Controls.Add(this.croChasisNo);
-            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel9);
             this.guna2GroupBox1.Controls.Add(this.label15);
             this.guna2GroupBox1.Controls.Add(this.label8);
             this.guna2GroupBox1.Controls.Add(this.croPlateNoTextbox);
@@ -905,31 +903,32 @@
             this.croEngineNo.Size = new System.Drawing.Size(116, 27);
             this.croEngineNo.TabIndex = 161;
             // 
-            // croSearchPlateNoTextbox
+            // uroSearchPlateNoTextbox
             // 
-            this.croSearchPlateNoTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.croSearchPlateNoTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.croSearchPlateNoTextbox.DefaultText = "";
-            this.croSearchPlateNoTextbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.croSearchPlateNoTextbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.croSearchPlateNoTextbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.croSearchPlateNoTextbox.DisabledState.Parent = this.croSearchPlateNoTextbox;
-            this.croSearchPlateNoTextbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.croSearchPlateNoTextbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.croSearchPlateNoTextbox.FocusedState.Parent = this.croSearchPlateNoTextbox;
-            this.croSearchPlateNoTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croSearchPlateNoTextbox.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.croSearchPlateNoTextbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.croSearchPlateNoTextbox.HoverState.Parent = this.croSearchPlateNoTextbox;
-            this.croSearchPlateNoTextbox.Location = new System.Drawing.Point(200, 49);
-            this.croSearchPlateNoTextbox.Margin = new System.Windows.Forms.Padding(6);
-            this.croSearchPlateNoTextbox.Name = "croSearchPlateNoTextbox";
-            this.croSearchPlateNoTextbox.PasswordChar = '\0';
-            this.croSearchPlateNoTextbox.PlaceholderText = "";
-            this.croSearchPlateNoTextbox.SelectedText = "";
-            this.croSearchPlateNoTextbox.ShadowDecoration.Parent = this.croSearchPlateNoTextbox;
-            this.croSearchPlateNoTextbox.Size = new System.Drawing.Size(142, 25);
-            this.croSearchPlateNoTextbox.TabIndex = 143;
+            this.uroSearchPlateNoTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.uroSearchPlateNoTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.uroSearchPlateNoTextbox.DefaultText = "";
+            this.uroSearchPlateNoTextbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.uroSearchPlateNoTextbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.uroSearchPlateNoTextbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.uroSearchPlateNoTextbox.DisabledState.Parent = this.uroSearchPlateNoTextbox;
+            this.uroSearchPlateNoTextbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.uroSearchPlateNoTextbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.uroSearchPlateNoTextbox.FocusedState.Parent = this.uroSearchPlateNoTextbox;
+            this.uroSearchPlateNoTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uroSearchPlateNoTextbox.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.uroSearchPlateNoTextbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.uroSearchPlateNoTextbox.HoverState.Parent = this.uroSearchPlateNoTextbox;
+            this.uroSearchPlateNoTextbox.Location = new System.Drawing.Point(91, 49);
+            this.uroSearchPlateNoTextbox.Margin = new System.Windows.Forms.Padding(6);
+            this.uroSearchPlateNoTextbox.Name = "uroSearchPlateNoTextbox";
+            this.uroSearchPlateNoTextbox.PasswordChar = '\0';
+            this.uroSearchPlateNoTextbox.PlaceholderText = "Search RO Number";
+            this.uroSearchPlateNoTextbox.SelectedText = "";
+            this.uroSearchPlateNoTextbox.ShadowDecoration.Parent = this.uroSearchPlateNoTextbox;
+            this.uroSearchPlateNoTextbox.Size = new System.Drawing.Size(251, 25);
+            this.uroSearchPlateNoTextbox.TabIndex = 143;
+            this.uroSearchPlateNoTextbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uroSearchPlateNoTextbox_KeyPress);
             // 
             // label16
             // 
@@ -969,18 +968,6 @@
             this.croChasisNo.Name = "croChasisNo";
             this.croChasisNo.Size = new System.Drawing.Size(116, 27);
             this.croChasisNo.TabIndex = 159;
-            // 
-            // guna2HtmlLabel9
-            // 
-            this.guna2HtmlLabel9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.guna2HtmlLabel9.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(12, 51);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(179, 19);
-            this.guna2HtmlLabel9.TabIndex = 145;
-            this.guna2HtmlLabel9.Text = "Search Plate/Quotation No";
             // 
             // label15
             // 
@@ -1250,11 +1237,10 @@
         private System.Windows.Forms.Label label18;
         private Guna.UI2.WinForms.Guna2Button ClearBtn;
         private System.Windows.Forms.TextBox croEngineNo;
-        public Guna.UI2.WinForms.Guna2TextBox croSearchPlateNoTextbox;
+        public Guna.UI2.WinForms.Guna2TextBox uroSearchPlateNoTextbox;
         private System.Windows.Forms.Label label16;
         private Guna.UI2.WinForms.Guna2Button CroSearchButton;
         private System.Windows.Forms.TextBox croChasisNo;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox croPlateNoTextbox;

@@ -16,5 +16,12 @@ namespace Raceup_Autocare
         {
             InitializeComponent();
         }
+
+        private void uroSearchPlateNoTextbox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {                
+            }
+        }
     }
 }
