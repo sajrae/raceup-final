@@ -409,7 +409,7 @@ namespace Raceup_Autocare
                     if (!isROExist)
                     {
                         // Insert into RepairOrder Table 
-                        cmd.CommandText = @"INSERT INTO RepairOrder([RO_Number], [Plate_Number], [Created_By], [Date_Created], [Updated_By], [Date_Updated], [Payment_Method], [Customer_Request], [GrandTotal], [Status], [Discount]) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
+                        cmd.CommandText = @"INSERT INTO RepairOrder([RO_Number], [Plate_Number], [Created_By], [Date_Created], [Updated_By], [Date_Updated], [Payment_Method], [Customer_Request], [GrandTotal], [Status], [Discount], [First_Name], [Last_Name], [Address], [Contact_Number], [Mileage], [Car_Brand], [Car_Model], [Chasis_Number], [Engine_Number]) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
                         croRONumberTextbox.Text = roNumber;
                         cmd.Parameters.Add("@RO_Number", OleDbType.VarChar).Value = croRONumberTextbox.Text.ToString();
                         cmd.Parameters.Add("@Plate_Number", OleDbType.VarChar).Value = croPlateNoTextbox.Text.ToString();
@@ -418,11 +418,27 @@ namespace Raceup_Autocare
                         cmd.Parameters.Add("@Updated_By", OleDbType.VarChar).Value = LoginForm.lname;
                         cmd.Parameters.Add("@Date_Updated", OleDbType.Date).Value = getDateToday();
                         cmd.Parameters.Add("@Payment_Method", OleDbType.VarChar).Value = getPaymentMethod();
-                        cmd.Parameters.Add("@Customer_Request", OleDbType.VarChar).Value = customerRequestTextbox.Text.ToString();
-                        //cmd.Parameters.Add("@GrandTotal", OleDbType.Integer).Value = 2500;
+                        cmd.Parameters.Add("@Customer_Request", OleDbType.VarChar).Value = customerRequestTextbox.Text.ToString();                        
                         cmd.Parameters.Add("@GrandTotal", OleDbType.Integer).Value = int.Parse(croGrandTotal.Text.ToString());
                         cmd.Parameters.Add("@Status", OleDbType.VarChar).Value = "Pending";
                         cmd.Parameters.Add("@Discount", OleDbType.Integer).Value = int.Parse(croDiscountTextbox.Text.ToString());
+                   
+                        //newly added
+                        string fullName = croNameTextbox.Text.ToString();
+                        string[] stringSeparator = new string[] { " " };
+                        var result = fullName.Split(stringSeparator, StringSplitOptions.None);
+                               
+                        cmd.Parameters.Add("@First_Name", OleDbType.VarChar).Value = result[0];
+                        cmd.Parameters.Add("@Last_Name", OleDbType.VarChar).Value = result[1];
+                        cmd.Parameters.Add("@Address", OleDbType.VarChar).Value = croAddressTextbox.Text.ToString();
+                        cmd.Parameters.Add("@Contact_Number", OleDbType.VarChar).Value = croContactNumberTextbox.Text.ToString();
+                        cmd.Parameters.Add("@Mileage", OleDbType.Integer).Value = int.Parse(croMileage.Text.ToString());
+                        cmd.Parameters.Add("@Car_Brand", OleDbType.VarChar).Value = croCarBrandTextBox.Text.ToString();
+                        cmd.Parameters.Add("@Car_Model", OleDbType.VarChar).Value = croCarModelTextbox.Text.ToString();
+                        cmd.Parameters.Add("@Chasis_Number", OleDbType.VarChar).Value = croChasisNo.Text.ToString();
+                        cmd.Parameters.Add("@Engine_Number", OleDbType.VarChar).Value = croEngineNo.Text.ToString();
+                        //end of added
+
                         cmd.Connection = dbcon.openConnection();
                         cmd.ExecuteNonQuery();
 

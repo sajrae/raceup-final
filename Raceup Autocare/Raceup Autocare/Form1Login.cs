@@ -282,5 +282,9 @@ namespace Raceup_Autocare
         private void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
         {           
         }
+
+        public Employee GetEmployee() {
+            return emp;
+        }
     }   
 }
