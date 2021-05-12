@@ -86,7 +86,7 @@
             this.label18 = new System.Windows.Forms.Label();
             this.ClearBtn = new Guna.UI2.WinForms.Guna2Button();
             this.croEngineNo = new System.Windows.Forms.TextBox();
-            this.uroSearchRONumberTextbox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.uroSearchRONumberTextbox = new Guna.UI2.WinForms.Guna2TextBox()
             this.label16 = new System.Windows.Forms.Label();
             this.CroSearchButton = new Guna.UI2.WinForms.Guna2Button();
             this.croChasisNo = new System.Windows.Forms.TextBox();
@@ -900,6 +900,7 @@
             this.croEngineNo.Size = new System.Drawing.Size(116, 27);
             this.croEngineNo.TabIndex = 161;
             // 
+
             // uroSearchRONumberTextbox
             // 
             this.uroSearchRONumberTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -1234,6 +1235,7 @@
         private System.Windows.Forms.Label label18;
         private Guna.UI2.WinForms.Guna2Button ClearBtn;
         private System.Windows.Forms.TextBox croEngineNo;
+
         public Guna.UI2.WinForms.Guna2TextBox uroSearchRONumberTextbox;
         private System.Windows.Forms.Label label16;
         private Guna.UI2.WinForms.Guna2Button CroSearchButton;

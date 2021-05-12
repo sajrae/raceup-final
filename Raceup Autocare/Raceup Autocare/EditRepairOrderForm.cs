@@ -281,6 +281,13 @@ namespace Raceup_Autocare
             panel2.VerticalScroll.Visible = false;
             panel2.AutoScroll = true;
         }
+
+        private void uroSearchPlateNoTextbox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {                
+            }
+        }
     }
 
 }
