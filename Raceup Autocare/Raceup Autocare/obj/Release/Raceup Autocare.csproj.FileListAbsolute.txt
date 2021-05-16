@@ -1071,5 +1071,4 @@ C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\my raceup git\raceup-fi
 C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\my raceup git\raceup-final\Raceup Autocare\Raceup Autocare\obj\Release\Raceup Autocare.csproj.CopyComplete
 C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\my raceup git\raceup-final\Raceup Autocare\Raceup Autocare\obj\Release\Raceup Autocare.exe
 C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\my raceup git\raceup-final\Raceup Autocare\Raceup Autocare\obj\Release\Raceup Autocare.pdb
-C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\my raceup git\raceup-final\Raceup Autocare\Raceup Autocare\obj\Release\Raceup Autocare.csprojAssemblyReference.cache
 C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\my raceup git\raceup-final\Raceup Autocare\Raceup Autocare\obj\Release\Raceup_Autocare.EditRepairOrderForm.resources
