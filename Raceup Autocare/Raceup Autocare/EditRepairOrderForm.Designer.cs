@@ -28,14 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle61 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle64 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle62 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel2 = new System.Windows.Forms.Panel();
             this.croGrandTotal = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
@@ -44,7 +45,7 @@
             this.label17 = new System.Windows.Forms.Label();
             this.GrandTotalTextbox = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.saveButton = new Guna.UI2.WinForms.Guna2Button();
+            this.updateButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GroupBox5 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.customerRequestTextbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModeOfPaymentGroupBox = new Guna.UI2.WinForms.Guna2GroupBox();
@@ -68,7 +69,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.croPartsUnitPriceTextbox = new System.Windows.Forms.TextBox();
             this.guna2GroupBox2 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.serviceRemoveButton = new Guna.UI2.WinForms.Guna2Button();
             this.addServiceBuutton = new Guna.UI2.WinForms.Guna2Button();
             this.croServiceDescription = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -86,7 +87,7 @@
             this.label18 = new System.Windows.Forms.Label();
             this.ClearBtn = new Guna.UI2.WinForms.Guna2Button();
             this.croEngineNo = new System.Windows.Forms.TextBox();
-            this.uroSearchRONumberTextbox = new Guna.UI2.WinForms.Guna2TextBox()
+            this.uroSearchRONumberTextbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.CroSearchButton = new Guna.UI2.WinForms.Guna2Button();
             this.croChasisNo = new System.Windows.Forms.TextBox();
@@ -107,6 +108,7 @@
             this.croContactNumberTextbox = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
+            this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.guna2GroupBox5.SuspendLayout();
@@ -117,6 +119,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.serviceDataGridView)).BeginInit();
             this.guna2GroupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -189,7 +192,7 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.label17.ForeColor = System.Drawing.SystemColors.Control;
-            this.label17.Location = new System.Drawing.Point(872, 1800);
+            this.label17.Location = new System.Drawing.Point(1146, 2008);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(104, 21);
             this.label17.TabIndex = 165;
@@ -199,36 +202,37 @@
             // 
             this.GrandTotalTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.GrandTotalTextbox.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.GrandTotalTextbox.Location = new System.Drawing.Point(985, 1794);
+            this.GrandTotalTextbox.Location = new System.Drawing.Point(1259, 2002);
             this.GrandTotalTextbox.Name = "GrandTotalTextbox";
             this.GrandTotalTextbox.Size = new System.Drawing.Size(106, 27);
             this.GrandTotalTextbox.TabIndex = 165;
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.saveButton);
+            this.panel3.Controls.Add(this.updateButton);
             this.panel3.Location = new System.Drawing.Point(12, 895);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1293, 61);
             this.panel3.TabIndex = 140;
             // 
-            // saveButton
+            // updateButton
             // 
-            this.saveButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.saveButton.BorderRadius = 13;
-            this.saveButton.CheckedState.Parent = this.saveButton;
-            this.saveButton.CustomImages.Parent = this.saveButton;
-            this.saveButton.Enabled = false;
-            this.saveButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(186)))), ((int)(((byte)(58)))));
-            this.saveButton.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.saveButton.ForeColor = System.Drawing.Color.White;
-            this.saveButton.HoverState.Parent = this.saveButton;
-            this.saveButton.Location = new System.Drawing.Point(505, 9);
-            this.saveButton.Name = "saveButton";
-            this.saveButton.ShadowDecoration.Parent = this.saveButton;
-            this.saveButton.Size = new System.Drawing.Size(237, 52);
-            this.saveButton.TabIndex = 139;
-            this.saveButton.Text = "Update";
+            this.updateButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.updateButton.BorderRadius = 13;
+            this.updateButton.CheckedState.Parent = this.updateButton;
+            this.updateButton.CustomImages.Parent = this.updateButton;
+            this.updateButton.Enabled = false;
+            this.updateButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(186)))), ((int)(((byte)(58)))));
+            this.updateButton.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updateButton.ForeColor = System.Drawing.Color.White;
+            this.updateButton.HoverState.Parent = this.updateButton;
+            this.updateButton.Location = new System.Drawing.Point(505, 9);
+            this.updateButton.Name = "updateButton";
+            this.updateButton.ShadowDecoration.Parent = this.updateButton;
+            this.updateButton.Size = new System.Drawing.Size(237, 52);
+            this.updateButton.TabIndex = 139;
+            this.updateButton.Text = "Update";
+            this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
             // 
             // guna2GroupBox5
             // 
@@ -386,6 +390,7 @@
             this.removeBTN.Size = new System.Drawing.Size(116, 29);
             this.removeBTN.TabIndex = 164;
             this.removeBTN.Text = "Remove";
+            this.removeBTN.Click += new System.EventHandler(this.removeBTN_Click_1);
             // 
             // partsAddButton
             // 
@@ -404,24 +409,25 @@
             this.partsAddButton.Size = new System.Drawing.Size(116, 29);
             this.partsAddButton.TabIndex = 163;
             this.partsAddButton.Text = "Add";
+            this.partsAddButton.Click += new System.EventHandler(this.partsAddButton_Click_1);
             // 
             // PartsDataGrid
             // 
-            dataGridViewCellStyle49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
-            this.PartsDataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle49;
+            dataGridViewCellStyle57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            this.PartsDataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle57;
             this.PartsDataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.PartsDataGrid.BackgroundColor = System.Drawing.Color.White;
             this.PartsDataGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.PartsDataGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.PartsDataGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            dataGridViewCellStyle50.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle50.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.PartsDataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle50;
+            dataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            dataGridViewCellStyle58.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle58.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle58.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle58.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle58.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.PartsDataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle58;
             this.PartsDataGrid.ColumnHeadersHeight = 30;
             this.PartsDataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Item_Code,
@@ -429,14 +435,14 @@
             this.Quantity,
             this.Unit_Price,
             this.Column2});
-            dataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle51.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle51.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle51.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle51.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
-            dataGridViewCellStyle51.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle51.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.PartsDataGrid.DefaultCellStyle = dataGridViewCellStyle51;
+            dataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle59.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle59.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle59.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle59.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            dataGridViewCellStyle59.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle59.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.PartsDataGrid.DefaultCellStyle = dataGridViewCellStyle59;
             this.PartsDataGrid.Enabled = false;
             this.PartsDataGrid.EnableHeadersVisualStyles = false;
             this.PartsDataGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
@@ -522,6 +528,7 @@
             this.croPartsQuantityTextbox.Name = "croPartsQuantityTextbox";
             this.croPartsQuantityTextbox.Size = new System.Drawing.Size(48, 27);
             this.croPartsQuantityTextbox.TabIndex = 112;
+            this.croPartsQuantityTextbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.croPartsQuantityTextbox_KeyPress);
             // 
             // label5
             // 
@@ -556,6 +563,7 @@
             this.croPartsNameTextBox.Name = "croPartsNameTextBox";
             this.croPartsNameTextBox.Size = new System.Drawing.Size(222, 27);
             this.croPartsNameTextBox.TabIndex = 110;
+            this.croPartsNameTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.croPartsNameTextBox_KeyDown_1);
             // 
             // label1
             // 
@@ -583,7 +591,7 @@
             // 
             this.guna2GroupBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.guna2GroupBox2.BorderThickness = 2;
-            this.guna2GroupBox2.Controls.Add(this.guna2Button2);
+            this.guna2GroupBox2.Controls.Add(this.serviceRemoveButton);
             this.guna2GroupBox2.Controls.Add(this.addServiceBuutton);
             this.guna2GroupBox2.Controls.Add(this.croServiceDescription);
             this.guna2GroupBox2.Controls.Add(this.label2);
@@ -603,23 +611,24 @@
             this.guna2GroupBox2.TabIndex = 137;
             this.guna2GroupBox2.Text = "Service";
             // 
-            // guna2Button2
+            // serviceRemoveButton
             // 
-            this.guna2Button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.guna2Button2.BorderRadius = 5;
-            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
-            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
-            this.guna2Button2.Enabled = false;
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(45)))), ((int)(((byte)(71)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(572, 249);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(116, 29);
-            this.guna2Button2.TabIndex = 165;
-            this.guna2Button2.Text = "Remove";
+            this.serviceRemoveButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.serviceRemoveButton.BorderRadius = 5;
+            this.serviceRemoveButton.CheckedState.Parent = this.serviceRemoveButton;
+            this.serviceRemoveButton.CustomImages.Parent = this.serviceRemoveButton;
+            this.serviceRemoveButton.Enabled = false;
+            this.serviceRemoveButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(45)))), ((int)(((byte)(71)))));
+            this.serviceRemoveButton.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.serviceRemoveButton.ForeColor = System.Drawing.Color.White;
+            this.serviceRemoveButton.HoverState.Parent = this.serviceRemoveButton;
+            this.serviceRemoveButton.Location = new System.Drawing.Point(572, 249);
+            this.serviceRemoveButton.Name = "serviceRemoveButton";
+            this.serviceRemoveButton.ShadowDecoration.Parent = this.serviceRemoveButton;
+            this.serviceRemoveButton.Size = new System.Drawing.Size(116, 29);
+            this.serviceRemoveButton.TabIndex = 165;
+            this.serviceRemoveButton.Text = "Remove";
+            this.serviceRemoveButton.Click += new System.EventHandler(this.serviceRemoveButton_Click);
             // 
             // addServiceBuutton
             // 
@@ -638,6 +647,7 @@
             this.addServiceBuutton.Size = new System.Drawing.Size(116, 29);
             this.addServiceBuutton.TabIndex = 162;
             this.addServiceBuutton.Text = "Add";
+            this.addServiceBuutton.Click += new System.EventHandler(this.addServiceBuutton_Click_1);
             // 
             // croServiceDescription
             // 
@@ -648,6 +658,7 @@
             this.croServiceDescription.Name = "croServiceDescription";
             this.croServiceDescription.Size = new System.Drawing.Size(222, 27);
             this.croServiceDescription.TabIndex = 109;
+            this.croServiceDescription.KeyDown += new System.Windows.Forms.KeyEventHandler(this.croServiceDescription_KeyDown_1);
             // 
             // label2
             // 
@@ -707,37 +718,37 @@
             // 
             // serviceDataGridView
             // 
-            dataGridViewCellStyle52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
-            this.serviceDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle52;
+            dataGridViewCellStyle60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            this.serviceDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle60;
             this.serviceDataGridView.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.serviceDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.serviceDataGridView.BackgroundColor = System.Drawing.Color.White;
             this.serviceDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.serviceDataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.serviceDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            dataGridViewCellStyle53.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle53.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle53.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle53.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle53.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.serviceDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle53;
+            dataGridViewCellStyle61.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            dataGridViewCellStyle61.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle61.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle61.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle61.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle61.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.serviceDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle61;
             this.serviceDataGridView.ColumnHeadersHeight = 40;
             this.serviceDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Desc,
             this.Qty,
             this.uprice,
             this.totalcolumn});
-            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle56.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle56.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle56.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle56.NullValue = null;
-            dataGridViewCellStyle56.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
-            dataGridViewCellStyle56.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle56.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.serviceDataGridView.DefaultCellStyle = dataGridViewCellStyle56;
+            dataGridViewCellStyle64.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle64.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle64.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle64.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle64.NullValue = null;
+            dataGridViewCellStyle64.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            dataGridViewCellStyle64.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle64.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.serviceDataGridView.DefaultCellStyle = dataGridViewCellStyle64;
             this.serviceDataGridView.Enabled = false;
             this.serviceDataGridView.EnableHeadersVisualStyles = false;
             this.serviceDataGridView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
@@ -793,9 +804,9 @@
             // 
             // uprice
             // 
-            dataGridViewCellStyle54.Format = "C2";
-            dataGridViewCellStyle54.NullValue = null;
-            this.uprice.DefaultCellStyle = dataGridViewCellStyle54;
+            dataGridViewCellStyle62.Format = "C2";
+            dataGridViewCellStyle62.NullValue = null;
+            this.uprice.DefaultCellStyle = dataGridViewCellStyle62;
             this.uprice.FillWeight = 75F;
             this.uprice.HeaderText = "Price/Hour";
             this.uprice.MinimumWidth = 6;
@@ -804,9 +815,9 @@
             // 
             // totalcolumn
             // 
-            dataGridViewCellStyle55.Format = "C2";
-            dataGridViewCellStyle55.NullValue = null;
-            this.totalcolumn.DefaultCellStyle = dataGridViewCellStyle55;
+            dataGridViewCellStyle63.Format = "C2";
+            dataGridViewCellStyle63.NullValue = null;
+            this.totalcolumn.DefaultCellStyle = dataGridViewCellStyle63;
             this.totalcolumn.FillWeight = 60F;
             this.totalcolumn.HeaderText = "Total";
             this.totalcolumn.MinimumWidth = 6;
@@ -900,7 +911,6 @@
             this.croEngineNo.Size = new System.Drawing.Size(116, 27);
             this.croEngineNo.TabIndex = 161;
             // 
-
             // uroSearchRONumberTextbox
             // 
             this.uroSearchRONumberTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -926,7 +936,7 @@
             this.uroSearchRONumberTextbox.ShadowDecoration.Parent = this.uroSearchRONumberTextbox;
             this.uroSearchRONumberTextbox.Size = new System.Drawing.Size(251, 25);
             this.uroSearchRONumberTextbox.TabIndex = 143;
-            this.uroSearchRONumberTextbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.uroSearchRONumberTextbox_KeyPress);
+            this.uroSearchRONumberTextbox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uroSearchRONumberTextbox_KeyDown);
             // 
             // label16
             // 
@@ -1153,6 +1163,10 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Update Repair Order";
             // 
+            // errorProvider
+            // 
+            this.errorProvider.ContainerControl = this;
+            // 
             // EditRepairOrderForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1179,6 +1193,7 @@
             this.guna2GroupBox1.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1193,7 +1208,7 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox GrandTotalTextbox;
         private System.Windows.Forms.Panel panel3;
-        private Guna.UI2.WinForms.Guna2Button saveButton;
+        private Guna.UI2.WinForms.Guna2Button updateButton;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox5;
         private Guna.UI2.WinForms.Guna2TextBox customerRequestTextbox;
         private Guna.UI2.WinForms.Guna2GroupBox ModeOfPaymentGroupBox;
@@ -1217,7 +1232,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox croPartsUnitPriceTextbox;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button serviceRemoveButton;
         private Guna.UI2.WinForms.Guna2Button addServiceBuutton;
         private System.Windows.Forms.TextBox croServiceDescription;
         private System.Windows.Forms.Label label2;
@@ -1257,5 +1272,6 @@
         private System.Windows.Forms.TextBox croContactNumberTextbox;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ErrorProvider errorProvider;
     }
 }

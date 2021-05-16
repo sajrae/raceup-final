@@ -931,14 +931,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Raceup Autocare.exe" size="5297072">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Raceup Autocare.exe" size="5310384">
       <assemblyIdentity name="Raceup Autocare" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>NlZr04iv0Mpd4/97WXqBOpLJ/dIrZ/iZtVN1FhRkS8I=</dsig:DigestValue>
+        <dsig:DigestValue>M7UTwugETr/Jn7Z1Eb7909yQhUKE7DIcljExOgMlJrA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -950,7 +950,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>a+TxFmgytCqfE47iHLEm2gjMGcRjP8NHm+7tTAHagrY=</dsig:DigestValue>
+        <dsig:DigestValue>gQJR8lzQeedTmvgFmTY41diHqlnFISADs4G0Luj9/lE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -962,7 +962,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GAoisE66Wxh+yGg/Y3jzONhCn3yjZtwZSm7E3RZ5PVY=</dsig:DigestValue>
+        <dsig:DigestValue>y/PmVSRFxfWx73IC7ghGbd0ptzJ/wTbLP0gxmFM4nhQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

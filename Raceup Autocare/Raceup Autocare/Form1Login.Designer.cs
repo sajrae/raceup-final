@@ -207,7 +207,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(59, 12);
             this.label1.TabIndex = 42;
-            this.label1.Text = "version 1.1.5";
+            this.label1.Text = "version 1.1.6";
             // 
             // LoginForm
             // 
