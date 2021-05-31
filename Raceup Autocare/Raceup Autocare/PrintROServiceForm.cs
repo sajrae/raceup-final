@@ -14,7 +14,7 @@ namespace Raceup_Autocare
 {
     public partial class PrintROServiceForm : Form
     {
-        string DatabaseLocation = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\\SERVER\Users\SERVER\RaceUp-Autocare\raceup_db_new3.accdb";
+        DBConnection dbcon = null;
         ShowListofOrderServiceForm LR5;
         public PrintROServiceForm(ShowListofOrderServiceForm showROServiceInfo)
         {
@@ -25,6 +25,7 @@ namespace Raceup_Autocare
 
         private void PrintROServiceForm_Load(object sender, EventArgs e)
         {
+            dbcon = new DBConnection();
             ROLabel.Text = LR5.ROnumberLabel.Text;
             ROLabel.Visible = false;
             CreateROform fordiscount = new CreateROform();
@@ -36,43 +37,55 @@ namespace Raceup_Autocare
         }
         private void ShowServiceTable()
         {
-            RODataSet showtableservice = new RODataSet();
-            OleDbConnection connection3 = new OleDbConnection(DatabaseLocation);
+            dbcon.openConnection();
 
-            OleDbDataAdapter dataAdapte3 = new OleDbDataAdapter("SELECT RO_Number, Service_Description, Service_Quantity, Service_Price, Total_Price FROM RepairOrderService Where CStr(RO_Number)  = '" + ROLabel.Text + "'", connection3);
-            dataAdapte3.Fill(showtableservice, showtableservice.Tables[0].TableName);
-            ReportDataSource reportData3 = new ReportDataSource("RODataSetTableService", showtableservice.Tables[0]);
+            using (dbcon.openConnection())
+            {
+                RODataSet showtableservice = new RODataSet();
+                OleDbDataAdapter dataAdapte3 = new OleDbDataAdapter("SELECT RO_Number, Service_Description, Service_Quantity, Service_Price, Total_Price FROM RepairOrderService Where CStr(RO_Number)  = '" + ROLabel.Text + "'", dbcon.openConnection());
+                dataAdapte3.Fill(showtableservice, showtableservice.Tables[0].TableName);
+                ReportDataSource reportData3 = new ReportDataSource("RODataSetTableService", showtableservice.Tables[0]);
 
-            this.reportViewer1.LocalReport.DataSources.Add(reportData3);
-            this.reportViewer1.LocalReport.Refresh();
-            this.reportViewer1.RefreshReport();
+                this.reportViewer1.LocalReport.DataSources.Add(reportData3);
+                this.reportViewer1.LocalReport.Refresh();
+                this.reportViewer1.RefreshReport();
+            }
+            dbcon.CloseConnection();
         }
         private void PartsTable()
         {
-            RODataSet showtable = new RODataSet();
-            OleDbConnection connection2 = new OleDbConnection(DatabaseLocation);
+            
+            dbcon.openConnection();
 
-            OleDbDataAdapter dataAdapter = new OleDbDataAdapter("SELECT RO_Number, Item_Code, Parts_Quantity, Item_Name, Unit_Price, Total_Price_Parts FROM RepairOrderParts Where CStr(RO_Number)  = '" + ROLabel.Text + "'", connection2);
-            dataAdapter.Fill(showtable, showtable.Tables[0].TableName);
-            ReportDataSource reportData = new ReportDataSource("ROTableParts", showtable.Tables[0]);
+            using (dbcon.openConnection())
+            {
+                RODataSet showtable = new RODataSet();
+                OleDbDataAdapter dataAdapter = new OleDbDataAdapter("SELECT RO_Number, Item_Code, Parts_Quantity, Item_Name, Unit_Price, Total_Price_Parts FROM RepairOrderParts Where CStr(RO_Number)  = '" + ROLabel.Text + "'", dbcon.openConnection());
+                dataAdapter.Fill(showtable, showtable.Tables[0].TableName);
+                ReportDataSource reportData = new ReportDataSource("ROTableParts", showtable.Tables[0]);
 
-            this.reportViewer1.LocalReport.DataSources.Add(reportData);
-            this.reportViewer1.LocalReport.Refresh();
-            this.reportViewer1.RefreshReport();
+                this.reportViewer1.LocalReport.DataSources.Add(reportData);
+                this.reportViewer1.LocalReport.Refresh();
+                this.reportViewer1.RefreshReport();
+            }
+            dbcon.CloseConnection();
         }
         private void ShowROServiceInfo()
         {
-            RODataSet customerProfile = new RODataSet();
-            OleDbConnection connection2 = new OleDbConnection(DatabaseLocation);
+            using (dbcon.openConnection())
+            {
+                RODataSet customerProfile = new RODataSet();
 
-            OleDbDataAdapter dataAdapter2 = new OleDbDataAdapter("SELECT CustomerProfile.customer_id, RepairOrder.Plate_Number, RepairOrder.Date_Created, RepairOrder.Payment_Method, RepairOrder.Customer_Request, RepairOrderParts.Item_Code, RepairOrderParts.Item_Name, RepairOrderParts.Parts_Quantity, RepairOrderParts.Unit_Price, RepairOrderParts.Total_Price_Parts, RepairOrderService.Service_Description, RepairOrderService.Service_Quantity, RepairOrderService.Service_Price, RepairOrderService.Total_Price, CustomerProfile.first_name, CustomerProfile.last_name, CustomerProfile.Address, CustomerProfile.contact_number, CustomerProfile.Plate_Number AS Expr1, CustomerProfile.car_brand, CustomerProfile.car_model, CustomerProfile.chasis_number, CustomerProfile.engine_number, CustomerProfile.Mileage FROM(((CustomerProfile INNER JOIN RepairOrder ON CustomerProfile.Plate_Number = RepairOrder.Plate_Number) INNER JOIN RepairOrderParts ON RepairOrder.RO_Number = RepairOrderParts.RO_Number) INNER JOIN RepairOrderService ON RepairOrder.RO_Number = RepairOrderService.RO_Number) Where CStr(RepairOrderService.RO_Number)  = '" + ROLabel.Text + "'", connection2);
-            dataAdapter2.Fill(customerProfile, customerProfile.Tables[0].TableName);
-            ReportDataSource reportData2 = new ReportDataSource("ROAllInfo", customerProfile.Tables[0]);
+                OleDbDataAdapter dataAdapter2 = new OleDbDataAdapter("SELECT CustomerProfile.customer_id, RepairOrder.Plate_Number, RepairOrder.Date_Created, RepairOrder.Payment_Method, RepairOrder.Customer_Request, RepairOrderParts.Item_Code, RepairOrderParts.Item_Name, RepairOrderParts.Parts_Quantity, RepairOrderParts.Unit_Price, RepairOrderParts.Total_Price_Parts, RepairOrderService.Service_Description, RepairOrderService.Service_Quantity, RepairOrderService.Service_Price, RepairOrderService.Total_Price, CustomerProfile.first_name, CustomerProfile.last_name, CustomerProfile.Address, CustomerProfile.contact_number, CustomerProfile.Plate_Number AS Expr1, CustomerProfile.car_brand, CustomerProfile.car_model, CustomerProfile.chasis_number, CustomerProfile.engine_number, CustomerProfile.Mileage FROM(((CustomerProfile INNER JOIN RepairOrder ON CustomerProfile.Plate_Number = RepairOrder.Plate_Number) INNER JOIN RepairOrderParts ON RepairOrder.RO_Number = RepairOrderParts.RO_Number) INNER JOIN RepairOrderService ON RepairOrder.RO_Number = RepairOrderService.RO_Number) Where CStr(RepairOrderService.RO_Number)  = '" + ROLabel.Text + "'", dbcon.openConnection());
+                dataAdapter2.Fill(customerProfile, customerProfile.Tables[0].TableName);
+                ReportDataSource reportData2 = new ReportDataSource("ROAllInfo", customerProfile.Tables[0]);
 
-            this.reportViewer1.LocalReport.DataSources.Clear();
-            this.reportViewer1.LocalReport.DataSources.Add(reportData2);
-            this.reportViewer1.LocalReport.Refresh();
-            this.reportViewer1.RefreshReport();
+                this.reportViewer1.LocalReport.DataSources.Clear();
+                this.reportViewer1.LocalReport.DataSources.Add(reportData2);
+                this.reportViewer1.LocalReport.Refresh();
+                this.reportViewer1.RefreshReport();
+            }
+            dbcon.CloseConnection();
         }
 
         private void reportViewer1_Load(object sender, EventArgs e)
