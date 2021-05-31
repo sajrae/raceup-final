@@ -13,9 +13,9 @@ namespace Raceup_Autocare
 {
     public partial class SearchItemForm : Form
     {
-        string connection = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\\SERVER\Users\SERVER\RaceUp-Autocare\raceup_db_new3.accdb";
         string sqlQuery = "";
         DBConnection dbcon = null;
+        OleDbDataReader customerReader = null;
         public SearchItemForm()
         {
             InitializeComponent();
@@ -31,9 +31,9 @@ namespace Raceup_Autocare
             dbcon = new DBConnection();
             dbcon.openConnection();
 
-            using (OleDbConnection mscon = new OleDbConnection(connection))
+            using (dbcon.openConnection())
             {
-                OleDbDataAdapter da = new OleDbDataAdapter("Select Item_Code, Item_Description , Quantity, Unit_Price From Parts Order by Item_Code ASC ", mscon);
+                OleDbDataAdapter da = new OleDbDataAdapter("Select Item_Code, Item_Description , Quantity, Unit_Price From Parts Order by Item_Code ASC ", dbcon.openConnection());
                 DataTable dt = new DataTable();
                 da.Fill(dt);
 
@@ -52,9 +52,9 @@ namespace Raceup_Autocare
         {
             dbcon.openConnection();
             sqlQuery = "Select Item_Code, Item_Description , Quantity, Unit_Price From Parts Where Item_Code like '%" + srchitem + "%' OR Item_Description like '%" + srchitem + "%' Order by Item_Code ASC";
-            using (OleDbConnection mscon = new OleDbConnection(connection))
+            using (dbcon.openConnection())
             {
-                OleDbDataAdapter da = new OleDbDataAdapter(sqlQuery, mscon);
+                OleDbDataAdapter da = new OleDbDataAdapter(sqlQuery, dbcon.openConnection());
                 DataTable dt = new DataTable();
                 da.Fill(dt);
 

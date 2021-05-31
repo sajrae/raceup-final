@@ -14,7 +14,7 @@ namespace Raceup_Autocare
 {
     public partial class PrintQTNROForm : Form
     {
-        string DatabaseLocation = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\\SERVER\Users\SERVER\RaceUp-Autocare\raceup_db_new3.accdb";
+        DBConnection dbcon = null;
         CreateROform LR4;
         public PrintQTNROForm(CreateROform showROInfo)
         {
@@ -24,6 +24,7 @@ namespace Raceup_Autocare
 
         private void PrintQTNROForm_Load(object sender, EventArgs e)
         {
+            dbcon = new DBConnection();
             ROLabel.Text = LR4.croRONumberTextbox.Text;
             ROLabel.Visible = false;
 
@@ -35,46 +36,50 @@ namespace Raceup_Autocare
 
         private void ShowServiceTable()
         {
-            QTNRODataSet showtableservice = new QTNRODataSet();
-            OleDbConnection con = new OleDbConnection(DatabaseLocation);
-            showtableservice.EnforceConstraints = false;
-            OleDbDataAdapter dataAdapter3 = new OleDbDataAdapter("SELECT * FROM QuotationService Where Quotation_Number  = '" + ROLabel.Text + "'", con);
-            dataAdapter3.Fill(showtableservice, showtableservice.Tables[0].TableName);
-            ReportDataSource reportData3 = new ReportDataSource("QuotationService", showtableservice.Tables[0]);
+            using (dbcon.openConnection())
+            {
+                QTNRODataSet showtableservice = new QTNRODataSet();
+                showtableservice.EnforceConstraints = false;
+                OleDbDataAdapter dataAdapter3 = new OleDbDataAdapter("SELECT * FROM QuotationService Where Quotation_Number  = '" + ROLabel.Text + "'", dbcon.openConnection());
+                dataAdapter3.Fill(showtableservice, showtableservice.Tables[0].TableName);
+                ReportDataSource reportData3 = new ReportDataSource("QuotationService", showtableservice.Tables[0]);
 
-            this.reportViewer1.LocalReport.DataSources.Add(reportData3);
-            this.reportViewer1.LocalReport.Refresh();
-            this.reportViewer1.RefreshReport();
-
+                this.reportViewer1.LocalReport.DataSources.Add(reportData3);
+                this.reportViewer1.LocalReport.Refresh();
+                this.reportViewer1.RefreshReport();
+            }
+            dbcon.CloseConnection();
         }
         private void ShowPartsTable()
         {
-            QTNRODataSet TablePArts = new QTNRODataSet();
-            OleDbConnection connection = new OleDbConnection(DatabaseLocation);
-            TablePArts.EnforceConstraints = false;
-            OleDbDataAdapter dataAdapter = new OleDbDataAdapter("SELECT * FROM QuotationParts Where Quotation_Number  = '" + ROLabel.Text + "'", connection);
-            dataAdapter.Fill(TablePArts, TablePArts.Tables[0].TableName);
-            ReportDataSource reportData = new ReportDataSource("QuotationParts", TablePArts.Tables[0]);
+            using (dbcon.openConnection())
+            {
+                QTNRODataSet TablePArts = new QTNRODataSet();
+                TablePArts.EnforceConstraints = false;
+                OleDbDataAdapter dataAdapter = new OleDbDataAdapter("SELECT * FROM QuotationParts Where Quotation_Number  = '" + ROLabel.Text + "'", dbcon.openConnection());
+                dataAdapter.Fill(TablePArts, TablePArts.Tables[0].TableName);
+                ReportDataSource reportData = new ReportDataSource("QuotationParts", TablePArts.Tables[0]);
 
-            this.reportViewer1.LocalReport.DataSources.Add(reportData);
-            this.reportViewer1.LocalReport.Refresh();
-            this.reportViewer1.RefreshReport();
+                this.reportViewer1.LocalReport.DataSources.Add(reportData);
+                this.reportViewer1.LocalReport.Refresh();
+                this.reportViewer1.RefreshReport();
+            }
+            dbcon.CloseConnection();
         }
         private void ShowROInfo()
         {
-            
-            QTNRODataSet customerProfile = new QTNRODataSet();
-            OleDbConnection connection2 = new OleDbConnection(DatabaseLocation);
-            connection2.Open();
-            OleDbDataAdapter dataAdapter2 = new OleDbDataAdapter("SELECT * FROM Quotation Where CStr(Quotation_Number)  = '" + ROLabel.Text + "'", connection2);
-            dataAdapter2.Fill(customerProfile, customerProfile.Tables[0].TableName);
-            ReportDataSource reportData2 = new ReportDataSource("QTNRODataSet", customerProfile.Tables[0]);
+            using (dbcon.openConnection())
+            {
+                QTNRODataSet customerProfile = new QTNRODataSet();
+                OleDbDataAdapter dataAdapter2 = new OleDbDataAdapter("SELECT * FROM Quotation Where CStr(Quotation_Number)  = '" + ROLabel.Text + "'", dbcon.openConnection());
+                dataAdapter2.Fill(customerProfile, customerProfile.Tables[0].TableName);
+                ReportDataSource reportData2 = new ReportDataSource("QTNRODataSet", customerProfile.Tables[0]);
 
-            reportViewer1.LocalReport.DataSources.Add(reportData2);
-            reportViewer1.LocalReport.Refresh();
-            reportViewer1.RefreshReport();
-            connection2.Close();
-
+                reportViewer1.LocalReport.DataSources.Add(reportData2);
+                reportViewer1.LocalReport.Refresh();
+                reportViewer1.RefreshReport();
+            }
+            dbcon.CloseConnection();
         }
 
         private void reportViewer1_Load(object sender, EventArgs e)
