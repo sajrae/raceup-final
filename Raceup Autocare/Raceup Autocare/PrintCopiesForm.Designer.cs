@@ -30,9 +30,9 @@
         {
             this.CustORBTN = new Guna.UI2.WinForms.Guna2Button();
             this.textBoxRONumber = new System.Windows.Forms.TextBox();
-            this.JobORBTN = new Guna.UI2.WinForms.Guna2Button();
             this.TechROBTN = new Guna.UI2.WinForms.Guna2Button();
             this.ModeOfPaymentGroupBox = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.JobORBTN = new Guna.UI2.WinForms.Guna2Button();
             this.ModeOfPaymentGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +44,7 @@
             this.CustORBTN.CheckedState.Parent = this.CustORBTN;
             this.CustORBTN.CustomImages.Parent = this.CustORBTN;
             this.CustORBTN.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(186)))), ((int)(((byte)(58)))));
-            this.CustORBTN.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustORBTN.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CustORBTN.ForeColor = System.Drawing.Color.White;
             this.CustORBTN.HoverState.Parent = this.CustORBTN;
             this.CustORBTN.Location = new System.Drawing.Point(14, 88);
@@ -52,7 +52,7 @@
             this.CustORBTN.ShadowDecoration.Parent = this.CustORBTN;
             this.CustORBTN.Size = new System.Drawing.Size(161, 48);
             this.CustORBTN.TabIndex = 12;
-            this.CustORBTN.Text = "Customer Copy Print";
+            this.CustORBTN.Text = "Customer\'s Copy";
             this.CustORBTN.Click += new System.EventHandler(this.JobORBTN_Click);
             // 
             // textBoxRONumber
@@ -63,25 +63,6 @@
             this.textBoxRONumber.TabIndex = 13;
             this.textBoxRONumber.Text = "RO Number";
             // 
-            // JobORBTN
-            // 
-            this.JobORBTN.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.JobORBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.JobORBTN.BorderRadius = 13;
-            this.JobORBTN.CheckedState.Parent = this.JobORBTN;
-            this.JobORBTN.CustomImages.Parent = this.JobORBTN;
-            this.JobORBTN.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(186)))), ((int)(((byte)(58)))));
-            this.JobORBTN.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.JobORBTN.ForeColor = System.Drawing.Color.White;
-            this.JobORBTN.HoverState.Parent = this.JobORBTN;
-            this.JobORBTN.Location = new System.Drawing.Point(181, 88);
-            this.JobORBTN.Name = "JobORBTN";
-            this.JobORBTN.ShadowDecoration.Parent = this.JobORBTN;
-            this.JobORBTN.Size = new System.Drawing.Size(161, 48);
-            this.JobORBTN.TabIndex = 14;
-            this.JobORBTN.Text = "Job Order Copy Print";
-            this.JobORBTN.Click += new System.EventHandler(this.JobORBTN_Click_1);
-            // 
             // TechROBTN
             // 
             this.TechROBTN.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -90,7 +71,7 @@
             this.TechROBTN.CheckedState.Parent = this.TechROBTN;
             this.TechROBTN.CustomImages.Parent = this.TechROBTN;
             this.TechROBTN.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(186)))), ((int)(((byte)(58)))));
-            this.TechROBTN.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TechROBTN.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TechROBTN.ForeColor = System.Drawing.Color.White;
             this.TechROBTN.HoverState.Parent = this.TechROBTN;
             this.TechROBTN.Location = new System.Drawing.Point(348, 88);
@@ -98,7 +79,7 @@
             this.TechROBTN.ShadowDecoration.Parent = this.TechROBTN;
             this.TechROBTN.Size = new System.Drawing.Size(161, 48);
             this.TechROBTN.TabIndex = 15;
-            this.TechROBTN.Text = "Technician Copy Print";
+            this.TechROBTN.Text = "Job Order";
             this.TechROBTN.Click += new System.EventHandler(this.TechROBTN_Click);
             // 
             // ModeOfPaymentGroupBox
@@ -120,6 +101,25 @@
             this.ModeOfPaymentGroupBox.Text = "Click the button for the copies";
             this.ModeOfPaymentGroupBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ModeOfPaymentGroupBox.Click += new System.EventHandler(this.ModeOfPaymentGroupBox_Click);
+            // 
+            // JobORBTN
+            // 
+            this.JobORBTN.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.JobORBTN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.JobORBTN.BorderRadius = 13;
+            this.JobORBTN.CheckedState.Parent = this.JobORBTN;
+            this.JobORBTN.CustomImages.Parent = this.JobORBTN;
+            this.JobORBTN.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(186)))), ((int)(((byte)(58)))));
+            this.JobORBTN.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JobORBTN.ForeColor = System.Drawing.Color.White;
+            this.JobORBTN.HoverState.Parent = this.JobORBTN;
+            this.JobORBTN.Location = new System.Drawing.Point(181, 88);
+            this.JobORBTN.Name = "JobORBTN";
+            this.JobORBTN.ShadowDecoration.Parent = this.JobORBTN;
+            this.JobORBTN.Size = new System.Drawing.Size(161, 48);
+            this.JobORBTN.TabIndex = 14;
+            this.JobORBTN.Text = "Service";
+            this.JobORBTN.Click += new System.EventHandler(this.JobORBTN_Click_1);
             // 
             // PrintCopiesForm
             // 
@@ -143,9 +143,9 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Button CustORBTN;
-        private Guna.UI2.WinForms.Guna2Button JobORBTN;
         private Guna.UI2.WinForms.Guna2Button TechROBTN;
         private Guna.UI2.WinForms.Guna2GroupBox ModeOfPaymentGroupBox;
         public System.Windows.Forms.TextBox textBoxRONumber;
+        private Guna.UI2.WinForms.Guna2Button JobORBTN;
     }
 }
