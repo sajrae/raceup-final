@@ -213,8 +213,12 @@
                   <TextRun>
                     <Value>Repair Order No.:</Value>
                     <Style>
+<<<<<<< HEAD
                       <FontSize>14pt</FontSize>
                       <FontWeight>Bold</FontWeight>
+=======
+                      <FontSize>7pt</FontSize>
+>>>>>>> 8616eb5 (Updated print layout)
                     </Style>
                   </TextRun>
                 </TextRuns>
@@ -225,9 +229,15 @@
             </Paragraphs>
             <rd:DefaultName>Textbox12</rd:DefaultName>
             <Top>0.04167in</Top>
+<<<<<<< HEAD
             <Left>4.46747in</Left>
             <Height>0.25062in</Height>
             <Width>1.84391in</Width>
+=======
+            <Left>4.77833in</Left>
+            <Height>0.16667in</Height>
+            <Width>0.8264in</Width>
+>>>>>>> 8616eb5 (Updated print layout)
             <Style>
               <Border>
                 <Style>None</Style>
@@ -248,7 +258,11 @@
                     <Value>=Parameters!ReportParameter_RO_Number.Value</Value>
                     <Style>
                       <FontFamily>Century GOthic</FontFamily>
+<<<<<<< HEAD
                       <FontSize>14pt</FontSize>
+=======
+                      <FontSize>8pt</FontSize>
+>>>>>>> 8616eb5 (Updated print layout)
                       <FontWeight>Bold</FontWeight>
                     </Style>
                   </TextRun>
@@ -259,9 +273,15 @@
               </Paragraph>
             </Paragraphs>
             <Top>0.04167in</Top>
+<<<<<<< HEAD
             <Left>6.36694in</Left>
             <Height>0.25062in</Height>
             <Width>1.44698in</Width>
+=======
+            <Left>5.6464in</Left>
+            <Height>0.16667in</Height>
+            <Width>1.44198in</Width>
+>>>>>>> 8616eb5 (Updated print layout)
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -742,7 +762,11 @@
               <TablixMembers>
                 <TablixMember>
                   <TablixHeader>
+<<<<<<< HEAD
                     <Size>0.3125in</Size>
+=======
+                    <Size>0.35417in</Size>
+>>>>>>> 8616eb5 (Updated print layout)
                     <CellContents>
                       <Textbox Name="Textbox85">
                         <CanGrow>true</CanGrow>
@@ -809,7 +833,11 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
+<<<<<<< HEAD
                         <Size>0.33125in</Size>
+=======
+                        <Size>0.32292in</Size>
+>>>>>>> 8616eb5 (Updated print layout)
                         <CellContents>
                           <Textbox Name="Textbox97">
                             <CanGrow>true</CanGrow>
@@ -884,7 +912,11 @@
                 </TablixMember>
                 <TablixMember>
                   <TablixHeader>
+<<<<<<< HEAD
                     <Size>0.3125in</Size>
+=======
+                    <Size>0.35417in</Size>
+>>>>>>> 8616eb5 (Updated print layout)
                     <CellContents>
                       <Textbox Name="Textbox87">
                         <CanGrow>true</CanGrow>
@@ -951,7 +983,11 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
+<<<<<<< HEAD
                         <Size>0.33125in</Size>
+=======
+                        <Size>0.32292in</Size>
+>>>>>>> 8616eb5 (Updated print layout)
                         <CellContents>
                           <Textbox Name="Textbox98">
                             <CanGrow>true</CanGrow>
@@ -1020,7 +1056,11 @@
                 </TablixMember>
                 <TablixMember>
                   <TablixHeader>
+<<<<<<< HEAD
                     <Size>0.3125in</Size>
+=======
+                    <Size>0.35417in</Size>
+>>>>>>> 8616eb5 (Updated print layout)
                     <CellContents>
                       <Textbox Name="Textbox89">
                         <CanGrow>true</CanGrow>
@@ -1087,7 +1127,11 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
+<<<<<<< HEAD
                         <Size>0.33125in</Size>
+=======
+                        <Size>0.32292in</Size>
+>>>>>>> 8616eb5 (Updated print layout)
                         <CellContents>
                           <Textbox Name="Textbox99">
                             <CanGrow>true</CanGrow>
@@ -1156,7 +1200,11 @@
                 </TablixMember>
                 <TablixMember>
                   <TablixHeader>
+<<<<<<< HEAD
                     <Size>0.3125in</Size>
+=======
+                    <Size>0.35417in</Size>
+>>>>>>> 8616eb5 (Updated print layout)
                     <CellContents>
                       <Textbox Name="Textbox82">
                         <CanGrow>true</CanGrow>
@@ -1222,6 +1270,7 @@
                   </TablixHeader>
                   <TablixMembers>
                     <TablixMember>
+<<<<<<< HEAD
                       <TablixHeader>
                         <Size>0.33125in</Size>
                         <CellContents>
@@ -1287,6 +1336,87 @@
                           </Textbox>
                         </CellContents>
                       </TablixHeader>
+=======
+                      <Group Name="Address">
+                        <GroupExpressions>
+                          <GroupExpression>=Fields!Address.Value</GroupExpression>
+                        </GroupExpressions>
+                      </Group>
+                      <SortExpressions>
+                        <SortExpression>
+                          <Value>=Fields!Address.Value</Value>
+                        </SortExpression>
+                      </SortExpressions>
+                      <TablixMembers>
+                        <TablixMember>
+                          <TablixHeader>
+                            <Size>0.32292in</Size>
+                            <CellContents>
+                              <Textbox Name="Textbox100">
+                                <CanGrow>true</CanGrow>
+                                <KeepTogether>true</KeepTogether>
+                                <Paragraphs>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>Engine Number:</Value>
+                                        <Style>
+                                          <FontSize>7pt</FontSize>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <Style />
+                                  </Paragraph>
+                                  <Paragraph>
+                                    <TextRuns>
+                                      <TextRun>
+                                        <Value>=Fields!engine_number.Value</Value>
+                                        <Style>
+                                          <FontFamily>Century Gothic</FontFamily>
+                                          <FontSize>8pt</FontSize>
+                                          <FontWeight>Bold</FontWeight>
+                                        </Style>
+                                      </TextRun>
+                                    </TextRuns>
+                                    <Style />
+                                  </Paragraph>
+                                </Paragraphs>
+                                <rd:DefaultName>Textbox100</rd:DefaultName>
+                                <Style>
+                                  <Border>
+                                    <Style>Solid</Style>
+                                  </Border>
+                                  <TopBorder>
+                                    <Color>Black</Color>
+                                    <Style>Solid</Style>
+                                    <Width>1pt</Width>
+                                  </TopBorder>
+                                  <BottomBorder>
+                                    <Color>Black</Color>
+                                    <Style>Solid</Style>
+                                    <Width>1pt</Width>
+                                  </BottomBorder>
+                                  <LeftBorder>
+                                    <Color>Black</Color>
+                                    <Style>Solid</Style>
+                                    <Width>1pt</Width>
+                                  </LeftBorder>
+                                  <RightBorder>
+                                    <Color>Black</Color>
+                                    <Style>Solid</Style>
+                                    <Width>1pt</Width>
+                                  </RightBorder>
+                                  <PaddingLeft>2pt</PaddingLeft>
+                                  <PaddingRight>2pt</PaddingRight>
+                                  <PaddingTop>2pt</PaddingTop>
+                                  <PaddingBottom>2pt</PaddingBottom>
+                                </Style>
+                              </Textbox>
+                            </CellContents>
+                          </TablixHeader>
+                        </TablixMember>
+                      </TablixMembers>
+>>>>>>> 8616eb5 (Updated print layout)
                     </TablixMember>
                   </TablixMembers>
                 </TablixMember>
@@ -1305,7 +1435,13 @@
                           <Paragraph>
                             <TextRuns>
                               <TextRun>
-                                <Value>Date Created:
+                                <Value>Date Created:</Value>
+                                <Style>
+                                  <FontSize>7pt</FontSize>
+                                </Style>
+                              </TextRun>
+                              <TextRun>
+                                <Value xml:space="preserve">
 </Value>
                                 <Style>
                                   <FontSize>7pt</FontSize>
@@ -1370,10 +1506,17 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>ROAllInfo</DataSetName>
+<<<<<<< HEAD
             <Top>0.33395in</Top>
             <Left>0.24287in</Left>
             <Height>1.26876in</Height>
             <Width>7.59305in</Width>
+=======
+            <Top>0.33187in</Top>
+            <Left>0.4012in</Left>
+            <Height>1.3021in</Height>
+            <Width>6.68718in</Width>
+>>>>>>> 8616eb5 (Updated print layout)
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -1437,9 +1580,15 @@
                 </Paragraphs>
                 <rd:DefaultName>Textbox59</rd:DefaultName>
                 <Top>0.89104cm</Top>
+<<<<<<< HEAD
                 <Left>0.80903cm</Left>
                 <Height>1.00042cm</Height>
                 <Width>18.13392cm</Width>
+=======
+                <Left>0.72436cm</Left>
+                <Height>1.00042cm</Height>
+                <Width>16.10192cm</Width>
+>>>>>>> 8616eb5 (Updated print layout)
                 <ZIndex>1</ZIndex>
                 <Style>
                   <Border>
@@ -1454,9 +1603,15 @@
             </ReportItems>
             <KeepTogether>true</KeepTogether>
             <Top>4.14144cm</Top>
+<<<<<<< HEAD
             <Left>0.61688cm</Left>
             <Height>2.03963cm</Height>
             <Width>19.28636cm</Width>
+=======
+            <Left>1.01905cm</Left>
+            <Height>1.89146cm</Height>
+            <Width>16.9968cm</Width>
+>>>>>>> 8616eb5 (Updated print layout)
             <ZIndex>3</ZIndex>
             <Style>
               <Border>
@@ -1491,6 +1646,7 @@
                   <Width>3.59382in</Width>
                 </TablixColumn>
                 <TablixColumn>
+<<<<<<< HEAD
                   <Width>1.22846in</Width>
                 </TablixColumn>
                 <TablixColumn>
@@ -1498,6 +1654,15 @@
                 </TablixColumn>
                 <TablixColumn>
                   <Width>1.34515in</Width>
+=======
+                  <Width>1in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.19717in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.11669in</Width>
+>>>>>>> 8616eb5 (Updated print layout)
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
@@ -1818,9 +1983,15 @@
             </TablixRowHierarchy>
             <DataSetName>RODataSetTableService</DataSetName>
             <Top>2.52446in</Top>
+<<<<<<< HEAD
             <Left>0.24287in</Left>
             <Height>0.39583in</Height>
             <Width>7.59305in</Width>
+=======
+            <Left>0.40916in</Left>
+            <Height>0.39583in</Height>
+            <Width>6.67922in</Width>
+>>>>>>> 8616eb5 (Updated print layout)
             <ZIndex>4</ZIndex>
             <Style>
               <Border>
@@ -1847,8 +2018,13 @@
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox11</rd:DefaultName>
+<<<<<<< HEAD
                 <Top>0.47283in</Top>
                 <Left>5.24946in</Left>
+=======
+                <Top>0.56312in</Top>
+                <Left>4.28108in</Left>
+>>>>>>> 8616eb5 (Updated print layout)
                 <Height>0.21876in</Height>
                 <Width>1.13302in</Width>
                 <Style>
@@ -1881,8 +2057,13 @@
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox11</rd:DefaultName>
+<<<<<<< HEAD
                 <Top>0.47284in</Top>
                 <Left>6.45192in</Left>
+=======
+                <Top>0.56313in</Top>
+                <Left>5.48354in</Left>
+>>>>>>> 8616eb5 (Updated print layout)
                 <Height>0.21875in</Height>
                 <Width>1.13302in</Width>
                 <ZIndex>1</ZIndex>
@@ -2298,8 +2479,14 @@
                 <KeepTogether>true</KeepTogether>
                 <DataSetName>ROTableParts</DataSetName>
                 <Top>0.04576in</Top>
+<<<<<<< HEAD
                 <Height>0.38541in</Height>
                 <Width>7.59305in</Width>
+=======
+                <Left>0.01195in</Left>
+                <Height>0.38541in</Height>
+                <Width>6.66636in</Width>
+>>>>>>> 8616eb5 (Updated print layout)
                 <ZIndex>2</ZIndex>
                 <Style>
                   <Border>
@@ -2325,8 +2512,13 @@
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox11</rd:DefaultName>
+<<<<<<< HEAD
                 <Top>0.47283in</Top>
                 <Left>0.0466in</Left>
+=======
+                <Top>0.56313in</Top>
+                <Left>0.25223in</Left>
+>>>>>>> 8616eb5 (Updated print layout)
                 <Height>0.25in</Height>
                 <Width>1.22677in</Width>
                 <ZIndex>3</ZIndex>
@@ -2361,8 +2553,13 @@
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox11</rd:DefaultName>
+<<<<<<< HEAD
                 <Top>0.47283in</Top>
                 <Left>1.34282in</Left>
+=======
+                <Top>0.56313in</Top>
+                <Left>1.54845in</Left>
+>>>>>>> 8616eb5 (Updated print layout)
                 <Height>0.25in</Height>
                 <Width>0.90385in</Width>
                 <ZIndex>4</ZIndex>
@@ -2393,8 +2590,13 @@
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox11</rd:DefaultName>
+<<<<<<< HEAD
                 <Top>0.73325in</Top>
                 <Left>5.24946in</Left>
+=======
+                <Top>0.82354in</Top>
+                <Left>4.28108in</Left>
+>>>>>>> 8616eb5 (Updated print layout)
                 <Height>0.21876in</Height>
                 <Width>1.13302in</Width>
                 <ZIndex>5</ZIndex>
@@ -2428,8 +2630,13 @@
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox11</rd:DefaultName>
+<<<<<<< HEAD
                 <Top>0.73325in</Top>
                 <Left>6.45192in</Left>
+=======
+                <Top>0.82354in</Top>
+                <Left>5.48354in</Left>
+>>>>>>> 8616eb5 (Updated print layout)
                 <Height>0.21876in</Height>
                 <Width>1.13302in</Width>
                 <ZIndex>6</ZIndex>
@@ -2460,8 +2667,13 @@
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox11</rd:DefaultName>
+<<<<<<< HEAD
                 <Top>1.2541in</Top>
                 <Left>5.24946in</Left>
+=======
+                <Top>1.34439in</Top>
+                <Left>4.28108in</Left>
+>>>>>>> 8616eb5 (Updated print layout)
                 <Height>0.21876in</Height>
                 <Width>1.13302in</Width>
                 <ZIndex>7</ZIndex>
@@ -2495,8 +2707,13 @@
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox11</rd:DefaultName>
+<<<<<<< HEAD
                 <Top>1.24021in</Top>
                 <Left>6.45192in</Left>
+=======
+                <Top>1.3305in</Top>
+                <Left>5.48354in</Left>
+>>>>>>> 8616eb5 (Updated print layout)
                 <Height>0.21876in</Height>
                 <Width>1.13302in</Width>
                 <ZIndex>8</ZIndex>
@@ -2527,8 +2744,13 @@
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox11</rd:DefaultName>
+<<<<<<< HEAD
                 <Top>0.99368in</Top>
                 <Left>5.24946in</Left>
+=======
+                <Top>1.08397in</Top>
+                <Left>4.28108in</Left>
+>>>>>>> 8616eb5 (Updated print layout)
                 <Height>0.21876in</Height>
                 <Width>1.13302in</Width>
                 <ZIndex>9</ZIndex>
@@ -2562,8 +2784,13 @@
                   </Paragraph>
                 </Paragraphs>
                 <rd:DefaultName>Textbox11</rd:DefaultName>
+<<<<<<< HEAD
                 <Top>0.99368in</Top>
                 <Left>6.45192in</Left>
+=======
+                <Top>1.08397in</Top>
+                <Left>5.48354in</Left>
+>>>>>>> 8616eb5 (Updated print layout)
                 <Height>0.21876in</Height>
                 <Width>1.13302in</Width>
                 <ZIndex>10</ZIndex>
@@ -2579,10 +2806,17 @@
               </Textbox>
             </ReportItems>
             <KeepTogether>true</KeepTogether>
+<<<<<<< HEAD
             <Top>2.98973in</Top>
             <Left>0.24287in</Left>
             <Height>1.81106in</Height>
             <Width>7.59305in</Width>
+=======
+            <Top>2.96196in</Top>
+            <Left>0.40916in</Left>
+            <Height>1.67773in</Height>
+            <Width>6.68942in</Width>
+>>>>>>> 8616eb5 (Updated print layout)
             <ZIndex>5</ZIndex>
             <Style>
               <Border>
@@ -2591,14 +2825,22 @@
             </Style>
           </Rectangle>
         </ReportItems>
+<<<<<<< HEAD
         <Height>5.87302in</Height>
+=======
+        <Height>4.63969in</Height>
+>>>>>>> 8616eb5 (Updated print layout)
         <Style>
           <Border>
             <Style>None</Style>
           </Border>
         </Style>
       </Body>
+<<<<<<< HEAD
       <Width>8.00428in</Width>
+=======
+      <Width>8.09595in</Width>
+>>>>>>> 8616eb5 (Updated print layout)
       <Page>
         <PageHeader>
           <Height>1.54512in</Height>
@@ -2611,9 +2853,16 @@
                   <Source>Embedded</Source>
                   <Value>logo1Copy</Value>
                   <Sizing>FitProportional</Sizing>
+<<<<<<< HEAD
                   <Top>0.03558in</Top>
                   <Height>1.4401in</Height>
                   <Width>2.0439in</Width>
+=======
+                  <Top>0.16058in</Top>
+                  <Left>0.125in</Left>
+                  <Height>1.22049in</Height>
+                  <Width>1.84529in</Width>
+>>>>>>> 8616eb5 (Updated print layout)
                   <Style>
                     <Border>
                       <Style>None</Style>
@@ -2649,7 +2898,11 @@
                           <Style>
                             <FontStyle>Normal</FontStyle>
                             <FontFamily>Calibri</FontFamily>
+<<<<<<< HEAD
                             <FontSize>20pt</FontSize>
+=======
+                            <FontSize>18pt</FontSize>
+>>>>>>> 8616eb5 (Updated print layout)
                             <FontWeight>Bold</FontWeight>
                             <TextDecoration>None</TextDecoration>
                             <Color>#000000</Color>
@@ -2673,7 +2926,11 @@
                           <Style>
                             <FontStyle>Normal</FontStyle>
                             <FontFamily>Calibri</FontFamily>
+<<<<<<< HEAD
                             <FontSize>8pt</FontSize>
+=======
+                            <FontSize>7pt</FontSize>
+>>>>>>> 8616eb5 (Updated print layout)
                             <FontWeight>Bold</FontWeight>
                             <TextDecoration>None</TextDecoration>
                             <Color>#000000</Color>
@@ -2704,10 +2961,17 @@
                     </Paragraph>
                   </Paragraphs>
                   <rd:DefaultName>Textbox3</rd:DefaultName>
+<<<<<<< HEAD
                   <Top>0.16058in</Top>
                   <Left>1.82924in</Left>
                   <Height>1.22049in</Height>
                   <Width>4.22253in</Width>
+=======
+                  <Top>0.19184in</Top>
+                  <Left>2.45424in</Left>
+                  <Height>1.18923in</Height>
+                  <Width>3.43086in</Width>
+>>>>>>> 8616eb5 (Updated print layout)
                   <ZIndex>1</ZIndex>
                   <Style>
                     <Border>
@@ -2767,9 +3031,15 @@
                 </Rectangle>
               </ReportItems>
               <KeepTogether>true</KeepTogether>
+<<<<<<< HEAD
               <Left>1.02619in</Left>
               <Height>1.47568in</Height>
               <Width>6.31219in</Width>
+=======
+              <Left>0.40119in</Left>
+              <Height>1.44357in</Height>
+              <Width>6.68719in</Width>
+>>>>>>> 8616eb5 (Updated print layout)
               <Style>
                 <Border>
                   <Style>None</Style>
