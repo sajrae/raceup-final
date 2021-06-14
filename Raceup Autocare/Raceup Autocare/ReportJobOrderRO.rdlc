@@ -285,42 +285,6 @@
               <PaddingBottom>2pt</PaddingBottom>
             </Style>
           </Textbox>
-          <Textbox Name="Textbox15">
-            <CanGrow>true</CanGrow>
-            <KeepTogether>true</KeepTogether>
-            <Paragraphs>
-              <Paragraph>
-                <TextRuns>
-                  <TextRun>
-                    <Value>REPAIR ORDER</Value>
-                    <Style>
-                      <FontFamily>century gothic</FontFamily>
-                      <FontSize>16pt</FontSize>
-                      <FontWeight>Bold</FontWeight>
-                    </Style>
-                  </TextRun>
-                </TextRuns>
-                <Style>
-                  <TextAlign>Center</TextAlign>
-                </Style>
-              </Paragraph>
-            </Paragraphs>
-            <rd:DefaultName>Textbox15</rd:DefaultName>
-            <Top>2.83312in</Top>
-            <Left>0.43457in</Left>
-            <Height>0.28125in</Height>
-            <Width>6.68719in</Width>
-            <ZIndex>2</ZIndex>
-            <Style>
-              <Border>
-                <Style>None</Style>
-              </Border>
-              <PaddingLeft>2pt</PaddingLeft>
-              <PaddingRight>2pt</PaddingRight>
-              <PaddingTop>2pt</PaddingTop>
-              <PaddingBottom>2pt</PaddingBottom>
-            </Style>
-          </Textbox>
           <Tablix Name="Tablix1">
             <TablixBody>
               <TablixColumns>
@@ -654,11 +618,11 @@
             </TablixRowHierarchy>
             <RepeatColumnHeaders>true</RepeatColumnHeaders>
             <DataSetName>RODataSetTableService</DataSetName>
-            <Top>3.18381in</Top>
+            <Top>2.80881in</Top>
             <Left>0.42487in</Left>
             <Height>0.45833in</Height>
             <Width>6.69687in</Width>
-            <ZIndex>3</ZIndex>
+            <ZIndex>2</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -738,7 +702,7 @@
             <Left>1.1285cm</Left>
             <Height>2.12958cm</Height>
             <Width>16.98544cm</Width>
-            <ZIndex>4</ZIndex>
+            <ZIndex>3</ZIndex>
             <Style>
               <Border>
                 <Style>Solid</Style>
@@ -1295,7 +1259,7 @@
                                 <Value>=Fields!first_name.Value+" "+Fields!last_name.Value</Value>
                                 <Style>
                                   <FontFamily>Century Gothic</FontFamily>
-                                  <FontSize>9pt</FontSize>
+                                  <FontSize>7pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
                                 </Style>
                               </TextRun>
@@ -1934,7 +1898,7 @@
             <Left>0.44429in</Left>
             <Height>1.45834in</Height>
             <Width>6.68718in</Width>
-            <ZIndex>5</ZIndex>
+            <ZIndex>4</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -2635,41 +2599,6 @@
                   <PaddingBottom>2pt</PaddingBottom>
                 </Style>
               </Textbox>
-              <Textbox Name="Textbox16">
-                <CanGrow>true</CanGrow>
-                <KeepTogether>true</KeepTogether>
-                <Paragraphs>
-                  <Paragraph>
-                    <TextRuns>
-                      <TextRun>
-                        <Value>ORDER PARTS</Value>
-                        <Style>
-                          <FontFamily>century gothic</FontFamily>
-                          <FontSize>16pt</FontSize>
-                          <FontWeight>Bold</FontWeight>
-                        </Style>
-                      </TextRun>
-                    </TextRuns>
-                    <Style>
-                      <TextAlign>Center</TextAlign>
-                    </Style>
-                  </Paragraph>
-                </Paragraphs>
-                <rd:DefaultName>Textbox15</rd:DefaultName>
-                <Left>0.03283in</Left>
-                <Height>0.28125in</Height>
-                <Width>6.68719in</Width>
-                <ZIndex>9</ZIndex>
-                <Style>
-                  <Border>
-                    <Style>None</Style>
-                  </Border>
-                  <PaddingLeft>2pt</PaddingLeft>
-                  <PaddingRight>2pt</PaddingRight>
-                  <PaddingTop>2pt</PaddingTop>
-                  <PaddingBottom>2pt</PaddingBottom>
-                </Style>
-              </Textbox>
               <Textbox Name="Textbox29">
                 <CanGrow>true</CanGrow>
                 <KeepTogether>true</KeepTogether>
@@ -2692,7 +2621,7 @@
                 <Left>4.29995in</Left>
                 <Height>0.20833in</Height>
                 <Width>1.13302in</Width>
-                <ZIndex>10</ZIndex>
+                <ZIndex>9</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -2728,7 +2657,7 @@
                 <Left>5.51762in</Left>
                 <Height>0.20833in</Height>
                 <Width>1.13302in</Width>
-                <ZIndex>11</ZIndex>
+                <ZIndex>10</ZIndex>
                 <Style>
                   <Border>
                     <Style>None</Style>
@@ -2745,7 +2674,7 @@
             <Left>0.41069in</Left>
             <Height>2.0099in</Height>
             <Width>6.72002in</Width>
-            <ZIndex>6</ZIndex>
+            <ZIndex>5</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -2947,6 +2876,7 @@
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
             <Line Name="Line1">
+              <Top>0in</Top>
               <Left>1.20105in</Left>
               <Height>0in</Height>
               <Width>4.6472in</Width>
