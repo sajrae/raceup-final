@@ -46,7 +46,7 @@ namespace Raceup_Autocare
                 OleDbCommand cmd = new OleDbCommand();
                 cmd.CommandType = CommandType.Text;
 
-                cmd.CommandText = @"INSERT INTO CustomerProfile([first_name], [last_name], [Address], [contact_number], [Plate_Number], [active], [created_by], [date_created], [updated_by], [date_updated], [car_brand], [car_model], [chasis_number], [engine_number], [Mileage]) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
+                cmd.CommandText = @"INSERT INTO CustomerProfile([first_name], [last_name], [Address], [contact_number], [Plate_Number], [active], [created_by], [date_created], [updated_by], [date_updated], [car_brand], [car_model], [chasis_number], [engine_number], [Mileage], [drivers_name], [color_car], [email_address], [promise_time]) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
                 cmd.Parameters.Add("@first_name", OleDbType.VarChar).Value = customerFirstNameTxtbox.Text.ToString();
                 cmd.Parameters.Add("@last_name", OleDbType.VarChar).Value = customerLastNameTxtbox.Text.ToString();
                 cmd.Parameters.Add("@Address", OleDbType.VarChar).Value = customerAddressTxtbox.Text.ToString();
@@ -62,6 +62,10 @@ namespace Raceup_Autocare
                 cmd.Parameters.Add("@chasis_number", OleDbType.VarChar).Value = customerChasisNoTxtbox.Text.ToString();
                 cmd.Parameters.Add("@engine_number", OleDbType.VarChar).Value = customerEngineNumberTxtbox.Text.ToString();
                 cmd.Parameters.Add("@Mileage", OleDbType.Integer).Value = int.Parse(customerMileageTextbox.Text.ToString());
+                cmd.Parameters.Add("@drivers_name", OleDbType.VarChar).Value = DriversNameTextBox.Text.ToString();
+                cmd.Parameters.Add("@color_car", OleDbType.VarChar).Value = ColorTextBox.Text.ToString();
+                cmd.Parameters.Add("@email_address", OleDbType.VarChar).Value = EmailAddTextBox.Text.ToString();
+                cmd.Parameters.Add("@promise_time", OleDbType.VarChar).Value = PromiseTimeTextBox.Text.ToString();
                 cmd.Connection = dbcon.openConnection();
 
 
@@ -138,7 +142,31 @@ namespace Raceup_Autocare
                 isValid = false;
                 CarModelErrorProvider.SetError(customerCarModelTxtbox, "Please input car model.");
             }
-                       
+
+            //New Fields
+            if (String.IsNullOrEmpty(DriversNameTextBox.Text))
+            {
+                isValid = false;
+                DriverNameProvider.SetError(DriversNameTextBox, "Please input plate number.");
+            }
+            if (String.IsNullOrEmpty(EmailAddTextBox.Text))
+            {
+                isValid = false;
+                EmailAddProvider.SetError(EmailAddTextBox, "Please input plate number.");
+            }
+            if (String.IsNullOrEmpty(ColorTextBox.Text))
+            {
+                isValid = false;
+                ColorProvider.SetError(ColorTextBox, "Please input Car Color.");
+            }
+            if (String.IsNullOrEmpty(PromiseTimeTextBox.Text))
+            {
+                isValid = false;
+                PromiseTime.SetError(PromiseTimeTextBox, "Please input promside time and date.");
+            }
+
+
+
             if (!System.Text.RegularExpressions.Regex.IsMatch(customerMileageTextbox.Text, "^[0-9]*$"))
             {
                 isValid = false;
@@ -178,6 +206,12 @@ namespace Raceup_Autocare
                     customerChasisNoTxtbox.Text = customerReader["chasis_number"].ToString();
                     customerEngineNumberTxtbox.Text = customerReader["engine_number"].ToString();
                     customerMileageTextbox.Text = customerReader["Mileage"].ToString();
+                    //
+                    DriversNameTextBox.Text = customerReader["drivers_name"].ToString();
+                    ColorTextBox.Text = customerReader["color_car"].ToString();
+                    EmailAddTextBox.Text = customerReader["email_address"].ToString();
+                    PromiseTimeTextBox.Text = customerReader["promise_time"].ToString();
+
                     plateNoExist = true;
                     customerPlateNoTxtbox.Enabled = false;
                     updateButton.Enabled = true;
@@ -204,7 +238,8 @@ namespace Raceup_Autocare
             sqlQuery = "UPDATE CustomerProfile SET first_name = '"+ customerFirstNameTxtbox.Text + "',last_name = '" + customerLastNameTxtbox.Text + "', Address = '" + customerAddressTxtbox.Text +
                 "', Plate_Number ='" + customerPlateNoTxtbox.Text + "', updated_by='"+ LoginForm.lname  + "', date_updated='"+ dateTimeToday + 
                 "', car_brand = '"+ customerCarBrand.Text  + "', car_model = '"+ customerCarModelTxtbox.Text  + "', chasis_number='" + 
-                customerChasisNoTxtbox.Text  + "', engine_number='"+ customerEngineNumberTxtbox.Text + "', Mileage='" + customerMileageTextbox.Text + "' WHERE Plate_Number = '" + 
+                customerChasisNoTxtbox.Text  + "', engine_number='"+ customerEngineNumberTxtbox.Text + "', Mileage='" + customerMileageTextbox.Text + "', drivers_name = '" + DriversNameTextBox.Text + "', color_car='" +
+                ColorTextBox.Text + "', email_address='" + EmailAddTextBox.Text + "', promise_time='" + PromiseTimeTextBox.Text + "' WHERE Plate_Number = '" + 
                 searchPlateNoTxtbox.Text.ToString() + "';";
 
             if (ValidateFields())
@@ -223,7 +258,7 @@ namespace Raceup_Autocare
         }
 
         public void clearTextboxFields() {
-            var controls = new[] { customerFirstNameTxtbox, customerLastNameTxtbox, customerAddressTxtbox, customerTelephoneNumTxtbox, customerPlateNoTxtbox, customerCarModelTxtbox, customerChasisNoTxtbox, customerEngineNumberTxtbox, customerMileageTextbox };
+            var controls = new[] { customerFirstNameTxtbox, customerLastNameTxtbox, customerAddressTxtbox, customerTelephoneNumTxtbox, customerPlateNoTxtbox, customerCarModelTxtbox, customerChasisNoTxtbox, customerEngineNumberTxtbox, customerMileageTextbox, DriversNameTextBox, ColorTextBox, EmailAddTextBox, PromiseTimeTextBox };
 
             foreach (var control in controls) {
                 control.Clear();
@@ -265,6 +300,10 @@ namespace Raceup_Autocare
             AddressErrorProvider.SetError(customerAddressTxtbox, "");
             nameErrorProvider.SetError(customerLastNameTxtbox, "");
             nameErrorProvider.SetError(customerFirstNameTxtbox, "");
+            DriverNameProvider.SetError(customerPlateNoTxtbox, "");
+            EmailAddProvider.SetError(customerAddressTxtbox, "");
+            ColorProvider.SetError(customerLastNameTxtbox, "");
+            PromiseTime.SetError(customerFirstNameTxtbox, "");
         }
 
         private void customerNameTxtbox_TextChanged(object sender, EventArgs e)
