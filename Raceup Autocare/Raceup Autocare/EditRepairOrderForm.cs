@@ -75,6 +75,11 @@ namespace Raceup_Autocare
                     roProperties.CustomerRequest = roReader["Customer_Request"].ToString();
                     roProperties.GrandTotal = roReader["GrandTotal"].ToString();
                     roProperties.MileAge = roReader["MileAge"].ToString();
+                    //new fields
+                    roProperties.ColorCar = roReader["color_car"].ToString();
+                    roProperties.EmailAdd = roReader["email_address"].ToString();
+                    roProperties.Promise = roReader["promise_time"].ToString();
+                    roProperties.Drivers = roReader["drivers_name"].ToString();
                     quotationExists = true;
                 }
             }
@@ -142,6 +147,11 @@ namespace Raceup_Autocare
             customerRequestTextbox.Text = roProperties.CustomerRequest;
             croMileage.Text = roProperties.MileAge;
             croGrandTotal.Text = roProperties.GrandTotal;
+            //new fields
+            ColorTxtBox.Text = roProperties.ColorCar;
+            EmailAddTxtBox.Text = roProperties.EmailAdd;
+            PromiseTxtBox.Text = roProperties.Promise;
+            DriversTxtBox.Text = roProperties.Drivers;
 
             string[] paymentMethods = { "Cash", "GCash", "Master Card", "Credit Card" };
             RadioButton[] paymentRadioButton = { cashRadioButton, gcashRadioButton, masterCardRadioButton, creditCardRadioButton };
@@ -321,7 +331,7 @@ namespace Raceup_Autocare
             {
                 cmd.CommandText = "UPDATE RepairOrder SET [Plate_Number] = ? , [Created_By] = ? , [Updated_By] = ? , [Date_Updated] = ? , [Payment_Method] = ? , [Customer_Request] = ? ," +
                     "[GrandTotal] = ? , [Status] = ? , [Discount] = ? , [First_Name] = ? , [Last_Name] = ? , [Address] = ? , [Contact_Number] = ? , [Mileage] = ? , " +
-                    "[Car_Brand] = ? , [Car_Model] = ? , [Chasis_Number] = ? , [Engine_Number] = ?" +
+                    "[Car_Brand] = ? , [Car_Model] = ? , [Chasis_Number] = ? , [Engine_Number] = ?, [color_car] = ? , [email_address] = ? , [promise_time] = ? , [drivers_name] = ?" +
                     "WHERE RO_Number ='" + croRONumberTextbox.Text.ToString() + "'";
 
                 cmd.Parameters.Add("@Plate_Number", OleDbType.VarChar).Value = croPlateNoTextbox.Text.ToString();
@@ -347,6 +357,11 @@ namespace Raceup_Autocare
                 cmd.Parameters.Add("@Car_Model", OleDbType.VarChar).Value = croCarModelTextbox.Text.ToString();
                 cmd.Parameters.Add("@Chasis_Number", OleDbType.VarChar).Value = croChasisNo.Text.ToString();
                 cmd.Parameters.Add("@Engine_Number", OleDbType.VarChar).Value = croEngineNo.Text.ToString();
+                //new fields
+                cmd.Parameters.Add("@color_car", OleDbType.VarChar).Value = ColorTxtBox.Text.ToString();
+                cmd.Parameters.Add("@email_address", OleDbType.VarChar).Value = EmailAddTxtBox.Text.ToString();
+                cmd.Parameters.Add("@promise_time", OleDbType.VarChar).Value = PromiseTxtBox.Text.ToString();
+                cmd.Parameters.Add("@drivers_name", OleDbType.VarChar).Value = DriversTxtBox.Text.ToString();
 
                 cmd.Connection = dbcon.openConnection();
                 cmd.ExecuteNonQuery();
@@ -976,6 +991,56 @@ namespace Raceup_Autocare
             {
                 PopulatePartsWithoutPackages();
             }
+        }
+
+        private void croContactNumberTextbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void croRONumberTextbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CroSearchButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void uroSearchRONumberTextbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
         }
     }
 

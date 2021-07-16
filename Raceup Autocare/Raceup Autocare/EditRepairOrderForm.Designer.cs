@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle225 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle226 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle227 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle228 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle229 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle232 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle230 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle231 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel2 = new System.Windows.Forms.Panel();
             this.croGrandTotal = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
@@ -109,6 +109,15 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.EmailAddTxtBox = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.DriversTxtBox = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.ColorTxtBox = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.PromiseTxtBox = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.guna2GroupBox5.SuspendLayout();
@@ -120,6 +129,7 @@
             this.guna2GroupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -141,7 +151,7 @@
             this.panel2.Controls.Add(this.panel1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1375, 922);
             this.panel2.TabIndex = 130;
@@ -151,7 +161,7 @@
             this.croGrandTotal.Enabled = false;
             this.croGrandTotal.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.croGrandTotal.Location = new System.Drawing.Point(1163, 772);
-            this.croGrandTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croGrandTotal.Margin = new System.Windows.Forms.Padding(4);
             this.croGrandTotal.Name = "croGrandTotal";
             this.croGrandTotal.Size = new System.Drawing.Size(204, 32);
             this.croGrandTotal.TabIndex = 167;
@@ -173,7 +183,7 @@
             this.croDiscountTextbox.Enabled = false;
             this.croDiscountTextbox.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.croDiscountTextbox.Location = new System.Drawing.Point(1163, 726);
-            this.croDiscountTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croDiscountTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.croDiscountTextbox.Name = "croDiscountTextbox";
             this.croDiscountTextbox.Size = new System.Drawing.Size(204, 32);
             this.croDiscountTextbox.TabIndex = 165;
@@ -197,7 +207,7 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.label17.ForeColor = System.Drawing.SystemColors.Control;
-            this.label17.Location = new System.Drawing.Point(1929, 2709);
+            this.label17.Location = new System.Drawing.Point(2112, 2836);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(126, 23);
@@ -208,8 +218,8 @@
             // 
             this.GrandTotalTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.GrandTotalTextbox.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.GrandTotalTextbox.Location = new System.Drawing.Point(2079, 2702);
-            this.GrandTotalTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GrandTotalTextbox.Location = new System.Drawing.Point(2262, 2829);
+            this.GrandTotalTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.GrandTotalTextbox.Name = "GrandTotalTextbox";
             this.GrandTotalTextbox.Size = new System.Drawing.Size(140, 32);
             this.GrandTotalTextbox.TabIndex = 165;
@@ -218,7 +228,7 @@
             // 
             this.panel3.Controls.Add(this.updateButton);
             this.panel3.Location = new System.Drawing.Point(16, 1102);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1724, 75);
             this.panel3.TabIndex = 140;
@@ -235,7 +245,7 @@
             this.updateButton.ForeColor = System.Drawing.Color.White;
             this.updateButton.HoverState.Parent = this.updateButton;
             this.updateButton.Location = new System.Drawing.Point(673, 11);
-            this.updateButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.updateButton.Margin = new System.Windows.Forms.Padding(4);
             this.updateButton.Name = "updateButton";
             this.updateButton.ShadowDecoration.Parent = this.updateButton;
             this.updateButton.Size = new System.Drawing.Size(316, 64);
@@ -253,7 +263,7 @@
             this.guna2GroupBox5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox5.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox5.Location = new System.Drawing.Point(1013, 391);
-            this.guna2GroupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GroupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GroupBox5.Name = "guna2GroupBox5";
             this.guna2GroupBox5.ShadowDecoration.Parent = this.guna2GroupBox5;
             this.guna2GroupBox5.Size = new System.Drawing.Size(355, 311);
@@ -300,11 +310,11 @@
             this.ModeOfPaymentGroupBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.ModeOfPaymentGroupBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ModeOfPaymentGroupBox.ForeColor = System.Drawing.Color.White;
-            this.ModeOfPaymentGroupBox.Location = new System.Drawing.Point(1013, 94);
-            this.ModeOfPaymentGroupBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ModeOfPaymentGroupBox.Location = new System.Drawing.Point(1013, 79);
+            this.ModeOfPaymentGroupBox.Margin = new System.Windows.Forms.Padding(4);
             this.ModeOfPaymentGroupBox.Name = "ModeOfPaymentGroupBox";
             this.ModeOfPaymentGroupBox.ShadowDecoration.Parent = this.ModeOfPaymentGroupBox;
-            this.ModeOfPaymentGroupBox.Size = new System.Drawing.Size(355, 290);
+            this.ModeOfPaymentGroupBox.Size = new System.Drawing.Size(355, 305);
             this.ModeOfPaymentGroupBox.TabIndex = 137;
             this.ModeOfPaymentGroupBox.Text = "Mode of payment";
             // 
@@ -378,7 +388,7 @@
             this.guna2GroupBox3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox3.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox3.Location = new System.Drawing.Point(61, 754);
-            this.guna2GroupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GroupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GroupBox3.Name = "guna2GroupBox3";
             this.guna2GroupBox3.ShadowDecoration.Parent = this.guna2GroupBox3;
             this.guna2GroupBox3.Size = new System.Drawing.Size(944, 342);
@@ -397,7 +407,7 @@
             this.removeBTN.ForeColor = System.Drawing.Color.White;
             this.removeBTN.HoverState.Parent = this.removeBTN;
             this.removeBTN.Location = new System.Drawing.Point(775, 292);
-            this.removeBTN.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.removeBTN.Margin = new System.Windows.Forms.Padding(4);
             this.removeBTN.Name = "removeBTN";
             this.removeBTN.ShadowDecoration.Parent = this.removeBTN;
             this.removeBTN.Size = new System.Drawing.Size(155, 36);
@@ -417,7 +427,7 @@
             this.partsAddButton.ForeColor = System.Drawing.Color.White;
             this.partsAddButton.HoverState.Parent = this.partsAddButton;
             this.partsAddButton.Location = new System.Drawing.Point(584, 292);
-            this.partsAddButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.partsAddButton.Margin = new System.Windows.Forms.Padding(4);
             this.partsAddButton.Name = "partsAddButton";
             this.partsAddButton.ShadowDecoration.Parent = this.partsAddButton;
             this.partsAddButton.Size = new System.Drawing.Size(155, 36);
@@ -427,21 +437,21 @@
             // 
             // PartsDataGrid
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
-            this.PartsDataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle225.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            this.PartsDataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle225;
             this.PartsDataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.PartsDataGrid.BackgroundColor = System.Drawing.Color.White;
             this.PartsDataGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.PartsDataGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.PartsDataGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.PartsDataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle226.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle226.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            dataGridViewCellStyle226.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle226.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle226.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle226.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle226.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.PartsDataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle226;
             this.PartsDataGrid.ColumnHeadersHeight = 30;
             this.PartsDataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Item_Code,
@@ -449,19 +459,19 @@
             this.Quantity,
             this.Unit_Price,
             this.Column2});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.PartsDataGrid.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle227.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle227.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle227.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle227.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle227.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            dataGridViewCellStyle227.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle227.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.PartsDataGrid.DefaultCellStyle = dataGridViewCellStyle227;
             this.PartsDataGrid.Enabled = false;
             this.PartsDataGrid.EnableHeadersVisualStyles = false;
             this.PartsDataGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
             this.PartsDataGrid.Location = new System.Drawing.Point(39, 128);
-            this.PartsDataGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PartsDataGrid.Margin = new System.Windows.Forms.Padding(4);
             this.PartsDataGrid.Name = "PartsDataGrid";
             this.PartsDataGrid.ReadOnly = true;
             this.PartsDataGrid.RowHeadersVisible = false;
@@ -540,7 +550,7 @@
             this.croPartsQuantityTextbox.Enabled = false;
             this.croPartsQuantityTextbox.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.croPartsQuantityTextbox.Location = new System.Drawing.Point(563, 75);
-            this.croPartsQuantityTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croPartsQuantityTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.croPartsQuantityTextbox.Name = "croPartsQuantityTextbox";
             this.croPartsQuantityTextbox.Size = new System.Drawing.Size(63, 32);
             this.croPartsQuantityTextbox.TabIndex = 112;
@@ -578,7 +588,7 @@
             this.croPartsNameTextBox.Enabled = false;
             this.croPartsNameTextBox.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.croPartsNameTextBox.Location = new System.Drawing.Point(151, 75);
-            this.croPartsNameTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croPartsNameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.croPartsNameTextBox.Name = "croPartsNameTextBox";
             this.croPartsNameTextBox.Size = new System.Drawing.Size(295, 32);
             this.croPartsNameTextBox.TabIndex = 110;
@@ -603,7 +613,7 @@
             this.croPartsUnitPriceTextbox.Enabled = false;
             this.croPartsUnitPriceTextbox.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.croPartsUnitPriceTextbox.Location = new System.Drawing.Point(776, 75);
-            this.croPartsUnitPriceTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croPartsUnitPriceTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.croPartsUnitPriceTextbox.Name = "croPartsUnitPriceTextbox";
             this.croPartsUnitPriceTextbox.Size = new System.Drawing.Size(140, 32);
             this.croPartsUnitPriceTextbox.TabIndex = 114;
@@ -626,7 +636,7 @@
             this.guna2GroupBox2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox2.ForeColor = System.Drawing.Color.White;
             this.guna2GroupBox2.Location = new System.Drawing.Point(61, 391);
-            this.guna2GroupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GroupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GroupBox2.Name = "guna2GroupBox2";
             this.guna2GroupBox2.ShadowDecoration.Parent = this.guna2GroupBox2;
             this.guna2GroupBox2.Size = new System.Drawing.Size(944, 356);
@@ -645,7 +655,7 @@
             this.serviceRemoveButton.ForeColor = System.Drawing.Color.White;
             this.serviceRemoveButton.HoverState.Parent = this.serviceRemoveButton;
             this.serviceRemoveButton.Location = new System.Drawing.Point(763, 306);
-            this.serviceRemoveButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.serviceRemoveButton.Margin = new System.Windows.Forms.Padding(4);
             this.serviceRemoveButton.Name = "serviceRemoveButton";
             this.serviceRemoveButton.ShadowDecoration.Parent = this.serviceRemoveButton;
             this.serviceRemoveButton.Size = new System.Drawing.Size(155, 36);
@@ -665,7 +675,7 @@
             this.addServiceBuutton.ForeColor = System.Drawing.Color.White;
             this.addServiceBuutton.HoverState.Parent = this.addServiceBuutton;
             this.addServiceBuutton.Location = new System.Drawing.Point(575, 308);
-            this.addServiceBuutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.addServiceBuutton.Margin = new System.Windows.Forms.Padding(4);
             this.addServiceBuutton.Name = "addServiceBuutton";
             this.addServiceBuutton.ShadowDecoration.Parent = this.addServiceBuutton;
             this.addServiceBuutton.Size = new System.Drawing.Size(155, 36);
@@ -679,7 +689,7 @@
             this.croServiceDescription.Enabled = false;
             this.croServiceDescription.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.croServiceDescription.Location = new System.Drawing.Point(145, 78);
-            this.croServiceDescription.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croServiceDescription.Margin = new System.Windows.Forms.Padding(4);
             this.croServiceDescription.Name = "croServiceDescription";
             this.croServiceDescription.Size = new System.Drawing.Size(295, 32);
             this.croServiceDescription.TabIndex = 109;
@@ -704,7 +714,7 @@
             this.croServiceHourTextbox.Enabled = false;
             this.croServiceHourTextbox.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.croServiceHourTextbox.Location = new System.Drawing.Point(553, 76);
-            this.croServiceHourTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croServiceHourTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.croServiceHourTextbox.Name = "croServiceHourTextbox";
             this.croServiceHourTextbox.Size = new System.Drawing.Size(63, 32);
             this.croServiceHourTextbox.TabIndex = 111;
@@ -728,7 +738,7 @@
             this.croServicePrice.Enabled = false;
             this.croServicePrice.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.croServicePrice.Location = new System.Drawing.Point(789, 76);
-            this.croServicePrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croServicePrice.Margin = new System.Windows.Forms.Padding(4);
             this.croServicePrice.Name = "croServicePrice";
             this.croServicePrice.Size = new System.Drawing.Size(140, 32);
             this.croServicePrice.TabIndex = 113;
@@ -748,41 +758,41 @@
             // 
             // serviceDataGridView
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
-            this.serviceDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle228.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            this.serviceDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle228;
             this.serviceDataGridView.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.serviceDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.serviceDataGridView.BackgroundColor = System.Drawing.Color.White;
             this.serviceDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.serviceDataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.serviceDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.serviceDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle229.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle229.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            dataGridViewCellStyle229.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle229.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle229.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle229.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle229.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.serviceDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle229;
             this.serviceDataGridView.ColumnHeadersHeight = 40;
             this.serviceDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Desc,
             this.Qty,
             this.uprice,
             this.totalcolumn});
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.NullValue = null;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.serviceDataGridView.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle232.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle232.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle232.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle232.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle232.NullValue = null;
+            dataGridViewCellStyle232.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            dataGridViewCellStyle232.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle232.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.serviceDataGridView.DefaultCellStyle = dataGridViewCellStyle232;
             this.serviceDataGridView.EnableHeadersVisualStyles = false;
             this.serviceDataGridView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
             this.serviceDataGridView.Location = new System.Drawing.Point(45, 123);
-            this.serviceDataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.serviceDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.serviceDataGridView.Name = "serviceDataGridView";
             this.serviceDataGridView.ReadOnly = true;
             this.serviceDataGridView.RowHeadersVisible = false;
@@ -834,9 +844,9 @@
             // 
             // uprice
             // 
-            dataGridViewCellStyle6.Format = "C2";
-            dataGridViewCellStyle6.NullValue = null;
-            this.uprice.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle230.Format = "C2";
+            dataGridViewCellStyle230.NullValue = null;
+            this.uprice.DefaultCellStyle = dataGridViewCellStyle230;
             this.uprice.FillWeight = 75F;
             this.uprice.HeaderText = "Price/Hour";
             this.uprice.MinimumWidth = 6;
@@ -845,9 +855,9 @@
             // 
             // totalcolumn
             // 
-            dataGridViewCellStyle7.Format = "C2";
-            dataGridViewCellStyle7.NullValue = null;
-            this.totalcolumn.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle231.Format = "C2";
+            dataGridViewCellStyle231.NullValue = null;
+            this.totalcolumn.DefaultCellStyle = dataGridViewCellStyle231;
             this.totalcolumn.FillWeight = 60F;
             this.totalcolumn.HeaderText = "Total";
             this.totalcolumn.MinimumWidth = 6;
@@ -858,38 +868,19 @@
             // 
             this.guna2GroupBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.guna2GroupBox1.BorderThickness = 2;
-            this.guna2GroupBox1.Controls.Add(this.croMileage);
-            this.guna2GroupBox1.Controls.Add(this.label18);
+            this.guna2GroupBox1.Controls.Add(this.panel4);
             this.guna2GroupBox1.Controls.Add(this.ClearBtn);
-            this.guna2GroupBox1.Controls.Add(this.croEngineNo);
             this.guna2GroupBox1.Controls.Add(this.uroSearchRONumberTextbox);
-            this.guna2GroupBox1.Controls.Add(this.label16);
             this.guna2GroupBox1.Controls.Add(this.CroSearchButton);
-            this.guna2GroupBox1.Controls.Add(this.croChasisNo);
-            this.guna2GroupBox1.Controls.Add(this.label15);
-            this.guna2GroupBox1.Controls.Add(this.label8);
-            this.guna2GroupBox1.Controls.Add(this.croPlateNoTextbox);
-            this.guna2GroupBox1.Controls.Add(this.croRONumberTextbox);
-            this.guna2GroupBox1.Controls.Add(this.label14);
-            this.guna2GroupBox1.Controls.Add(this.label9);
-            this.guna2GroupBox1.Controls.Add(this.croCarModelTextbox);
-            this.guna2GroupBox1.Controls.Add(this.croNameTextbox);
-            this.guna2GroupBox1.Controls.Add(this.label13);
-            this.guna2GroupBox1.Controls.Add(this.croAddressTextbox);
-            this.guna2GroupBox1.Controls.Add(this.croCarBrandTextBox);
-            this.guna2GroupBox1.Controls.Add(this.label10);
-            this.guna2GroupBox1.Controls.Add(this.label12);
-            this.guna2GroupBox1.Controls.Add(this.label11);
-            this.guna2GroupBox1.Controls.Add(this.croContactNumberTextbox);
             this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.guna2GroupBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.guna2GroupBox1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.White;
-            this.guna2GroupBox1.Location = new System.Drawing.Point(61, 94);
-            this.guna2GroupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GroupBox1.Location = new System.Drawing.Point(61, 79);
+            this.guna2GroupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
             this.guna2GroupBox1.ShadowDecoration.Parent = this.guna2GroupBox1;
-            this.guna2GroupBox1.Size = new System.Drawing.Size(944, 290);
+            this.guna2GroupBox1.Size = new System.Drawing.Size(944, 305);
             this.guna2GroupBox1.TabIndex = 136;
             this.guna2GroupBox1.Text = "Customer Information";
             // 
@@ -898,10 +889,10 @@
             this.croMileage.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croMileage.Enabled = false;
             this.croMileage.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croMileage.Location = new System.Drawing.Point(751, 199);
-            this.croMileage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croMileage.Location = new System.Drawing.Point(740, 85);
+            this.croMileage.Margin = new System.Windows.Forms.Padding(4);
             this.croMileage.Name = "croMileage";
-            this.croMileage.Size = new System.Drawing.Size(153, 32);
+            this.croMileage.Size = new System.Drawing.Size(165, 32);
             this.croMileage.TabIndex = 164;
             // 
             // label18
@@ -910,12 +901,13 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.label18.ForeColor = System.Drawing.SystemColors.Control;
-            this.label18.Location = new System.Drawing.Point(667, 207);
+            this.label18.Location = new System.Drawing.Point(659, 86);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(70, 20);
             this.label18.TabIndex = 163;
             this.label18.Text = "Mileage";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // ClearBtn
             // 
@@ -927,8 +919,8 @@
             this.ClearBtn.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ClearBtn.ForeColor = System.Drawing.Color.White;
             this.ClearBtn.HoverState.Parent = this.ClearBtn;
-            this.ClearBtn.Location = new System.Drawing.Point(608, 60);
-            this.ClearBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ClearBtn.Location = new System.Drawing.Point(608, 54);
+            this.ClearBtn.Margin = new System.Windows.Forms.Padding(4);
             this.ClearBtn.Name = "ClearBtn";
             this.ClearBtn.ShadowDecoration.Parent = this.ClearBtn;
             this.ClearBtn.Size = new System.Drawing.Size(129, 31);
@@ -940,10 +932,10 @@
             this.croEngineNo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croEngineNo.Enabled = false;
             this.croEngineNo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croEngineNo.Location = new System.Drawing.Point(751, 153);
-            this.croEngineNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croEngineNo.Location = new System.Drawing.Point(740, 47);
+            this.croEngineNo.Margin = new System.Windows.Forms.Padding(4);
             this.croEngineNo.Name = "croEngineNo";
-            this.croEngineNo.Size = new System.Drawing.Size(153, 32);
+            this.croEngineNo.Size = new System.Drawing.Size(165, 32);
             this.croEngineNo.TabIndex = 161;
             // 
             // uroSearchRONumberTextbox
@@ -962,7 +954,7 @@
             this.uroSearchRONumberTextbox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.uroSearchRONumberTextbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.uroSearchRONumberTextbox.HoverState.Parent = this.uroSearchRONumberTextbox;
-            this.uroSearchRONumberTextbox.Location = new System.Drawing.Point(121, 60);
+            this.uroSearchRONumberTextbox.Location = new System.Drawing.Point(121, 54);
             this.uroSearchRONumberTextbox.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.uroSearchRONumberTextbox.Name = "uroSearchRONumberTextbox";
             this.uroSearchRONumberTextbox.PasswordChar = '\0';
@@ -971,6 +963,7 @@
             this.uroSearchRONumberTextbox.ShadowDecoration.Parent = this.uroSearchRONumberTextbox;
             this.uroSearchRONumberTextbox.Size = new System.Drawing.Size(335, 31);
             this.uroSearchRONumberTextbox.TabIndex = 143;
+            this.uroSearchRONumberTextbox.TextChanged += new System.EventHandler(this.uroSearchRONumberTextbox_TextChanged);
             this.uroSearchRONumberTextbox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uroSearchRONumberTextbox_KeyDown);
             // 
             // label16
@@ -979,7 +972,7 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.label16.ForeColor = System.Drawing.SystemColors.Control;
-            this.label16.Location = new System.Drawing.Point(653, 160);
+            this.label16.Location = new System.Drawing.Point(649, 53);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(83, 20);
@@ -996,23 +989,24 @@
             this.CroSearchButton.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CroSearchButton.ForeColor = System.Drawing.Color.White;
             this.CroSearchButton.HoverState.Parent = this.CroSearchButton;
-            this.CroSearchButton.Location = new System.Drawing.Point(473, 60);
-            this.CroSearchButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CroSearchButton.Location = new System.Drawing.Point(473, 54);
+            this.CroSearchButton.Margin = new System.Windows.Forms.Padding(4);
             this.CroSearchButton.Name = "CroSearchButton";
             this.CroSearchButton.ShadowDecoration.Parent = this.CroSearchButton;
             this.CroSearchButton.Size = new System.Drawing.Size(127, 31);
             this.CroSearchButton.TabIndex = 144;
             this.CroSearchButton.Text = "Search";
+            this.CroSearchButton.Click += new System.EventHandler(this.CroSearchButton_Click);
             // 
             // croChasisNo
             // 
             this.croChasisNo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croChasisNo.Enabled = false;
             this.croChasisNo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croChasisNo.Location = new System.Drawing.Point(751, 103);
-            this.croChasisNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croChasisNo.Location = new System.Drawing.Point(740, 6);
+            this.croChasisNo.Margin = new System.Windows.Forms.Padding(4);
             this.croChasisNo.Name = "croChasisNo";
-            this.croChasisNo.Size = new System.Drawing.Size(153, 32);
+            this.croChasisNo.Size = new System.Drawing.Size(165, 32);
             this.croChasisNo.TabIndex = 159;
             // 
             // label15
@@ -1021,12 +1015,13 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.label15.ForeColor = System.Drawing.SystemColors.Control;
-            this.label15.Location = new System.Drawing.Point(656, 111);
+            this.label15.Location = new System.Drawing.Point(649, 12);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(80, 20);
             this.label15.TabIndex = 158;
             this.label15.Text = "Chasis No";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // label8
             // 
@@ -1034,20 +1029,21 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.label8.ForeColor = System.Drawing.SystemColors.Control;
-            this.label8.Location = new System.Drawing.Point(52, 112);
+            this.label8.Location = new System.Drawing.Point(44, 12);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(54, 20);
             this.label8.TabIndex = 141;
             this.label8.Text = "RO no";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // croPlateNoTextbox
             // 
             this.croPlateNoTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croPlateNoTextbox.Enabled = false;
             this.croPlateNoTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croPlateNoTextbox.Location = new System.Drawing.Point(453, 199);
-            this.croPlateNoTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croPlateNoTextbox.Location = new System.Drawing.Point(445, 85);
+            this.croPlateNoTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.croPlateNoTextbox.Name = "croPlateNoTextbox";
             this.croPlateNoTextbox.Size = new System.Drawing.Size(196, 32);
             this.croPlateNoTextbox.TabIndex = 157;
@@ -1057,11 +1053,12 @@
             this.croRONumberTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croRONumberTextbox.Enabled = false;
             this.croRONumberTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croRONumberTextbox.Location = new System.Drawing.Point(121, 107);
-            this.croRONumberTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croRONumberTextbox.Location = new System.Drawing.Point(119, 6);
+            this.croRONumberTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.croRONumberTextbox.Name = "croRONumberTextbox";
-            this.croRONumberTextbox.Size = new System.Drawing.Size(196, 32);
+            this.croRONumberTextbox.Size = new System.Drawing.Size(199, 32);
             this.croRONumberTextbox.TabIndex = 142;
+            this.croRONumberTextbox.TextChanged += new System.EventHandler(this.croRONumberTextbox_TextChanged);
             // 
             // label14
             // 
@@ -1069,7 +1066,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.label14.ForeColor = System.Drawing.SystemColors.Control;
-            this.label14.Location = new System.Drawing.Point(349, 203);
+            this.label14.Location = new System.Drawing.Point(353, 86);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(71, 20);
@@ -1082,20 +1079,21 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.label9.ForeColor = System.Drawing.SystemColors.Control;
-            this.label9.Location = new System.Drawing.Point(51, 156);
+            this.label9.Location = new System.Drawing.Point(45, 51);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(53, 20);
             this.label9.TabIndex = 146;
             this.label9.Text = "Name";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // croCarModelTextbox
             // 
             this.croCarModelTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croCarModelTextbox.Enabled = false;
             this.croCarModelTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croCarModelTextbox.Location = new System.Drawing.Point(453, 154);
-            this.croCarModelTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croCarModelTextbox.Location = new System.Drawing.Point(445, 45);
+            this.croCarModelTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.croCarModelTextbox.Name = "croCarModelTextbox";
             this.croCarModelTextbox.Size = new System.Drawing.Size(196, 32);
             this.croCarModelTextbox.TabIndex = 155;
@@ -1105,10 +1103,10 @@
             this.croNameTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croNameTextbox.Enabled = false;
             this.croNameTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croNameTextbox.Location = new System.Drawing.Point(121, 154);
-            this.croNameTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croNameTextbox.Location = new System.Drawing.Point(119, 45);
+            this.croNameTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.croNameTextbox.Name = "croNameTextbox";
-            this.croNameTextbox.Size = new System.Drawing.Size(196, 32);
+            this.croNameTextbox.Size = new System.Drawing.Size(199, 32);
             this.croNameTextbox.TabIndex = 147;
             // 
             // label13
@@ -1117,7 +1115,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.label13.ForeColor = System.Drawing.SystemColors.Control;
-            this.label13.Location = new System.Drawing.Point(333, 158);
+            this.label13.Location = new System.Drawing.Point(336, 51);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(88, 20);
@@ -1129,10 +1127,10 @@
             this.croAddressTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croAddressTextbox.Enabled = false;
             this.croAddressTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croAddressTextbox.Location = new System.Drawing.Point(121, 246);
-            this.croAddressTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croAddressTextbox.Location = new System.Drawing.Point(120, 125);
+            this.croAddressTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.croAddressTextbox.Name = "croAddressTextbox";
-            this.croAddressTextbox.Size = new System.Drawing.Size(531, 32);
+            this.croAddressTextbox.Size = new System.Drawing.Size(511, 32);
             this.croAddressTextbox.TabIndex = 148;
             // 
             // croCarBrandTextBox
@@ -1140,8 +1138,8 @@
             this.croCarBrandTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croCarBrandTextBox.Enabled = false;
             this.croCarBrandTextBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croCarBrandTextBox.Location = new System.Drawing.Point(453, 106);
-            this.croCarBrandTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croCarBrandTextBox.Location = new System.Drawing.Point(445, 6);
+            this.croCarBrandTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.croCarBrandTextBox.Name = "croCarBrandTextBox";
             this.croCarBrandTextBox.Size = new System.Drawing.Size(196, 32);
             this.croCarBrandTextBox.TabIndex = 153;
@@ -1152,12 +1150,13 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.label10.ForeColor = System.Drawing.SystemColors.Control;
-            this.label10.Location = new System.Drawing.Point(36, 252);
+            this.label10.Location = new System.Drawing.Point(31, 131);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(67, 20);
             this.label10.TabIndex = 149;
             this.label10.Text = "Address";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label12
             // 
@@ -1165,7 +1164,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.label12.ForeColor = System.Drawing.SystemColors.Control;
-            this.label12.Location = new System.Drawing.Point(336, 110);
+            this.label12.Location = new System.Drawing.Point(341, 12);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(83, 20);
@@ -1178,7 +1177,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.label11.ForeColor = System.Drawing.SystemColors.Control;
-            this.label11.Location = new System.Drawing.Point(5, 202);
+            this.label11.Location = new System.Drawing.Point(4, 91);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(95, 20);
@@ -1190,18 +1189,19 @@
             this.croContactNumberTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croContactNumberTextbox.Enabled = false;
             this.croContactNumberTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croContactNumberTextbox.Location = new System.Drawing.Point(121, 199);
-            this.croContactNumberTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.croContactNumberTextbox.Location = new System.Drawing.Point(119, 85);
+            this.croContactNumberTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.croContactNumberTextbox.Name = "croContactNumberTextbox";
-            this.croContactNumberTextbox.Size = new System.Drawing.Size(196, 32);
+            this.croContactNumberTextbox.Size = new System.Drawing.Size(199, 32);
             this.croContactNumberTextbox.TabIndex = 151;
+            this.croContactNumberTextbox.TextChanged += new System.EventHandler(this.croContactNumberTextbox_TextChanged);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.panel1.Controls.Add(this.label7);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(515, 71);
             this.panel1.TabIndex = 131;
@@ -1222,13 +1222,146 @@
             // 
             this.errorProvider.ContainerControl = this;
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.panel4.Controls.Add(this.EmailAddTxtBox);
+            this.panel4.Controls.Add(this.croMileage);
+            this.panel4.Controls.Add(this.label22);
+            this.panel4.Controls.Add(this.label18);
+            this.panel4.Controls.Add(this.DriversTxtBox);
+            this.panel4.Controls.Add(this.label23);
+            this.panel4.Controls.Add(this.croEngineNo);
+            this.panel4.Controls.Add(this.ColorTxtBox);
+            this.panel4.Controls.Add(this.label21);
+            this.panel4.Controls.Add(this.label16);
+            this.panel4.Controls.Add(this.label24);
+            this.panel4.Controls.Add(this.PromiseTxtBox);
+            this.panel4.Controls.Add(this.croChasisNo);
+            this.panel4.Controls.Add(this.croRONumberTextbox);
+            this.panel4.Controls.Add(this.label15);
+            this.panel4.Controls.Add(this.croContactNumberTextbox);
+            this.panel4.Controls.Add(this.label8);
+            this.panel4.Controls.Add(this.label11);
+            this.panel4.Controls.Add(this.croPlateNoTextbox);
+            this.panel4.Controls.Add(this.label12);
+            this.panel4.Controls.Add(this.label10);
+            this.panel4.Controls.Add(this.label14);
+            this.panel4.Controls.Add(this.croCarBrandTextBox);
+            this.panel4.Controls.Add(this.label9);
+            this.panel4.Controls.Add(this.croAddressTextbox);
+            this.panel4.Controls.Add(this.croCarModelTextbox);
+            this.panel4.Controls.Add(this.label13);
+            this.panel4.Controls.Add(this.croNameTextbox);
+            this.panel4.Location = new System.Drawing.Point(16, 91);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(914, 204);
+            this.panel4.TabIndex = 168;
+            // 
+            // EmailAddTxtBox
+            // 
+            this.EmailAddTxtBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.EmailAddTxtBox.Enabled = false;
+            this.EmailAddTxtBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmailAddTxtBox.Location = new System.Drawing.Point(121, 165);
+            this.EmailAddTxtBox.Margin = new System.Windows.Forms.Padding(4);
+            this.EmailAddTxtBox.Name = "EmailAddTxtBox";
+            this.EmailAddTxtBox.Size = new System.Drawing.Size(238, 32);
+            this.EmailAddTxtBox.TabIndex = 168;
+            // 
+            // label22
+            // 
+            this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label22.ForeColor = System.Drawing.SystemColors.Control;
+            this.label22.Location = new System.Drawing.Point(19, 170);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(81, 20);
+            this.label22.TabIndex = 167;
+            this.label22.Text = "Email Add";
+            // 
+            // DriversTxtBox
+            // 
+            this.DriversTxtBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.DriversTxtBox.Enabled = false;
+            this.DriversTxtBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DriversTxtBox.Location = new System.Drawing.Point(740, 125);
+            this.DriversTxtBox.Margin = new System.Windows.Forms.Padding(4);
+            this.DriversTxtBox.Name = "DriversTxtBox";
+            this.DriversTxtBox.Size = new System.Drawing.Size(165, 32);
+            this.DriversTxtBox.TabIndex = 172;
+            // 
+            // label23
+            // 
+            this.label23.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Century Gothic", 8F);
+            this.label23.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label23.Location = new System.Drawing.Point(639, 134);
+            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(98, 19);
+            this.label23.TabIndex = 171;
+            this.label23.Text = "Drivers Name";
+            // 
+            // ColorTxtBox
+            // 
+            this.ColorTxtBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ColorTxtBox.Enabled = false;
+            this.ColorTxtBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ColorTxtBox.Location = new System.Drawing.Point(740, 164);
+            this.ColorTxtBox.Margin = new System.Windows.Forms.Padding(4);
+            this.ColorTxtBox.Name = "ColorTxtBox";
+            this.ColorTxtBox.Size = new System.Drawing.Size(165, 32);
+            this.ColorTxtBox.TabIndex = 166;
+            // 
+            // label21
+            // 
+            this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label21.ForeColor = System.Drawing.SystemColors.Control;
+            this.label21.Location = new System.Drawing.Point(688, 170);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(49, 20);
+            this.label21.TabIndex = 165;
+            this.label21.Text = "Color";
+            this.label21.Click += new System.EventHandler(this.label21_Click);
+            // 
+            // label24
+            // 
+            this.label24.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label24.ForeColor = System.Drawing.SystemColors.Control;
+            this.label24.Location = new System.Drawing.Point(367, 171);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(110, 20);
+            this.label24.TabIndex = 169;
+            this.label24.Text = "Promised Time";
+            // 
+            // PromiseTxtBox
+            // 
+            this.PromiseTxtBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.PromiseTxtBox.Enabled = false;
+            this.PromiseTxtBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PromiseTxtBox.Location = new System.Drawing.Point(495, 164);
+            this.PromiseTxtBox.Margin = new System.Windows.Forms.Padding(4);
+            this.PromiseTxtBox.Name = "PromiseTxtBox";
+            this.PromiseTxtBox.Size = new System.Drawing.Size(192, 32);
+            this.PromiseTxtBox.TabIndex = 170;
+            // 
             // EditRepairOrderForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1375, 922);
             this.Controls.Add(this.panel2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EditRepairOrderForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EditRepairOrderForm";
@@ -1246,10 +1379,11 @@
             this.guna2GroupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.serviceDataGridView)).EndInit();
             this.guna2GroupBox1.ResumeLayout(false);
-            this.guna2GroupBox1.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1329,5 +1463,14 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ErrorProvider errorProvider;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.TextBox EmailAddTxtBox;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.TextBox DriversTxtBox;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.TextBox ColorTxtBox;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TextBox PromiseTxtBox;
     }
 }
