@@ -96,6 +96,10 @@ namespace Raceup_Autocare
                     croChasisNo.Text = customerReader["chasis_number"].ToString();
                     croEngineNo.Text = customerReader["engine_number"].ToString();
                     croMileage.Text = customerReader["Mileage"].ToString();
+                    ColorTxtBox.Text = customerReader["color_car"].ToString();
+                    EmailAddTxtBox.Text = customerReader["email_address"].ToString();
+                    PromiseTxtBox.Text = customerReader["promise_time"].ToString();
+                    DriversTxtBox.Text = customerReader["drivers_name"].ToString();
                     croRONumberTextbox.Text = roNumber;
                     plateNoExist = true;
 
@@ -409,7 +413,7 @@ namespace Raceup_Autocare
                     if (!isROExist)
                     {
                         // Insert into RepairOrder Table 
-                        cmd.CommandText = @"INSERT INTO RepairOrder([RO_Number], [Plate_Number], [Created_By], [Date_Created], [Updated_By], [Date_Updated], [Payment_Method], [Customer_Request], [GrandTotal], [Status], [Discount], [First_Name], [Last_Name], [Address], [Contact_Number], [Mileage], [Car_Brand], [Car_Model], [Chasis_Number], [Engine_Number]) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
+                        cmd.CommandText = @"INSERT INTO RepairOrder([RO_Number], [Plate_Number], [Created_By], [Date_Created], [Updated_By], [Date_Updated], [Payment_Method], [Customer_Request], [GrandTotal], [Status], [Discount], [First_Name], [Last_Name], [Address], [Contact_Number], [Mileage], [Car_Brand], [Car_Model], [Chasis_Number], [Engine_Number], [color_car], [email_address], [promise_time], [drivers_name]) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
                         croRONumberTextbox.Text = roNumber;
                         cmd.Parameters.Add("@RO_Number", OleDbType.VarChar).Value = croRONumberTextbox.Text.ToString();
                         cmd.Parameters.Add("@Plate_Number", OleDbType.VarChar).Value = croPlateNoTextbox.Text.ToString();
@@ -437,9 +441,14 @@ namespace Raceup_Autocare
                         cmd.Parameters.Add("@Car_Model", OleDbType.VarChar).Value = croCarModelTextbox.Text.ToString();
                         cmd.Parameters.Add("@Chasis_Number", OleDbType.VarChar).Value = croChasisNo.Text.ToString();
                         cmd.Parameters.Add("@Engine_Number", OleDbType.VarChar).Value = croEngineNo.Text.ToString();
-                        //end of added
+                        //New Fields
+                        cmd.Parameters.Add("@color_car", OleDbType.VarChar).Value = ColorTxtBox.Text.ToString();
+                        cmd.Parameters.Add("@email_address", OleDbType.VarChar).Value = EmailAddTxtBox.Text.ToString();
+                        cmd.Parameters.Add("@promise_time", OleDbType.VarChar).Value = PromiseTxtBox.Text.ToString();
+                        cmd.Parameters.Add("@drivers_name", OleDbType.VarChar).Value = DriversTxtBox.Text.ToString();
+                    //end of added
 
-                        cmd.Connection = dbcon.openConnection();
+                    cmd.Connection = dbcon.openConnection();
                         cmd.ExecuteNonQuery();
 
                         // Insert into RepairOrderService Table
@@ -822,6 +831,12 @@ namespace Raceup_Autocare
                         cmd.Parameters.Add("@Quotation_Number", OleDbType.VarChar).Value = qnNumber;// "QN" + croRONumberTextbox.Text.ToString();
                         cmd.Parameters.Add("@First_Name", OleDbType.VarChar).Value = result[0];
                         cmd.Parameters.Add("@Last_Name", OleDbType.VarChar).Value = result[1];
+                        //New Fields
+                        cmd.Parameters.Add("@color_car", OleDbType.VarChar).Value = ColorTxtBox.Text.ToString();
+                        cmd.Parameters.Add("@email_address", OleDbType.VarChar).Value = EmailAddTxtBox.Text.ToString();
+                        cmd.Parameters.Add("@promise_time", OleDbType.VarChar).Value = PromiseTxtBox.Text.ToString();
+                        cmd.Parameters.Add("@drivers_name", OleDbType.VarChar).Value = DriversTxtBox.Text.ToString();
+
                         cmd.Parameters.Add("@Address", OleDbType.VarChar).Value = croAddressTextbox.Text;
                         cmd.Parameters.Add("@Contact_Number", OleDbType.VarChar).Value = croContactNumberTextbox.Text.ToString();
                         cmd.Parameters.Add("@Plate_Number", OleDbType.VarChar).Value = croPlateNoTextbox.Text.ToString();
@@ -923,6 +938,10 @@ namespace Raceup_Autocare
                     quoProperties.CustomerRequest = quotationReader["Customer_Request"].ToString();
                     quoProperties.GrandTotal = quotationReader["Grand_Total"].ToString();
                     quoProperties.MileAge = quotationReader["MileAge"].ToString();
+                    quoProperties.ColorCar = quotationReader["color_car"].ToString();
+                    quoProperties.EmailAdd = quotationReader["email_address"].ToString();
+                    quoProperties.Promise = quotationReader["promise_time"].ToString();
+                    quoProperties.Drivers = quotationReader["drivers_name"].ToString();
                     quotationExists = true;                    
                 }
             }
@@ -991,6 +1010,11 @@ namespace Raceup_Autocare
             customerRequestTextbox.Text = quoProperties.CustomerRequest;            
             croMileage.Text = quoProperties.MileAge;
             croGrandTotal.Text = quoProperties.GrandTotal;
+            //new fields
+            ColorTxtBox.Text = quoProperties.ColorCar;
+            EmailAddTxtBox.Text = quoProperties.EmailAdd;
+            PromiseTxtBox.Text = quoProperties.Promise;
+            DriversTxtBox.Text = quoProperties.Drivers;
 
             string[] paymentMethods = { "Cash", "GCash", "Master Card", "Credit Card" };
             RadioButton[] paymentRadioButton = { cashRadioButton, gcashRadioButton, masterCardRadioButton, creditCardRadioButton };

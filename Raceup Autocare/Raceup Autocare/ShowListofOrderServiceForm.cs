@@ -64,6 +64,10 @@ namespace Raceup_Autocare
                     croChasisNo.Text = customerReader["chasis_number"].ToString();
                     croEngineNo.Text = customerReader["engine_number"].ToString();
                     croMileage.Text = customerReader["Mileage"].ToString();
+                    ColorTxtBox.Text = customerReader["color_car"].ToString();
+                    EmailAddTxtBox.Text = customerReader["email_address"].ToString();
+                    PromiseTxtBox.Text = customerReader["promise_time"].ToString();
+                    DriversTxtBox.Text = customerReader["drivers_name"].ToString();
                 }
             }
 

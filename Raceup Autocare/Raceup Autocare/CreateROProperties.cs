@@ -9,6 +9,10 @@ namespace Raceup_Autocare
     
     class CreateROProperties
     {
+        private String color;
+        private String email;
+        private String promise;
+        private String drivers;
         private String roNumber;
         private String fName;
         private String lName;
@@ -37,6 +41,11 @@ namespace Raceup_Autocare
         private String paymentMethod;
         private string customerRequest;
         private String grandTotal;
+
+        public string ColorCar { get => color; set => color = value; }
+        public string EmailAdd { get => email; set => email = value; }
+        public string Promise { get => promise; set => promise = value; }
+        public string Drivers { get => drivers; set => drivers = value; }
 
         public string RoNumber { get => roNumber; set => roNumber = value; }
         public string FName { get => fName; set => fName = value; }

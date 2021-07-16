@@ -8,6 +8,10 @@ namespace Raceup_Autocare
 {
     class QuotationProperties
     {
+        private String color;
+        private String email;
+        private String promise;
+        private String drivers;
         private String quoNumber;
         private String fName;
         private String lName;
@@ -36,6 +40,11 @@ namespace Raceup_Autocare
         private String paymentMethod;
         private string customerRequest;
         private String grandTotal;
+
+        public string ColorCar { get => color; set => color = value; }
+        public string EmailAdd { get => email; set => email = value; }
+        public string Promise { get => promise; set => promise = value; }
+        public string Drivers { get => drivers; set => drivers = value; }
 
         public string QuoNumber { get => quoNumber; set => quoNumber = value; }
         public string FName { get => fName; set => fName = value; }

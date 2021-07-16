@@ -84,30 +84,39 @@
             this.uprice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.totalcolumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.croMileage = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.ClearBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.croEngineNo = new System.Windows.Forms.TextBox();
-            this.croSearchPlateNoTextbox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.CroSearchButton = new Guna.UI2.WinForms.Guna2Button();
-            this.croChasisNo = new System.Windows.Forms.TextBox();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.croPlateNoTextbox = new System.Windows.Forms.TextBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.EmailAddTxtBox = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.DriversTxtBox = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.ColorTxtBox = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.PromiseTxtBox = new System.Windows.Forms.TextBox();
             this.croRONumberTextbox = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.croCarModelTextbox = new System.Windows.Forms.TextBox();
-            this.croNameTextbox = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.croAddressTextbox = new System.Windows.Forms.TextBox();
-            this.croCarBrandTextBox = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.croContactNumberTextbox = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.croMileage = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.croCarBrandTextBox = new System.Windows.Forms.TextBox();
+            this.croEngineNo = new System.Windows.Forms.TextBox();
+            this.croAddressTextbox = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.croNameTextbox = new System.Windows.Forms.TextBox();
+            this.croCarModelTextbox = new System.Windows.Forms.TextBox();
+            this.croChasisNo = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.croPlateNoTextbox = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.ClearBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.croSearchPlateNoTextbox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.CroSearchButton = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
@@ -120,6 +129,7 @@
             this.guna2GroupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.serviceDataGridView)).BeginInit();
             this.guna2GroupBox1.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.SuspendLayout();
@@ -142,8 +152,9 @@
             this.panel2.Controls.Add(this.panel1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1031, 749);
+            this.panel2.Size = new System.Drawing.Size(1289, 1055);
             this.panel2.TabIndex = 129;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -151,9 +162,10 @@
             // 
             this.croGrandTotal.Enabled = false;
             this.croGrandTotal.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.croGrandTotal.Location = new System.Drawing.Point(872, 627);
+            this.croGrandTotal.Location = new System.Drawing.Point(1090, 784);
+            this.croGrandTotal.Margin = new System.Windows.Forms.Padding(4);
             this.croGrandTotal.Name = "croGrandTotal";
-            this.croGrandTotal.Size = new System.Drawing.Size(154, 27);
+            this.croGrandTotal.Size = new System.Drawing.Size(192, 32);
             this.croGrandTotal.TabIndex = 167;
             // 
             // label20
@@ -161,18 +173,20 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.label20.ForeColor = System.Drawing.SystemColors.Control;
-            this.label20.Location = new System.Drawing.Point(762, 633);
+            this.label20.Location = new System.Drawing.Point(952, 791);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(104, 21);
+            this.label20.Size = new System.Drawing.Size(126, 23);
             this.label20.TabIndex = 168;
             this.label20.Text = "Grand Total";
             // 
             // croDiscountTextbox
             // 
             this.croDiscountTextbox.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.croDiscountTextbox.Location = new System.Drawing.Point(872, 590);
+            this.croDiscountTextbox.Location = new System.Drawing.Point(1090, 738);
+            this.croDiscountTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.croDiscountTextbox.Name = "croDiscountTextbox";
-            this.croDiscountTextbox.Size = new System.Drawing.Size(154, 27);
+            this.croDiscountTextbox.Size = new System.Drawing.Size(192, 32);
             this.croDiscountTextbox.TabIndex = 165;
             this.croDiscountTextbox.Text = "0";
             this.croDiscountTextbox.TextChanged += new System.EventHandler(this.croDiscountTextbox_TextChanged);
@@ -182,9 +196,10 @@
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.label19.ForeColor = System.Drawing.SystemColors.Control;
-            this.label19.Location = new System.Drawing.Point(762, 596);
+            this.label19.Location = new System.Drawing.Point(952, 745);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(78, 21);
+            this.label19.Size = new System.Drawing.Size(93, 23);
             this.label19.TabIndex = 166;
             this.label19.Text = "Discount";
             // 
@@ -194,9 +209,10 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.label17.ForeColor = System.Drawing.SystemColors.Control;
-            this.label17.Location = new System.Drawing.Point(598, 1592);
+            this.label17.Location = new System.Drawing.Point(748, 1990);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(104, 21);
+            this.label17.Size = new System.Drawing.Size(126, 23);
             this.label17.TabIndex = 165;
             this.label17.Text = "Grand Total";
             // 
@@ -204,18 +220,20 @@
             // 
             this.GrandTotalTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.GrandTotalTextbox.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.GrandTotalTextbox.Location = new System.Drawing.Point(711, 1586);
+            this.GrandTotalTextbox.Location = new System.Drawing.Point(889, 1982);
+            this.GrandTotalTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.GrandTotalTextbox.Name = "GrandTotalTextbox";
-            this.GrandTotalTextbox.Size = new System.Drawing.Size(106, 27);
+            this.GrandTotalTextbox.Size = new System.Drawing.Size(132, 32);
             this.GrandTotalTextbox.TabIndex = 165;
             // 
             // panel3
             // 
             this.panel3.Controls.Add(this.saveButton);
             this.panel3.Controls.Add(this.printButton);
-            this.panel3.Location = new System.Drawing.Point(12, 895);
+            this.panel3.Location = new System.Drawing.Point(15, 1119);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1293, 61);
+            this.panel3.Size = new System.Drawing.Size(1616, 76);
             this.panel3.TabIndex = 140;
             // 
             // saveButton
@@ -228,10 +246,11 @@
             this.saveButton.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveButton.ForeColor = System.Drawing.Color.White;
             this.saveButton.HoverState.Parent = this.saveButton;
-            this.saveButton.Location = new System.Drawing.Point(186, 6);
+            this.saveButton.Location = new System.Drawing.Point(232, 8);
+            this.saveButton.Margin = new System.Windows.Forms.Padding(4);
             this.saveButton.Name = "saveButton";
             this.saveButton.ShadowDecoration.Parent = this.saveButton;
-            this.saveButton.Size = new System.Drawing.Size(237, 52);
+            this.saveButton.Size = new System.Drawing.Size(296, 65);
             this.saveButton.TabIndex = 139;
             this.saveButton.Text = "Save";
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
@@ -246,10 +265,11 @@
             this.printButton.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.printButton.ForeColor = System.Drawing.Color.White;
             this.printButton.HoverState.Parent = this.printButton;
-            this.printButton.Location = new System.Drawing.Point(632, 6);
+            this.printButton.Location = new System.Drawing.Point(790, 8);
+            this.printButton.Margin = new System.Windows.Forms.Padding(4);
             this.printButton.Name = "printButton";
             this.printButton.ShadowDecoration.Parent = this.printButton;
-            this.printButton.Size = new System.Drawing.Size(237, 52);
+            this.printButton.Size = new System.Drawing.Size(296, 65);
             this.printButton.TabIndex = 129;
             this.printButton.Text = "Print/Save Quotation";
             this.printButton.Click += new System.EventHandler(this.printButton_Click);
@@ -263,10 +283,11 @@
             this.guna2GroupBox5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.guna2GroupBox5.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox5.ForeColor = System.Drawing.Color.White;
-            this.guna2GroupBox5.Location = new System.Drawing.Point(760, 318);
+            this.guna2GroupBox5.Location = new System.Drawing.Point(950, 398);
+            this.guna2GroupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GroupBox5.Name = "guna2GroupBox5";
             this.guna2GroupBox5.ShadowDecoration.Parent = this.guna2GroupBox5;
-            this.guna2GroupBox5.Size = new System.Drawing.Size(266, 253);
+            this.guna2GroupBox5.Size = new System.Drawing.Size(332, 316);
             this.guna2GroupBox5.TabIndex = 137;
             this.guna2GroupBox5.Text = "Customer\'s Request";
             // 
@@ -285,15 +306,15 @@
             this.customerRequestTextbox.ForeColor = System.Drawing.Color.Black;
             this.customerRequestTextbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.customerRequestTextbox.HoverState.Parent = this.customerRequestTextbox;
-            this.customerRequestTextbox.Location = new System.Drawing.Point(6, 51);
-            this.customerRequestTextbox.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
+            this.customerRequestTextbox.Location = new System.Drawing.Point(8, 64);
+            this.customerRequestTextbox.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
             this.customerRequestTextbox.Multiline = true;
             this.customerRequestTextbox.Name = "customerRequestTextbox";
             this.customerRequestTextbox.PasswordChar = '\0';
             this.customerRequestTextbox.PlaceholderText = "";
             this.customerRequestTextbox.SelectedText = "";
             this.customerRequestTextbox.ShadowDecoration.Parent = this.customerRequestTextbox;
-            this.customerRequestTextbox.Size = new System.Drawing.Size(253, 187);
+            this.customerRequestTextbox.Size = new System.Drawing.Size(316, 234);
             this.customerRequestTextbox.TabIndex = 141;
             // 
             // ModeOfPaymentGroupBox
@@ -308,10 +329,11 @@
             this.ModeOfPaymentGroupBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.ModeOfPaymentGroupBox.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ModeOfPaymentGroupBox.ForeColor = System.Drawing.Color.White;
-            this.ModeOfPaymentGroupBox.Location = new System.Drawing.Point(760, 76);
+            this.ModeOfPaymentGroupBox.Location = new System.Drawing.Point(950, 68);
+            this.ModeOfPaymentGroupBox.Margin = new System.Windows.Forms.Padding(4);
             this.ModeOfPaymentGroupBox.Name = "ModeOfPaymentGroupBox";
             this.ModeOfPaymentGroupBox.ShadowDecoration.Parent = this.ModeOfPaymentGroupBox;
-            this.ModeOfPaymentGroupBox.Size = new System.Drawing.Size(266, 236);
+            this.ModeOfPaymentGroupBox.Size = new System.Drawing.Size(332, 322);
             this.ModeOfPaymentGroupBox.TabIndex = 137;
             this.ModeOfPaymentGroupBox.Text = "Mode of payment";
             // 
@@ -319,10 +341,10 @@
             // 
             this.creditCardRadioButton.AutoSize = true;
             this.creditCardRadioButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.creditCardRadioButton.Location = new System.Drawing.Point(22, 140);
+            this.creditCardRadioButton.Location = new System.Drawing.Point(28, 175);
             this.creditCardRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.creditCardRadioButton.Name = "creditCardRadioButton";
-            this.creditCardRadioButton.Size = new System.Drawing.Size(121, 25);
+            this.creditCardRadioButton.Size = new System.Drawing.Size(146, 27);
             this.creditCardRadioButton.TabIndex = 135;
             this.creditCardRadioButton.TabStop = true;
             this.creditCardRadioButton.Text = "Credit Card";
@@ -332,10 +354,10 @@
             // 
             this.cashRadioButton.AutoSize = true;
             this.cashRadioButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cashRadioButton.Location = new System.Drawing.Point(22, 84);
+            this.cashRadioButton.Location = new System.Drawing.Point(28, 105);
             this.cashRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.cashRadioButton.Name = "cashRadioButton";
-            this.cashRadioButton.Size = new System.Drawing.Size(68, 25);
+            this.cashRadioButton.Size = new System.Drawing.Size(81, 27);
             this.cashRadioButton.TabIndex = 134;
             this.cashRadioButton.TabStop = true;
             this.cashRadioButton.Text = "Cash";
@@ -345,10 +367,10 @@
             // 
             this.masterCardRadioButton.AutoSize = true;
             this.masterCardRadioButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.masterCardRadioButton.Location = new System.Drawing.Point(22, 112);
+            this.masterCardRadioButton.Location = new System.Drawing.Point(28, 140);
             this.masterCardRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.masterCardRadioButton.Name = "masterCardRadioButton";
-            this.masterCardRadioButton.Size = new System.Drawing.Size(126, 25);
+            this.masterCardRadioButton.Size = new System.Drawing.Size(152, 27);
             this.masterCardRadioButton.TabIndex = 133;
             this.masterCardRadioButton.TabStop = true;
             this.masterCardRadioButton.Text = "Master Card";
@@ -358,10 +380,10 @@
             // 
             this.gcashRadioButton.AutoSize = true;
             this.gcashRadioButton.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gcashRadioButton.Location = new System.Drawing.Point(22, 55);
+            this.gcashRadioButton.Location = new System.Drawing.Point(28, 69);
             this.gcashRadioButton.Margin = new System.Windows.Forms.Padding(2);
             this.gcashRadioButton.Name = "gcashRadioButton";
-            this.gcashRadioButton.Size = new System.Drawing.Size(82, 25);
+            this.gcashRadioButton.Size = new System.Drawing.Size(98, 27);
             this.gcashRadioButton.TabIndex = 132;
             this.gcashRadioButton.TabStop = true;
             this.gcashRadioButton.Text = "GCash";
@@ -384,10 +406,11 @@
             this.guna2GroupBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.guna2GroupBox3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox3.ForeColor = System.Drawing.Color.White;
-            this.guna2GroupBox3.Location = new System.Drawing.Point(46, 613);
+            this.guna2GroupBox3.Location = new System.Drawing.Point(58, 766);
+            this.guna2GroupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GroupBox3.Name = "guna2GroupBox3";
             this.guna2GroupBox3.ShadowDecoration.Parent = this.guna2GroupBox3;
-            this.guna2GroupBox3.Size = new System.Drawing.Size(708, 278);
+            this.guna2GroupBox3.Size = new System.Drawing.Size(885, 348);
             this.guna2GroupBox3.TabIndex = 138;
             this.guna2GroupBox3.Text = "Parts";
             // 
@@ -401,10 +424,11 @@
             this.removeBTN.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.removeBTN.ForeColor = System.Drawing.Color.White;
             this.removeBTN.HoverState.Parent = this.removeBTN;
-            this.removeBTN.Location = new System.Drawing.Point(581, 237);
+            this.removeBTN.Location = new System.Drawing.Point(726, 296);
+            this.removeBTN.Margin = new System.Windows.Forms.Padding(4);
             this.removeBTN.Name = "removeBTN";
             this.removeBTN.ShadowDecoration.Parent = this.removeBTN;
-            this.removeBTN.Size = new System.Drawing.Size(116, 29);
+            this.removeBTN.Size = new System.Drawing.Size(145, 36);
             this.removeBTN.TabIndex = 164;
             this.removeBTN.Text = "Remove";
             this.removeBTN.Click += new System.EventHandler(this.removeBTN_Click);
@@ -419,10 +443,11 @@
             this.partsAddButton.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.partsAddButton.ForeColor = System.Drawing.Color.White;
             this.partsAddButton.HoverState.Parent = this.partsAddButton;
-            this.partsAddButton.Location = new System.Drawing.Point(438, 237);
+            this.partsAddButton.Location = new System.Drawing.Point(548, 296);
+            this.partsAddButton.Margin = new System.Windows.Forms.Padding(4);
             this.partsAddButton.Name = "partsAddButton";
             this.partsAddButton.ShadowDecoration.Parent = this.partsAddButton;
-            this.partsAddButton.Size = new System.Drawing.Size(116, 29);
+            this.partsAddButton.Size = new System.Drawing.Size(145, 36);
             this.partsAddButton.TabIndex = 163;
             this.partsAddButton.Text = "Add";
             this.partsAddButton.Click += new System.EventHandler(this.partsAddButton_Click);
@@ -461,7 +486,8 @@
             this.PartsDataGrid.DefaultCellStyle = dataGridViewCellStyle3;
             this.PartsDataGrid.EnableHeadersVisualStyles = false;
             this.PartsDataGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
-            this.PartsDataGrid.Location = new System.Drawing.Point(29, 104);
+            this.PartsDataGrid.Location = new System.Drawing.Point(36, 130);
+            this.PartsDataGrid.Margin = new System.Windows.Forms.Padding(4);
             this.PartsDataGrid.Name = "PartsDataGrid";
             this.PartsDataGrid.ReadOnly = true;
             this.PartsDataGrid.RowHeadersVisible = false;
@@ -469,7 +495,7 @@
             this.PartsDataGrid.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.White;
             this.PartsDataGrid.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Black;
             this.PartsDataGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.PartsDataGrid.Size = new System.Drawing.Size(641, 127);
+            this.PartsDataGrid.Size = new System.Drawing.Size(801, 159);
             this.PartsDataGrid.TabIndex = 115;
             this.PartsDataGrid.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Dark;
             this.PartsDataGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
@@ -538,9 +564,10 @@
             // 
             this.croPartsQuantityTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croPartsQuantityTextbox.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.croPartsQuantityTextbox.Location = new System.Drawing.Point(422, 61);
+            this.croPartsQuantityTextbox.Location = new System.Drawing.Point(528, 76);
+            this.croPartsQuantityTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.croPartsQuantityTextbox.Name = "croPartsQuantityTextbox";
-            this.croPartsQuantityTextbox.Size = new System.Drawing.Size(48, 27);
+            this.croPartsQuantityTextbox.Size = new System.Drawing.Size(59, 32);
             this.croPartsQuantityTextbox.TabIndex = 112;
             this.croPartsQuantityTextbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.croPartsQuantityTextbox_KeyPress);
             // 
@@ -550,9 +577,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(343, 68);
+            this.label5.Location = new System.Drawing.Point(429, 85);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 21);
+            this.label5.Size = new System.Drawing.Size(93, 23);
             this.label5.TabIndex = 111;
             this.label5.Text = "Quantity";
             // 
@@ -562,9 +590,10 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(13, 68);
+            this.label6.Location = new System.Drawing.Point(16, 85);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(99, 21);
+            this.label6.Size = new System.Drawing.Size(121, 23);
             this.label6.TabIndex = 109;
             this.label6.Text = "Item Name";
             // 
@@ -572,9 +601,10 @@
             // 
             this.croPartsNameTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croPartsNameTextBox.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.croPartsNameTextBox.Location = new System.Drawing.Point(113, 61);
+            this.croPartsNameTextBox.Location = new System.Drawing.Point(141, 76);
+            this.croPartsNameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.croPartsNameTextBox.Name = "croPartsNameTextBox";
-            this.croPartsNameTextBox.Size = new System.Drawing.Size(222, 27);
+            this.croPartsNameTextBox.Size = new System.Drawing.Size(276, 32);
             this.croPartsNameTextBox.TabIndex = 110;
             this.croPartsNameTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.croPartsNameTextBox_KeyDown);
             // 
@@ -584,9 +614,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(499, 68);
+            this.label1.Location = new System.Drawing.Point(624, 85);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 21);
+            this.label1.Size = new System.Drawing.Size(98, 23);
             this.label1.TabIndex = 113;
             this.label1.Text = "Unit Price";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -595,9 +626,10 @@
             // 
             this.croPartsUnitPriceTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croPartsUnitPriceTextbox.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.croPartsUnitPriceTextbox.Location = new System.Drawing.Point(582, 61);
+            this.croPartsUnitPriceTextbox.Location = new System.Drawing.Point(728, 76);
+            this.croPartsUnitPriceTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.croPartsUnitPriceTextbox.Name = "croPartsUnitPriceTextbox";
-            this.croPartsUnitPriceTextbox.Size = new System.Drawing.Size(106, 27);
+            this.croPartsUnitPriceTextbox.Size = new System.Drawing.Size(132, 32);
             this.croPartsUnitPriceTextbox.TabIndex = 114;
             this.croPartsUnitPriceTextbox.TextChanged += new System.EventHandler(this.croPartsUnitPriceTextbox_TextChanged);
             this.croPartsUnitPriceTextbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.croPartsUnitPriceTextbox_KeyPress);
@@ -619,10 +651,11 @@
             this.guna2GroupBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.guna2GroupBox2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox2.ForeColor = System.Drawing.Color.White;
-            this.guna2GroupBox2.Location = new System.Drawing.Point(46, 318);
+            this.guna2GroupBox2.Location = new System.Drawing.Point(58, 398);
+            this.guna2GroupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GroupBox2.Name = "guna2GroupBox2";
             this.guna2GroupBox2.ShadowDecoration.Parent = this.guna2GroupBox2;
-            this.guna2GroupBox2.Size = new System.Drawing.Size(708, 289);
+            this.guna2GroupBox2.Size = new System.Drawing.Size(885, 361);
             this.guna2GroupBox2.TabIndex = 137;
             this.guna2GroupBox2.Text = "Service";
             // 
@@ -636,10 +669,11 @@
             this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
             this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(572, 249);
+            this.guna2Button2.Location = new System.Drawing.Point(715, 311);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(116, 29);
+            this.guna2Button2.Size = new System.Drawing.Size(145, 36);
             this.guna2Button2.TabIndex = 165;
             this.guna2Button2.Text = "Remove";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -654,10 +688,11 @@
             this.addServiceBuutton.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addServiceBuutton.ForeColor = System.Drawing.Color.White;
             this.addServiceBuutton.HoverState.Parent = this.addServiceBuutton;
-            this.addServiceBuutton.Location = new System.Drawing.Point(431, 250);
+            this.addServiceBuutton.Location = new System.Drawing.Point(539, 312);
+            this.addServiceBuutton.Margin = new System.Windows.Forms.Padding(4);
             this.addServiceBuutton.Name = "addServiceBuutton";
             this.addServiceBuutton.ShadowDecoration.Parent = this.addServiceBuutton;
-            this.addServiceBuutton.Size = new System.Drawing.Size(116, 29);
+            this.addServiceBuutton.Size = new System.Drawing.Size(145, 36);
             this.addServiceBuutton.TabIndex = 162;
             this.addServiceBuutton.Text = "Add";
             this.addServiceBuutton.Click += new System.EventHandler(this.AddServiceBuutton_Click);
@@ -666,9 +701,10 @@
             // 
             this.croServiceDescription.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croServiceDescription.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.croServiceDescription.Location = new System.Drawing.Point(109, 63);
+            this.croServiceDescription.Location = new System.Drawing.Point(136, 79);
+            this.croServiceDescription.Margin = new System.Windows.Forms.Padding(4);
             this.croServiceDescription.Name = "croServiceDescription";
-            this.croServiceDescription.Size = new System.Drawing.Size(222, 27);
+            this.croServiceDescription.Size = new System.Drawing.Size(276, 32);
             this.croServiceDescription.TabIndex = 109;
             this.croServiceDescription.KeyDown += new System.Windows.Forms.KeyEventHandler(this.croServiceDescription_KeyDown);
             // 
@@ -678,9 +714,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(9, 70);
+            this.label2.Location = new System.Drawing.Point(11, 88);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 21);
+            this.label2.Size = new System.Drawing.Size(117, 23);
             this.label2.TabIndex = 108;
             this.label2.Text = "Description";
             // 
@@ -688,9 +725,10 @@
             // 
             this.croServiceHourTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croServiceHourTextbox.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.croServiceHourTextbox.Location = new System.Drawing.Point(415, 62);
+            this.croServiceHourTextbox.Location = new System.Drawing.Point(519, 78);
+            this.croServiceHourTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.croServiceHourTextbox.Name = "croServiceHourTextbox";
-            this.croServiceHourTextbox.Size = new System.Drawing.Size(48, 27);
+            this.croServiceHourTextbox.Size = new System.Drawing.Size(59, 32);
             this.croServiceHourTextbox.TabIndex = 111;
             // 
             // label3
@@ -699,9 +737,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(359, 67);
+            this.label3.Location = new System.Drawing.Point(449, 84);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 21);
+            this.label3.Size = new System.Drawing.Size(63, 23);
             this.label3.TabIndex = 110;
             this.label3.Text = "Hours";
             // 
@@ -709,9 +748,10 @@
             // 
             this.croServicePrice.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croServicePrice.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.croServicePrice.Location = new System.Drawing.Point(592, 62);
+            this.croServicePrice.Location = new System.Drawing.Point(740, 78);
+            this.croServicePrice.Margin = new System.Windows.Forms.Padding(4);
             this.croServicePrice.Name = "croServicePrice";
-            this.croServicePrice.Size = new System.Drawing.Size(106, 27);
+            this.croServicePrice.Size = new System.Drawing.Size(132, 32);
             this.croServicePrice.TabIndex = 113;
             this.croServicePrice.TextChanged += new System.EventHandler(this.croServicePrice_TextChanged);
             this.croServicePrice.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.croServicePrice_KeyPress);
@@ -722,9 +762,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 12F);
             this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(479, 67);
+            this.label4.Location = new System.Drawing.Point(599, 84);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 21);
+            this.label4.Size = new System.Drawing.Size(134, 23);
             this.label4.TabIndex = 112;
             this.label4.Text = "Service Price";
             // 
@@ -763,7 +804,8 @@
             this.serviceDataGridView.DefaultCellStyle = dataGridViewCellStyle8;
             this.serviceDataGridView.EnableHeadersVisualStyles = false;
             this.serviceDataGridView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
-            this.serviceDataGridView.Location = new System.Drawing.Point(34, 100);
+            this.serviceDataGridView.Location = new System.Drawing.Point(42, 125);
+            this.serviceDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.serviceDataGridView.Name = "serviceDataGridView";
             this.serviceDataGridView.ReadOnly = true;
             this.serviceDataGridView.RowHeadersVisible = false;
@@ -772,7 +814,7 @@
             this.serviceDataGridView.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Century Gothic", 8F);
             this.serviceDataGridView.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Black;
             this.serviceDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.serviceDataGridView.Size = new System.Drawing.Size(657, 143);
+            this.serviceDataGridView.Size = new System.Drawing.Size(821, 179);
             this.serviceDataGridView.TabIndex = 114;
             this.serviceDataGridView.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Dark;
             this.serviceDataGridView.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
@@ -840,51 +882,215 @@
             // 
             this.guna2GroupBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.guna2GroupBox1.BorderThickness = 2;
-            this.guna2GroupBox1.Controls.Add(this.croMileage);
-            this.guna2GroupBox1.Controls.Add(this.label18);
+            this.guna2GroupBox1.Controls.Add(this.panel4);
             this.guna2GroupBox1.Controls.Add(this.ClearBtn);
-            this.guna2GroupBox1.Controls.Add(this.croEngineNo);
             this.guna2GroupBox1.Controls.Add(this.croSearchPlateNoTextbox);
-            this.guna2GroupBox1.Controls.Add(this.label16);
             this.guna2GroupBox1.Controls.Add(this.CroSearchButton);
-            this.guna2GroupBox1.Controls.Add(this.croChasisNo);
             this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel9);
-            this.guna2GroupBox1.Controls.Add(this.label15);
-            this.guna2GroupBox1.Controls.Add(this.label8);
-            this.guna2GroupBox1.Controls.Add(this.croPlateNoTextbox);
-            this.guna2GroupBox1.Controls.Add(this.croRONumberTextbox);
-            this.guna2GroupBox1.Controls.Add(this.label14);
-            this.guna2GroupBox1.Controls.Add(this.label9);
-            this.guna2GroupBox1.Controls.Add(this.croCarModelTextbox);
-            this.guna2GroupBox1.Controls.Add(this.croNameTextbox);
-            this.guna2GroupBox1.Controls.Add(this.label13);
-            this.guna2GroupBox1.Controls.Add(this.croAddressTextbox);
-            this.guna2GroupBox1.Controls.Add(this.croCarBrandTextBox);
-            this.guna2GroupBox1.Controls.Add(this.label10);
-            this.guna2GroupBox1.Controls.Add(this.label12);
-            this.guna2GroupBox1.Controls.Add(this.label11);
-            this.guna2GroupBox1.Controls.Add(this.croContactNumberTextbox);
             this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.guna2GroupBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.guna2GroupBox1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.White;
-            this.guna2GroupBox1.Location = new System.Drawing.Point(46, 76);
+            this.guna2GroupBox1.Location = new System.Drawing.Point(58, 68);
+            this.guna2GroupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
             this.guna2GroupBox1.ShadowDecoration.Parent = this.guna2GroupBox1;
-            this.guna2GroupBox1.Size = new System.Drawing.Size(708, 236);
+            this.guna2GroupBox1.Size = new System.Drawing.Size(885, 322);
             this.guna2GroupBox1.TabIndex = 136;
             this.guna2GroupBox1.Text = "Customer Information";
             this.guna2GroupBox1.Click += new System.EventHandler(this.guna2GroupBox1_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.panel4.Controls.Add(this.EmailAddTxtBox);
+            this.panel4.Controls.Add(this.label22);
+            this.panel4.Controls.Add(this.DriversTxtBox);
+            this.panel4.Controls.Add(this.label23);
+            this.panel4.Controls.Add(this.ColorTxtBox);
+            this.panel4.Controls.Add(this.label21);
+            this.panel4.Controls.Add(this.label24);
+            this.panel4.Controls.Add(this.PromiseTxtBox);
+            this.panel4.Controls.Add(this.croRONumberTextbox);
+            this.panel4.Controls.Add(this.croContactNumberTextbox);
+            this.panel4.Controls.Add(this.label11);
+            this.panel4.Controls.Add(this.croMileage);
+            this.panel4.Controls.Add(this.label12);
+            this.panel4.Controls.Add(this.label18);
+            this.panel4.Controls.Add(this.label10);
+            this.panel4.Controls.Add(this.croCarBrandTextBox);
+            this.panel4.Controls.Add(this.croEngineNo);
+            this.panel4.Controls.Add(this.croAddressTextbox);
+            this.panel4.Controls.Add(this.label13);
+            this.panel4.Controls.Add(this.label16);
+            this.panel4.Controls.Add(this.croNameTextbox);
+            this.panel4.Controls.Add(this.croCarModelTextbox);
+            this.panel4.Controls.Add(this.croChasisNo);
+            this.panel4.Controls.Add(this.label9);
+            this.panel4.Controls.Add(this.label14);
+            this.panel4.Controls.Add(this.label15);
+            this.panel4.Controls.Add(this.croPlateNoTextbox);
+            this.panel4.Controls.Add(this.label8);
+            this.panel4.Location = new System.Drawing.Point(20, 95);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(852, 217);
+            this.panel4.TabIndex = 167;
+            // 
+            // EmailAddTxtBox
+            // 
+            this.EmailAddTxtBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.EmailAddTxtBox.Enabled = false;
+            this.EmailAddTxtBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmailAddTxtBox.Location = new System.Drawing.Point(111, 176);
+            this.EmailAddTxtBox.Margin = new System.Windows.Forms.Padding(4);
+            this.EmailAddTxtBox.Name = "EmailAddTxtBox";
+            this.EmailAddTxtBox.Size = new System.Drawing.Size(184, 32);
+            this.EmailAddTxtBox.TabIndex = 168;
+            // 
+            // label22
+            // 
+            this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label22.ForeColor = System.Drawing.SystemColors.Control;
+            this.label22.Location = new System.Drawing.Point(16, 182);
+            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(81, 20);
+            this.label22.TabIndex = 167;
+            this.label22.Text = "Email Add";
+            // 
+            // DriversTxtBox
+            // 
+            this.DriversTxtBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.DriversTxtBox.Enabled = false;
+            this.DriversTxtBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DriversTxtBox.Location = new System.Drawing.Point(701, 136);
+            this.DriversTxtBox.Margin = new System.Windows.Forms.Padding(4);
+            this.DriversTxtBox.Name = "DriversTxtBox";
+            this.DriversTxtBox.Size = new System.Drawing.Size(144, 32);
+            this.DriversTxtBox.TabIndex = 172;
+            // 
+            // label23
+            // 
+            this.label23.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Century Gothic", 8F);
+            this.label23.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label23.Location = new System.Drawing.Point(595, 145);
+            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(98, 19);
+            this.label23.TabIndex = 171;
+            this.label23.Text = "Drivers Name";
+            // 
+            // ColorTxtBox
+            // 
+            this.ColorTxtBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ColorTxtBox.Enabled = false;
+            this.ColorTxtBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ColorTxtBox.Location = new System.Drawing.Point(701, 176);
+            this.ColorTxtBox.Margin = new System.Windows.Forms.Padding(4);
+            this.ColorTxtBox.Name = "ColorTxtBox";
+            this.ColorTxtBox.Size = new System.Drawing.Size(144, 32);
+            this.ColorTxtBox.TabIndex = 166;
+            // 
+            // label21
+            // 
+            this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label21.ForeColor = System.Drawing.SystemColors.Control;
+            this.label21.Location = new System.Drawing.Point(639, 182);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(49, 20);
+            this.label21.TabIndex = 165;
+            this.label21.Text = "Color";
+            // 
+            // label24
+            // 
+            this.label24.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label24.ForeColor = System.Drawing.SystemColors.Control;
+            this.label24.Location = new System.Drawing.Point(298, 182);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(110, 20);
+            this.label24.TabIndex = 169;
+            this.label24.Text = "Promised Time";
+            // 
+            // PromiseTxtBox
+            // 
+            this.PromiseTxtBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.PromiseTxtBox.Enabled = false;
+            this.PromiseTxtBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PromiseTxtBox.Location = new System.Drawing.Point(413, 176);
+            this.PromiseTxtBox.Margin = new System.Windows.Forms.Padding(4);
+            this.PromiseTxtBox.Name = "PromiseTxtBox";
+            this.PromiseTxtBox.Size = new System.Drawing.Size(216, 32);
+            this.PromiseTxtBox.TabIndex = 170;
+            // 
+            // croRONumberTextbox
+            // 
+            this.croRONumberTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.croRONumberTextbox.Enabled = false;
+            this.croRONumberTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.croRONumberTextbox.Location = new System.Drawing.Point(111, 12);
+            this.croRONumberTextbox.Margin = new System.Windows.Forms.Padding(4);
+            this.croRONumberTextbox.Name = "croRONumberTextbox";
+            this.croRONumberTextbox.Size = new System.Drawing.Size(184, 32);
+            this.croRONumberTextbox.TabIndex = 142;
+            // 
+            // croContactNumberTextbox
+            // 
+            this.croContactNumberTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.croContactNumberTextbox.Enabled = false;
+            this.croContactNumberTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.croContactNumberTextbox.Location = new System.Drawing.Point(111, 96);
+            this.croContactNumberTextbox.Margin = new System.Windows.Forms.Padding(4);
+            this.croContactNumberTextbox.Name = "croContactNumberTextbox";
+            this.croContactNumberTextbox.Size = new System.Drawing.Size(184, 32);
+            this.croContactNumberTextbox.TabIndex = 151;
+            // 
+            // label11
+            // 
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label11.ForeColor = System.Drawing.SystemColors.Control;
+            this.label11.Location = new System.Drawing.Point(2, 99);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(95, 20);
+            this.label11.TabIndex = 150;
+            this.label11.Text = "Contact No";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // croMileage
             // 
             this.croMileage.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.croMileage.Enabled = false;
             this.croMileage.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croMileage.Location = new System.Drawing.Point(563, 162);
+            this.croMileage.Location = new System.Drawing.Point(701, 96);
+            this.croMileage.Margin = new System.Windows.Forms.Padding(4);
             this.croMileage.Name = "croMileage";
-            this.croMileage.Size = new System.Drawing.Size(116, 27);
+            this.croMileage.Size = new System.Drawing.Size(144, 32);
             this.croMileage.TabIndex = 164;
+            // 
+            // label12
+            // 
+            this.label12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label12.ForeColor = System.Drawing.SystemColors.Control;
+            this.label12.Location = new System.Drawing.Point(312, 18);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(83, 20);
+            this.label12.TabIndex = 152;
+            this.label12.Text = "Car Brand";
             // 
             // label18
             // 
@@ -892,11 +1098,183 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.label18.ForeColor = System.Drawing.SystemColors.Control;
-            this.label18.Location = new System.Drawing.Point(500, 168);
+            this.label18.Location = new System.Drawing.Point(622, 104);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(57, 17);
+            this.label18.Size = new System.Drawing.Size(70, 20);
             this.label18.TabIndex = 163;
             this.label18.Text = "Mileage";
+            // 
+            // label10
+            // 
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label10.ForeColor = System.Drawing.SystemColors.Control;
+            this.label10.Location = new System.Drawing.Point(31, 142);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(67, 20);
+            this.label10.TabIndex = 149;
+            this.label10.Text = "Address";
+            // 
+            // croCarBrandTextBox
+            // 
+            this.croCarBrandTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.croCarBrandTextBox.Enabled = false;
+            this.croCarBrandTextBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.croCarBrandTextBox.Location = new System.Drawing.Point(413, 12);
+            this.croCarBrandTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.croCarBrandTextBox.Name = "croCarBrandTextBox";
+            this.croCarBrandTextBox.Size = new System.Drawing.Size(184, 32);
+            this.croCarBrandTextBox.TabIndex = 153;
+            // 
+            // croEngineNo
+            // 
+            this.croEngineNo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.croEngineNo.Enabled = false;
+            this.croEngineNo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.croEngineNo.Location = new System.Drawing.Point(701, 55);
+            this.croEngineNo.Margin = new System.Windows.Forms.Padding(4);
+            this.croEngineNo.Name = "croEngineNo";
+            this.croEngineNo.Size = new System.Drawing.Size(144, 32);
+            this.croEngineNo.TabIndex = 161;
+            this.croEngineNo.TextChanged += new System.EventHandler(this.croEngineNo_TextChanged);
+            // 
+            // croAddressTextbox
+            // 
+            this.croAddressTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.croAddressTextbox.Enabled = false;
+            this.croAddressTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.croAddressTextbox.Location = new System.Drawing.Point(111, 136);
+            this.croAddressTextbox.Margin = new System.Windows.Forms.Padding(4);
+            this.croAddressTextbox.Name = "croAddressTextbox";
+            this.croAddressTextbox.Size = new System.Drawing.Size(469, 32);
+            this.croAddressTextbox.TabIndex = 148;
+            // 
+            // label13
+            // 
+            this.label13.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label13.ForeColor = System.Drawing.SystemColors.Control;
+            this.label13.Location = new System.Drawing.Point(309, 60);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(88, 20);
+            this.label13.TabIndex = 154;
+            this.label13.Text = "Car Model";
+            // 
+            // label16
+            // 
+            this.label16.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label16.ForeColor = System.Drawing.SystemColors.Control;
+            this.label16.Location = new System.Drawing.Point(609, 62);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(83, 20);
+            this.label16.TabIndex = 160;
+            this.label16.Text = "Engine No";
+            // 
+            // croNameTextbox
+            // 
+            this.croNameTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.croNameTextbox.Enabled = false;
+            this.croNameTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.croNameTextbox.Location = new System.Drawing.Point(111, 56);
+            this.croNameTextbox.Margin = new System.Windows.Forms.Padding(4);
+            this.croNameTextbox.Name = "croNameTextbox";
+            this.croNameTextbox.Size = new System.Drawing.Size(184, 32);
+            this.croNameTextbox.TabIndex = 147;
+            // 
+            // croCarModelTextbox
+            // 
+            this.croCarModelTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.croCarModelTextbox.Enabled = false;
+            this.croCarModelTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.croCarModelTextbox.Location = new System.Drawing.Point(413, 53);
+            this.croCarModelTextbox.Margin = new System.Windows.Forms.Padding(4);
+            this.croCarModelTextbox.Name = "croCarModelTextbox";
+            this.croCarModelTextbox.Size = new System.Drawing.Size(184, 32);
+            this.croCarModelTextbox.TabIndex = 155;
+            // 
+            // croChasisNo
+            // 
+            this.croChasisNo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.croChasisNo.Enabled = false;
+            this.croChasisNo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.croChasisNo.Location = new System.Drawing.Point(701, 12);
+            this.croChasisNo.Margin = new System.Windows.Forms.Padding(4);
+            this.croChasisNo.Name = "croChasisNo";
+            this.croChasisNo.Size = new System.Drawing.Size(144, 32);
+            this.croChasisNo.TabIndex = 159;
+            // 
+            // label9
+            // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label9.ForeColor = System.Drawing.SystemColors.Control;
+            this.label9.Location = new System.Drawing.Point(45, 59);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(53, 20);
+            this.label9.TabIndex = 146;
+            this.label9.Text = "Name";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // label14
+            // 
+            this.label14.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label14.ForeColor = System.Drawing.SystemColors.Control;
+            this.label14.Location = new System.Drawing.Point(326, 102);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(71, 20);
+            this.label14.TabIndex = 156;
+            this.label14.Text = "Plate No";
+            // 
+            // label15
+            // 
+            this.label15.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label15.ForeColor = System.Drawing.SystemColors.Control;
+            this.label15.Location = new System.Drawing.Point(612, 19);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(80, 20);
+            this.label15.TabIndex = 158;
+            this.label15.Text = "Chasis No";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
+            // 
+            // croPlateNoTextbox
+            // 
+            this.croPlateNoTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.croPlateNoTextbox.Enabled = false;
+            this.croPlateNoTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.croPlateNoTextbox.Location = new System.Drawing.Point(413, 96);
+            this.croPlateNoTextbox.Margin = new System.Windows.Forms.Padding(4);
+            this.croPlateNoTextbox.Name = "croPlateNoTextbox";
+            this.croPlateNoTextbox.Size = new System.Drawing.Size(184, 32);
+            this.croPlateNoTextbox.TabIndex = 157;
+            // 
+            // label8
+            // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 9F);
+            this.label8.ForeColor = System.Drawing.SystemColors.Control;
+            this.label8.Location = new System.Drawing.Point(43, 18);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(54, 20);
+            this.label8.TabIndex = 141;
+            this.label8.Text = "RO no";
             // 
             // ClearBtn
             // 
@@ -908,24 +1286,14 @@
             this.ClearBtn.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ClearBtn.ForeColor = System.Drawing.Color.White;
             this.ClearBtn.HoverState.Parent = this.ClearBtn;
-            this.ClearBtn.Location = new System.Drawing.Point(456, 49);
+            this.ClearBtn.Location = new System.Drawing.Point(570, 56);
+            this.ClearBtn.Margin = new System.Windows.Forms.Padding(4);
             this.ClearBtn.Name = "ClearBtn";
             this.ClearBtn.ShadowDecoration.Parent = this.ClearBtn;
-            this.ClearBtn.Size = new System.Drawing.Size(97, 25);
+            this.ClearBtn.Size = new System.Drawing.Size(121, 31);
             this.ClearBtn.TabIndex = 162;
             this.ClearBtn.Text = "Clear";
             this.ClearBtn.Click += new System.EventHandler(this.ClearBtn_Click);
-            // 
-            // croEngineNo
-            // 
-            this.croEngineNo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.croEngineNo.Enabled = false;
-            this.croEngineNo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croEngineNo.Location = new System.Drawing.Point(563, 124);
-            this.croEngineNo.Name = "croEngineNo";
-            this.croEngineNo.Size = new System.Drawing.Size(116, 27);
-            this.croEngineNo.TabIndex = 161;
-            this.croEngineNo.TextChanged += new System.EventHandler(this.croEngineNo_TextChanged);
             // 
             // croSearchPlateNoTextbox
             // 
@@ -943,28 +1311,16 @@
             this.croSearchPlateNoTextbox.ForeColor = System.Drawing.SystemColors.WindowText;
             this.croSearchPlateNoTextbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.croSearchPlateNoTextbox.HoverState.Parent = this.croSearchPlateNoTextbox;
-            this.croSearchPlateNoTextbox.Location = new System.Drawing.Point(200, 49);
-            this.croSearchPlateNoTextbox.Margin = new System.Windows.Forms.Padding(6);
+            this.croSearchPlateNoTextbox.Location = new System.Drawing.Point(250, 56);
+            this.croSearchPlateNoTextbox.Margin = new System.Windows.Forms.Padding(8);
             this.croSearchPlateNoTextbox.Name = "croSearchPlateNoTextbox";
             this.croSearchPlateNoTextbox.PasswordChar = '\0';
             this.croSearchPlateNoTextbox.PlaceholderText = "";
             this.croSearchPlateNoTextbox.SelectedText = "";
             this.croSearchPlateNoTextbox.ShadowDecoration.Parent = this.croSearchPlateNoTextbox;
-            this.croSearchPlateNoTextbox.Size = new System.Drawing.Size(142, 25);
+            this.croSearchPlateNoTextbox.Size = new System.Drawing.Size(178, 31);
             this.croSearchPlateNoTextbox.TabIndex = 143;
             this.croSearchPlateNoTextbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CroSearchPlateNoTextbox_KeyPress);
-            // 
-            // label16
-            // 
-            this.label16.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.label16.ForeColor = System.Drawing.SystemColors.Control;
-            this.label16.Location = new System.Drawing.Point(490, 130);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(67, 17);
-            this.label16.TabIndex = 160;
-            this.label16.Text = "Engine No";
             // 
             // CroSearchButton
             // 
@@ -976,23 +1332,14 @@
             this.CroSearchButton.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CroSearchButton.ForeColor = System.Drawing.Color.White;
             this.CroSearchButton.HoverState.Parent = this.CroSearchButton;
-            this.CroSearchButton.Location = new System.Drawing.Point(355, 49);
+            this.CroSearchButton.Location = new System.Drawing.Point(444, 56);
+            this.CroSearchButton.Margin = new System.Windows.Forms.Padding(4);
             this.CroSearchButton.Name = "CroSearchButton";
             this.CroSearchButton.ShadowDecoration.Parent = this.CroSearchButton;
-            this.CroSearchButton.Size = new System.Drawing.Size(95, 25);
+            this.CroSearchButton.Size = new System.Drawing.Size(119, 31);
             this.CroSearchButton.TabIndex = 144;
             this.CroSearchButton.Text = "Search";
             this.CroSearchButton.Click += new System.EventHandler(this.CroSearchButton_Click);
-            // 
-            // croChasisNo
-            // 
-            this.croChasisNo.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.croChasisNo.Enabled = false;
-            this.croChasisNo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croChasisNo.Location = new System.Drawing.Point(563, 84);
-            this.croChasisNo.Name = "croChasisNo";
-            this.croChasisNo.Size = new System.Drawing.Size(116, 27);
-            this.croChasisNo.TabIndex = 159;
             // 
             // guna2HtmlLabel9
             // 
@@ -1000,188 +1347,21 @@
             this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel9.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.guna2HtmlLabel9.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(12, 51);
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(15, 59);
+            this.guna2HtmlLabel9.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(179, 19);
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(230, 23);
             this.guna2HtmlLabel9.TabIndex = 145;
             this.guna2HtmlLabel9.Text = "Search Plate/Quotation No";
-            // 
-            // label15
-            // 
-            this.label15.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.label15.ForeColor = System.Drawing.SystemColors.Control;
-            this.label15.Location = new System.Drawing.Point(492, 90);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(65, 17);
-            this.label15.TabIndex = 158;
-            this.label15.Text = "Chasis No";
-            this.label15.Click += new System.EventHandler(this.label15_Click);
-            // 
-            // label8
-            // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.label8.ForeColor = System.Drawing.SystemColors.Control;
-            this.label8.Location = new System.Drawing.Point(39, 91);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(43, 17);
-            this.label8.TabIndex = 141;
-            this.label8.Text = "RO no";
-            // 
-            // croPlateNoTextbox
-            // 
-            this.croPlateNoTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.croPlateNoTextbox.Enabled = false;
-            this.croPlateNoTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croPlateNoTextbox.Location = new System.Drawing.Point(340, 162);
-            this.croPlateNoTextbox.Name = "croPlateNoTextbox";
-            this.croPlateNoTextbox.Size = new System.Drawing.Size(148, 27);
-            this.croPlateNoTextbox.TabIndex = 157;
-            // 
-            // croRONumberTextbox
-            // 
-            this.croRONumberTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.croRONumberTextbox.Enabled = false;
-            this.croRONumberTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croRONumberTextbox.Location = new System.Drawing.Point(91, 87);
-            this.croRONumberTextbox.Name = "croRONumberTextbox";
-            this.croRONumberTextbox.Size = new System.Drawing.Size(148, 27);
-            this.croRONumberTextbox.TabIndex = 142;
-            // 
-            // label14
-            // 
-            this.label14.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.label14.ForeColor = System.Drawing.SystemColors.Control;
-            this.label14.Location = new System.Drawing.Point(262, 165);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(59, 17);
-            this.label14.TabIndex = 156;
-            this.label14.Text = "Plate No";
-            // 
-            // label9
-            // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.label9.ForeColor = System.Drawing.SystemColors.Control;
-            this.label9.Location = new System.Drawing.Point(38, 127);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 17);
-            this.label9.TabIndex = 146;
-            this.label9.Text = "Name";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
-            // 
-            // croCarModelTextbox
-            // 
-            this.croCarModelTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.croCarModelTextbox.Enabled = false;
-            this.croCarModelTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croCarModelTextbox.Location = new System.Drawing.Point(340, 125);
-            this.croCarModelTextbox.Name = "croCarModelTextbox";
-            this.croCarModelTextbox.Size = new System.Drawing.Size(148, 27);
-            this.croCarModelTextbox.TabIndex = 155;
-            // 
-            // croNameTextbox
-            // 
-            this.croNameTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.croNameTextbox.Enabled = false;
-            this.croNameTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croNameTextbox.Location = new System.Drawing.Point(91, 125);
-            this.croNameTextbox.Name = "croNameTextbox";
-            this.croNameTextbox.Size = new System.Drawing.Size(148, 27);
-            this.croNameTextbox.TabIndex = 147;
-            // 
-            // label13
-            // 
-            this.label13.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.label13.ForeColor = System.Drawing.SystemColors.Control;
-            this.label13.Location = new System.Drawing.Point(250, 128);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(70, 17);
-            this.label13.TabIndex = 154;
-            this.label13.Text = "Car Model";
-            // 
-            // croAddressTextbox
-            // 
-            this.croAddressTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.croAddressTextbox.Enabled = false;
-            this.croAddressTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croAddressTextbox.Location = new System.Drawing.Point(91, 200);
-            this.croAddressTextbox.Name = "croAddressTextbox";
-            this.croAddressTextbox.Size = new System.Drawing.Size(399, 27);
-            this.croAddressTextbox.TabIndex = 148;
-            // 
-            // croCarBrandTextBox
-            // 
-            this.croCarBrandTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.croCarBrandTextBox.Enabled = false;
-            this.croCarBrandTextBox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croCarBrandTextBox.Location = new System.Drawing.Point(340, 86);
-            this.croCarBrandTextBox.Name = "croCarBrandTextBox";
-            this.croCarBrandTextBox.Size = new System.Drawing.Size(148, 27);
-            this.croCarBrandTextBox.TabIndex = 153;
-            // 
-            // label10
-            // 
-            this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.label10.ForeColor = System.Drawing.SystemColors.Control;
-            this.label10.Location = new System.Drawing.Point(27, 205);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(55, 17);
-            this.label10.TabIndex = 149;
-            this.label10.Text = "Address";
-            // 
-            // label12
-            // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.label12.ForeColor = System.Drawing.SystemColors.Control;
-            this.label12.Location = new System.Drawing.Point(252, 89);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(66, 17);
-            this.label12.TabIndex = 152;
-            this.label12.Text = "Car Brand";
-            // 
-            // label11
-            // 
-            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.label11.ForeColor = System.Drawing.SystemColors.Control;
-            this.label11.Location = new System.Drawing.Point(4, 164);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(78, 17);
-            this.label11.TabIndex = 150;
-            this.label11.Text = "Contact No";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
-            // 
-            // croContactNumberTextbox
-            // 
-            this.croContactNumberTextbox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.croContactNumberTextbox.Enabled = false;
-            this.croContactNumberTextbox.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croContactNumberTextbox.Location = new System.Drawing.Point(91, 162);
-            this.croContactNumberTextbox.Name = "croContactNumberTextbox";
-            this.croContactNumberTextbox.Size = new System.Drawing.Size(148, 27);
-            this.croContactNumberTextbox.TabIndex = 151;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.panel1.Controls.Add(this.label7);
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(386, 58);
+            this.panel1.Size = new System.Drawing.Size(482, 60);
             this.panel1.TabIndex = 131;
             // 
             // label7
@@ -1189,9 +1369,10 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label7.Location = new System.Drawing.Point(3, 10);
+            this.label7.Location = new System.Drawing.Point(4, 6);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(307, 36);
+            this.label7.Size = new System.Drawing.Size(383, 44);
             this.label7.TabIndex = 0;
             this.label7.Text = "Create Repair Order";
             // 
@@ -1203,13 +1384,14 @@
             // 
             // CreateROform
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(37)))));
-            this.ClientSize = new System.Drawing.Size(1031, 749);
+            this.ClientSize = new System.Drawing.Size(1289, 936);
             this.ControlBox = false;
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CreateROform";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CreateROform";
@@ -1228,6 +1410,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.serviceDataGridView)).EndInit();
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2GroupBox1.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
@@ -1311,5 +1495,14 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Qty;
         private System.Windows.Forms.DataGridViewTextBoxColumn uprice;
         private System.Windows.Forms.DataGridViewTextBoxColumn totalcolumn;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.TextBox EmailAddTxtBox;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.TextBox DriversTxtBox;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TextBox PromiseTxtBox;
+        private System.Windows.Forms.TextBox ColorTxtBox;
+        private System.Windows.Forms.Label label21;
     }
 }
