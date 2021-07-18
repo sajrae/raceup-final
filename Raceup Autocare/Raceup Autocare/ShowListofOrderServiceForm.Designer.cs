@@ -852,7 +852,7 @@
             // 
             // printButton
             // 
-            this.printButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.printButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.printButton.BorderRadius = 13;
             this.printButton.CheckedState.Parent = this.printButton;
             this.printButton.CustomImages.Parent = this.printButton;

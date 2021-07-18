@@ -102,7 +102,7 @@
             // 
             // printpartsButton
             // 
-            this.printpartsButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.printpartsButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.printpartsButton.BorderRadius = 13;
             this.printpartsButton.CheckedState.Parent = this.printpartsButton;
             this.printpartsButton.CustomImages.Parent = this.printpartsButton;
@@ -509,7 +509,7 @@
             // 
             // printButton
             // 
-            this.printButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.printButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.printButton.BorderRadius = 13;
             this.printButton.CheckedState.Parent = this.printButton;
             this.printButton.CustomImages.Parent = this.printButton;
@@ -566,7 +566,7 @@
             // 
             this.panel1.AutoScroll = true;
             this.panel1.Controls.Add(this.guna2DataGridView1);
-            this.panel1.Location = new System.Drawing.Point(341, 508);
+            this.panel1.Location = new System.Drawing.Point(341, 497);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(805, 250);
