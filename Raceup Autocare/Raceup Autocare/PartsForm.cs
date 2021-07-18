@@ -45,9 +45,8 @@ namespace Raceup_Autocare
                 ShowListofOrderPartsForm partsFormInfo = new ShowListofOrderPartsForm();
                 partsFormInfo.ROnumberLabel.Text = this.guna2DataGridView1.CurrentRow.Cells[0].Value.ToString();
                 partsFormInfo.croPlateNoTextbox.Text = this.guna2DataGridView1.CurrentRow.Cells[1].Value.ToString();
-                partsFormInfo.printButton.Visible = false;
+                partsFormInfo.guna2Button1.Visible = false;
                 partsFormInfo.CheckpartsBTN.Enabled = true;
-                partsFormInfo.printpartsButton.Visible = false;
                 partsFormInfo.CheckpartsBTN.Location = new Point(395, 634);
                 partsFormInfo.CheckpartsBTN.Size = new Size(328, 52);
                 partsFormInfo.ShowDialog();

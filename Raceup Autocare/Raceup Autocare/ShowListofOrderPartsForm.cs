@@ -28,6 +28,8 @@ namespace Raceup_Autocare
             dbcon = new DBConnection();
             dbcon.openConnection();
 
+            
+
             using (dbcon.openConnection())
             {
                 OleDbDataAdapter da = new OleDbDataAdapter("Select Item_Code,Item_Name,Parts_Quantity,Unit_Price,Total_Price_Parts from RepairOrderParts Where CStr(RO_Number)  = '" + ROnumberLabel.Text + "' Order by Item_Code", dbcon.openConnection());
@@ -65,9 +67,7 @@ namespace Raceup_Autocare
 
         private void printButton_Click_1(object sender, EventArgs e)
         {
-            PrintPartsForm prtform = new PrintPartsForm(this);
-
-            prtform.ShowDialog();
+            
         }
 
         private void panelDesktop_Paint(object sender, PaintEventArgs e)
@@ -125,7 +125,7 @@ namespace Raceup_Autocare
                     dbcon.CloseConnection();
                 }
                 }
-            printButton.Enabled = true;
+            guna2Button1.Enabled = true;
         }
         private void ROnumberLabel_Click(object sender, EventArgs e)
         {
@@ -145,6 +145,13 @@ namespace Raceup_Autocare
         private void label15_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            PrintPartsForm prtform = new PrintPartsForm(this);
+
+            prtform.ShowDialog();
         }
     }
 }

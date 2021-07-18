@@ -33,7 +33,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShowListofOrderPartsForm));
             this.panelDesktop = new System.Windows.Forms.Panel();
-            this.printpartsButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.EmailAddTxtBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -63,7 +62,6 @@
             this.croNameTextbox = new System.Windows.Forms.TextBox();
             this.ROnumberLabel = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.CheckpartsBTN = new Guna.UI2.WinForms.Guna2Button();
-            this.printButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
@@ -74,6 +72,7 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panelDesktop.SuspendLayout();
             this.guna2GroupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -84,40 +83,19 @@
             // panelDesktop
             // 
             this.panelDesktop.AutoScroll = true;
-            this.panelDesktop.Controls.Add(this.printpartsButton);
+            this.panelDesktop.Controls.Add(this.guna2Button1);
             this.panelDesktop.Controls.Add(this.guna2GroupBox1);
             this.panelDesktop.Controls.Add(this.ROnumberLabel);
             this.panelDesktop.Controls.Add(this.CheckpartsBTN);
-            this.panelDesktop.Controls.Add(this.printButton);
             this.panelDesktop.Controls.Add(this.guna2HtmlLabel1);
             this.panelDesktop.Controls.Add(this.panel2);
             this.panelDesktop.Controls.Add(this.panel1);
-            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(0, 0);
             this.panelDesktop.Margin = new System.Windows.Forms.Padding(4);
             this.panelDesktop.Name = "panelDesktop";
             this.panelDesktop.Size = new System.Drawing.Size(1459, 870);
             this.panelDesktop.TabIndex = 182;
             this.panelDesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktop_Paint);
-            // 
-            // printpartsButton
-            // 
-            this.printpartsButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.printpartsButton.BorderRadius = 13;
-            this.printpartsButton.CheckedState.Parent = this.printpartsButton;
-            this.printpartsButton.CustomImages.Parent = this.printpartsButton;
-            this.printpartsButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(45)))), ((int)(((byte)(71)))));
-            this.printpartsButton.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.printpartsButton.ForeColor = System.Drawing.Color.White;
-            this.printpartsButton.HoverState.Parent = this.printpartsButton;
-            this.printpartsButton.Location = new System.Drawing.Point(793, 780);
-            this.printpartsButton.Margin = new System.Windows.Forms.Padding(4);
-            this.printpartsButton.Name = "printpartsButton";
-            this.printpartsButton.ShadowDecoration.Parent = this.printpartsButton;
-            this.printpartsButton.Size = new System.Drawing.Size(355, 64);
-            this.printpartsButton.TabIndex = 189;
-            this.printpartsButton.Text = "Print for Parts Department";
-            this.printpartsButton.Click += new System.EventHandler(this.printpartsButton_Click);
             // 
             // guna2GroupBox1
             // 
@@ -498,7 +476,7 @@
             this.CheckpartsBTN.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CheckpartsBTN.ForeColor = System.Drawing.Color.White;
             this.CheckpartsBTN.HoverState.Parent = this.CheckpartsBTN;
-            this.CheckpartsBTN.Location = new System.Drawing.Point(793, 780);
+            this.CheckpartsBTN.Location = new System.Drawing.Point(791, 766);
             this.CheckpartsBTN.Margin = new System.Windows.Forms.Padding(4);
             this.CheckpartsBTN.Name = "CheckpartsBTN";
             this.CheckpartsBTN.ShadowDecoration.Parent = this.CheckpartsBTN;
@@ -506,26 +484,6 @@
             this.CheckpartsBTN.TabIndex = 186;
             this.CheckpartsBTN.Text = "Check For Available Parts";
             this.CheckpartsBTN.Click += new System.EventHandler(this.CheckpartsBTN_Click);
-            // 
-            // printButton
-            // 
-            this.printButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.printButton.BorderRadius = 13;
-            this.printButton.CheckedState.Parent = this.printButton;
-            this.printButton.CustomImages.Parent = this.printButton;
-            this.printButton.Enabled = false;
-            this.printButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(45)))), ((int)(((byte)(71)))));
-            this.printButton.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.printButton.ForeColor = System.Drawing.Color.White;
-            this.printButton.HoverState.Parent = this.printButton;
-            this.printButton.Location = new System.Drawing.Point(341, 780);
-            this.printButton.Margin = new System.Windows.Forms.Padding(4);
-            this.printButton.Name = "printButton";
-            this.printButton.ShadowDecoration.Parent = this.printButton;
-            this.printButton.Size = new System.Drawing.Size(355, 64);
-            this.printButton.TabIndex = 185;
-            this.printButton.Text = "Print";
-            this.printButton.Click += new System.EventHandler(this.printButton_Click_1);
             // 
             // guna2HtmlLabel1
             // 
@@ -566,7 +524,7 @@
             // 
             this.panel1.AutoScroll = true;
             this.panel1.Controls.Add(this.guna2DataGridView1);
-            this.panel1.Location = new System.Drawing.Point(341, 497);
+            this.panel1.Location = new System.Drawing.Point(341, 508);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(805, 250);
@@ -682,6 +640,24 @@
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
             // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BorderRadius = 13;
+            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
+            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
+            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(45)))), ((int)(((byte)(71)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.Parent = this.guna2Button1;
+            this.guna2Button1.Location = new System.Drawing.Point(579, 766);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
+            this.guna2Button1.Size = new System.Drawing.Size(355, 64);
+            this.guna2Button1.TabIndex = 189;
+            this.guna2Button1.Text = "Print";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
             // ShowListofOrderPartsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -739,10 +715,7 @@
         public System.Windows.Forms.TextBox croMileage;
         private System.Windows.Forms.Label label1;
         public Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
-        public Guna.UI2.WinForms.Guna2Button CheckpartsBTN;
-        public Guna.UI2.WinForms.Guna2Button printButton;
         public System.Windows.Forms.Label label7;
-        public Guna.UI2.WinForms.Guna2Button printpartsButton;
         public System.Windows.Forms.TextBox DriversTxtBox;
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.TextBox ColorTxtBox;
@@ -751,5 +724,7 @@
         private System.Windows.Forms.Label label5;
         public System.Windows.Forms.TextBox PromiseTxtBox;
         private System.Windows.Forms.Label label4;
+        public Guna.UI2.WinForms.Guna2Button CheckpartsBTN;
+        public Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

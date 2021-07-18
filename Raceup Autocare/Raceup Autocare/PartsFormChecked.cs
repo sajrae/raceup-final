@@ -47,12 +47,7 @@ namespace Raceup_Autocare
                 partsFormInfo.ROnumberLabel.Text = this.guna2DataGridView1.CurrentRow.Cells[0].Value.ToString();
                 partsFormInfo.croPlateNoTextbox.Text = this.guna2DataGridView1.CurrentRow.Cells[1].Value.ToString();
                 partsFormInfo.CheckpartsBTN.Visible = false;
-                partsFormInfo.printButton.Enabled = true;
-                partsFormInfo.printpartsButton.Enabled = true;
-                partsFormInfo.printButton.Location = new Point(256, 634);
-                partsFormInfo.printButton.Size = new Size(266, 52);
-                partsFormInfo.printpartsButton.Location = new Point(595, 634);
-                partsFormInfo.printpartsButton.Size = new Size(266, 52);
+                partsFormInfo.guna2Button1.Enabled = true;
                 partsFormInfo.label7.Text = "List of Checked Parts";
                 partsFormInfo.ShowDialog();
             }
