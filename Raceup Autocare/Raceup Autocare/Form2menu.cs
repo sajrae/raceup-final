@@ -80,7 +80,7 @@ namespace Raceup_Autocare
                 guna2Button2.Visible = true;
                 guna2Button3.Visible = true;
             }
-            else if (emp.Role.ToString().Equals("ServiceAdvisor"))
+            else if (emp.Role.ToString().Equals("ServiceAdvisor") || emp.Role.ToString().Equals("ServiceAdmin"))
             {
                 OrderBtn.Visible = true;
                 CreateROBtn.Visible = false;
@@ -92,7 +92,7 @@ namespace Raceup_Autocare
                 guna2Button2.Visible = false;
                 guna2Button3.Visible = false;
             }
-            else if (emp.Role.ToString().Equals("PartsAdvisor"))
+            else if (emp.Role.ToString().Equals("PartsAdvisor") || emp.Role.ToString().Equals("PartsAdmin"))
             {
                 OrderBtn.Visible = false;
                 CreateROBtn.Visible = false;
