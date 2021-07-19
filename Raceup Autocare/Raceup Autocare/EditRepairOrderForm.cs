@@ -854,7 +854,7 @@ namespace Raceup_Autocare
                 errorProvider.SetError(croServicePrice, "This field is required.");
             }
 
-            if (!System.Text.RegularExpressions.Regex.IsMatch(croServiceHourTextbox.Text, "^[0-9]*$") || String.IsNullOrEmpty(croServiceHourTextbox.Text))
+            if (!System.Text.RegularExpressions.Regex.IsMatch(croServiceHourTextbox.Text, "^[0-9]([.,][0-9]{1,3})?$") || String.IsNullOrEmpty(croServiceHourTextbox.Text))
             {
                 isValid = false;
                 errorProvider.SetError(croServiceHourTextbox, "This field only accepts numeric value.");
@@ -862,7 +862,7 @@ namespace Raceup_Autocare
             else
                 errorProvider.SetError(croServiceHourTextbox, "");
 
-            if (!System.Text.RegularExpressions.Regex.IsMatch(croServicePrice.Text, "^[0-9]*$") || String.IsNullOrEmpty(croServicePrice.Text))
+            if (!System.Text.RegularExpressions.Regex.IsMatch(croServicePrice.Text, "^[0-9]([.,][0-9]{1,3})?$") || String.IsNullOrEmpty(croServicePrice.Text))
             {
                 isValid = false;
                 errorProvider.SetError(croServicePrice, "This field only accepts numeric value.");
@@ -1041,6 +1041,44 @@ namespace Raceup_Autocare
         private void label9_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void ClearBtn_Click(object sender, EventArgs e)
+        {
+            ClearTextBoxes(this.Controls);
+            serviceDataGridView.Rows.Clear();
+            PartsDataGrid.Rows.Clear();
+            errorProvider.SetError(PartsDataGrid, "");
+            errorProvider.SetError(croServiceDescription, "");
+            errorProvider.SetError(croServiceHourTextbox, "");
+            errorProvider.SetError(croServicePrice, "");
+            clearPartsErrorFields();
+            croDiscountTextbox.Text = "0";
+            croGrandTotal.Text = "0";
+        }
+
+        public void ClearTextBoxes(Control.ControlCollection ctrlCollection)
+        {
+            foreach (Control ctrl in ctrlCollection)
+            {
+                if (ctrl is TextBoxBase)
+                {
+                    ctrl.Text = String.Empty;
+                }
+                else
+                {
+                    ClearTextBoxes(ctrl.Controls);
+                }
+            }
+        }
+
+        public void clearPartsErrorFields()
+        {
+            errorProvider.SetError(croPartsQuantityTextbox, "");
+            errorProvider.SetError(croPartsNameTextBox, "");
+            errorProvider.SetError(croPartsUnitPriceTextbox, "");
+            errorProvider.SetError(serviceDataGridView, "");
+            errorProvider.SetError(PartsDataGrid, "");
         }
     }
 
