@@ -432,6 +432,16 @@ namespace Raceup_Autocare {
             
             private global::System.Data.DataColumn columnMileage;
             
+            private global::System.Data.DataColumn columnMileage1;
+            
+            private global::System.Data.DataColumn columndrivers_name;
+            
+            private global::System.Data.DataColumn columncolor_car;
+            
+            private global::System.Data.DataColumn columnemail_address;
+            
+            private global::System.Data.DataColumn columnpromise_time;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public PrintRODataTable() {
@@ -659,6 +669,46 @@ namespace Raceup_Autocare {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn Mileage1Column {
+                get {
+                    return this.columnMileage1;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn drivers_nameColumn {
+                get {
+                    return this.columndrivers_name;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn color_carColumn {
+                get {
+                    return this.columncolor_car;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn email_addressColumn {
+                get {
+                    return this.columnemail_address;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn promise_timeColumn {
+                get {
+                    return this.columnpromise_time;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -717,7 +767,12 @@ namespace Raceup_Autocare {
                         string car_model, 
                         string chasis_number, 
                         string engine_number, 
-                        string Mileage) {
+                        string Mileage, 
+                        int Mileage1, 
+                        string drivers_name, 
+                        string color_car, 
+                        string email_address, 
+                        string promise_time) {
                 PrintRORow rowPrintRORow = ((PrintRORow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -743,7 +798,12 @@ namespace Raceup_Autocare {
                         car_model,
                         chasis_number,
                         engine_number,
-                        Mileage};
+                        Mileage,
+                        Mileage1,
+                        drivers_name,
+                        color_car,
+                        email_address,
+                        promise_time};
                 rowPrintRORow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowPrintRORow);
                 return rowPrintRORow;
@@ -790,6 +850,11 @@ namespace Raceup_Autocare {
                 this.columnchasis_number = base.Columns["chasis_number"];
                 this.columnengine_number = base.Columns["engine_number"];
                 this.columnMileage = base.Columns["Mileage"];
+                this.columnMileage1 = base.Columns["Mileage1"];
+                this.columndrivers_name = base.Columns["drivers_name"];
+                this.columncolor_car = base.Columns["color_car"];
+                this.columnemail_address = base.Columns["email_address"];
+                this.columnpromise_time = base.Columns["promise_time"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -843,6 +908,16 @@ namespace Raceup_Autocare {
                 base.Columns.Add(this.columnengine_number);
                 this.columnMileage = new global::System.Data.DataColumn("Mileage", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnMileage);
+                this.columnMileage1 = new global::System.Data.DataColumn("Mileage1", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMileage1);
+                this.columndrivers_name = new global::System.Data.DataColumn("drivers_name", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columndrivers_name);
+                this.columncolor_car = new global::System.Data.DataColumn("color_car", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columncolor_car);
+                this.columnemail_address = new global::System.Data.DataColumn("email_address", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnemail_address);
+                this.columnpromise_time = new global::System.Data.DataColumn("promise_time", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnpromise_time);
                 this.columncustomer_id.AutoIncrement = true;
                 this.columncustomer_id.AutoIncrementSeed = -1;
                 this.columncustomer_id.AutoIncrementStep = -1;
@@ -862,6 +937,11 @@ namespace Raceup_Autocare {
                 this.columnchasis_number.MaxLength = 255;
                 this.columnengine_number.MaxLength = 255;
                 this.columnMileage.MaxLength = 255;
+                this.columnMileage1.Caption = "Mileage";
+                this.columndrivers_name.MaxLength = 255;
+                this.columncolor_car.MaxLength = 255;
+                this.columnemail_address.MaxLength = 255;
+                this.columnpromise_time.MaxLength = 255;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2374,6 +2454,86 @@ namespace Raceup_Autocare {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public int Mileage1 {
+                get {
+                    try {
+                        return ((int)(this[this.tablePrintRO.Mileage1Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Mileage1\' in table \'PrintRO\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablePrintRO.Mileage1Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string drivers_name {
+                get {
+                    try {
+                        return ((string)(this[this.tablePrintRO.drivers_nameColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'drivers_name\' in table \'PrintRO\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablePrintRO.drivers_nameColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string color_car {
+                get {
+                    try {
+                        return ((string)(this[this.tablePrintRO.color_carColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'color_car\' in table \'PrintRO\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablePrintRO.color_carColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string email_address {
+                get {
+                    try {
+                        return ((string)(this[this.tablePrintRO.email_addressColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'email_address\' in table \'PrintRO\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablePrintRO.email_addressColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string promise_time {
+                get {
+                    try {
+                        return ((string)(this[this.tablePrintRO.promise_timeColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'promise_time\' in table \'PrintRO\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablePrintRO.promise_timeColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool Iscustomer_idNull() {
                 return this.IsNull(this.tablePrintRO.customer_idColumn);
             }
@@ -2658,6 +2818,66 @@ namespace Raceup_Autocare {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetMileageNull() {
                 this[this.tablePrintRO.MileageColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsMileage1Null() {
+                return this.IsNull(this.tablePrintRO.Mileage1Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetMileage1Null() {
+                this[this.tablePrintRO.Mileage1Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool Isdrivers_nameNull() {
+                return this.IsNull(this.tablePrintRO.drivers_nameColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void Setdrivers_nameNull() {
+                this[this.tablePrintRO.drivers_nameColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool Iscolor_carNull() {
+                return this.IsNull(this.tablePrintRO.color_carColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void Setcolor_carNull() {
+                this[this.tablePrintRO.color_carColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool Isemail_addressNull() {
+                return this.IsNull(this.tablePrintRO.email_addressColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void Setemail_addressNull() {
+                this[this.tablePrintRO.email_addressColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool Ispromise_timeNull() {
+                return this.IsNull(this.tablePrintRO.promise_timeColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void Setpromise_timeNull() {
+                this[this.tablePrintRO.promise_timeColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -3557,7 +3777,11 @@ namespace Raceup_Autocare.RODataSetTableAdapters {
             tableMapping.ColumnMappings.Add("car_model", "car_model");
             tableMapping.ColumnMappings.Add("chasis_number", "chasis_number");
             tableMapping.ColumnMappings.Add("engine_number", "engine_number");
-            tableMapping.ColumnMappings.Add("Mileage", "Mileage");
+            tableMapping.ColumnMappings.Add("Mileage", "Mileage1");
+            tableMapping.ColumnMappings.Add("drivers_name", "drivers_name");
+            tableMapping.ColumnMappings.Add("color_car", "color_car");
+            tableMapping.ColumnMappings.Add("email_address", "email_address");
+            tableMapping.ColumnMappings.Add("promise_time", "promise_time");
             this._adapter.TableMappings.Add(tableMapping);
         }
         
@@ -3565,7 +3789,7 @@ namespace Raceup_Autocare.RODataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::Raceup_Autocare.Properties.Settings.Default.raceup_db_new3ConnectionString1;
+            this._connection.ConnectionString = global::Raceup_Autocare.Properties.Settings.Default.raceup_db_new3ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3574,10 +3798,11 @@ namespace Raceup_Autocare.RODataSetTableAdapters {
             this._commandCollection = new global::System.Data.OleDb.OleDbCommand[1];
             this._commandCollection[0] = new global::System.Data.OleDb.OleDbCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = @"SELECT    CustomerProfile.customer_id, RepairOrder.Plate_Number, RepairOrder.Date_Created, RepairOrder.Payment_Method, RepairOrder.Customer_Request, RepairOrderParts.Item_Code, RepairOrderParts.Item_Name, 
+            this._commandCollection[0].CommandText = @"SELECT        CustomerProfile.customer_id, RepairOrder.Plate_Number, RepairOrder.Date_Created, RepairOrder.Payment_Method, RepairOrder.Customer_Request, RepairOrderParts.Item_Code, RepairOrderParts.Item_Name, 
                          RepairOrderParts.Parts_Quantity, RepairOrderParts.Unit_Price, RepairOrderParts.Total_Price_Parts, RepairOrderService.Service_Description, RepairOrderService.Service_Quantity, RepairOrderService.Service_Price, 
                          RepairOrderService.Total_Price, CustomerProfile.first_name, CustomerProfile.last_name, CustomerProfile.Address, CustomerProfile.contact_number, CustomerProfile.Plate_Number AS Expr1, CustomerProfile.car_brand, 
-                         CustomerProfile.car_model, CustomerProfile.chasis_number, CustomerProfile.engine_number, CustomerProfile.Mileage
+                         CustomerProfile.car_model, CustomerProfile.chasis_number, CustomerProfile.engine_number, CustomerProfile.Mileage, CustomerProfile.drivers_name, CustomerProfile.color_car, CustomerProfile.email_address, 
+                         CustomerProfile.promise_time
 FROM            (((CustomerProfile INNER JOIN
                          RepairOrder ON CustomerProfile.Plate_Number = RepairOrder.Plate_Number) INNER JOIN
                          RepairOrderParts ON RepairOrder.RO_Number = RepairOrderParts.RO_Number) INNER JOIN

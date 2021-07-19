@@ -2,20 +2,22 @@
 <xs:schema id="RODataSet" targetNamespace="http://tempuri.org/RODataSet.xsd" xmlns:mstns="http://tempuri.org/RODataSet.xsd" xmlns="http://tempuri.org/RODataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
   <xs:annotation>
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
-      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
           <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="raceup_db_new3ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="raceup_db_new3ConnectionString1 (Settings)" PropertyReference="ApplicationSettings.Raceup_Autocare.Properties.Settings.GlobalReference.Default.raceup_db_new3ConnectionString1" Provider="System.Data.OleDb" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="raceup_db_new3ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="raceup_db_new3ConnectionString (Settings)" PropertyReference="ApplicationSettings.Raceup_Autocare.Properties.Settings.GlobalReference.Default.raceup_db_new3ConnectionString" Provider="System.Data.OleDb" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PrintROTableAdapter" GeneratorDataComponentClassName="PrintROTableAdapter" Name="PrintRO" UserDataComponentName="PrintROTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="raceup_db_new3ConnectionString1 (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="raceup_db_new3ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
                 <SelectCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText>SELECT    CustomerProfile.customer_id, RepairOrder.Plate_Number, RepairOrder.Date_Created, RepairOrder.Payment_Method, RepairOrder.Customer_Request, RepairOrderParts.Item_Code, RepairOrderParts.Item_Name, 
+                    <CommandText>SELECT        CustomerProfile.customer_id, RepairOrder.Plate_Number, RepairOrder.Date_Created, RepairOrder.Payment_Method, RepairOrder.Customer_Request, RepairOrderParts.Item_Code, RepairOrderParts.Item_Name, 
                          RepairOrderParts.Parts_Quantity, RepairOrderParts.Unit_Price, RepairOrderParts.Total_Price_Parts, RepairOrderService.Service_Description, RepairOrderService.Service_Quantity, RepairOrderService.Service_Price, 
                          RepairOrderService.Total_Price, CustomerProfile.first_name, CustomerProfile.last_name, CustomerProfile.Address, CustomerProfile.contact_number, CustomerProfile.Plate_Number AS Expr1, CustomerProfile.car_brand, 
-                         CustomerProfile.car_model, CustomerProfile.chasis_number, CustomerProfile.engine_number, CustomerProfile.Mileage
+                         CustomerProfile.car_model, CustomerProfile.chasis_number, CustomerProfile.engine_number, CustomerProfile.Mileage, CustomerProfile.drivers_name, CustomerProfile.color_car, CustomerProfile.email_address, 
+                         CustomerProfile.promise_time
 FROM            (((CustomerProfile INNER JOIN
                          RepairOrder ON CustomerProfile.Plate_Number = RepairOrder.Plate_Number) INNER JOIN
                          RepairOrderParts ON RepairOrder.RO_Number = RepairOrderParts.RO_Number) INNER JOIN
@@ -49,7 +51,11 @@ FROM            (((CustomerProfile INNER JOIN
               <Mapping SourceColumn="car_model" DataSetColumn="car_model" />
               <Mapping SourceColumn="chasis_number" DataSetColumn="chasis_number" />
               <Mapping SourceColumn="engine_number" DataSetColumn="engine_number" />
-              <Mapping SourceColumn="Mileage" DataSetColumn="Mileage" />
+              <Mapping SourceColumn="Mileage" DataSetColumn="Mileage1" />
+              <Mapping SourceColumn="drivers_name" DataSetColumn="drivers_name" />
+              <Mapping SourceColumn="color_car" DataSetColumn="color_car" />
+              <Mapping SourceColumn="email_address" DataSetColumn="email_address" />
+              <Mapping SourceColumn="promise_time" DataSetColumn="promise_time" />
             </Mappings>
             <Sources />
           </TableAdapter>
@@ -169,7 +175,7 @@ FROM            ((Service INNER JOIN
   <xs:element name="RODataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="RODataSet" msprop:Generator_UserDSName="RODataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="PrintRO" msprop:Generator_TableClassName="PrintRODataTable" msprop:Generator_TableVarName="tablePrintRO" msprop:Generator_RowChangedName="PrintRORowChanged" msprop:Generator_TablePropName="PrintRO" msprop:Generator_RowDeletingName="PrintRORowDeleting" msprop:Generator_RowChangingName="PrintRORowChanging" msprop:Generator_RowEvHandlerName="PrintRORowChangeEventHandler" msprop:Generator_RowDeletedName="PrintRORowDeleted" msprop:Generator_RowClassName="PrintRORow" msprop:Generator_UserTableName="PrintRO" msprop:Generator_RowEvArgName="PrintRORowChangeEvent">
+        <xs:element name="PrintRO" msprop:Generator_TableClassName="PrintRODataTable" msprop:Generator_TableVarName="tablePrintRO" msprop:Generator_TablePropName="PrintRO" msprop:Generator_RowDeletingName="PrintRORowDeleting" msprop:Generator_RowChangingName="PrintRORowChanging" msprop:Generator_RowEvHandlerName="PrintRORowChangeEventHandler" msprop:Generator_RowDeletedName="PrintRORowDeleted" msprop:Generator_UserTableName="PrintRO" msprop:Generator_RowChangedName="PrintRORowChanged" msprop:Generator_RowEvArgName="PrintRORowChangeEvent" msprop:Generator_RowClassName="PrintRORow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="customer_id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columncustomer_id" msprop:Generator_ColumnPropNameInRow="customer_id" msprop:Generator_ColumnPropNameInTable="customer_idColumn" msprop:Generator_UserColumnName="customer_id" type="xs:int" minOccurs="0" />
@@ -292,10 +298,39 @@ FROM            ((Service INNER JOIN
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
+              <xs:element name="Mileage1" msdata:Caption="Mileage" msprop:Generator_ColumnVarNameInTable="columnMileage1" msprop:Generator_ColumnPropNameInRow="Mileage1" msprop:Generator_ColumnPropNameInTable="Mileage1Column" msprop:Generator_UserColumnName="Mileage1" type="xs:int" minOccurs="0" />
+              <xs:element name="drivers_name" msprop:Generator_ColumnVarNameInTable="columndrivers_name" msprop:Generator_ColumnPropNameInRow="drivers_name" msprop:Generator_ColumnPropNameInTable="drivers_nameColumn" msprop:Generator_UserColumnName="drivers_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="color_car" msprop:Generator_ColumnVarNameInTable="columncolor_car" msprop:Generator_ColumnPropNameInRow="color_car" msprop:Generator_ColumnPropNameInTable="color_carColumn" msprop:Generator_UserColumnName="color_car" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="email_address" msprop:Generator_ColumnVarNameInTable="columnemail_address" msprop:Generator_ColumnPropNameInRow="email_address" msprop:Generator_ColumnPropNameInTable="email_addressColumn" msprop:Generator_UserColumnName="email_address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="promise_time" msprop:Generator_ColumnVarNameInTable="columnpromise_time" msprop:Generator_ColumnPropNameInRow="promise_time" msprop:Generator_ColumnPropNameInTable="promise_timeColumn" msprop:Generator_UserColumnName="promise_time" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="ROTableParts" msprop:Generator_TableClassName="ROTablePartsDataTable" msprop:Generator_TableVarName="tableROTableParts" msprop:Generator_RowChangedName="ROTablePartsRowChanged" msprop:Generator_TablePropName="ROTableParts" msprop:Generator_RowDeletingName="ROTablePartsRowDeleting" msprop:Generator_RowChangingName="ROTablePartsRowChanging" msprop:Generator_RowEvHandlerName="ROTablePartsRowChangeEventHandler" msprop:Generator_RowDeletedName="ROTablePartsRowDeleted" msprop:Generator_RowClassName="ROTablePartsRow" msprop:Generator_UserTableName="ROTableParts" msprop:Generator_RowEvArgName="ROTablePartsRowChangeEvent">
+        <xs:element name="ROTableParts" msprop:Generator_TableClassName="ROTablePartsDataTable" msprop:Generator_TableVarName="tableROTableParts" msprop:Generator_TablePropName="ROTableParts" msprop:Generator_RowDeletingName="ROTablePartsRowDeleting" msprop:Generator_RowChangingName="ROTablePartsRowChanging" msprop:Generator_RowEvHandlerName="ROTablePartsRowChangeEventHandler" msprop:Generator_RowDeletedName="ROTablePartsRowDeleted" msprop:Generator_UserTableName="ROTableParts" msprop:Generator_RowChangedName="ROTablePartsRowChanged" msprop:Generator_RowEvArgName="ROTablePartsRowChangeEvent" msprop:Generator_RowClassName="ROTablePartsRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="RO_Number" msprop:Generator_ColumnVarNameInTable="columnRO_Number" msprop:Generator_ColumnPropNameInRow="RO_Number" msprop:Generator_ColumnPropNameInTable="RO_NumberColumn" msprop:Generator_UserColumnName="RO_Number" type="xs:int" minOccurs="0" />
@@ -319,7 +354,7 @@ FROM            ((Service INNER JOIN
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="ROTableService" msprop:Generator_TableClassName="ROTableServiceDataTable" msprop:Generator_TableVarName="tableROTableService" msprop:Generator_TablePropName="ROTableService" msprop:Generator_RowDeletingName="ROTableServiceRowDeleting" msprop:Generator_RowChangingName="ROTableServiceRowChanging" msprop:Generator_RowEvHandlerName="ROTableServiceRowChangeEventHandler" msprop:Generator_RowDeletedName="ROTableServiceRowDeleted" msprop:Generator_UserTableName="ROTableService" msprop:Generator_RowChangedName="ROTableServiceRowChanged" msprop:Generator_RowEvArgName="ROTableServiceRowChangeEvent" msprop:Generator_RowClassName="ROTableServiceRow">
+        <xs:element name="ROTableService" msprop:Generator_TableClassName="ROTableServiceDataTable" msprop:Generator_TableVarName="tableROTableService" msprop:Generator_RowChangedName="ROTableServiceRowChanged" msprop:Generator_TablePropName="ROTableService" msprop:Generator_RowDeletingName="ROTableServiceRowDeleting" msprop:Generator_RowChangingName="ROTableServiceRowChanging" msprop:Generator_RowEvHandlerName="ROTableServiceRowChangeEventHandler" msprop:Generator_RowDeletedName="ROTableServiceRowDeleted" msprop:Generator_RowClassName="ROTableServiceRow" msprop:Generator_UserTableName="ROTableService" msprop:Generator_RowEvArgName="ROTableServiceRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="RO_Number" msprop:Generator_ColumnVarNameInTable="columnRO_Number" msprop:Generator_ColumnPropNameInRow="RO_Number" msprop:Generator_ColumnPropNameInTable="RO_NumberColumn" msprop:Generator_UserColumnName="RO_Number" type="xs:int" minOccurs="0" />
@@ -336,7 +371,7 @@ FROM            ((Service INNER JOIN
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="GetServiceTablewithpackage" msprop:Generator_TableClassName="GetServiceTablewithpackageDataTable" msprop:Generator_TableVarName="tableGetServiceTablewithpackage" msprop:Generator_TablePropName="GetServiceTablewithpackage" msprop:Generator_RowDeletingName="GetServiceTablewithpackageRowDeleting" msprop:Generator_RowChangingName="GetServiceTablewithpackageRowChanging" msprop:Generator_RowEvHandlerName="GetServiceTablewithpackageRowChangeEventHandler" msprop:Generator_RowDeletedName="GetServiceTablewithpackageRowDeleted" msprop:Generator_UserTableName="GetServiceTablewithpackage" msprop:Generator_RowChangedName="GetServiceTablewithpackageRowChanged" msprop:Generator_RowEvArgName="GetServiceTablewithpackageRowChangeEvent" msprop:Generator_RowClassName="GetServiceTablewithpackageRow">
+        <xs:element name="GetServiceTablewithpackage" msprop:Generator_TableClassName="GetServiceTablewithpackageDataTable" msprop:Generator_TableVarName="tableGetServiceTablewithpackage" msprop:Generator_RowChangedName="GetServiceTablewithpackageRowChanged" msprop:Generator_TablePropName="GetServiceTablewithpackage" msprop:Generator_RowDeletingName="GetServiceTablewithpackageRowDeleting" msprop:Generator_RowChangingName="GetServiceTablewithpackageRowChanging" msprop:Generator_RowEvHandlerName="GetServiceTablewithpackageRowChangeEventHandler" msprop:Generator_RowDeletedName="GetServiceTablewithpackageRowDeleted" msprop:Generator_RowClassName="GetServiceTablewithpackageRow" msprop:Generator_UserTableName="GetServiceTablewithpackage" msprop:Generator_RowEvArgName="GetServiceTablewithpackageRowChangeEvent">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Service_Description" msprop:Generator_ColumnVarNameInTable="columnService_Description" msprop:Generator_ColumnPropNameInRow="Service_Description" msprop:Generator_ColumnPropNameInTable="Service_DescriptionColumn" msprop:Generator_UserColumnName="Service_Description" minOccurs="0">

@@ -120,10 +120,30 @@
           <DataField>Mileage</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="Mileage1">
+          <DataField>Mileage</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="drivers_name">
+          <DataField>drivers_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="color_car">
+          <DataField>color_car</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="email_address">
+          <DataField>email_address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="promise_time">
+          <DataField>promise_time</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>RODataSet</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\RODataSet.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\my raceup git\raceup-final\Raceup Autocare\Raceup Autocare\RODataSet.xsd</rd:SchemaPath>
         <rd:TableName>PrintRO</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -592,7 +612,7 @@
             <Top>2.52446in</Top>
             <Left>0.24287in</Left>
             <Height>0.39583in</Height>
-            <Width>7.59306in</Width>
+            <Width>7.59307in</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -875,6 +895,18 @@
                               </TextRuns>
                               <Style />
                             </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=First(Fields!drivers_name.Value, "ROAllInfo")</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox126</rd:DefaultName>
                           <Style>
@@ -917,6 +949,18 @@
                                   <Value>Color:</Value>
                                   <Style>
                                     <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=First(Fields!color_car.Value, "ROAllInfo")</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -969,6 +1013,18 @@
                               </TextRuns>
                               <Style />
                             </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=First(Fields!email_address.Value, "ROAllInfo")</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox83</rd:DefaultName>
                           <Style>
@@ -1016,6 +1072,18 @@
                                   <Value>Promise Time:</Value>
                                   <Style>
                                     <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!promise_time.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1122,7 +1190,8 @@
                                 <TextRun>
                                   <Value />
                                   <Style>
-                                    <FontSize>7pt</FontSize>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1809,7 +1878,7 @@
             <DataSetName>ROAllInfo</DataSetName>
             <Top>0.33395in</Top>
             <Left>0.24287in</Left>
-            <Height>1.26876in</Height>
+            <Height>1.26877in</Height>
             <Width>7.59303in</Width>
             <ZIndex>3</ZIndex>
             <Style>
@@ -2293,7 +2362,7 @@
                 <DataSetName>ROTableParts</DataSetName>
                 <Top>0.04576in</Top>
                 <Height>0.38541in</Height>
-                <Width>7.59306in</Width>
+                <Width>7.59308in</Width>
                 <ZIndex>2</ZIndex>
                 <Style>
                   <Border>
@@ -2585,7 +2654,7 @@
             <Top>2.98973in</Top>
             <Left>0.24287in</Left>
             <Height>1.81106in</Height>
-            <Width>7.59306in</Width>
+            <Width>7.59308in</Width>
             <ZIndex>4</ZIndex>
             <Style>
               <Border>
