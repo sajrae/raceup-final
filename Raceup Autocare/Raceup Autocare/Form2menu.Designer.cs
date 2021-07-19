@@ -58,6 +58,8 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.account = new System.Windows.Forms.Label();
+            this.roleOfUser = new System.Windows.Forms.Label();
             this.PanelTitleBar.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.SubMenuORPanel2.SuspendLayout();
@@ -71,6 +73,8 @@
             // PanelTitleBar
             // 
             this.PanelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(53)))), ((int)(((byte)(45)))));
+            this.PanelTitleBar.Controls.Add(this.roleOfUser);
+            this.PanelTitleBar.Controls.Add(this.account);
             this.PanelTitleBar.Controls.Add(this.btnMaximize);
             this.PanelTitleBar.Controls.Add(this.btnMinimize);
             this.PanelTitleBar.Controls.Add(this.btnExit);
@@ -372,7 +376,7 @@
             this.editRepairOrderButton.ForeColor = System.Drawing.Color.Gray;
             this.editRepairOrderButton.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.editRepairOrderButton.HoverState.ForeColor = System.Drawing.Color.LightGray;
-            this.editRepairOrderButton.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.HoverState.Image")));
+            this.editRepairOrderButton.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("editRepairOrderButton.HoverState.Image")));
             this.editRepairOrderButton.HoverState.Parent = this.editRepairOrderButton;
             this.editRepairOrderButton.Image = ((System.Drawing.Image)(resources.GetObject("editRepairOrderButton.Image")));
             this.editRepairOrderButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -526,6 +530,16 @@
             resources.ApplyResources(this.panel5, "panel5");
             this.panel5.Name = "panel5";
             // 
+            // account
+            // 
+            resources.ApplyResources(this.account, "account");
+            this.account.Name = "account";
+            // 
+            // roleOfUser
+            // 
+            resources.ApplyResources(this.roleOfUser, "roleOfUser");
+            this.roleOfUser.Name = "roleOfUser";
+            // 
             // MenuForm
             // 
             resources.ApplyResources(this, "$this");
@@ -542,6 +556,7 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MenuForm_FormClosing);
             this.Load += new System.EventHandler(this.MenuForm_Load);
             this.PanelTitleBar.ResumeLayout(false);
+            this.PanelTitleBar.PerformLayout();
             this.panelMenu.ResumeLayout(false);
             this.SubMenuORPanel2.ResumeLayout(false);
             this.SubMenuORPanel.ResumeLayout(false);
@@ -583,5 +598,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button editRepairOrderButton;
+        private System.Windows.Forms.Label roleOfUser;
+        private System.Windows.Forms.Label account;
     }
 }

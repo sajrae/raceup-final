@@ -60,8 +60,10 @@ namespace Raceup_Autocare
                 dbcon.CloseConnection();
             }
 
-           // setUserLoginStatus(true);
+            // setUserLoginStatus(true);
 
+            account.Text = "Hi " + emp.Lname.ToString();
+            roleOfUser.Text ="Role :"+ emp.Role.ToString();
         }
        
         private void manageRole()
@@ -78,7 +80,7 @@ namespace Raceup_Autocare
                 guna2Button2.Visible = true;
                 guna2Button3.Visible = true;
             }
-            else if (emp.Role.ToString().Equals("ServiceAdvisor")) 
+            else if (emp.Role.ToString().Equals("ServiceAdvisor"))
             {
                 OrderBtn.Visible = true;
                 CreateROBtn.Visible = false;
@@ -99,6 +101,18 @@ namespace Raceup_Autocare
                 guna2Button1.Visible = true;
                 guna2Button2.Visible = true;
                 guna2Button3.Visible = true;
+            }
+            else
+            {
+                PartsBtn.Visible = false; ;
+                SearchItemBTN.Visible = false;
+                OrderBtn.Visible = false;
+                CreateROBtn.Visible = false;
+                CreateCustProfileBtn.Visible = false;
+                ServiceROBTN.Visible = false;
+                guna2Button1.Visible = false;
+                guna2Button2.Visible = false;
+                guna2Button3.Visible = false;
             }
         }
 
