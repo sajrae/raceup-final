@@ -113,10 +113,34 @@
           <DataField>Mileage</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="Mileage1">
+          <DataField>Mileage</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="drivers_name">
+          <DataField>drivers_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="color_car">
+          <DataField>color_car</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="email_address">
+          <DataField>email_address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="promise_time">
+          <DataField>promise_time</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Created_By">
+          <DataField>Created_By</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>RODataSet</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\RODataSet.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Kenneth Noel Cupat\Documents\Race Up - Final Project - Test - SAJ\raceup-final\Raceup Autocare\Raceup Autocare\RODataSet.xsd</rd:SchemaPath>
         <rd:TableName>PrintRO</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -451,6 +475,18 @@
                               </TextRuns>
                               <Style />
                             </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!drivers_name.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox126</rd:DefaultName>
                           <Style>
@@ -498,6 +534,18 @@
                               </TextRuns>
                               <Style />
                             </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!color_car.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox90</rd:DefaultName>
                           <Style>
@@ -537,9 +585,21 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Email Address:</Value>
+                                  <Value>Promise Time:</Value>
                                   <Style>
                                     <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!promise_time.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -589,9 +649,21 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Promise Time:</Value>
+                                  <Value>Email Address:</Value>
                                   <Style>
                                     <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!email_address.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -625,55 +697,10 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <ColSpan>2</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox127">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style>
-                                    <FontSize>7pt</FontSize>
-                                  </Style>
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox127</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>Solid</Style>
-                            </Border>
-                            <TopBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                            </TopBorder>
-                            <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                            </BottomBorder>
-                            <LeftBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                            </LeftBorder>
-                            <RightBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                            </RightBorder>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
+                    <TablixCell />
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Textbox94">
@@ -694,9 +721,10 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value />
+                                  <Value>=Fields!Created_By.Value</Value>
                                   <Style>
-                                    <FontSize>7pt</FontSize>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1373,7 +1401,7 @@
             <Top>0.33395in</Top>
             <Left>0.24287in</Left>
             <Height>1.26876in</Height>
-            <Width>7.59305in</Width>
+            <Width>7.59303in</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -1820,7 +1848,7 @@
             <Top>2.52446in</Top>
             <Left>0.24287in</Left>
             <Height>0.39583in</Height>
-            <Width>7.59305in</Width>
+            <Width>7.59306in</Width>
             <ZIndex>4</ZIndex>
             <Style>
               <Border>
@@ -2299,7 +2327,7 @@
                 <DataSetName>ROTableParts</DataSetName>
                 <Top>0.04576in</Top>
                 <Height>0.38541in</Height>
-                <Width>7.59305in</Width>
+                <Width>7.59306in</Width>
                 <ZIndex>2</ZIndex>
                 <Style>
                   <Border>
@@ -2582,7 +2610,7 @@
             <Top>2.98973in</Top>
             <Left>0.24287in</Left>
             <Height>1.81106in</Height>
-            <Width>7.59305in</Width>
+            <Width>7.59306in</Width>
             <ZIndex>5</ZIndex>
             <Style>
               <Border>
