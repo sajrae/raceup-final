@@ -6,3 +6,10 @@
     {
     }
 }
+
+namespace Raceup_Autocare.RODataSetTableAdapters {
+    
+    
+    public partial class ROTableServiceTableAdapter {
+    }
+}
