@@ -80,21 +80,22 @@ namespace Raceup_Autocare
                 guna2Button2.Visible = true;
                 guna2Button3.Visible = true;
             }
-            else if (emp.Role.ToString().Equals("ServiceAdvisor"))
+            else if (emp.Role.ToString().Equals("ServiceAdvisor") || emp.Role.ToString().Equals("ServiceAdmin"))
             {
                 OrderBtn.Visible = true;
-                CreateROBtn.Visible = false;
-                CreateCustProfileBtn.Visible = false;
+                CreateROBtn.Visible = true;
+                CreateCustProfileBtn.Visible = true;
                 editRepairOrderButton.Visible = true;
-                PartsBtn.Visible = false;
-                SearchItemBTN.Visible = false;
+                PartsBtn.Visible = true;
+                SearchItemBTN.Visible = true;
                 guna2Button1.Visible = false;
                 guna2Button2.Visible = false;
-                guna2Button3.Visible = false;
+                guna2Button3.Visible = true;
             }
-            else if (emp.Role.ToString().Equals("PartsAdvisor"))
+            else if (emp.Role.ToString().Equals("PartsAdvisor") || emp.Role.ToString().Equals("PartsAdmin"))
             {
-                OrderBtn.Visible = false;
+                OrderBtn.Visible = true;
+                editRepairOrderButton.Visible = true;
                 CreateROBtn.Visible = false;
                 CreateCustProfileBtn.Visible = false;
                 ServiceROBTN.Visible = false;

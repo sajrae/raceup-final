@@ -264,6 +264,41 @@ namespace Raceup_Autocare
                         removeBTN.Enabled = true;
 
                     }
+                    if (empReader["Role"].ToString().Equals("PartsAdvisor", StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        croServiceDescription.Enabled = false;
+                        croServiceHourTextbox.Enabled = false;
+                        croServicePrice.Enabled = false;
+                        addServiceBuutton.Enabled = false;
+                        serviceRemoveButton.Enabled = false;
+                        ModeOfPaymentGroupBox.Enabled = false;
+                        customerRequestTextbox.Enabled = false;
+                        updateButton.Enabled = true;
+                        PartsDataGrid.Enabled = true;
+                        croPartsNameTextBox.Enabled = true;
+                        croPartsQuantityTextbox.Enabled = true;
+                        croPartsUnitPriceTextbox.Enabled = true;
+                        partsAddButton.Enabled = true;
+                        removeBTN.Enabled = false;
+                    }
+
+                    if (empReader["Role"].ToString().Equals("PartsAdmin", StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        croServiceDescription.Enabled = false;
+                        croServiceHourTextbox.Enabled = false;
+                        croServicePrice.Enabled = false;
+                        addServiceBuutton.Enabled = false;
+                        serviceRemoveButton.Enabled = false;
+                        ModeOfPaymentGroupBox.Enabled = false;
+                        customerRequestTextbox.Enabled = false;
+                        updateButton.Enabled = true;
+                        PartsDataGrid.Enabled = true;
+                        croPartsNameTextBox.Enabled = true;
+                        croPartsQuantityTextbox.Enabled = true;
+                        croPartsUnitPriceTextbox.Enabled = true;
+                        partsAddButton.Enabled = true;
+                        removeBTN.Enabled = true;
+                    }
                 }
             }
         }
