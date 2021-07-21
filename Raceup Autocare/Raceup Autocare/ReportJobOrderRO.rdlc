@@ -3019,10 +3019,10 @@
         </PageFooter>
         <PageHeight>11.69in</PageHeight>
         <PageWidth>8.27in</PageWidth>
-        <LeftMargin>0.3937in</LeftMargin>
-        <RightMargin>0.3937in</RightMargin>
-        <TopMargin>0.19685in</TopMargin>
-        <BottomMargin>0.19685in</BottomMargin>
+        <LeftMargin>0.1in</LeftMargin>
+        <RightMargin>0.1in</RightMargin>
+        <TopMargin>0.1in</TopMargin>
+        <BottomMargin>0.1in</BottomMargin>
         <Style />
       </Page>
     </ReportSection>
