@@ -174,10 +174,34 @@
           <DataField>Mileage</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="Mileage1">
+          <DataField>Mileage</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="drivers_name">
+          <DataField>drivers_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="color_car">
+          <DataField>color_car</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="email_address">
+          <DataField>email_address</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="promise_time">
+          <DataField>promise_time</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Created_By">
+          <DataField>Created_By</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>RODataSet</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\D A N\Desktop\New Project\RaceUUp\raceupautocare\Raceup Autocare\Raceup Autocare\RODataSet.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Kenneth Noel Cupat\Documents\Race Up - Final Project - Test - SAJ\raceup-final\Raceup Autocare\Raceup Autocare\RODataSet.xsd</rd:SchemaPath>
         <rd:TableName>PrintRO</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -197,17 +221,20 @@
                 <TextRuns>
                   <TextRun>
                     <Value>Repair Order No.:</Value>
-                    <Style />
+                    <Style>
+                      <FontSize>14pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
                   </TextRun>
                 </TextRuns>
                 <Style />
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox12</rd:DefaultName>
-            <Top>0.25458in</Top>
-            <Left>4.18525in</Left>
-            <Height>0.25in</Height>
-            <Width>1.34289in</Width>
+            <Top>0.04167in</Top>
+            <Left>4.46747in</Left>
+            <Height>0.25062in</Height>
+            <Width>1.84391in</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -227,15 +254,19 @@
                   <TextRun>
                     <Value>=Parameters!ReportParameter_RO_Number.Value</Value>
                     <Style>
+                      <FontFamily>Century GOthic</FontFamily>
+                      <FontSize>14pt</FontSize>
                       <FontWeight>Bold</FontWeight>
                     </Style>
                   </TextRun>
                 </TextRuns>
-                <Style />
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
               </Paragraph>
             </Paragraphs>
-            <Top>0.25458in</Top>
-            <Left>5.59758in</Left>
+            <Top>0.04167in</Top>
+            <Left>6.36694in</Left>
             <Height>0.25in</Height>
             <Width>1.44198in</Width>
             <ZIndex>1</ZIndex>
@@ -244,24 +275,17 @@
                 <Style>Solid</Style>
               </Border>
               <TopBorder>
-                <Color>Black</Color>
-                <Style>Solid</Style>
-                <Width>1pt</Width>
+                <Style>None</Style>
               </TopBorder>
               <BottomBorder>
                 <Color>Black</Color>
-                <Style>Solid</Style>
                 <Width>1pt</Width>
               </BottomBorder>
               <LeftBorder>
-                <Color>Black</Color>
-                <Style>Solid</Style>
-                <Width>1pt</Width>
+                <Style>None</Style>
               </LeftBorder>
               <RightBorder>
-                <Color>Black</Color>
-                <Style>Solid</Style>
-                <Width>1pt</Width>
+                <Style>None</Style>
               </RightBorder>
               <PaddingLeft>2pt</PaddingLeft>
               <PaddingRight>2pt</PaddingRight>
@@ -290,10 +314,10 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox15</rd:DefaultName>
-            <Top>2.17283in</Top>
-            <Left>0.39835in</Left>
-            <Height>0.35417in</Height>
-            <Width>6.66105in</Width>
+            <Top>1.65827in</Top>
+            <Left>0.24287in</Left>
+            <Height>0.34373in</Height>
+            <Width>7.59303in</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -324,8 +348,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox11</rd:DefaultName>
-            <Top>3.11382in</Top>
-            <Left>4.53162in</Left>
+            <Top>2.64714in</Top>
+            <Left>5.48521in</Left>
             <Height>0.25in</Height>
             <Width>1.13302in</Width>
             <ZIndex>3</ZIndex>
@@ -361,8 +385,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox11</rd:DefaultName>
-            <Top>3.11382in</Top>
-            <Left>5.74929in</Left>
+            <Top>2.64714in</Top>
+            <Left>6.70288in</Left>
             <Height>0.25in</Height>
             <Width>1.13302in</Width>
             <ZIndex>4</ZIndex>
@@ -380,24 +404,24 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>0.89775in</Width>
+                  <Width>1.08415in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>3.14595in</Width>
+                  <Width>3.33235in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.80788in</Width>
+                  <Width>0.99428in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.84713in</Width>
+                  <Width>1.03353in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.96234in</Width>
+                  <Width>1.14874in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>0.24479in</Height>
+                  <Height>0.27396in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -600,7 +624,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.20312in</Height>
+                  <Height>0.23229in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -799,10 +823,10 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>ROTableParts</DataSetName>
-            <Top>2.59645in</Top>
-            <Left>0.39835in</Left>
-            <Height>0.44791in</Height>
-            <Width>6.66105in</Width>
+            <Top>2.07144in</Top>
+            <Left>0.24287in</Left>
+            <Height>0.50625in</Height>
+            <Width>7.59305in</Width>
             <ZIndex>5</ZIndex>
             <Style>
               <Border>
@@ -829,8 +853,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox11</rd:DefaultName>
-            <Top>3.11382in</Top>
-            <Left>0.64477in</Left>
+            <Top>2.64714in</Top>
+            <Left>0.24287in</Left>
             <Height>0.25in</Height>
             <Width>1.199in</Width>
             <ZIndex>6</ZIndex>
@@ -866,8 +890,8 @@
               </Paragraph>
             </Paragraphs>
             <rd:DefaultName>Textbox11</rd:DefaultName>
-            <Top>3.11382in</Top>
-            <Left>1.91321in</Left>
+            <Top>2.64714in</Top>
+            <Left>1.51131in</Left>
             <Height>0.25in</Height>
             <Width>1.13302in</Width>
             <ZIndex>7</ZIndex>
@@ -894,7 +918,13 @@
                           <Paragraph>
                             <TextRuns>
                               <TextRun>
-                                <Value>Payment Method:
+                                <Value>Payment Method:</Value>
+                                <Style>
+                                  <FontSize>7pt</FontSize>
+                                </Style>
+                              </TextRun>
+                              <TextRun>
+                                <Value xml:space="preserve">
 
 </Value>
                                 <Style>
@@ -905,7 +935,7 @@
                                 <Value>=Fields!Payment_Method.Value</Value>
                                 <Style>
                                   <FontFamily>Century Gothic</FontFamily>
-                                  <FontSize>11pt</FontSize>
+                                  <FontSize>8pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
                                 </Style>
                               </TextRun>
@@ -956,21 +986,21 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.36529in</Width>
+                  <Width>1.55169in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.36529in</Width>
+                  <Width>1.55169in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.36529in</Width>
+                  <Width>1.55169in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.28258in</Width>
+                  <Width>1.46898in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>0.38542in</Height>
+                  <Height>0.33802in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -981,7 +1011,13 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Milleage:
+                                  <Value>Milleage:</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve">
 </Value>
                                   <Style>
                                     <FontSize>8pt</FontSize>
@@ -990,7 +1026,7 @@
                                 <TextRun>
                                   <Value>=Fields!Mileage.Value</Value>
                                   <Style>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
@@ -1036,9 +1072,21 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value />
+                                  <Value>Driver's Name::</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!drivers_name.Value</Value>
                                   <Style>
                                     <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1083,8 +1131,22 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value />
-                                  <Style />
+                                  <Value>Color:</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!color_car.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style />
@@ -1128,8 +1190,22 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value />
-                                  <Style />
+                                  <Value>Promise Time:</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!promise_time.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style />
@@ -1167,7 +1243,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.29167in</Height>
+                  <Height>0.24428in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1178,8 +1254,22 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value />
-                                  <Style />
+                                  <Value>Email Address: </Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!email_address.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style />
@@ -1212,53 +1302,10 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <ColSpan>2</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox127">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style />
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox127</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>Solid</Style>
-                            </Border>
-                            <TopBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                            </TopBorder>
-                            <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                            </BottomBorder>
-                            <LeftBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                            </LeftBorder>
-                            <RightBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                            </RightBorder>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
+                    <TablixCell />
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Textbox94">
@@ -1268,8 +1315,22 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value />
-                                  <Style />
+                                  <Value>Service Advisor Name:</Value>
+                                  <Style>
+                                    <FontSize>7pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Created_By.Value</Value>
+                                  <Style>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style />
@@ -1302,53 +1363,10 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <ColSpan>2</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox95">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style />
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox95</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>Solid</Style>
-                            </Border>
-                            <TopBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                            </TopBorder>
-                            <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                            </BottomBorder>
-                            <LeftBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                            </LeftBorder>
-                            <RightBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                            </RightBorder>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
+                    <TablixCell />
                   </TablixCells>
                 </TablixRow>
               </TablixRows>
@@ -1357,7 +1375,7 @@
               <TablixMembers>
                 <TablixMember>
                   <TablixHeader>
-                    <Size>0.38542in</Size>
+                    <Size>0.33803in</Size>
                     <CellContents>
                       <Textbox Name="Textbox85">
                         <CanGrow>true</CanGrow>
@@ -1368,7 +1386,7 @@
                               <TextRun>
                                 <Value>Customer Name:</Value>
                                 <Style>
-                                  <FontSize>8pt</FontSize>
+                                  <FontSize>7pt</FontSize>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -1380,7 +1398,7 @@
                                 <Value>=Fields!first_name.Value+" "+Fields!last_name.Value</Value>
                                 <Style>
                                   <FontFamily>Century Gothic</FontFamily>
-                                  <FontSize>9pt</FontSize>
+                                  <FontSize>8pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
                                 </Style>
                               </TextRun>
@@ -1424,7 +1442,7 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>0.39583in</Size>
+                        <Size>0.34844in</Size>
                         <CellContents>
                           <Textbox Name="Textbox97">
                             <CanGrow>true</CanGrow>
@@ -1435,7 +1453,7 @@
                                   <TextRun>
                                     <Value>Address:</Value>
                                     <Style>
-                                      <FontSize>8pt</FontSize>
+                                      <FontSize>7pt</FontSize>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -1446,7 +1464,7 @@
                                   <TextRun>
                                     <Value>=Fields!Address.Value</Value>
                                     <Style>
-                                      <FontSize>9pt</FontSize>
+                                      <FontSize>8pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
                                     </Style>
                                   </TextRun>
@@ -1499,7 +1517,7 @@
                 </TablixMember>
                 <TablixMember>
                   <TablixHeader>
-                    <Size>0.38542in</Size>
+                    <Size>0.33803in</Size>
                     <CellContents>
                       <Textbox Name="Textbox87">
                         <CanGrow>true</CanGrow>
@@ -1510,7 +1528,7 @@
                               <TextRun>
                                 <Value>Phone Number:</Value>
                                 <Style>
-                                  <FontSize>8pt</FontSize>
+                                  <FontSize>7pt</FontSize>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -1522,7 +1540,7 @@
                                 <Value>=Fields!contact_number.Value</Value>
                                 <Style>
                                   <FontFamily>Century Gothic</FontFamily>
-                                  <FontSize>9pt</FontSize>
+                                  <FontSize>8pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
                                 </Style>
                               </TextRun>
@@ -1566,7 +1584,7 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>0.39583in</Size>
+                        <Size>0.34844in</Size>
                         <CellContents>
                           <Textbox Name="Textbox98">
                             <CanGrow>true</CanGrow>
@@ -1577,7 +1595,7 @@
                                   <TextRun>
                                     <Value>Brand:</Value>
                                     <Style>
-                                      <FontSize>8pt</FontSize>
+                                      <FontSize>7pt</FontSize>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -1589,7 +1607,7 @@
                                     <Value>=Fields!car_brand.Value</Value>
                                     <Style>
                                       <FontFamily>Century Gothic</FontFamily>
-                                      <FontSize>9pt</FontSize>
+                                      <FontSize>8pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
                                     </Style>
                                   </TextRun>
@@ -1635,7 +1653,7 @@
                 </TablixMember>
                 <TablixMember>
                   <TablixHeader>
-                    <Size>0.38542in</Size>
+                    <Size>0.33803in</Size>
                     <CellContents>
                       <Textbox Name="Textbox89">
                         <CanGrow>true</CanGrow>
@@ -1646,7 +1664,7 @@
                               <TextRun>
                                 <Value>Plate Number:</Value>
                                 <Style>
-                                  <FontSize>8pt</FontSize>
+                                  <FontSize>7pt</FontSize>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -1658,7 +1676,7 @@
                                 <Value>=Fields!Plate_Number.Value</Value>
                                 <Style>
                                   <FontFamily>Century Gothic</FontFamily>
-                                  <FontSize>9pt</FontSize>
+                                  <FontSize>8pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
                                 </Style>
                               </TextRun>
@@ -1702,7 +1720,7 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>0.39583in</Size>
+                        <Size>0.34844in</Size>
                         <CellContents>
                           <Textbox Name="Textbox99">
                             <CanGrow>true</CanGrow>
@@ -1713,7 +1731,7 @@
                                   <TextRun>
                                     <Value>Chasis Number:</Value>
                                     <Style>
-                                      <FontSize>8pt</FontSize>
+                                      <FontSize>7pt</FontSize>
                                     </Style>
                                   </TextRun>
                                 </TextRuns>
@@ -1725,7 +1743,7 @@
                                     <Value>=Fields!chasis_number.Value</Value>
                                     <Style>
                                       <FontFamily>Century Gothic</FontFamily>
-                                      <FontSize>9pt</FontSize>
+                                      <FontSize>8pt</FontSize>
                                       <FontWeight>Bold</FontWeight>
                                     </Style>
                                   </TextRun>
@@ -1770,13 +1788,8 @@
                   </TablixMembers>
                 </TablixMember>
                 <TablixMember>
-                  <Group Name="ColumnGroup">
-                    <GroupExpressions>
-                      <GroupExpression />
-                    </GroupExpressions>
-                  </Group>
                   <TablixHeader>
-                    <Size>0.38542in</Size>
+                    <Size>0.33803in</Size>
                     <CellContents>
                       <Textbox Name="Textbox82">
                         <CanGrow>true</CanGrow>
@@ -1787,7 +1800,7 @@
                               <TextRun>
                                 <Value>Model:</Value>
                                 <Style>
-                                  <FontSize>8pt</FontSize>
+                                  <FontSize>7pt</FontSize>
                                 </Style>
                               </TextRun>
                             </TextRuns>
@@ -1799,7 +1812,7 @@
                                 <Value>=Fields!car_model.Value</Value>
                                 <Style>
                                   <FontFamily>Century Gothic</FontFamily>
-                                  <FontSize>9pt</FontSize>
+                                  <FontSize>8pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
                                 </Style>
                               </TextRun>
@@ -1842,85 +1855,71 @@
                   </TablixHeader>
                   <TablixMembers>
                     <TablixMember>
-                      <Group Name="Address">
-                        <GroupExpressions>
-                          <GroupExpression>=Fields!Address.Value</GroupExpression>
-                        </GroupExpressions>
-                      </Group>
-                      <SortExpressions>
-                        <SortExpression>
-                          <Value>=Fields!Address.Value</Value>
-                        </SortExpression>
-                      </SortExpressions>
-                      <TablixMembers>
-                        <TablixMember>
-                          <TablixHeader>
-                            <Size>0.39583in</Size>
-                            <CellContents>
-                              <Textbox Name="Textbox100">
-                                <CanGrow>true</CanGrow>
-                                <KeepTogether>true</KeepTogether>
-                                <Paragraphs>
-                                  <Paragraph>
-                                    <TextRuns>
-                                      <TextRun>
-                                        <Value>Engine Number:</Value>
-                                        <Style>
-                                          <FontSize>8pt</FontSize>
-                                        </Style>
-                                      </TextRun>
-                                    </TextRuns>
-                                    <Style />
-                                  </Paragraph>
-                                  <Paragraph>
-                                    <TextRuns>
-                                      <TextRun>
-                                        <Value>=Fields!engine_number.Value</Value>
-                                        <Style>
-                                          <FontFamily>Century Gothic</FontFamily>
-                                          <FontSize>9pt</FontSize>
-                                          <FontWeight>Bold</FontWeight>
-                                        </Style>
-                                      </TextRun>
-                                    </TextRuns>
-                                    <Style />
-                                  </Paragraph>
-                                </Paragraphs>
-                                <rd:DefaultName>Textbox100</rd:DefaultName>
-                                <Style>
-                                  <Border>
-                                    <Style>Solid</Style>
-                                  </Border>
-                                  <TopBorder>
-                                    <Color>Black</Color>
-                                    <Style>Solid</Style>
-                                    <Width>1pt</Width>
-                                  </TopBorder>
-                                  <BottomBorder>
-                                    <Color>Black</Color>
-                                    <Style>Solid</Style>
-                                    <Width>1pt</Width>
-                                  </BottomBorder>
-                                  <LeftBorder>
-                                    <Color>Black</Color>
-                                    <Style>Solid</Style>
-                                    <Width>1pt</Width>
-                                  </LeftBorder>
-                                  <RightBorder>
-                                    <Color>Black</Color>
-                                    <Style>Solid</Style>
-                                    <Width>1pt</Width>
-                                  </RightBorder>
-                                  <PaddingLeft>2pt</PaddingLeft>
-                                  <PaddingRight>2pt</PaddingRight>
-                                  <PaddingTop>2pt</PaddingTop>
-                                  <PaddingBottom>2pt</PaddingBottom>
-                                </Style>
-                              </Textbox>
-                            </CellContents>
-                          </TablixHeader>
-                        </TablixMember>
-                      </TablixMembers>
+                      <TablixHeader>
+                        <Size>0.34844in</Size>
+                        <CellContents>
+                          <Textbox Name="Textbox100">
+                            <CanGrow>true</CanGrow>
+                            <KeepTogether>true</KeepTogether>
+                            <Paragraphs>
+                              <Paragraph>
+                                <TextRuns>
+                                  <TextRun>
+                                    <Value>Engine Number:</Value>
+                                    <Style>
+                                      <FontSize>7pt</FontSize>
+                                    </Style>
+                                  </TextRun>
+                                </TextRuns>
+                                <Style />
+                              </Paragraph>
+                              <Paragraph>
+                                <TextRuns>
+                                  <TextRun>
+                                    <Value>=Fields!engine_number.Value</Value>
+                                    <Style>
+                                      <FontFamily>Century Gothic</FontFamily>
+                                      <FontSize>8pt</FontSize>
+                                      <FontWeight>Bold</FontWeight>
+                                    </Style>
+                                  </TextRun>
+                                </TextRuns>
+                                <Style />
+                              </Paragraph>
+                            </Paragraphs>
+                            <rd:DefaultName>Textbox100</rd:DefaultName>
+                            <Style>
+                              <Border>
+                                <Style>Solid</Style>
+                              </Border>
+                              <TopBorder>
+                                <Color>Black</Color>
+                                <Style>Solid</Style>
+                                <Width>1pt</Width>
+                              </TopBorder>
+                              <BottomBorder>
+                                <Color>Black</Color>
+                                <Style>Solid</Style>
+                                <Width>1pt</Width>
+                              </BottomBorder>
+                              <LeftBorder>
+                                <Color>Black</Color>
+                                <Style>Solid</Style>
+                                <Width>1pt</Width>
+                              </LeftBorder>
+                              <RightBorder>
+                                <Color>Black</Color>
+                                <Style>Solid</Style>
+                                <Width>1pt</Width>
+                              </RightBorder>
+                              <PaddingLeft>2pt</PaddingLeft>
+                              <PaddingRight>2pt</PaddingRight>
+                              <PaddingTop>2pt</PaddingTop>
+                              <PaddingBottom>2pt</PaddingBottom>
+                            </Style>
+                          </Textbox>
+                        </CellContents>
+                      </TablixHeader>
                     </TablixMember>
                   </TablixMembers>
                 </TablixMember>
@@ -1940,7 +1939,7 @@
                     </SortExpression>
                   </SortExpressions>
                   <TablixHeader>
-                    <Size>1.28258in</Size>
+                    <Size>1.46898in</Size>
                     <CellContents>
                       <Textbox Name="Payment_Method">
                         <CanGrow>true</CanGrow>
@@ -1949,7 +1948,13 @@
                           <Paragraph>
                             <TextRuns>
                               <TextRun>
-                                <Value>Date Created:
+                                <Value>Date Created:</Value>
+                                <Style>
+                                  <FontSize>7pt</FontSize>
+                                </Style>
+                              </TextRun>
+                              <TextRun>
+                                <Value xml:space="preserve">
 </Value>
                                 <Style>
                                   <FontSize>8pt</FontSize>
@@ -1966,7 +1971,7 @@
                                 <Value>=FormatDateTime(Fields!Date_Created.Value,DateFormat.ShortDate)</Value>
                                 <Style>
                                   <FontFamily>Century Gothic</FontFamily>
-                                  <FontSize>11pt</FontSize>
+                                  <FontSize>8pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
                                 </Style>
                               </TextRun>
@@ -2015,44 +2020,30 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>ROAllInfo</DataSetName>
-            <Top>0.57402in</Top>
-            <Left>0.39835in</Left>
-            <Height>1.45834in</Height>
-            <Width>6.66103in</Width>
+            <Top>0.33395in</Top>
+            <Left>0.24287in</Left>
+            <Height>1.26877in</Height>
+            <Width>7.59303in</Width>
             <ZIndex>8</ZIndex>
             <Style>
               <Border>
                 <Style>None</Style>
               </Border>
+              <FontFamily />
             </Style>
           </Tablix>
         </ReportItems>
         <Height>3.5575in</Height>
         <Style>
           <Border>
-            <Style>Solid</Style>
+            <Style>None</Style>
           </Border>
-          <BottomBorder>
-            <Style>None</Style>
-          </BottomBorder>
-          <LeftBorder>
-            <Style>None</Style>
-          </LeftBorder>
-          <RightBorder>
-            <Style>None</Style>
-          </RightBorder>
-          <BackgroundImage>
-            <Source>Embedded</Source>
-            <Value>CustomersCopy3</Value>
-            <MIMEType>image/png</MIMEType>
-            <BackgroundRepeat>Clip</BackgroundRepeat>
-          </BackgroundImage>
         </Style>
       </Body>
-      <Width>7.34065in</Width>
+      <Width>8.00732in</Width>
       <Page>
         <PageHeader>
-          <Height>1.92881in</Height>
+          <Height>1.54512in</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -2062,10 +2053,9 @@
                   <Source>Embedded</Source>
                   <Value>logo1Copy</Value>
                   <Sizing>FitProportional</Sizing>
-                  <Top>0.23608in</Top>
-                  <Left>0.125in</Left>
-                  <Height>1.50174in</Height>
-                  <Width>2.03063in</Width>
+                  <Top>0.06335in</Top>
+                  <Height>1.4401in</Height>
+                  <Width>2.0439in</Width>
                   <Style>
                     <Border>
                       <Style>None</Style>
@@ -2097,7 +2087,18 @@
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value>RACE UP AUTO CARE SERVICES
+                          <Value>RACE UP AUTO CARE SERVICES</Value>
+                          <Style>
+                            <FontStyle>Normal</FontStyle>
+                            <FontFamily>Calibri</FontFamily>
+                            <FontSize>20pt</FontSize>
+                            <FontWeight>Bold</FontWeight>
+                            <TextDecoration>None</TextDecoration>
+                            <Color>#000000</Color>
+                          </Style>
+                        </TextRun>
+                        <TextRun>
+                          <Value xml:space="preserve">
 </Value>
                           <Style>
                             <FontStyle>Normal</FontStyle>
@@ -2110,11 +2111,11 @@
                         </TextRun>
                         <TextRun>
                           <Value>QUANO AVENUE, NORTH RECLAMATION AREA MANDAUE CITY, CEBU
- CONTACT NO.: 09751123398 / 09428218483 / (032) 253-2251</Value>
+ CONTACT NO.: 09428218483 / (032) 253-2251 / (032) 239-4923</Value>
                           <Style>
                             <FontStyle>Normal</FontStyle>
                             <FontFamily>Calibri</FontFamily>
-                            <FontSize>9pt</FontSize>
+                            <FontSize>8pt</FontSize>
                             <FontWeight>Bold</FontWeight>
                             <TextDecoration>None</TextDecoration>
                             <Color>#000000</Color>
@@ -2145,10 +2146,10 @@
                     </Paragraph>
                   </Paragraphs>
                   <rd:DefaultName>Textbox3</rd:DefaultName>
-                  <Top>0.26734in</Top>
-                  <Left>2.45424in</Left>
-                  <Height>1.47048in</Height>
-                  <Width>4.19128in</Width>
+                  <Top>0.19113in</Top>
+                  <Left>1.82924in</Left>
+                  <Height>1.22049in</Height>
+                  <Width>4.22253in</Width>
                   <ZIndex>1</ZIndex>
                   <Style>
                     <Border>
@@ -2169,12 +2170,6 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Plate #  : </Value>
-                              <Style>
-                                <FontSize>28pt</FontSize>
-                              </Style>
-                            </TextRun>
-                            <TextRun>
                               <Value>=First(Fields!Plate_Number.Value, "ROAllInfo")</Value>
                               <Style>
                                 <FontSize>28pt</FontSize>
@@ -2187,8 +2182,8 @@
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox6</rd:DefaultName>
-                      <Height>0.45882in</Height>
-                      <Width>3.70537in</Width>
+                      <Height>0.4484in</Height>
+                      <Width>2.67083in</Width>
                       <Style>
                         <Border>
                           <Style>None</Style>
@@ -2201,10 +2196,10 @@
                     </Textbox>
                   </ReportItems>
                   <KeepTogether>true</KeepTogether>
-                  <Top>0.13542in</Top>
-                  <Left>2.01948in</Left>
-                  <Height>0.49006in</Height>
-                  <Width>3.70537in</Width>
+                  <Top>0.06613in</Top>
+                  <Left>2.09946in</Left>
+                  <Height>0.47965in</Height>
+                  <Width>2.67083in</Width>
                   <ZIndex>2</ZIndex>
                   <Style>
                     <Border>
@@ -2214,9 +2209,9 @@
                 </Rectangle>
               </ReportItems>
               <KeepTogether>true</KeepTogether>
-              <Left>0.37221in</Left>
-              <Height>1.87325in</Height>
-              <Width>6.68719in</Width>
+              <Left>0.97256in</Left>
+              <Height>1.50345in</Height>
+              <Width>6.36582in</Width>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2228,15 +2223,10 @@
             <Border>
               <Style>None</Style>
             </Border>
-            <BottomBorder>
-              <Color>Black</Color>
-              <Style>Solid</Style>
-              <Width>1pt</Width>
-            </BottomBorder>
           </Style>
         </PageHeader>
         <PageFooter>
-          <Height>1.83506in</Height>
+          <Height>1.7934in</Height>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
             <Textbox Name="Textbox23">
@@ -2262,10 +2252,10 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox23</rd:DefaultName>
-              <Top>0.62152in</Top>
-              <Left>0.39835in</Left>
+              <Top>0.53472in</Top>
+              <Left>0.24287in</Left>
               <Height>1.21354in</Height>
-              <Width>3.61088in</Width>
+              <Width>3.76636in</Width>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2283,7 +2273,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>RACE UP AUTO CARE SERVICES shall not be responsible for any loss or damage to vehicle or articles left in the vehicle in case of fire, theft or any other causes beyond its control. Vehicle not claimed within 48 hours after its repair jobs are completed, will be subject to storage fee PHP200.00 a day. Interest 12% per annum will be charge to any overdue account.</Value>
+                      <Value>RACE UP AUTO CARE SERVICES shall not be responsible for any loss or damage to vehicle or articles left in the vehicle in case of fire, theft or any other causes beyond its control. Vehicle not claimed within 48 hours after its repair jobs are completed, will be subject to storage fee PHP350.00 a day. Interest 12% per annum will be charge to any overdue account.</Value>
                       <Style>
                         <FontStyle>Normal</FontStyle>
                         <FontFamily>times New Roman</FontFamily>
@@ -2298,55 +2288,11 @@
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>Textbox23</rd:DefaultName>
-              <Top>0.6111in</Top>
-              <Left>4.07868in</Left>
+              <Top>0.53472in</Top>
+              <Left>4.08151in</Left>
               <Height>1.22396in</Height>
-              <Width>2.98072in</Width>
+              <Width>3.74629in</Width>
               <ZIndex>1</ZIndex>
-              <Style>
-                <Border>
-                  <Style>None</Style>
-                </Border>
-                <PaddingLeft>2pt</PaddingLeft>
-                <PaddingRight>2pt</PaddingRight>
-                <PaddingTop>2pt</PaddingTop>
-                <PaddingBottom>2pt</PaddingBottom>
-              </Style>
-            </Textbox>
-            <Line Name="Line1">
-              <Top>0.35763in</Top>
-              <Left>1.27381in</Left>
-              <Height>0in</Height>
-              <Width>4.6472in</Width>
-              <ZIndex>2</ZIndex>
-              <Style>
-                <Border>
-                  <Style>Solid</Style>
-                </Border>
-              </Style>
-            </Line>
-            <Textbox Name="Textbox40">
-              <CanGrow>true</CanGrow>
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>CUSTOMER'S SIGNATURE OVER PRINTED NAME</Value>
-                      <Style>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style />
-                </Paragraph>
-              </Paragraphs>
-              <rd:DefaultName>Textbox40</rd:DefaultName>
-              <Top>0.37152in</Top>
-              <Left>1.82877in</Left>
-              <Height>0.25in</Height>
-              <Width>3.25145in</Width>
-              <ZIndex>3</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -2362,19 +2308,14 @@
             <Border>
               <Style>None</Style>
             </Border>
-            <TopBorder>
-              <Color>Black</Color>
-              <Style>Solid</Style>
-              <Width>1pt</Width>
-            </TopBorder>
           </Style>
         </PageFooter>
         <PageHeight>11.69in</PageHeight>
         <PageWidth>8.27in</PageWidth>
-        <LeftMargin>0.3937in</LeftMargin>
-        <RightMargin>0.3937in</RightMargin>
-        <TopMargin>0.19685in</TopMargin>
-        <BottomMargin>0.19685in</BottomMargin>
+        <LeftMargin>0.1in</LeftMargin>
+        <RightMargin>0.1in</RightMargin>
+        <TopMargin>0.1in</TopMargin>
+        <BottomMargin>0.1in</BottomMargin>
         <Style />
       </Page>
     </ReportSection>

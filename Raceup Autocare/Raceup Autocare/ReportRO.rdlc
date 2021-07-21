@@ -140,10 +140,14 @@
           <DataField>promise_time</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="Created_By">
+          <DataField>Created_By</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>RODataSet</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\SERVER\Documents\RaceUp-Autocare\raceupautocare\my raceup git\raceup-final\Raceup Autocare\Raceup Autocare\RODataSet.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Kenneth Noel Cupat\Documents\Race Up - Final Project - Test - SAJ\raceup-final\Raceup Autocare\Raceup Autocare\RODataSet.xsd</rd:SchemaPath>
         <rd:TableName>PrintRO</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -246,7 +250,9 @@
                     </Style>
                   </TextRun>
                 </TextRuns>
-                <Style />
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
               </Paragraph>
             </Paragraphs>
             <Top>0.04167in</Top>
@@ -898,7 +904,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=First(Fields!drivers_name.Value, "ROAllInfo")</Value>
+                                  <Value>=Fields!drivers_name.Value</Value>
                                   <Style>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -957,7 +963,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=First(Fields!color_car.Value, "ROAllInfo")</Value>
+                                  <Value>=Fields!color_car.Value</Value>
                                   <Style>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1005,7 +1011,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Email Address:</Value>
+                                  <Value>Promise Time:</Value>
                                   <Style>
                                     <FontSize>7pt</FontSize>
                                   </Style>
@@ -1016,7 +1022,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=First(Fields!email_address.Value, "ROAllInfo")</Value>
+                                  <Value>=Fields!promise_time.Value</Value>
                                   <Style>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1069,7 +1075,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Promise Time:</Value>
+                                  <Value>Email Addres:</Value>
                                   <Style>
                                     <FontSize>7pt</FontSize>
                                   </Style>
@@ -1080,7 +1086,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=Fields!promise_time.Value</Value>
+                                  <Value>=Fields!email_address.Value</Value>
                                   <Style>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -1117,57 +1123,10 @@
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
+                        <ColSpan>2</ColSpan>
                       </CellContents>
                     </TablixCell>
-                    <TablixCell>
-                      <CellContents>
-                        <Textbox Name="Textbox127">
-                          <CanGrow>true</CanGrow>
-                          <KeepTogether>true</KeepTogether>
-                          <Paragraphs>
-                            <Paragraph>
-                              <TextRuns>
-                                <TextRun>
-                                  <Value />
-                                  <Style />
-                                </TextRun>
-                              </TextRuns>
-                              <Style />
-                            </Paragraph>
-                          </Paragraphs>
-                          <rd:DefaultName>Textbox127</rd:DefaultName>
-                          <Style>
-                            <Border>
-                              <Style>Solid</Style>
-                            </Border>
-                            <TopBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </TopBorder>
-                            <BottomBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </BottomBorder>
-                            <LeftBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </LeftBorder>
-                            <RightBorder>
-                              <Color>Black</Color>
-                              <Style>Solid</Style>
-                              <Width>1pt</Width>
-                            </RightBorder>
-                            <PaddingLeft>2pt</PaddingLeft>
-                            <PaddingRight>2pt</PaddingRight>
-                            <PaddingTop>2pt</PaddingTop>
-                            <PaddingBottom>2pt</PaddingBottom>
-                          </Style>
-                        </Textbox>
-                      </CellContents>
-                    </TablixCell>
+                    <TablixCell />
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Textbox95">
@@ -1188,7 +1147,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value />
+                                  <Value>=Fields!Created_By.Value</Value>
                                   <Style>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -2968,9 +2927,9 @@
               </Paragraphs>
               <rd:DefaultName>Textbox23</rd:DefaultName>
               <Top>0.54514in</Top>
-              <Left>0.40119in</Left>
+              <Left>0.24287in</Left>
               <Height>1.21354in</Height>
-              <Width>3.61088in</Width>
+              <Width>3.7692in</Width>
               <ZIndex>2</ZIndex>
               <Style>
                 <Border>
@@ -2989,7 +2948,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>RACE UP AUTO CARE SERVICES shall not be responsible for any loss or damage to vehicle or articles left in the vehicle in case of fire, theft or any other causes beyond its control. Vehicle not claimed within 48 hours after its repair jobs are completed, will be subject to storage fee PHP200.00 a day. Interest 12% per annum will be charge to any overdue account.</Value>
+                      <Value>RACE UP AUTO CARE SERVICES shall not be responsible for any loss or damage to vehicle or articles left in the vehicle in case of fire, theft or any other causes beyond its control. Vehicle not claimed within 48 hours after its repair jobs are completed, will be subject to storage fee PHP350.00 a day. Interest 12% per annum will be charge to any overdue account.</Value>
                       <Style>
                         <FontStyle>Normal</FontStyle>
                         <FontFamily>times New Roman</FontFamily>

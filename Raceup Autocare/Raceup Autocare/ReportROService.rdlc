@@ -2626,7 +2626,7 @@
           </Border>
         </Style>
       </Body>
-      <Width>8.00428in</Width>
+      <Width>8.04595in</Width>
       <Page>
         <PageHeader>
           <Height>1.54512in</Height>
@@ -2882,9 +2882,9 @@
               </Paragraphs>
               <rd:DefaultName>Textbox23</rd:DefaultName>
               <Top>0.54514in</Top>
-              <Left>0.40119in</Left>
+              <Left>0.24287in</Left>
               <Height>1.21354in</Height>
-              <Width>3.61088in</Width>
+              <Width>3.7692in</Width>
               <ZIndex>2</ZIndex>
               <Style>
                 <Border>

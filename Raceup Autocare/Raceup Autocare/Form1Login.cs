@@ -78,6 +78,7 @@ namespace Raceup_Autocare
                     //To pass data from forms
                     id = emp.Id;
                     lname = emp.Lname;
+                    fname = emp.Fname;
 
                     // Check if user account is expired.
                     // If expired set active to false.
