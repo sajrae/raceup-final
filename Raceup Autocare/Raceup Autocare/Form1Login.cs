@@ -176,14 +176,14 @@ namespace Raceup_Autocare
 
         private void Username_Click(object sender, EventArgs e)
         {
-            UserTxt.SelectionStart = 0;
-            UserTxt.SelectionLength = UserTxt.Text.Length;
+            //UserTxt.SelectionStart = 0;
+            //UserTxt.SelectionLength = UserTxt.Text.Length;
         }
 
         private void Password_Click(object sender, EventArgs e)
         {
-            PassTxt.SelectionStart = 0;
-            PassTxt.SelectionLength = PassTxt.Text.Length;
+            //PassTxt.SelectionStart = 0;
+            //PassTxt.SelectionLength = PassTxt.Text.Length;
         }
 
         private void LoginForm_Load(object sender, EventArgs e)
@@ -204,12 +204,18 @@ namespace Raceup_Autocare
 
         private void UserTxt_Enter(object sender, EventArgs e)
         {
-
+            if (UserTxt.Text == "Username")
+            {
+                UserTxt.Text = null;
+            }
         }
 
         private void UserTxt_Leave(object sender, EventArgs e)
         {
-
+            if (UserTxt.Text == "")
+            {
+                UserTxt.Text = "Username";
+            }
         }
 
         private void btnExit_Click_1(object sender, EventArgs e)
@@ -285,6 +291,22 @@ namespace Raceup_Autocare
 
         public Employee GetEmployee() {
             return emp;
+        }
+
+        private void PassTxt_Enter(object sender, EventArgs e)
+        {
+            if (PassTxt.Text == "PASSWORD")
+            {
+                PassTxt.Text = null;
+            }
+        }
+
+        private void PassTxt_Leave(object sender, EventArgs e)
+        {
+            if (PassTxt.Text == "")
+            {
+                PassTxt.Text = "PASSWORD";
+            }
         }
     }   
 }
