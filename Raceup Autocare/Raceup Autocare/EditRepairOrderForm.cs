@@ -889,7 +889,7 @@ namespace Raceup_Autocare
                 errorProvider.SetError(croServicePrice, "This field is required.");
             }
 
-            if (!System.Text.RegularExpressions.Regex.IsMatch(croServiceHourTextbox.Text, "^[0-9]([.,][0-9]{1,3})?$") || String.IsNullOrEmpty(croServiceHourTextbox.Text))
+            if (!System.Text.RegularExpressions.Regex.IsMatch(croServiceHourTextbox.Text, @"^[1-9][\.\d]*(,\d+)?$") || String.IsNullOrEmpty(croServiceHourTextbox.Text))
             {
                 isValid = false;
                 errorProvider.SetError(croServiceHourTextbox, "This field only accepts numeric value.");
@@ -897,7 +897,7 @@ namespace Raceup_Autocare
             else
                 errorProvider.SetError(croServiceHourTextbox, "");
 
-            if (!System.Text.RegularExpressions.Regex.IsMatch(croServicePrice.Text, "^[0-9]([.,][0-9]{1,3})?$") || String.IsNullOrEmpty(croServicePrice.Text))
+            if (!System.Text.RegularExpressions.Regex.IsMatch(croServicePrice.Text, @"^[1-9][\.\d]*(,\d+)?$") || String.IsNullOrEmpty(croServicePrice.Text))
             {
                 isValid = false;
                 errorProvider.SetError(croServicePrice, "This field only accepts numeric value.");
