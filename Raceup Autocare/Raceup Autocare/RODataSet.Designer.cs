@@ -1410,15 +1410,15 @@ namespace Raceup_Autocare {
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class ROTableServiceDataTable : global::System.Data.TypedTableBase<ROTableServiceRow> {
             
-            private global::System.Data.DataColumn columnRO_Number;
-            
             private global::System.Data.DataColumn columnService_Description;
-            
-            private global::System.Data.DataColumn columnService_Quantity;
             
             private global::System.Data.DataColumn columnService_Price;
             
             private global::System.Data.DataColumn columnTotal_Price;
+            
+            private global::System.Data.DataColumn columnRO_Number;
+            
+            private global::System.Data.DataColumn columnService_Quantity;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
@@ -1455,25 +1455,9 @@ namespace Raceup_Autocare {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn RO_NumberColumn {
-                get {
-                    return this.columnRO_Number;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public global::System.Data.DataColumn Service_DescriptionColumn {
                 get {
                     return this.columnService_Description;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn Service_QuantityColumn {
-                get {
-                    return this.columnService_Quantity;
                 }
             }
             
@@ -1490,6 +1474,22 @@ namespace Raceup_Autocare {
             public global::System.Data.DataColumn Total_PriceColumn {
                 get {
                     return this.columnTotal_Price;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn RO_NumberColumn {
+                get {
+                    return this.columnRO_Number;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn Service_QuantityColumn {
+                get {
+                    return this.columnService_Quantity;
                 }
             }
             
@@ -1530,14 +1530,14 @@ namespace Raceup_Autocare {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public ROTableServiceRow AddROTableServiceRow(int RO_Number, string Service_Description, int Service_Quantity, double Service_Price, double Total_Price) {
+            public ROTableServiceRow AddROTableServiceRow(string Service_Description, double Service_Price, double Total_Price, string RO_Number, string Service_Quantity) {
                 ROTableServiceRow rowROTableServiceRow = ((ROTableServiceRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        RO_Number,
                         Service_Description,
-                        Service_Quantity,
                         Service_Price,
-                        Total_Price};
+                        Total_Price,
+                        RO_Number,
+                        Service_Quantity};
                 rowROTableServiceRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowROTableServiceRow);
                 return rowROTableServiceRow;
@@ -1560,27 +1560,29 @@ namespace Raceup_Autocare {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             internal void InitVars() {
-                this.columnRO_Number = base.Columns["RO_Number"];
                 this.columnService_Description = base.Columns["Service_Description"];
-                this.columnService_Quantity = base.Columns["Service_Quantity"];
                 this.columnService_Price = base.Columns["Service_Price"];
                 this.columnTotal_Price = base.Columns["Total_Price"];
+                this.columnRO_Number = base.Columns["RO_Number"];
+                this.columnService_Quantity = base.Columns["Service_Quantity"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             private void InitClass() {
-                this.columnRO_Number = new global::System.Data.DataColumn("RO_Number", typeof(int), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnRO_Number);
                 this.columnService_Description = new global::System.Data.DataColumn("Service_Description", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnService_Description);
-                this.columnService_Quantity = new global::System.Data.DataColumn("Service_Quantity", typeof(int), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnService_Quantity);
                 this.columnService_Price = new global::System.Data.DataColumn("Service_Price", typeof(double), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnService_Price);
                 this.columnTotal_Price = new global::System.Data.DataColumn("Total_Price", typeof(double), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnTotal_Price);
+                this.columnRO_Number = new global::System.Data.DataColumn("RO_Number", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnRO_Number);
+                this.columnService_Quantity = new global::System.Data.DataColumn("Service_Quantity", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnService_Quantity);
                 this.columnService_Description.MaxLength = 255;
+                this.columnRO_Number.MaxLength = 255;
+                this.columnService_Quantity.MaxLength = 255;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3124,22 +3126,6 @@ namespace Raceup_Autocare {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public int RO_Number {
-                get {
-                    try {
-                        return ((int)(this[this.tableROTableService.RO_NumberColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'RO_Number\' in table \'ROTableService\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableROTableService.RO_NumberColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public string Service_Description {
                 get {
                     try {
@@ -3151,22 +3137,6 @@ namespace Raceup_Autocare {
                 }
                 set {
                     this[this.tableROTableService.Service_DescriptionColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public int Service_Quantity {
-                get {
-                    try {
-                        return ((int)(this[this.tableROTableService.Service_QuantityColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Service_Quantity\' in table \'ROTableService\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableROTableService.Service_QuantityColumn] = value;
                 }
             }
             
@@ -3204,14 +3174,34 @@ namespace Raceup_Autocare {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsRO_NumberNull() {
-                return this.IsNull(this.tableROTableService.RO_NumberColumn);
+            public string RO_Number {
+                get {
+                    try {
+                        return ((string)(this[this.tableROTableService.RO_NumberColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'RO_Number\' in table \'ROTableService\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableROTableService.RO_NumberColumn] = value;
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetRO_NumberNull() {
-                this[this.tableROTableService.RO_NumberColumn] = global::System.Convert.DBNull;
+            public string Service_Quantity {
+                get {
+                    try {
+                        return ((string)(this[this.tableROTableService.Service_QuantityColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Service_Quantity\' in table \'ROTableService\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableROTableService.Service_QuantityColumn] = value;
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3224,18 +3214,6 @@ namespace Raceup_Autocare {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetService_DescriptionNull() {
                 this[this.tableROTableService.Service_DescriptionColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsService_QuantityNull() {
-                return this.IsNull(this.tableROTableService.Service_QuantityColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetService_QuantityNull() {
-                this[this.tableROTableService.Service_QuantityColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -3260,6 +3238,30 @@ namespace Raceup_Autocare {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetTotal_PriceNull() {
                 this[this.tableROTableService.Total_PriceColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsRO_NumberNull() {
+                return this.IsNull(this.tableROTableService.RO_NumberColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetRO_NumberNull() {
+                this[this.tableROTableService.RO_NumberColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsService_QuantityNull() {
+                return this.IsNull(this.tableROTableService.Service_QuantityColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetService_QuantityNull() {
+                this[this.tableROTableService.Service_QuantityColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -4271,20 +4273,20 @@ FROM            (((CustomerProfile INNER JOIN
             global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
             tableMapping.SourceTable = "Table";
             tableMapping.DataSetTable = "ROTableService";
-            tableMapping.ColumnMappings.Add("RO_Number", "RO_Number");
             tableMapping.ColumnMappings.Add("Service_Description", "Service_Description");
-            tableMapping.ColumnMappings.Add("Service_Quantity", "Service_Quantity");
             tableMapping.ColumnMappings.Add("Service_Price", "Service_Price");
             tableMapping.ColumnMappings.Add("Total_Price", "Total_Price");
+            tableMapping.ColumnMappings.Add("RO_Number", "RO_Number");
+            tableMapping.ColumnMappings.Add("Service_Quantity", "Service_Quantity");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.InsertCommand = new global::System.Data.OleDb.OleDbCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO `RepairOrderService` (`RO_Number`, `Service_Description`, `Service_Qu" +
                 "antity`, `Service_Price`, `Total_Price`) VALUES (?, ?, ?, ?, ?)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("RO_Number", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "RO_Number", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("RO_Number", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "RO_Number", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Service_Description", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Service_Description", global::System.Data.DataRowVersion.Current, false, null));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Service_Quantity", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Service_Quantity", global::System.Data.DataRowVersion.Current, false, null));
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Service_Quantity", global::System.Data.OleDb.OleDbType.VarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Service_Quantity", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Service_Price", global::System.Data.OleDb.OleDbType.Double, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Service_Price", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Total_Price", global::System.Data.OleDb.OleDbType.Double, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Total_Price", global::System.Data.DataRowVersion.Current, false, null));
         }
@@ -4293,7 +4295,7 @@ FROM            (((CustomerProfile INNER JOIN
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.OleDb.OleDbConnection();
-            this._connection.ConnectionString = global::Raceup_Autocare.Properties.Settings.Default.raceup_db_new3ConnectionString1;
+            this._connection.ConnectionString = global::Raceup_Autocare.Properties.Settings.Default.raceup_db_new3ConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -4364,12 +4366,12 @@ FROM            (((CustomerProfile INNER JOIN
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(global::System.Nullable<int> RO_Number, string Service_Description, global::System.Nullable<int> Service_Quantity, global::System.Nullable<double> Service_Price, global::System.Nullable<double> Total_Price) {
-            if ((RO_Number.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[0].Value = ((int)(RO_Number.Value));
+        public virtual int Insert(string RO_Number, string Service_Description, string Service_Quantity, global::System.Nullable<double> Service_Price, global::System.Nullable<double> Total_Price) {
+            if ((RO_Number == null)) {
+                this.Adapter.InsertCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.InsertCommand.Parameters[0].Value = global::System.DBNull.Value;
+                this.Adapter.InsertCommand.Parameters[0].Value = ((string)(RO_Number));
             }
             if ((Service_Description == null)) {
                 this.Adapter.InsertCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -4377,11 +4379,11 @@ FROM            (((CustomerProfile INNER JOIN
             else {
                 this.Adapter.InsertCommand.Parameters[1].Value = ((string)(Service_Description));
             }
-            if ((Service_Quantity.HasValue == true)) {
-                this.Adapter.InsertCommand.Parameters[2].Value = ((int)(Service_Quantity.Value));
+            if ((Service_Quantity == null)) {
+                this.Adapter.InsertCommand.Parameters[2].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.InsertCommand.Parameters[2].Value = global::System.DBNull.Value;
+                this.Adapter.InsertCommand.Parameters[2].Value = ((string)(Service_Quantity));
             }
             if ((Service_Price.HasValue == true)) {
                 this.Adapter.InsertCommand.Parameters[3].Value = ((double)(Service_Price.Value));
