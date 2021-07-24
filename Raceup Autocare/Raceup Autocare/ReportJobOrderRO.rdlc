@@ -326,7 +326,7 @@
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>0.21354in</Height>
+                  <Height>0.18854in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -339,7 +339,7 @@
                                 <TextRun>
                                   <Value>Description</Value>
                                   <Style>
-                                    <FontSize>12pt</FontSize>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Color>White</Color>
                                   </Style>
@@ -372,9 +372,9 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Price</Value>
+                                  <Value>Quantity</Value>
                                   <Style>
-                                    <FontSize>12pt</FontSize>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Color>White</Color>
                                   </Style>
@@ -407,9 +407,9 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Quantity</Value>
+                                  <Value>Price</Value>
                                   <Style>
-                                    <FontSize>12pt</FontSize>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Color>White</Color>
                                   </Style>
@@ -444,7 +444,7 @@
                                 <TextRun>
                                   <Value>Total Price</Value>
                                   <Style>
-                                    <FontSize>12pt</FontSize>
+                                    <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
                                     <Color>White</Color>
                                   </Style>
@@ -471,7 +471,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.18229in</Height>
+                  <Height>0.20729in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -516,10 +516,10 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=IIf(Fields!Service_Price.Value = 0, "",(Fields!Service_Price.Value))</Value>
+                                  <Value>=Fields!Service_Quantity.Value</Value>
                                   <Style>
-                                    <FontSize>9pt</FontSize>
-                                    <Format>#,0.00;(#,0.00)</Format>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>0;(0)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -551,10 +551,11 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>=IIf(Fields!Service_Quantity.Value = 0, "",(Fields!Service_Quantity.Value))</Value>
+                                  <Value>=IIf(Fields!Service_Price.Value = 0, "",(Fields!Service_Price.Value))</Value>
+                                  <ToolTip>=IIf(Fields!Service_Price.Value =0, "",("Php "))</ToolTip>
                                   <Style>
-                                    <FontSize>9pt</FontSize>
-                                    <Format>0;(0)</Format>
+                                    <FontSize>7pt</FontSize>
+                                    <Format>#,0.00;(#,0.00)</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -588,7 +589,7 @@
                                 <TextRun>
                                   <Value>=IIf(Fields!Total_Price.Value = 0, "",(Fields!Total_Price.Value))</Value>
                                   <Style>
-                                    <FontSize>9pt</FontSize>
+                                    <FontSize>7pt</FontSize>
                                     <Format>#,0.00;(#,0.00)</Format>
                                   </Style>
                                 </TextRun>
@@ -644,7 +645,7 @@
             <Top>2.52446in</Top>
             <Left>0.24287in</Left>
             <Height>0.39583in</Height>
-            <Width>7.59306in</Width>
+            <Width>7.59307in</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -1900,7 +1901,7 @@
             <DataSetName>ROAllInfo</DataSetName>
             <Top>0.33395in</Top>
             <Left>0.24287in</Left>
-            <Height>1.26876in</Height>
+            <Height>1.26877in</Height>
             <Width>7.59303in</Width>
             <ZIndex>4</ZIndex>
             <Style>
@@ -2013,7 +2014,7 @@
                                     <TextRun>
                                       <Value>Item Code</Value>
                                       <Style>
-                                        <FontSize>12pt</FontSize>
+                                        <FontSize>9pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
                                       </Style>
@@ -2048,7 +2049,7 @@
                                     <TextRun>
                                       <Value>Description</Value>
                                       <Style>
-                                        <FontSize>12pt</FontSize>
+                                        <FontSize>9pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
                                       </Style>
@@ -2083,7 +2084,7 @@
                                     <TextRun>
                                       <Value>Quantity</Value>
                                       <Style>
-                                        <FontSize>12pt</FontSize>
+                                        <FontSize>9pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
                                       </Style>
@@ -2118,7 +2119,7 @@
                                     <TextRun>
                                       <Value>Unit Price</Value>
                                       <Style>
-                                        <FontSize>12pt</FontSize>
+                                        <FontSize>9pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
                                       </Style>
@@ -2155,7 +2156,7 @@
                                     <TextRun>
                                       <Value>Total Price</Value>
                                       <Style>
-                                        <FontSize>12pt</FontSize>
+                                        <FontSize>9pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
                                       </Style>
@@ -2182,7 +2183,7 @@
                       </TablixCells>
                     </TablixRow>
                     <TablixRow>
-                      <Height>0.17187in</Height>
+                      <Height>0.16354in</Height>
                       <TablixCells>
                         <TablixCell>
                           <CellContents>
@@ -2195,7 +2196,7 @@
                                     <TextRun>
                                       <Value>=Fields!Item_Code.Value</Value>
                                       <Style>
-                                        <FontSize>9pt</FontSize>
+                                        <FontSize>7pt</FontSize>
                                       </Style>
                                     </TextRun>
                                   </TextRuns>
@@ -2229,7 +2230,7 @@
                                     <TextRun>
                                       <Value>=Fields!Item_Name.Value</Value>
                                       <Style>
-                                        <FontSize>9pt</FontSize>
+                                        <FontSize>7pt</FontSize>
                                       </Style>
                                     </TextRun>
                                   </TextRuns>
@@ -2263,7 +2264,7 @@
                                     <TextRun>
                                       <Value>=IIf(Fields!Parts_Quantity.Value = 0, "",(Fields!Parts_Quantity.Value))</Value>
                                       <Style>
-                                        <FontSize>9pt</FontSize>
+                                        <FontSize>7pt</FontSize>
                                         <Format>0;(0)</Format>
                                       </Style>
                                     </TextRun>
@@ -2298,7 +2299,7 @@
                                     <TextRun>
                                       <Value>=IIf(Fields!Unit_Price.Value = 0, "",(Fields!Unit_Price.Value))</Value>
                                       <Style>
-                                        <FontSize>9pt</FontSize>
+                                        <FontSize>7pt</FontSize>
                                         <Format>#,0.00;(#,0.00)</Format>
                                       </Style>
                                     </TextRun>
@@ -2333,7 +2334,7 @@
                                     <TextRun>
                                       <Value>=IIf(Fields!Total_Price_Parts.Value = 0, "",(Fields!Total_Price_Parts.Value))</Value>
                                       <Style>
-                                        <FontSize>9pt</FontSize>
+                                        <FontSize>7pt</FontSize>
                                         <Format>#,0.00;(#,0.00)</Format>
                                       </Style>
                                     </TextRun>
@@ -2383,8 +2384,8 @@
                 <KeepTogether>true</KeepTogether>
                 <DataSetName>ROTableParts</DataSetName>
                 <Top>0.04576in</Top>
-                <Height>0.38541in</Height>
-                <Width>7.59306in</Width>
+                <Height>0.37708in</Height>
+                <Width>7.59308in</Width>
                 <ZIndex>2</ZIndex>
                 <Style>
                   <Border>
@@ -2675,7 +2676,7 @@
             <Top>2.98973in</Top>
             <Left>0.24287in</Left>
             <Height>1.81106in</Height>
-            <Width>7.59306in</Width>
+            <Width>7.59308in</Width>
             <ZIndex>5</ZIndex>
             <Style>
               <Border>

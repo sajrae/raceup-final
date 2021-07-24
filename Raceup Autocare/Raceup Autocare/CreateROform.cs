@@ -458,7 +458,7 @@ namespace Raceup_Autocare
                             cmd.CommandText = @"INSERT INTO RepairOrderService([RO_Number], [Service_Description], [Service_Quantity], [Service_Price], [Total_Price], [Status]) VALUES (?, ?, ?, ?, ?, ?);";
                             cmd.Parameters.Add("@RO_Number", OleDbType.VarChar).Value = croRONumberTextbox.Text.ToString();
                             cmd.Parameters.Add("@Service_Description", OleDbType.VarChar).Value = serviceDataGridView.Rows[i].Cells[0].Value;
-                            cmd.Parameters.Add("@Service_Quantity", OleDbType.Integer).Value = int.Parse(serviceDataGridView.Rows[i].Cells[1].Value.ToString());
+                            cmd.Parameters.Add("@Service_Quantity", OleDbType.VarChar).Value = serviceDataGridView.Rows[i].Cells[1].Value;
                             cmd.Parameters.Add("@Service_Price", OleDbType.Integer).Value = int.Parse(serviceDataGridView.Rows[i].Cells[2].Value.ToString());
                             cmd.Parameters.Add("@Total_Price", OleDbType.Integer).Value = int.Parse(serviceDataGridView.Rows[i].Cells[3].Value.ToString());
                             cmd.Parameters.Add("@Status", OleDbType.VarChar).Value = "Pending";
@@ -1132,7 +1132,7 @@ namespace Raceup_Autocare
             CreateROProperties croProp = new CreateROProperties();            
             Random rnd = new Random();
             int quantity = 0;
-            int hours = 0;
+            string hours = "( )";
 
             bool packageFound = false;
             
@@ -1140,7 +1140,7 @@ namespace Raceup_Autocare
             {
                 if (partsReader["Package_Name"].ToString().Equals(croServiceDescription.Text.ToString(), StringComparison.InvariantCultureIgnoreCase))
                 {
-                    hours = rnd.Next(1, 5);
+                    //hours = rnd.Next(1, 5);
                     var partsList = new[] { partsReader["Service_Description"].ToString(), hours.ToString(), quantity.ToString(), partsReader["Service_Price"].ToString() };
                     serviceDataGridView.Rows.Add(partsList);
                     //croServiceHourTextbox.Enabled = false;
