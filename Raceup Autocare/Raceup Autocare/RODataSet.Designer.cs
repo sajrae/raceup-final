@@ -765,7 +765,7 @@ namespace Raceup_Autocare {
                         double Unit_Price, 
                         double Total_Price_Parts, 
                         string Service_Description, 
-                        int Service_Quantity, 
+                        string Service_Quantity, 
                         double Service_Price, 
                         double Total_Price, 
                         string first_name, 
@@ -895,7 +895,7 @@ namespace Raceup_Autocare {
                 base.Columns.Add(this.columnTotal_Price_Parts);
                 this.columnService_Description = new global::System.Data.DataColumn("Service_Description", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnService_Description);
-                this.columnService_Quantity = new global::System.Data.DataColumn("Service_Quantity", typeof(int), null, global::System.Data.MappingType.Element);
+                this.columnService_Quantity = new global::System.Data.DataColumn("Service_Quantity", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnService_Quantity);
                 this.columnService_Price = new global::System.Data.DataColumn("Service_Price", typeof(double), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnService_Price);
@@ -2264,10 +2264,10 @@ namespace Raceup_Autocare {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public int Service_Quantity {
+            public string Service_Quantity {
                 get {
                     try {
-                        return ((int)(this[this.tablePrintRO.Service_QuantityColumn]));
+                        return ((string)(this[this.tablePrintRO.Service_QuantityColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
                         throw new global::System.Data.StrongTypingException("The value for column \'Service_Quantity\' in table \'PrintRO\' is DBNull.", e);

@@ -226,7 +226,7 @@ FROM            ((Service INNER JOIN
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="Service_Quantity" msprop:Generator_ColumnVarNameInTable="columnService_Quantity" msprop:Generator_ColumnPropNameInRow="Service_Quantity" msprop:Generator_ColumnPropNameInTable="Service_QuantityColumn" msprop:Generator_UserColumnName="Service_Quantity" type="xs:int" minOccurs="0" />
+              <xs:element name="Service_Quantity" msprop:Generator_ColumnVarNameInTable="columnService_Quantity" msprop:Generator_ColumnPropNameInRow="Service_Quantity" msprop:Generator_ColumnPropNameInTable="Service_QuantityColumn" msprop:Generator_UserColumnName="Service_Quantity" type="xs:string" minOccurs="0" />
               <xs:element name="Service_Price" msprop:Generator_ColumnVarNameInTable="columnService_Price" msprop:Generator_ColumnPropNameInRow="Service_Price" msprop:Generator_ColumnPropNameInTable="Service_PriceColumn" msprop:Generator_UserColumnName="Service_Price" type="xs:double" minOccurs="0" />
               <xs:element name="Total_Price" msprop:Generator_ColumnVarNameInTable="columnTotal_Price" msprop:Generator_ColumnPropNameInRow="Total_Price" msprop:Generator_ColumnPropNameInTable="Total_PriceColumn" msprop:Generator_UserColumnName="Total_Price" type="xs:double" minOccurs="0" />
               <xs:element name="first_name" msprop:Generator_ColumnVarNameInTable="columnfirst_name" msprop:Generator_ColumnPropNameInRow="first_name" msprop:Generator_ColumnPropNameInTable="first_nameColumn" msprop:Generator_UserColumnName="first_name" minOccurs="0">
