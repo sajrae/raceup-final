@@ -46,23 +46,23 @@ namespace Raceup_Autocare
                 DataGridViewService.DataSource = dt2;
                 //guna2DataGridView1.AutoGenerateColumns = false;
             }
-            ComputeGrandTotal();
             //Customer Info
-            sqlQuery = "SELECT * FROM CustomerProfile";
+            sqlQuery = "SELECT * FROM RepairOrder";
             customerReader = dbcon.ConnectToOleDB(sqlQuery);
 
             while (customerReader.Read())
             {
                 if (customerReader["Plate_Number"].ToString().Equals(croPlateNoTextbox.Text.ToString(), StringComparison.InvariantCultureIgnoreCase))
                 {
-                    croNameTextbox.Text = customerReader["first_name"].ToString() + " " + customerReader["last_name"].ToString();
+                    croNameTextbox.Text = customerReader["First_Name"].ToString() + " " + customerReader["Last_Name"].ToString();
                     croAddressTextbox.Text = customerReader["Address"].ToString();
-                    croContactNumberTextbox.Text = customerReader["contact_number"].ToString();
+                    croContactNumberTextbox.Text = customerReader["Contact_Number"].ToString();
                     croPlateNoTextbox.Text = customerReader["Plate_Number"].ToString();
-                    croCarBrandTextBox.Text = customerReader["car_brand"].ToString();
-                    croCarModelTextbox.Text = customerReader["car_model"].ToString();
-                    croChasisNo.Text = customerReader["chasis_number"].ToString();
-                    croEngineNo.Text = customerReader["engine_number"].ToString();
+                    croCarBrandTextBox.Text = customerReader["Car_Brand"].ToString();
+                    croCarModelTextbox.Text = customerReader["Car_Model"].ToString();
+                    croChasisNo.Text = customerReader["Chasis_Number"].ToString();
+                    croEngineNo.Text = customerReader["Engine_Number"].ToString();
+                    GRNTotalTextBox.Text = customerReader["GrandTotal"].ToString();
                     croMileage.Text = customerReader["Mileage"].ToString();
                     ColorTxtBox.Text = customerReader["color_car"].ToString();
                     EmailAddTxtBox.Text = customerReader["email_address"].ToString();
@@ -81,23 +81,6 @@ namespace Raceup_Autocare
                     DiscountTextBox.Text = customerReader2["Discount"].ToString();
                 }
             }
-        }
-        private void ComputeGrandTotal()
-        {
-            int sumService = 0;
-            int sumParts =0;
-            int GrandTotal = 0;
-
-            for (int i = 0; i < DataGridViewService.Rows.Count; ++i)
-            {
-                sumService += Convert.ToInt32(DataGridViewService.Rows[i].Cells[3].Value);
-            }
-            for (int i = 0; i < DataGridViewParts.Rows.Count; ++i)
-            {
-                sumParts += Convert.ToInt32(DataGridViewParts.Rows[i].Cells[4].Value);
-            }
-            GrandTotal = sumService + sumParts;
-            GRNTotalTextBox.Text = GrandTotal.ToString();
         }
 
         private void printButton_Click(object sender, EventArgs e)

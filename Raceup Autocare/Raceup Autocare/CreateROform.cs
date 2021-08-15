@@ -96,10 +96,6 @@ namespace Raceup_Autocare
                     croChasisNo.Text = customerReader["chasis_number"].ToString();
                     croEngineNo.Text = customerReader["engine_number"].ToString();
                     croMileage.Text = customerReader["Mileage"].ToString();
-                    ColorTxtBox.Text = customerReader["color_car"].ToString();
-                    EmailAddTxtBox.Text = customerReader["email_address"].ToString();
-                    PromiseTxtBox.Text = customerReader["promise_time"].ToString();
-                    DriversTxtBox.Text = customerReader["drivers_name"].ToString();
                     croRONumberTextbox.Text = roNumber;
                     plateNoExist = true;
 
@@ -423,9 +419,9 @@ namespace Raceup_Autocare
                         cmd.Parameters.Add("@Date_Updated", OleDbType.Date).Value = getDateToday();
                         cmd.Parameters.Add("@Payment_Method", OleDbType.VarChar).Value = getPaymentMethod();
                         cmd.Parameters.Add("@Customer_Request", OleDbType.VarChar).Value = customerRequestTextbox.Text.ToString();                        
-                        cmd.Parameters.Add("@GrandTotal", OleDbType.Integer).Value = int.Parse(croGrandTotal.Text.ToString());
+                        cmd.Parameters.Add("@GrandTotal", OleDbType.VarChar).Value = decimal.Parse(croGrandTotal.Text.ToString());
                         cmd.Parameters.Add("@Status", OleDbType.VarChar).Value = "Pending";
-                        cmd.Parameters.Add("@Discount", OleDbType.Integer).Value = int.Parse(croDiscountTextbox.Text.ToString());
+                        cmd.Parameters.Add("@Discount", OleDbType.VarChar).Value = decimal.Parse(croDiscountTextbox.Text.ToString());
                    
                         //newly added
                         string fullName = croNameTextbox.Text.ToString();
@@ -459,8 +455,8 @@ namespace Raceup_Autocare
                             cmd.Parameters.Add("@RO_Number", OleDbType.VarChar).Value = croRONumberTextbox.Text.ToString();
                             cmd.Parameters.Add("@Service_Description", OleDbType.VarChar).Value = serviceDataGridView.Rows[i].Cells[0].Value;
                             cmd.Parameters.Add("@Service_Quantity", OleDbType.VarChar).Value = serviceDataGridView.Rows[i].Cells[1].Value;
-                            cmd.Parameters.Add("@Service_Price", OleDbType.Integer).Value = int.Parse(serviceDataGridView.Rows[i].Cells[2].Value.ToString());
-                            cmd.Parameters.Add("@Total_Price", OleDbType.Integer).Value = int.Parse(serviceDataGridView.Rows[i].Cells[3].Value.ToString());
+                            cmd.Parameters.Add("@Service_Price", OleDbType.VarChar).Value = decimal.Parse(serviceDataGridView.Rows[i].Cells[2].Value.ToString());
+                            cmd.Parameters.Add("@Total_Price", OleDbType.VarChar).Value = decimal.Parse(serviceDataGridView.Rows[i].Cells[3].Value.ToString());
                             cmd.Parameters.Add("@Status", OleDbType.VarChar).Value = "Pending";
                             cmd.ExecuteNonQuery();
                         }
@@ -474,8 +470,8 @@ namespace Raceup_Autocare
                             cmd.Parameters.Add("@Item_Code", OleDbType.VarChar).Value = PartsDataGrid.Rows[j].Cells[0].Value.ToString();
                             cmd.Parameters.Add("@Item_Name", OleDbType.VarChar).Value = PartsDataGrid.Rows[j].Cells[1].Value.ToString();
                             cmd.Parameters.Add("@Parts_Quantity", OleDbType.Integer).Value = int.Parse(PartsDataGrid.Rows[j].Cells[2].Value.ToString());
-                            cmd.Parameters.Add("@Unit_Price", OleDbType.Integer).Value = int.Parse(PartsDataGrid.Rows[j].Cells[3].Value.ToString());
-                            cmd.Parameters.Add("@Total_Price_Parts", OleDbType.Integer).Value = int.Parse(PartsDataGrid.Rows[j].Cells[4].Value.ToString());
+                            cmd.Parameters.Add("@Unit_Price", OleDbType.VarChar).Value = decimal.Parse(PartsDataGrid.Rows[j].Cells[3].Value.ToString());
+                            cmd.Parameters.Add("@Total_Price_Parts", OleDbType.VarChar).Value = decimal.Parse(PartsDataGrid.Rows[j].Cells[4].Value.ToString());
                             cmd.Parameters.Add("@Status", OleDbType.VarChar).Value = "Pending";
                             cmd.Parameters.Add("@Check_Parts", OleDbType.VarChar).Value = "Pending";
                             cmd.ExecuteNonQuery();

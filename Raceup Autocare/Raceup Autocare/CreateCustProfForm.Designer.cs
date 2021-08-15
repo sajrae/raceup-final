@@ -34,10 +34,16 @@
             this.searchButton = new Guna.UI2.WinForms.Guna2Button();
             this.searchPlateNoTxtbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.ColorTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.PromiseTimeTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.EmailAddTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.DriversNameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.customerCarBrand = new Guna.UI2.WinForms.Guna2TextBox();
             this.customerMileageTextbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.customerLastNameTxtbox = new Guna.UI2.WinForms.Guna2TextBox();
@@ -64,20 +70,6 @@
             this.EmailAddProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.ColorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.PromiseTime = new System.Windows.Forms.ErrorProvider(this.components);
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.guna2GroupBox1.SuspendLayout();
@@ -174,21 +166,13 @@
             this.guna2GroupBox1.Controls.Add(this.label15);
             this.guna2GroupBox1.Controls.Add(this.label14);
             this.guna2GroupBox1.Controls.Add(this.label13);
-            this.guna2GroupBox1.Controls.Add(this.label12);
-            this.guna2GroupBox1.Controls.Add(this.label11);
             this.guna2GroupBox1.Controls.Add(this.label10);
             this.guna2GroupBox1.Controls.Add(this.label9);
-            this.guna2GroupBox1.Controls.Add(this.label8);
-            this.guna2GroupBox1.Controls.Add(this.label6);
             this.guna2GroupBox1.Controls.Add(this.label5);
             this.guna2GroupBox1.Controls.Add(this.label4);
             this.guna2GroupBox1.Controls.Add(this.label3);
             this.guna2GroupBox1.Controls.Add(this.label2);
             this.guna2GroupBox1.Controls.Add(this.label1);
-            this.guna2GroupBox1.Controls.Add(this.ColorTextBox);
-            this.guna2GroupBox1.Controls.Add(this.PromiseTimeTextBox);
-            this.guna2GroupBox1.Controls.Add(this.EmailAddTextBox);
-            this.guna2GroupBox1.Controls.Add(this.DriversNameTextBox);
             this.guna2GroupBox1.Controls.Add(this.customerCarBrand);
             this.guna2GroupBox1.Controls.Add(this.customerMileageTextbox);
             this.guna2GroupBox1.Controls.Add(this.customerLastNameTxtbox);
@@ -207,110 +191,111 @@
             this.guna2GroupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
             this.guna2GroupBox1.ShadowDecoration.Parent = this.guna2GroupBox1;
-            this.guna2GroupBox1.Size = new System.Drawing.Size(1096, 546);
+            this.guna2GroupBox1.Size = new System.Drawing.Size(1096, 404);
             this.guna2GroupBox1.TabIndex = 113;
             this.guna2GroupBox1.Text = "Customer\'s Profile";
             this.guna2GroupBox1.Click += new System.EventHandler(this.guna2GroupBox1_Click);
             // 
-            // ColorTextBox
+            // label15
             // 
-            this.ColorTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.ColorTextBox.DefaultText = "";
-            this.ColorTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.ColorTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.ColorTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.ColorTextBox.DisabledState.Parent = this.ColorTextBox;
-            this.ColorTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.ColorTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ColorTextBox.FocusedState.Parent = this.ColorTextBox;
-            this.ColorTextBox.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ColorTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(37)))));
-            this.ColorTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ColorTextBox.HoverState.Parent = this.ColorTextBox;
-            this.ColorTextBox.Location = new System.Drawing.Point(235, 461);
-            this.ColorTextBox.Margin = new System.Windows.Forms.Padding(5);
-            this.ColorTextBox.Name = "ColorTextBox";
-            this.ColorTextBox.PasswordChar = '\0';
-            this.ColorTextBox.PlaceholderText = "";
-            this.ColorTextBox.SelectedText = "";
-            this.ColorTextBox.ShadowDecoration.Parent = this.ColorTextBox;
-            this.ColorTextBox.Size = new System.Drawing.Size(265, 44);
-            this.ColorTextBox.TabIndex = 25;
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(582, 72);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(148, 29);
+            this.label15.TabIndex = 39;
+            this.label15.Text = "Car Model:";
             // 
-            // PromiseTimeTextBox
+            // label14
             // 
-            this.PromiseTimeTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.PromiseTimeTextBox.DefaultText = "";
-            this.PromiseTimeTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.PromiseTimeTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.PromiseTimeTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.PromiseTimeTextBox.DisabledState.Parent = this.PromiseTimeTextBox;
-            this.PromiseTimeTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.PromiseTimeTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.PromiseTimeTextBox.FocusedState.Parent = this.PromiseTimeTextBox;
-            this.PromiseTimeTextBox.Font = new System.Drawing.Font("Century Gothic", 13.8F);
-            this.PromiseTimeTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(37)))));
-            this.PromiseTimeTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.PromiseTimeTextBox.HoverState.Parent = this.PromiseTimeTextBox;
-            this.PromiseTimeTextBox.Location = new System.Drawing.Point(804, 461);
-            this.PromiseTimeTextBox.Margin = new System.Windows.Forms.Padding(5);
-            this.PromiseTimeTextBox.Name = "PromiseTimeTextBox";
-            this.PromiseTimeTextBox.PasswordChar = '\0';
-            this.PromiseTimeTextBox.PlaceholderText = "";
-            this.PromiseTimeTextBox.SelectedText = "";
-            this.PromiseTimeTextBox.ShadowDecoration.Parent = this.PromiseTimeTextBox;
-            this.PromiseTimeTextBox.Size = new System.Drawing.Size(265, 44);
-            this.PromiseTimeTextBox.TabIndex = 24;
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(582, 344);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(120, 29);
+            this.label14.TabIndex = 38;
+            this.label14.Text = "Mileage:";
             // 
-            // EmailAddTextBox
+            // label13
             // 
-            this.EmailAddTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.EmailAddTextBox.DefaultText = "";
-            this.EmailAddTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.EmailAddTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.EmailAddTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.EmailAddTextBox.DisabledState.Parent = this.EmailAddTextBox;
-            this.EmailAddTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.EmailAddTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.EmailAddTextBox.FocusedState.Parent = this.EmailAddTextBox;
-            this.EmailAddTextBox.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmailAddTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(37)))));
-            this.EmailAddTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.EmailAddTextBox.HoverState.Parent = this.EmailAddTextBox;
-            this.EmailAddTextBox.Location = new System.Drawing.Point(804, 394);
-            this.EmailAddTextBox.Margin = new System.Windows.Forms.Padding(5);
-            this.EmailAddTextBox.Name = "EmailAddTextBox";
-            this.EmailAddTextBox.PasswordChar = '\0';
-            this.EmailAddTextBox.PlaceholderText = "";
-            this.EmailAddTextBox.SelectedText = "";
-            this.EmailAddTextBox.ShadowDecoration.Parent = this.EmailAddTextBox;
-            this.EmailAddTextBox.Size = new System.Drawing.Size(265, 44);
-            this.EmailAddTextBox.TabIndex = 21;
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(582, 276);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(147, 29);
+            this.label13.TabIndex = 37;
+            this.label13.Text = "Engine no.:";
             // 
-            // DriversNameTextBox
+            // label10
             // 
-            this.DriversNameTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.DriversNameTextBox.DefaultText = "";
-            this.DriversNameTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.DriversNameTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.DriversNameTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DriversNameTextBox.DisabledState.Parent = this.DriversNameTextBox;
-            this.DriversNameTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DriversNameTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DriversNameTextBox.FocusedState.Parent = this.DriversNameTextBox;
-            this.DriversNameTextBox.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DriversNameTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(37)))));
-            this.DriversNameTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DriversNameTextBox.HoverState.Parent = this.DriversNameTextBox;
-            this.DriversNameTextBox.Location = new System.Drawing.Point(235, 394);
-            this.DriversNameTextBox.Margin = new System.Windows.Forms.Padding(5);
-            this.DriversNameTextBox.Name = "DriversNameTextBox";
-            this.DriversNameTextBox.PasswordChar = '\0';
-            this.DriversNameTextBox.PlaceholderText = "";
-            this.DriversNameTextBox.SelectedText = "";
-            this.DriversNameTextBox.ShadowDecoration.Parent = this.DriversNameTextBox;
-            this.DriversNameTextBox.Size = new System.Drawing.Size(265, 44);
-            this.DriversNameTextBox.TabIndex = 19;
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(582, 140);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(128, 29);
+            this.label10.TabIndex = 34;
+            this.label10.Text = "Plate No.:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(582, 208);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(147, 29);
+            this.label9.TabIndex = 33;
+            this.label9.Text = "Chasis No.:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(7, 344);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(143, 29);
+            this.label5.TabIndex = 30;
+            this.label5.Text = "Car Brand:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(7, 276);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(192, 29);
+            this.label4.TabIndex = 29;
+            this.label4.Text = "Telephone no.:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(7, 208);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(118, 29);
+            this.label3.TabIndex = 28;
+            this.label3.Text = "Address:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(7, 140);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(147, 29);
+            this.label2.TabIndex = 27;
+            this.label2.Text = "Last Name:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(7, 72);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(145, 29);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "First Name:";
             // 
             // customerCarBrand
             // 
@@ -575,7 +560,7 @@
             this.updateButton.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updateButton.ForeColor = System.Drawing.Color.White;
             this.updateButton.HoverState.Parent = this.updateButton;
-            this.updateButton.Location = new System.Drawing.Point(822, 756);
+            this.updateButton.Location = new System.Drawing.Point(813, 606);
             this.updateButton.Margin = new System.Windows.Forms.Padding(4);
             this.updateButton.Name = "updateButton";
             this.updateButton.ShadowDecoration.Parent = this.updateButton;
@@ -594,7 +579,7 @@
             this.saveButton.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveButton.ForeColor = System.Drawing.Color.White;
             this.saveButton.HoverState.Parent = this.saveButton;
-            this.saveButton.Location = new System.Drawing.Point(343, 756);
+            this.saveButton.Location = new System.Drawing.Point(334, 606);
             this.saveButton.Margin = new System.Windows.Forms.Padding(4);
             this.saveButton.Name = "saveButton";
             this.saveButton.ShadowDecoration.Parent = this.saveButton;
@@ -683,147 +668,6 @@
             // 
             this.PromiseTime.ContainerControl = this;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(7, 72);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 29);
-            this.label1.TabIndex = 26;
-            this.label1.Text = "First Name:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(7, 140);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(147, 29);
-            this.label2.TabIndex = 27;
-            this.label2.Text = "Last Name:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(7, 208);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(118, 29);
-            this.label3.TabIndex = 28;
-            this.label3.Text = "Address:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(7, 276);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(192, 29);
-            this.label4.TabIndex = 29;
-            this.label4.Text = "Telephone no.:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(7, 344);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(143, 29);
-            this.label5.TabIndex = 30;
-            this.label5.Text = "Car Brand:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(7, 408);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(188, 29);
-            this.label6.TabIndex = 31;
-            this.label6.Text = "Driver\'s Name:";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(7, 473);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(85, 29);
-            this.label8.TabIndex = 32;
-            this.label8.Text = "Color:";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(582, 208);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(147, 29);
-            this.label9.TabIndex = 33;
-            this.label9.Text = "Chasis No.:";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(582, 140);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(128, 29);
-            this.label10.TabIndex = 34;
-            this.label10.Text = "Plate No.:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(582, 408);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(190, 29);
-            this.label11.TabIndex = 35;
-            this.label11.Text = "Email Address:";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(582, 473);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(193, 29);
-            this.label12.TabIndex = 36;
-            this.label12.Text = "Promised Time:";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(582, 276);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(147, 29);
-            this.label13.TabIndex = 37;
-            this.label13.Text = "Engine no.:";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(582, 344);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(120, 29);
-            this.label14.TabIndex = 38;
-            this.label14.Text = "Mileage:";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(582, 72);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(148, 29);
-            this.label15.TabIndex = 39;
-            this.label15.Text = "Car Model:";
-            // 
             // label16
             // 
             this.label16.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -909,10 +753,6 @@
         private Guna.UI2.WinForms.Guna2TextBox customerMileageTextbox;
         private System.Windows.Forms.ErrorProvider MileageErrorProvider;
         private Guna.UI2.WinForms.Guna2TextBox customerCarBrand;
-        private Guna.UI2.WinForms.Guna2TextBox ColorTextBox;
-        private Guna.UI2.WinForms.Guna2TextBox PromiseTimeTextBox;
-        private Guna.UI2.WinForms.Guna2TextBox EmailAddTextBox;
-        private Guna.UI2.WinForms.Guna2TextBox DriversNameTextBox;
         private System.Windows.Forms.ErrorProvider DriverNameProvider;
         private System.Windows.Forms.ErrorProvider EmailAddProvider;
         private System.Windows.Forms.ErrorProvider ColorProvider;
@@ -921,12 +761,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
