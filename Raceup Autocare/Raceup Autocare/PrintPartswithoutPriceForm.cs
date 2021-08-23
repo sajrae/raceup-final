@@ -30,6 +30,24 @@ namespace Raceup_Autocare
 
             ShowROServiceInfo();
             PartsTable();
+            ShowServiceTable();
+        }
+        private void ShowServiceTable()
+        {
+            dbcon.openConnection();
+
+            using (dbcon.openConnection())
+            {
+                RODataSet showtableservice = new RODataSet();
+                OleDbDataAdapter dataAdapte3 = new OleDbDataAdapter("SELECT RO_Number, Service_Description, Service_Quantity FROM RepairOrderService Where CStr(RO_Number)  = '" + ROnumberLabel.Text + "'", dbcon.openConnection());
+                dataAdapte3.Fill(showtableservice, showtableservice.Tables[0].TableName);
+                ReportDataSource reportData3 = new ReportDataSource("RODataSetTableService", showtableservice.Tables[0]);
+
+                this.reportViewer1.LocalReport.DataSources.Add(reportData3);
+                this.reportViewer1.LocalReport.Refresh();
+                this.reportViewer1.RefreshReport();
+            }
+            dbcon.CloseConnection();
         }
 
         private void PartsTable()

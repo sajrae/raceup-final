@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuForm));
             this.PanelTitleBar = new System.Windows.Forms.Panel();
+            this.roleOfUser = new System.Windows.Forms.Label();
+            this.account = new System.Windows.Forms.Label();
             this.btnMaximize = new Guna.UI2.WinForms.Guna2ImageButton();
             this.btnMinimize = new Guna.UI2.WinForms.Guna2ImageButton();
             this.btnExit = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -58,8 +60,9 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.account = new System.Windows.Forms.Label();
-            this.roleOfUser = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.PanelTitleBar.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.SubMenuORPanel2.SuspendLayout();
@@ -68,19 +71,31 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             this.panelDesktop.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelTitleBar
             // 
             this.PanelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(53)))), ((int)(((byte)(45)))));
-            this.PanelTitleBar.Controls.Add(this.roleOfUser);
-            this.PanelTitleBar.Controls.Add(this.account);
+            this.PanelTitleBar.Controls.Add(this.panel6);
             this.PanelTitleBar.Controls.Add(this.btnMaximize);
             this.PanelTitleBar.Controls.Add(this.btnMinimize);
             this.PanelTitleBar.Controls.Add(this.btnExit);
             resources.ApplyResources(this.PanelTitleBar, "PanelTitleBar");
             this.PanelTitleBar.Name = "PanelTitleBar";
             this.PanelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PanelTitleBar_MouseDown);
+            // 
+            // roleOfUser
+            // 
+            resources.ApplyResources(this.roleOfUser, "roleOfUser");
+            this.roleOfUser.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.roleOfUser.Name = "roleOfUser";
+            // 
+            // account
+            // 
+            resources.ApplyResources(this.account, "account");
+            this.account.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.account.Name = "account";
             // 
             // btnMaximize
             // 
@@ -530,15 +545,27 @@
             resources.ApplyResources(this.panel5, "panel5");
             this.panel5.Name = "panel5";
             // 
-            // account
+            // panel6
             // 
-            resources.ApplyResources(this.account, "account");
-            this.account.Name = "account";
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.panel6.Controls.Add(this.label2);
+            this.panel6.Controls.Add(this.label1);
+            this.panel6.Controls.Add(this.account);
+            this.panel6.Controls.Add(this.roleOfUser);
+            resources.ApplyResources(this.panel6, "panel6");
+            this.panel6.Name = "panel6";
             // 
-            // roleOfUser
+            // label1
             // 
-            resources.ApplyResources(this.roleOfUser, "roleOfUser");
-            this.roleOfUser.Name = "roleOfUser";
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Name = "label1";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Name = "label2";
             // 
             // MenuForm
             // 
@@ -556,7 +583,6 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MenuForm_FormClosing);
             this.Load += new System.EventHandler(this.MenuForm_Load);
             this.PanelTitleBar.ResumeLayout(false);
-            this.PanelTitleBar.PerformLayout();
             this.panelMenu.ResumeLayout(false);
             this.SubMenuORPanel2.ResumeLayout(false);
             this.SubMenuORPanel.ResumeLayout(false);
@@ -564,6 +590,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panelDesktop.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -600,5 +628,8 @@
         private Guna.UI2.WinForms.Guna2Button editRepairOrderButton;
         private System.Windows.Forms.Label roleOfUser;
         private System.Windows.Forms.Label account;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

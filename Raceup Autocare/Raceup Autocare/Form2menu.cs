@@ -62,8 +62,8 @@ namespace Raceup_Autocare
 
             // setUserLoginStatus(true);
 
-            account.Text = "Hi " + emp.Lname.ToString();
-            roleOfUser.Text ="Role :"+ emp.Role.ToString();
+            account.Text = emp.Fname.ToString() +" "+ emp.Lname.ToString();
+            roleOfUser.Text = emp.Role.ToString();
         }
        
         private void manageRole()
