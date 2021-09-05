@@ -219,9 +219,9 @@
             this.label1.Location = new System.Drawing.Point(645, 394);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 15);
+            this.label1.Size = new System.Drawing.Size(83, 15);
             this.label1.TabIndex = 42;
-            this.label1.Text = "version 8.24.21";
+            this.label1.Text = "version 9.5.21";
             // 
             // LoginForm
             // 
