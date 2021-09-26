@@ -102,7 +102,7 @@ namespace Raceup_Autocare
 
         private void CheckRole()
         {
-            if (!emp.Role.ToString().Equals("JobControl") || !emp.Role.ToString().Equals("Admin"))
+            if (!emp.Role.ToString().Equals("Admin") && !emp.Role.ToString().Equals("JobControl"))
             {
                 MessageBox.Show("Only Admin/Job Control can close this Repair Order", "Can't Close Repair Order", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }

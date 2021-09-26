@@ -30,8 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuForm));
             this.PanelTitleBar = new System.Windows.Forms.Panel();
-            this.roleOfUser = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.account = new System.Windows.Forms.Label();
+            this.roleOfUser = new System.Windows.Forms.Label();
             this.btnMaximize = new Guna.UI2.WinForms.Guna2ImageButton();
             this.btnMinimize = new Guna.UI2.WinForms.Guna2ImageButton();
             this.btnExit = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -60,10 +63,8 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.PanelTitleBar.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.SubMenuORPanel2.SuspendLayout();
             this.SubMenuORPanel.SuspendLayout();
@@ -71,7 +72,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             this.panelDesktop.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // PanelTitleBar
@@ -85,17 +85,39 @@
             this.PanelTitleBar.Name = "PanelTitleBar";
             this.PanelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PanelTitleBar_MouseDown);
             // 
-            // roleOfUser
+            // panel6
             // 
-            resources.ApplyResources(this.roleOfUser, "roleOfUser");
-            this.roleOfUser.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.roleOfUser.Name = "roleOfUser";
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.panel6.Controls.Add(this.label2);
+            this.panel6.Controls.Add(this.label1);
+            this.panel6.Controls.Add(this.account);
+            this.panel6.Controls.Add(this.roleOfUser);
+            resources.ApplyResources(this.panel6, "panel6");
+            this.panel6.Name = "panel6";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Name = "label2";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Name = "label1";
             // 
             // account
             // 
             resources.ApplyResources(this.account, "account");
             this.account.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.account.Name = "account";
+            // 
+            // roleOfUser
+            // 
+            resources.ApplyResources(this.roleOfUser, "roleOfUser");
+            this.roleOfUser.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.roleOfUser.Name = "roleOfUser";
             // 
             // btnMaximize
             // 
@@ -545,28 +567,6 @@
             resources.ApplyResources(this.panel5, "panel5");
             this.panel5.Name = "panel5";
             // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.panel6.Controls.Add(this.label2);
-            this.panel6.Controls.Add(this.label1);
-            this.panel6.Controls.Add(this.account);
-            this.panel6.Controls.Add(this.roleOfUser);
-            resources.ApplyResources(this.panel6, "panel6");
-            this.panel6.Name = "panel6";
-            // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Name = "label1";
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Name = "label2";
-            // 
             // MenuForm
             // 
             resources.ApplyResources(this, "$this");
@@ -583,6 +583,8 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MenuForm_FormClosing);
             this.Load += new System.EventHandler(this.MenuForm_Load);
             this.PanelTitleBar.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.panelMenu.ResumeLayout(false);
             this.SubMenuORPanel2.ResumeLayout(false);
             this.SubMenuORPanel.ResumeLayout(false);
@@ -590,8 +592,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panelDesktop.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
             this.ResumeLayout(false);
 
         }
