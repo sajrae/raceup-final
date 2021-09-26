@@ -31,7 +31,7 @@ namespace Raceup_Autocare
             InitializeComponent();
             roProperties = new CreateROProperties();
             roProperties.ServiceDescription = new List<string>();
-            roProperties.ServiceHours = new List<int>();
+            roProperties.ServiceHours = new List<string>();
             roProperties.ServicePrice = new List<double>();
             roProperties.ServiceTotalPrice = new List<double>();
             roProperties.ItemCode = new List<String>();
@@ -95,7 +95,7 @@ namespace Raceup_Autocare
                     if (roReader["RO_Number"].ToString().Equals(uroSearchRONumberTextbox.Text.ToString(), StringComparison.InvariantCultureIgnoreCase))
                     {
                         roProperties.ServiceDescription.Add(roReader["Service_Description"].ToString());
-                        roProperties.ServiceHours.Add(int.Parse(roReader["Service_Quantity"].ToString()));
+                        roProperties.ServiceHours.Add(roReader["Service_Quantity"].ToString());
                         roProperties.ServicePrice.Add(int.Parse(roReader["Service_Price"].ToString()));
                         roProperties.ServiceTotalPrice.Add(int.Parse(roReader["Total_Price"].ToString()));
                     }
@@ -436,7 +436,7 @@ namespace Raceup_Autocare
                     cmd.CommandText = @"INSERT INTO RepairOrderService([RO_Number], [Service_Description], [Service_Quantity], [Service_Price], [Total_Price], [Status]) VALUES (?, ?, ?, ?, ?, ?);";
                     cmd.Parameters.Add("@RO_Number", OleDbType.VarChar).Value = croRONumberTextbox.Text.ToString();
                     cmd.Parameters.Add("@Service_Description", OleDbType.VarChar).Value = serviceDataGridView.Rows[i].Cells[0].Value;
-                    cmd.Parameters.Add("@Service_Quantity", OleDbType.Integer).Value = int.Parse(serviceDataGridView.Rows[i].Cells[1].Value.ToString());
+                    cmd.Parameters.Add("@Service_Quantity", OleDbType.Integer).Value = serviceDataGridView.Rows[i].Cells[1].Value.ToString();
                     cmd.Parameters.Add("@Service_Price", OleDbType.Integer).Value = int.Parse(serviceDataGridView.Rows[i].Cells[2].Value.ToString());
                     cmd.Parameters.Add("@Total_Price", OleDbType.Integer).Value = int.Parse(serviceDataGridView.Rows[i].Cells[3].Value.ToString());
                     cmd.Parameters.Add("@Status", OleDbType.VarChar).Value = "Pending";

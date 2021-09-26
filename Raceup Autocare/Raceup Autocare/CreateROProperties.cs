@@ -27,7 +27,7 @@ namespace Raceup_Autocare
 
         // Service information
         private List<String> serviceDescription;
-        private List<int> serviceHours;
+        private List<String> serviceHours;
         private List<double> servicePrice;
         private List<double> serviceTotalPrice;
 
@@ -59,7 +59,7 @@ namespace Raceup_Autocare
         public string EngineNo { get => engineNo; set => engineNo = value; }
         public string MileAge { get => mileAge; set => mileAge = value; }
         public List<string> ServiceDescription { get => serviceDescription; set => serviceDescription = value; }
-        public List<int> ServiceHours { get => serviceHours; set => serviceHours = value; }
+        public List<string> ServiceHours { get => serviceHours; set => serviceHours = value; }
         public List<double> ServicePrice { get => servicePrice; set => servicePrice = value; }
         public List<double> ServiceTotalPrice { get => serviceTotalPrice; set => serviceTotalPrice = value; }
         public List<string> ItemCode { get => itemCode; set => itemCode = value; }
