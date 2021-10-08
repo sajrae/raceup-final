@@ -309,5 +309,10 @@ namespace Raceup_Autocare
                 PassTxt.Text = "PASSWORD";
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }   
 }
